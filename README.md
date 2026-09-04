@@ -28,8 +28,8 @@ Existing metadata across YouTube and Commons is heterogeneous, with free-text de
                      │ (Scraping / Metadata dump)
                      ▼
 ┌─────────────────────────────────────────┐
-│  AI-Powered Entity Extraction & Parser  │
-│  (Speaker, Dialect, Region, Year, POS)  │
+│  LLM-Powered Entity Extraction & Parser │
+│                                         │
 └────────────────────┬────────────────────┘
                      │ (Validation Layer)
                      ▼
@@ -55,20 +55,7 @@ Existing metadata across YouTube and Commons is heterogeneous, with free-text de
 Each entry in the database adheres to a strict schema:
 
 ```json
-{
-  "youtube_id": "dQw4w9WgXcQ",
-  "speaker_name": "Amalia",
-  "language_name": "Basque",
-  "autonym": "Euskara",
-  "iso639_3": "eus",
-  "bcp47": "eu-ES",
-  "glottocode": "basq1248",
-  "dialect": "Gipuzkoan",
-  "country": "ES",
-  "recorded_year": 2019,
-  "is_oral_sample": true,
-  "license": "CC-BY-NC-4.0"
-}
+to be defined
 ```
 
 ---
