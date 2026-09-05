@@ -22,7 +22,7 @@ class YouTubeExtractor:
 
     def __init__(
         self,
-        channel_url: str = "https://www.youtube.com/@Wikitongues/videos",
+        channel_url: str = "https://www.youtube.com/playlist?list=UUBgWgQyEb5eTzvh4lLcuipQ",
         output_file: Path | str = "data/raw/wikitongues_youtube_raw.jsonl",
         min_delay: float = 0.5,
         max_delay: float = 1.2,

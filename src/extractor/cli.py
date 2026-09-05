@@ -26,8 +26,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--channel",
         type=str,
-        default="https://www.youtube.com/@Wikitongues/videos",
-        help="YouTube channel videos tab URL (default: https://www.youtube.com/@Wikitongues/videos)",
+        default="https://www.youtube.com/playlist?list=UUBgWgQyEb5eTzvh4lLcuipQ",
+        help="YouTube channel / playlist URL (default: https://www.youtube.com/playlist?list=UUBgWgQyEb5eTzvh4lLcuipQ)",
     )
     parser.add_argument(
         "--output",
