@@ -60,12 +60,35 @@ to be defined
 
 ---
 
+## 🚀 Quick Start — Data Ingestion (Phase 1)
+
+### 1. Setup Environment
+```bash
+python3.11 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+### 2. Run YouTube Extractor
+To extract all video metadata from the `@Wikitongues` channel with incremental resumption:
+```bash
+python scripts/extract_youtube.py
+```
+
+Options:
+- `--limit N`: Discover / extract only the first $N$ videos.
+- `--output data/raw/custom.jsonl`: Target output file.
+- `--min-delay 0.5 --max-delay 1.5`: Anti-rate-limiting jitter delay.
+
+---
+
 ## 🗺️ Roadmap
 
-- [ ] **Phase 1 — Ingestion**: Scrape raw metadata (titles, descriptions, dates, URLs) from the Wikitongues YouTube archive & Wikimedia Commons.
+- [x] **Phase 1 — Ingestion (YouTube extractor module)**: Scrape raw metadata (titles, descriptions, dates, URLs, tags) into incremental JSON Lines format.
 - [ ] **Phase 2 — Normalization**: Batch LLM extraction of structured entities (speakers, dialects, countries, autonyms).
 - [ ] **Phase 3 — Validation**: Enforce strict SIL ISO 639-3 and Glottolog table validation.
 - [ ] **Phase 4 — Packaging**: Publish `wikitongues-db` (JSON dataset + TypeScript / Rust wrappers).
+
 
 ---
 
