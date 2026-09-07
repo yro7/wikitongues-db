@@ -12,7 +12,7 @@ import {
   Provenance,
   Transcription,
   RawMetadata,
-} from '../../src/ts';
+} from '../src';
 
 describe('WikitonguesDB API', () => {
   let db: WikitonguesDB;

@@ -1,6 +1,6 @@
 # wikitongues-db
 
-> A lightweight, zero-dependency database and lookup library mapping ISO 639-3 and BCP 47 language codes to Wikitongues oral history video recordings. Available for **TypeScript / JavaScript (npm)** and **Python**.
+> A lightweight, zero-dependency database and lookup library mapping ISO 639-3 and BCP 47 language codes to Wikitongues oral history video recordings. Published for **TypeScript / JavaScript (npm)**.
 
 ---
 
@@ -13,9 +13,9 @@ However, **there is currently no standardized, machine-readable dataset or clien
 Existing metadata across YouTube and Commons is heterogeneous, with free-text descriptions, evolving formats, and no unified index.
 
 **`wikitongues-db`** bridges this gap by providing:
-1. **An automated offline curation pipeline**: Video metadata extraction + LLM-assisted entity recognition validated strictly against **SIL ISO 639-3**, **BCP 47**, and **Glottolog** standards.
-2. **A deterministic, static dataset**: High-quality JSON / binary index embeddable with zero network latency and zero API keys at runtime.
-3. **High-level client libraries (TypeScript & Python)**: Fast $O(1)$ lookups by language code, country, dialect, or random discovery.
+1. **A deterministic, static dataset**: 863 high-quality, normalized records embeddable with zero network latency and zero API keys at runtime.
+2. **Strict linguistic standards**: Verified against **SIL ISO 639-3**, **BCP 47**, and **Glottolog**.
+3. **High-level TypeScript library**: Fast $O(1)$ lookups by language code, country, dialect, or random discovery with full type safety.
 
 ---
 
@@ -25,13 +25,7 @@ Existing metadata across YouTube and Commons is heterogeneous, with free-text de
 ┌─────────────────────────────────────────┐
 │     Wikitongues YouTube & Commons       │
 └────────────────────┬────────────────────┘
-                     │ (Scraping / Metadata dump)
-                     ▼
-┌─────────────────────────────────────────┐
-│  LLM-Powered Entity Extraction & Parser │
-│                                         │
-└────────────────────┬────────────────────┘
-                     │ (Validation Layer)
+                     │ (Curated Metadata)
                      ▼
 ┌─────────────────────────────────────────┐
 │  SIL ISO 639-3 & Glottolog Validator    │  <-- Anti-hallucination safeguard
@@ -42,10 +36,9 @@ Existing metadata across YouTube and Commons is heterogeneous, with free-text de
 │     wikitongues-db (Static JSON / DB)   │
 └────────────────────┬────────────────────┘
                      │
-           ┌─────────┴─────────┐
-           ▼                   ▼
-    TypeScript (npm)      Rust (crates.io)
-   O(1) in-memory API    Zero-alloc lookup
+                     ▼
+           TypeScript (npm)
+          O(1) in-memory API
 ```
 
 ---
@@ -147,91 +140,12 @@ console.log(`Loaded ${dataset.length} normalized records directly`);
 
 ---
 
-## 🚀 High-Level Python Query API
-
-`wikitongues-db` also includes the identical high-level, zero-latency in-memory query engine and Python API:
-
-### 1. Basic Lookups & Natural Language Resolution
-
-```python
-from src import WikitonguesDB
-
-# Initializes in-memory inverted indices across 860+ curated recordings
-db = WikitonguesDB()
-
-# 1. Smart Language Search (supports ISO 639-3, BCP 47, Glottolog, French/English aliases, autonyms)
-russian_vids = db.find_by_language("russe")       # or "Russian", "rus", "ru", "Русский", "russ1263"
-quechua_vids = db.find_by_language("Qhichwa")     # by native autonym
-arberesh_vids = db.find_by_language("Arbëresh")   # by dialect
-
-# 2. O(1) Indexed Lookups
-video = db.get("nXBPa_wb3dM")                     # Lookup by YouTube ID
-basque_vids = db.get_by_iso("eus")                # Lookup by ISO 639-3
-peru_vids = db.get_by_country("PE")               # Lookup by ISO 3166-1 alpha-2
-```
-
-### 2. Fluent Chainable Query Builder
-
-```python
-results = (
-    db.query()
-    .language("Russian")
-    .country("RU")
-    .creative_commons_only()
-    .with_subtitles()
-    .min_duration(60)
-    .max_duration(600)
-    .order_by("duration", descending=True)
-    .limit(10)
-    .all()
-)
-
-print(f"Found {len(results)} videos ({results.total_duration_formatted})")
-for v in results:
-    print(f"- {v.title} | {v.url} | {v.duration_formatted}")
-```
-
-### 3. Full-Text Search with Relevance Scoring
-
-```python
-matches = db.search("dagestan caucasian oral history", limit=5)
-for v in matches:
-    print(v.title, v.primary_language.name, v.url)
-```
-
----
-
-## 💻 Command-Line Interface (CLI)
-
-You can query the database directly from your terminal:
-
-```bash
-# Dataset statistics
-python -m src.db.cli stats
-
-# Query Russian videos with Creative Commons licenses
-python -m src.db.cli query --language russe --cc
-
-# Full-text search
-python -m src.db.cli search "albanian diaspora"
-
-# Discover a random video for a language
-python -m src.db.cli random --language que
-
-# List top languages
-python -m src.db.cli languages --limit 20
-```
-
----
-
 ## 🗺️ Roadmap
 
-- [x] **Phase 1 — Ingestion (YouTube extractor module)**: Scrape raw metadata into JSON Lines.
-- [x] **Phase 2 — Normalization**: Extraction of structured entities (speakers, dialects, countries, autonyms).
-- [x] **Phase 3 — Validation**: Enforce strict SIL ISO 639-3 and Glottolog table validation.
-- [x] **Phase 4 — High-Level Python Query API & Inverted Indexing**: Fast $O(1)$ lookups, fluent query builder, multilingual resolver, and CLI.
-- [x] **Phase 5 — TypeScript (npm) Package**: Standalone, zero-dependency package with embedded dataset, dual ESM/CJS, and full TypeScript types.
-- [ ] **Phase 6 — Rust (crates.io)**: High-performance, zero-alloc lookup engine.
+- [x] **Phase 1 — Normalization & Semantic Validation**: Curate structured entities strictly against SIL ISO 639-3 and Glottolog tables.
+- [x] **Phase 2 — Inverted Indexing & Smart Resolution**: $O(1)$ lookups, multilingual search, and query engine.
+- [x] **Phase 3 — TypeScript (npm) Package**: Zero-dependency package with embedded dataset, dual ESM/CJS, and full TypeScript types.
+- [ ] **Phase 4 — Rust (crates.io)**: High-performance, zero-alloc lookup engine.
 
 ---
 

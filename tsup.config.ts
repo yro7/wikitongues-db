@@ -2,8 +2,8 @@ import { defineConfig } from 'tsup';
 
 export default defineConfig({
   entry: {
-    index: 'src/ts/index.ts',
-    dataset: 'src/ts/dataset.ts',
+    index: 'src/index.ts',
+    dataset: 'src/dataset.ts',
   },
   format: ['esm', 'cjs'],
   dts: true,
