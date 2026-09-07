@@ -1,25 +1,25 @@
 # wikitongues-db
 
-> A lightweight, zero-dependency database and lookup library mapping ISO 639-3 and BCP 47 language codes to Wikitongues oral history video recordings. Published for **TypeScript / JavaScript (npm)**.
+> A zero-dependency, in-memory database and search engine mapping ISO 639-3, BCP 47, Glottolog, autonyms, and dialects to curated Wikitongues video recordings. Published for **TypeScript / JavaScript (npm)**.
 
 ---
 
-## 🎯 Motivation & Context
+## Motivation & Context
 
-[Wikitongues](https://wikitongues.org/) is a non-profit organization dedicated to language documentation, revitalization, and diversity. Over the past decade, they have built an extraordinary archive of **over 3,000+ video recordings representing 700+ languages and dialects** across YouTube and Wikimedia Commons.
+[Wikitongues](https://wikitongues.org/) is a non-profit organization dedicated to language documentation, revitalization, and diversity. Over the past decade, they have built an archive of video recordings representing hundreds of languages and dialects across YouTube and Wikimedia Commons.
 
-However, **there is currently no standardized, machine-readable dataset or client library** allowing developers, linguists, and educational platforms to easily resolve a language code (e.g. `eus`, `pt-BR`, `cmn`, `kab`) to a curated native speaker video.
-
-Existing metadata across YouTube and Commons is heterogeneous, with free-text descriptions, evolving formats, and no unified index.
+However, existing metadata across YouTube and Commons is heterogeneous, with free-text descriptions, unstructured notes, and no unified linguistic index.
 
 **`wikitongues-db`** bridges this gap by providing:
-1. **A deterministic, static dataset**: 863 high-quality, normalized records embeddable with zero network latency and zero API keys at runtime.
-2. **Strict linguistic standards**: Verified against **SIL ISO 639-3**, **BCP 47**, and **Glottolog**.
-3. **High-level TypeScript library**: Fast $O(1)$ lookups by language code, country, dialect, or random discovery with full type safety.
+1. **A curated, deterministic dataset**: 863 normalized records across 460+ languages with structured speaker roles, dialects, geographic provenance, licensing, and transcript status.
+2. **Strict linguistic validation**: Verified against official **SIL ISO 639-3** tables, **BCP 47** tags, and **Glottolog** identifiers.
+3. **Multi-faceted resolution**: Instant matching by ISO code, BCP 47 tag, Glottocode, English canonical name, multilingual common name (e.g. `russe`, `espagnol`), native script autonym (`Qhichwa`, `Asụsụ Igbo`, `Русский`), or dialect variety (`Arbëresh`, `Gascon`, `Biscayan`).
+4. **Rich content types**: Covers oral histories (81%), spontaneous conversations (13%), sign languages (2.5%), readings/songs (1.5%), and fellowship documentaries.
+5. **Zero-dependency TypeScript client**: Embedded in-memory database with $O(1)$ inverted indices, fluent query builder, and full-text search engine.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────┐
@@ -43,9 +43,25 @@ Existing metadata across YouTube and Commons is heterogeneous, with free-text de
 
 ---
 
-## ⚡ TypeScript & JavaScript API (npm)
+## Dataset Overview
 
-The TypeScript package is zero-dependency, works seamlessly across Node.js (CommonJS & ESM), Vite, Next.js, and browser environments, and embeds the curated normalized dataset directly.
+| Metric | Value |
+| :--- | :--- |
+| **Total Curated Videos** | `863` |
+| **Unique Primary ISO 639-3 Languages** | `462` |
+| **Unique BCP 47 Language Tags** | `515` |
+| **Glottocode Resolution** | `466 / 863` (54.0%) |
+| **Native Script Autonyms** | `820 / 863` (95.0%) |
+| **Resolved Dialects / Varieties** | `266 / 863` (30.8%) |
+| **Total Archival Duration** | `53h 54m 30s` (`194,070` seconds) |
+| **Videos with Subtitles / Captions** | `275` |
+| **Runtime Dependencies** | `0` |
+
+---
+
+## TypeScript & JavaScript API (npm)
+
+The package is zero-dependency, works seamlessly across Node.js (CommonJS & ESM), Vite, Next.js, and browser environments, and embeds the curated normalized dataset directly (~1.1 MB uncompressed, ~160 KB gzipped).
 
 ### Installation
 
@@ -62,7 +78,7 @@ pnpm add wikitongues-db
 ```typescript
 import { WikitonguesDB } from 'wikitongues-db';
 
-// Initializes in-memory inverted indices across 860+ curated recordings instantly
+// Initializes in-memory inverted indices across 863 curated recordings instantly
 const db = new WikitonguesDB();
 
 // 1. Smart Language Search (supports ISO 639-3, BCP 47, Glottolog, French/English aliases, autonyms)
@@ -140,7 +156,7 @@ console.log(`Loaded ${dataset.length} normalized records directly`);
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [x] **Phase 1 — Normalization & Semantic Validation**: Curate structured entities strictly against SIL ISO 639-3 and Glottolog tables.
 - [x] **Phase 2 — Inverted Indexing & Smart Resolution**: $O(1)$ lookups, multilingual search, and query engine.
@@ -149,7 +165,7 @@ console.log(`Loaded ${dataset.length} normalized records directly`);
 
 ---
 
-## ⚖️ License & Attribution
+## License & Attribution
 
 All video contents and oral histories are recorded and owned by [Wikitongues](https://wikitongues.org/) and their respective speakers under Creative Commons licenses (primarily CC-BY-NC 4.0 / CC-BY 4.0).
 

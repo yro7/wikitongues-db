@@ -109,6 +109,14 @@ export class SearchEngine {
       score += 10.0;
     }
 
+    for (const token of tokens) {
+      if (token.length > 2) {
+        if (plNameNorm.includes(token)) score += 4.0;
+        if (plDial.includes(token)) score += 3.0;
+        if (plAuto.includes(token)) score += 3.0;
+      }
+    }
+
     // 3. Additional Languages
     for (const al of video.additionalLanguages) {
       const alName = normalizeText(al.name);
@@ -118,17 +126,27 @@ export class SearchEngine {
       } else if (alName.includes(normQuery)) {
         score += 5.0;
       }
+      for (const token of tokens) {
+        if (token.length > 2 && alName.includes(token)) {
+          score += 2.0;
+        }
+      }
     }
 
     // 4. Title Matching
     const titleNorm = normalizeText(video.title);
     if (titleNorm.includes(normQuery)) {
-      score += 8.0;
+      score += 15.0;
     }
+    let titleMatchedTokens = 0;
     for (const token of tokens) {
       if (token.length > 2 && titleNorm.includes(token)) {
-        score += 3.0;
+        score += 6.0;
+        titleMatchedTokens++;
       }
+    }
+    if (tokens.length > 1 && titleMatchedTokens === tokens.length) {
+      score += 10.0;
     }
 
     // 5. Speaker Names & Roles
@@ -142,7 +160,7 @@ export class SearchEngine {
         }
         for (const token of tokens) {
           if (token.length > 2 && spNorm.includes(token)) {
-            score += 2.0;
+            score += 3.0;
           }
         }
       }
@@ -158,22 +176,33 @@ export class SearchEngine {
     const region = normalizeText(video.provenance.region);
 
     if (normQuery === cc || normQuery === cname) {
-      score += 6.0;
+      score += 8.0;
     } else if (
       (cname && cname.includes(normQuery)) ||
       (city && city.includes(normQuery)) ||
       (region && region.includes(normQuery))
     ) {
-      score += 4.0;
+      score += 5.0;
+    }
+    for (const token of tokens) {
+      if (token.length > 2) {
+        if (cname && cname.includes(token)) score += 2.5;
+        if (region && region.includes(token)) score += 2.0;
+        if (city && city.includes(token)) score += 2.0;
+      }
     }
 
-    // 7. Tags
-    for (const tag of video.tags) {
-      const tagNorm = normalizeText(tag);
-      if (normQuery === tagNorm) {
-        score += 4.0;
-      } else if (tagNorm.includes(normQuery)) {
-        score += 2.0;
+    // 7. Tags & Content Type (Deduplicated per token)
+    if (normQuery === video.contentType.toLowerCase()) {
+      score += 4.0;
+    }
+    const allTagsCombined = video.tags.map(normalizeText).join(' ');
+    if (normQuery && allTagsCombined.includes(normQuery)) {
+      score += 4.0;
+    }
+    for (const token of tokens) {
+      if (token.length > 2 && allTagsCombined.includes(token)) {
+        score += 1.5;
       }
     }
 
