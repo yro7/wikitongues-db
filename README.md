@@ -50,44 +50,125 @@ Existing metadata across YouTube and Commons is heterogeneous, with free-text de
 
 ---
 
-## 📋 Target Data Schema
+## 🚀 High-Level Python Query API
 
-Each entry in the database adheres to a strict schema:
+`wikitongues-db` includes a high-level, zero-latency in-memory query engine and Python API for instant search, filtering, and dataset exploration.
 
-```json
-to be defined
+### 1. Basic Lookups & Natural Language Resolution
+
+```python
+from src import WikitonguesDB
+
+# Initializes in-memory inverted indices across 860+ curated recordings
+db = WikitonguesDB()
+
+# 1. Smart Language Search (supports ISO 639-3, BCP 47, Glottolog, French/English aliases, autonyms)
+russian_vids = db.find_by_language("russe")       # or "Russian", "rus", "ru", "Русский", "russ1263"
+quechua_vids = db.find_by_language("Qhichwa")     # by native autonym
+arberesh_vids = db.find_by_language("Arbëresh")   # by dialect
+
+# 2. O(1) Indexed Lookups
+video = db.get("nXBPa_wb3dM")                     # Lookup by YouTube ID
+basque_vids = db.get_by_iso("eus")                # Lookup by ISO 639-3
+peru_vids = db.get_by_country("PE")               # Lookup by ISO 3166-1 alpha-2
+```
+
+### 2. Fluent Chainable Query Builder
+
+```python
+results = (
+    db.query()
+    .language("Russian")
+    .country("RU")
+    .creative_commons_only()
+    .with_subtitles()
+    .min_duration(60)
+    .max_duration(600)
+    .order_by("duration", descending=True)
+    .limit(10)
+    .all()
+)
+
+print(f"Found {len(results)} videos ({results.total_duration_formatted})")
+for v in results:
+    print(f"- {v.title} | {v.url} | {v.duration_formatted}")
+```
+
+### 3. Full-Text Search with Relevance Scoring
+
+```python
+matches = db.search("dagestan caucasian oral history", limit=5)
+for v in matches:
+    print(v.title, v.primary_language.name, v.url)
+```
+
+### 4. Rich `Video` & `VideoCollection` Operations
+
+```python
+collection = db.get_by_country("PE")
+
+# Aggregations
+print(collection.total_duration_formatted) # "1h 45m 12s"
+print(collection.languages)                 # List of unique Language objects
+print(collection.speaker_names)             # List of speaker names
+print(collection.urls)                      # List of video URLs
+
+# Chained transformations
+cc_sample = collection.filter(lambda v: v.is_creative_commons).sample(3)
+
+# Export
+json_export = collection.to_json()
+collection.to_jsonl("data/exports/peru_videos.jsonl")
+df = collection.to_dataframe()              # Pandas DataFrame export
+```
+
+### 5. Dataset Statistics & Discovery
+
+```python
+# Aggregate stats
+stats = db.stats()
+print(f"Total Videos: {stats['total_videos']}")
+print(f"Total Languages: {stats['total_languages']}")
+print(f"Total Hours: {stats['total_duration_hours']}h")
+
+# Inventories
+all_languages = db.languages()   # Sorted by video count
+all_countries = db.countries()   # Breakdown by country
+random_video = db.random(n=1, content_type="oral_history").first()
 ```
 
 ---
 
-## 🚀 Quick Start — Data Ingestion (Phase 1)
+## 💻 Command-Line Interface (CLI)
 
-### 1. Setup Environment
+You can query the database directly from your terminal:
+
 ```bash
-python3.11 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
+# Dataset statistics
+python -m src.db.cli stats
 
-### 2. Run YouTube Extractor
-To extract all video metadata from the `@Wikitongues` channel with incremental resumption:
-```bash
-python scripts/extract_youtube.py
-```
+# Query Russian videos with Creative Commons licenses
+python -m src.db.cli query --language russe --cc
 
-Options:
-- `--limit N`: Discover / extract only the first $N$ videos.
-- `--output data/raw/custom.jsonl`: Target output file.
-- `--min-delay 0.5 --max-delay 1.5`: Anti-rate-limiting jitter delay.
+# Full-text search
+python -m src.db.cli search "albanian diaspora"
+
+# Discover a random video for a language
+python -m src.db.cli random --language que
+
+# List top languages
+python -m src.db.cli languages --limit 20
+```
 
 ---
 
 ## 🗺️ Roadmap
 
-- [x] **Phase 1 — Ingestion (YouTube extractor module)**: Scrape raw metadata (titles, descriptions, dates, URLs, tags) into incremental JSON Lines format.
-- [ ] **Phase 2 — Normalization**: Batch LLM extraction of structured entities (speakers, dialects, countries, autonyms).
-- [ ] **Phase 3 — Validation**: Enforce strict SIL ISO 639-3 and Glottolog table validation.
-- [ ] **Phase 4 — Packaging**: Publish `wikitongues-db` (JSON dataset + TypeScript / Rust wrappers).
+- [x] **Phase 1 — Ingestion (YouTube extractor module)**: Scrape raw metadata into JSON Lines.
+- [x] **Phase 2 — Normalization**: Extraction of structured entities (speakers, dialects, countries, autonyms).
+- [x] **Phase 3 — Validation**: Enforce strict SIL ISO 639-3 and Glottolog table validation.
+- [x] **Phase 4 — High-Level Python Query API & Inverted Indexing**: Fast $O(1)$ lookups, fluent query builder, multilingual resolver, and CLI.
+- [ ] **Phase 5 — Multi-Language Packaging**: Publish TypeScript (npm) and Rust (crates.io) client packages.
 
 
 ---
