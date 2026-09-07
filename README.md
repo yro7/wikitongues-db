@@ -1,6 +1,6 @@
 # wikitongues-db
 
-> A lightweight, zero-dependency database and lookup library mapping ISO 639-3 and BCP 47 language codes to Wikitongues oral history video recordings.
+> A lightweight, zero-dependency database and lookup library mapping ISO 639-3 and BCP 47 language codes to Wikitongues oral history video recordings. Available for **TypeScript / JavaScript (npm)** and **Python**.
 
 ---
 
@@ -15,7 +15,7 @@ Existing metadata across YouTube and Commons is heterogeneous, with free-text de
 **`wikitongues-db`** bridges this gap by providing:
 1. **An automated offline curation pipeline**: Video metadata extraction + LLM-assisted entity recognition validated strictly against **SIL ISO 639-3**, **BCP 47**, and **Glottolog** standards.
 2. **A deterministic, static dataset**: High-quality JSON / binary index embeddable with zero network latency and zero API keys at runtime.
-3. **High-level client libraries**: Fast $O(1)$ lookups by language code, country, dialect, or random discovery.
+3. **High-level client libraries (TypeScript & Python)**: Fast $O(1)$ lookups by language code, country, dialect, or random discovery.
 
 ---
 
@@ -50,9 +50,106 @@ Existing metadata across YouTube and Commons is heterogeneous, with free-text de
 
 ---
 
+## ⚡ TypeScript & JavaScript API (npm)
+
+The TypeScript package is zero-dependency, works seamlessly across Node.js (CommonJS & ESM), Vite, Next.js, and browser environments, and embeds the curated normalized dataset directly.
+
+### Installation
+
+```bash
+npm install wikitongues-db
+# or
+yarn add wikitongues-db
+# or
+pnpm add wikitongues-db
+```
+
+### 1. Basic Lookups & Smart Language Resolution
+
+```typescript
+import { WikitonguesDB } from 'wikitongues-db';
+
+// Initializes in-memory inverted indices across 860+ curated recordings instantly
+const db = new WikitonguesDB();
+
+// 1. Smart Language Search (supports ISO 639-3, BCP 47, Glottolog, French/English aliases, autonyms)
+const russianVids = db.findByLanguage('russe');     // or "Russian", "rus", "ru", "Русский", "russ1263"
+const quechuaVids = db.findByLanguage('Qhichwa');   // by native autonym
+const arbereshVids = db.findByLanguage('Arbëresh'); // by dialect
+
+// 2. O(1) Indexed Lookups
+const video = db.get('nXBPa_wb3dM');                // Lookup by YouTube ID
+const basqueVids = db.getByIso('eus');              // Lookup by ISO 639-3
+const peruVids = db.getByCountry('PE');             // Lookup by ISO 3166-1 alpha-2 or country name
+```
+
+### 2. Fluent Chainable Query Builder
+
+```typescript
+const results = db
+  .query()
+  .language('Russian')
+  .country('RU')
+  .creativeCommonsOnly()
+  .withSubtitles()
+  .minDuration(60)
+  .maxDuration(600)
+  .orderBy('duration', true)
+  .limit(10)
+  .all();
+
+console.log(`Found ${results.length} videos (${results.totalDurationFormatted})`);
+for (const v of results) {
+  console.log(`- ${v.title} | ${v.url} | ${v.durationFormatted}`);
+}
+```
+
+### 3. Full-Text Search with Relevance Scoring
+
+```typescript
+const matches = db.search('dagestan caucasian oral history', 5);
+for (const v of matches) {
+  console.log(v.title, v.primaryLanguage.name, v.url);
+}
+```
+
+### 4. Rich `VideoCollection` Operations
+
+```typescript
+const collection = db.getByCountry('PE');
+
+// Aggregations
+console.log(collection.totalDurationFormatted); // e.g. "1h 45m 12s"
+console.log(collection.languages);              // Unique primary Language objects
+console.log(collection.speakerNames);           // Array of speaker names
+console.log(collection.urls);                   // Array of video URLs
+console.log(collection.embedUrls);              // Array of YouTube embed URLs
+
+// Chained transformations
+const ccSample = collection.filter((v) => v.isCreativeCommons).sample(3);
+
+// Serializations
+const jsonString = collection.toJSON();
+const jsonlString = collection.toJSONL();
+const csvString = collection.toCSV();
+```
+
+### 5. Direct Dataset Access
+
+You can also directly import the raw normalized dataset without constructing a DB instance:
+
+```typescript
+import dataset from 'wikitongues-db/data';
+// or: import { dataset } from 'wikitongues-db';
+
+console.log(`Loaded ${dataset.length} normalized records directly`);
+```
+
+---
+
 ## 🚀 High-Level Python Query API
 
-`wikitongues-db` includes a high-level, zero-latency in-memory query engine and Python API for instant search, filtering, and dataset exploration.
+`wikitongues-db` also includes the identical high-level, zero-latency in-memory query engine and Python API:
 
 ### 1. Basic Lookups & Natural Language Resolution
 
@@ -102,41 +199,6 @@ for v in matches:
     print(v.title, v.primary_language.name, v.url)
 ```
 
-### 4. Rich `Video` & `VideoCollection` Operations
-
-```python
-collection = db.get_by_country("PE")
-
-# Aggregations
-print(collection.total_duration_formatted) # "1h 45m 12s"
-print(collection.languages)                 # List of unique Language objects
-print(collection.speaker_names)             # List of speaker names
-print(collection.urls)                      # List of video URLs
-
-# Chained transformations
-cc_sample = collection.filter(lambda v: v.is_creative_commons).sample(3)
-
-# Export
-json_export = collection.to_json()
-collection.to_jsonl("data/exports/peru_videos.jsonl")
-df = collection.to_dataframe()              # Pandas DataFrame export
-```
-
-### 5. Dataset Statistics & Discovery
-
-```python
-# Aggregate stats
-stats = db.stats()
-print(f"Total Videos: {stats['total_videos']}")
-print(f"Total Languages: {stats['total_languages']}")
-print(f"Total Hours: {stats['total_duration_hours']}h")
-
-# Inventories
-all_languages = db.languages()   # Sorted by video count
-all_countries = db.countries()   # Breakdown by country
-random_video = db.random(n=1, content_type="oral_history").first()
-```
-
 ---
 
 ## 💻 Command-Line Interface (CLI)
@@ -168,8 +230,8 @@ python -m src.db.cli languages --limit 20
 - [x] **Phase 2 — Normalization**: Extraction of structured entities (speakers, dialects, countries, autonyms).
 - [x] **Phase 3 — Validation**: Enforce strict SIL ISO 639-3 and Glottolog table validation.
 - [x] **Phase 4 — High-Level Python Query API & Inverted Indexing**: Fast $O(1)$ lookups, fluent query builder, multilingual resolver, and CLI.
-- [ ] **Phase 5 — Multi-Language Packaging**: Publish TypeScript (npm) and Rust (crates.io) client packages.
-
+- [x] **Phase 5 — TypeScript (npm) Package**: Standalone, zero-dependency package with embedded dataset, dual ESM/CJS, and full TypeScript types.
+- [ ] **Phase 6 — Rust (crates.io)**: High-performance, zero-alloc lookup engine.
 
 ---
 

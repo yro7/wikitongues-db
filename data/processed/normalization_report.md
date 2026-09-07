@@ -1,6 +1,6 @@
 # 📊 Wikitongues Normalization Report
 
-> **Generated on**: 2026-09-07 06:14:22 UTC
+> **Generated on**: 2026-09-07 06:40:22 UTC
 > **Scope**: All 863 videos processed and validated against SIL ISO 639-3 & Glottolog tables.
 
 ---
