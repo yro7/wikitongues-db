@@ -1,0 +1,55 @@
+{
+  "name": "wikitongues-db",
+  "version": "0.1.0",
+  "description": "Lightweight, zero-dependency database and query library mapping ISO 639-3 and BCP 47 language codes to Wikitongues oral history video recordings.",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./data": {
+      "types": "./dist/dataset.d.ts",
+      "import": "./dist/dataset.mjs",
+      "require": "./dist/dataset.cjs",
+      "default": "./data/processed/wikitongues_normalized.json"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "data/processed/wikitongues_normalized.json",
+    "data/processed/wikitongues_normalized.jsonl",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "wikitongues",
+    "languages",
+    "iso639-3",
+    "bcp47",
+    "glottolog",
+    "linguistics",
+    "oral-history",
+    "videos",
+    "dataset",
+    "search"
+  ],
+  "author": "Panglotive Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.8"
+  }
+}

@@ -1,0 +1,17 @@
+.git
+.github
+.venv
+.agents
+__pycache__
+*.pyc
+src/extractor
+src/normalizer
+src/db
+src/__init__.py
+scripts/
+tests/
+tsconfig.json
+tsup.config.ts
+requirements.txt
+node_modules/
+.DS_Store
