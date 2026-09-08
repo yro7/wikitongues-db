@@ -26813,27 +26813,27 @@
     "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
-      "iso639_3": "azj",
-      "bcp47": "az",
-      "name": "North Azerbaijani",
-      "glottocode": "nort2697",
-      "autonym": "azərbaycan dili",
-      "dialect": null
+      "iso639_3": "ckb",
+      "bcp47": "ckb",
+      "name": "Central Kurdish",
+      "glottocode": "cent1972",
+      "autonym": "سۆرانی",
+      "dialect": "Sorani"
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Javidan",
+        "name": "Golala",
         "role": "native",
-        "origin": null
+        "origin": "Iraq"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
+      "country_code": "NO",
+      "country_name": "Norway",
       "region": null,
-      "city": "Tbilisi",
-      "recorded_by": null,
+      "city": "Oslo",
+      "recorded_by": "Irena Dahl",
       "recording_date": null
     },
     "transcription": {
@@ -26868,32 +26868,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
-      "iso639_3": "yor",
-      "bcp47": "yo",
-      "name": "Yoruba",
-      "glottocode": "yoru1245",
-      "autonym": "Èdè Yorùbá",
+      "iso639_3": "jav",
+      "bcp47": "jv",
+      "name": "Javanese",
+      "glottocode": "java1254",
+      "autonym": "Basa Jawa",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Èmíkò",
+        "name": "Rama",
         "role": "native",
-        "origin": null
-      },
-      {
-        "name": "Gbọ́láhán",
-        "role": "native",
-        "origin": null
+        "origin": "Indonesia"
       }
     ],
     "provenance": {
-      "country_code": "NG",
-      "country_name": "Nigeria",
-      "region": null,
-      "city": null,
-      "recorded_by": "Aláàfin of Ọ̀yọ́ cultural archive",
+      "country_code": "ID",
+      "country_name": "Indonesia",
+      "region": "Java",
+      "city": "Yogyakarta",
+      "recorded_by": "Fiel Sahir",
       "recording_date": null
     },
     "transcription": {
@@ -26927,27 +26922,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
-      "iso639_3": "kat",
-      "bcp47": "ka",
-      "name": "Georgian",
-      "glottocode": "nucl1302",
-      "autonym": "ქართული",
+      "iso639_3": "bre",
+      "bcp47": "br",
+      "name": "Breton",
+      "glottocode": "bret1244",
+      "autonym": "Brezhoneg",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "George",
-        "role": "native",
-        "origin": null
+        "name": "Wayne Mockerman",
+        "role": "learner",
+        "origin": "United States"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
-      "region": null,
-      "city": "Tbilisi",
-      "recorded_by": "Nick Panzarella",
+      "country_code": "US",
+      "country_name": "United States",
+      "region": "Colorado",
+      "city": "Colorado Springs",
+      "recorded_by": "Wayne Mockerman",
       "recording_date": null
     },
     "transcription": {
@@ -26979,27 +26974,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
-      "iso639_3": "amu",
-      "bcp47": "amu",
-      "name": "Guerrero Amuzgo",
-      "glottocode": "guer1243",
-      "autonym": "Ñomndaa",
-      "dialect": null
+      "iso639_3": "ita",
+      "bcp47": "it",
+      "name": "Italian",
+      "glottocode": "ital1282",
+      "autonym": "Italiano",
+      "dialect": "Trentino"
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Misael",
+        "name": "Fabiola",
         "role": "native",
-        "origin": null
+        "origin": "Italy"
       }
     ],
     "provenance": {
-      "country_code": "MX",
-      "country_name": "Mexico",
-      "region": "Guerrero",
-      "city": null,
-      "recorded_by": "Nick Panzarella",
+      "country_code": "IT",
+      "country_name": "Italy",
+      "region": "Trentino",
+      "city": "Trento",
+      "recorded_by": "Hugo Campbell",
       "recording_date": null
     },
     "transcription": {
@@ -27034,27 +27029,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
-      "iso639_3": "xmf",
-      "bcp47": "xmf",
-      "name": "Mingrelian",
-      "glottocode": "ming1252",
-      "autonym": "მარგალური ნინა",
+      "iso639_3": "jpn",
+      "bcp47": "ja",
+      "name": "Japanese",
+      "glottocode": "japa1256",
+      "autonym": "日本語",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Gvantsa",
+        "name": "Stéfane Helder",
         "role": "native",
-        "origin": null
+        "origin": "Angola"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
+      "country_code": "AO",
+      "country_name": "Angola",
       "region": null,
-      "city": "Tbilisi",
-      "recorded_by": "Nick Panzarella",
+      "city": null,
+      "recorded_by": "Stéfane Helder",
       "recording_date": null
     },
     "transcription": {
@@ -27091,32 +27086,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
-      "iso639_3": "kat",
-      "bcp47": "ka",
-      "name": "Georgian",
-      "glottocode": "nucl1302",
-      "autonym": "ქართული",
+      "iso639_3": "naq",
+      "bcp47": "naq",
+      "name": "Khoekhoegowab",
+      "glottocode": "nama1264",
+      "autonym": "Khoekhoegowab",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Eka",
+        "name": "Revival",
         "role": "native",
-        "origin": null
-      },
-      {
-        "name": "Irma",
-        "role": "native",
-        "origin": null
+        "origin": "Namibia"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
+      "country_code": "NA",
+      "country_name": "Namibia",
       "region": null,
-      "city": "Tbilisi",
-      "recorded_by": "Nick Panzarella",
+      "city": "Windhoek",
+      "recorded_by": "Musuweu Theron Kolokwe",
       "recording_date": null
     },
     "transcription": {
@@ -27154,32 +27144,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
-      "iso639_3": "kat",
-      "bcp47": "ka",
-      "name": "Georgian",
-      "glottocode": "nucl1302",
-      "autonym": "ქართული",
+      "iso639_3": "cfm",
+      "bcp47": "cfm",
+      "name": "Falam Chin",
+      "glottocode": "fala1242",
+      "autonym": "Falam",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Salome",
+        "name": "Tay Za",
         "role": "native",
-        "origin": null
-      },
-      {
-        "name": "Salome",
-        "role": "native",
-        "origin": null
+        "origin": "Myanmar"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
-      "region": null,
-      "city": "Tbilisi",
-      "recorded_by": "Nick Panzarella",
+      "country_code": "MM",
+      "country_name": "Myanmar",
+      "region": "Chin State",
+      "city": "Falam",
+      "recorded_by": "Khup Lal",
       "recording_date": null
     },
     "transcription": {
@@ -27216,32 +27201,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
-      "iso639_3": "kat",
-      "bcp47": "ka",
-      "name": "Georgian",
-      "glottocode": "nucl1302",
-      "autonym": "ქართული",
+      "iso639_3": "ary",
+      "bcp47": "ary",
+      "name": "Moroccan Arabic",
+      "glottocode": "moro1292",
+      "autonym": "الدارجة المغربية",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Tina",
+        "name": "Nawal",
         "role": "native",
-        "origin": null
-      },
-      {
-        "name": "Tina",
-        "role": "native",
-        "origin": null
+        "origin": "Morocco"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
+      "country_code": "MA",
+      "country_name": "Morocco",
       "region": null,
-      "city": "Tbilisi",
-      "recorded_by": "Nick Panzarella",
+      "city": null,
+      "recorded_by": "Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -27281,32 +27261,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
-      "iso639_3": "kat",
-      "bcp47": "ka",
-      "name": "Georgian",
-      "glottocode": "nucl1302",
-      "autonym": "ქართული",
+      "iso639_3": "bgq",
+      "bcp47": "bgq",
+      "name": "Bagri",
+      "glottocode": "bagr1244",
+      "autonym": "बागड़ी",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "George",
+        "name": "Raj",
         "role": "native",
-        "origin": null
-      },
-      {
-        "name": "Nika",
-        "role": "native",
-        "origin": null
+        "origin": "India"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
-      "region": null,
-      "city": "Tbilisi",
-      "recorded_by": "Nick Panzarella",
+      "country_code": "IN",
+      "country_name": "India",
+      "region": "Punjab",
+      "city": "Patiala",
+      "recorded_by": "Satdeep Gill",
       "recording_date": null
     },
     "transcription": {
@@ -27345,32 +27320,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
-      "iso639_3": "kat",
-      "bcp47": "ka",
-      "name": "Georgian",
-      "glottocode": "nucl1302",
-      "autonym": "ქართული",
+      "iso639_3": "dan",
+      "bcp47": "da",
+      "name": "Danish",
+      "glottocode": "dani1285",
+      "autonym": "Dansk",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Ketevan",
+        "name": "Riike",
         "role": "native",
-        "origin": null
-      },
-      {
-        "name": "Nino",
-        "role": "native",
-        "origin": null
+        "origin": "Denmark"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
+      "country_code": "AL",
+      "country_name": "Albania",
       "region": null,
-      "city": "Tbilisi",
-      "recorded_by": "Nick Panzarella",
+      "city": "Tirana",
+      "recorded_by": "Plator Gashi",
       "recording_date": null
     },
     "transcription": {
@@ -27405,32 +27375,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
-      "iso639_3": "kat",
-      "bcp47": "ka",
-      "name": "Georgian",
-      "glottocode": "nucl1302",
-      "autonym": "ქართული",
+      "iso639_3": "ces",
+      "bcp47": "cs",
+      "name": "Czech",
+      "glottocode": "czec1258",
+      "autonym": "Čeština",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Marika",
+        "name": "Dr. Karel Oliva",
         "role": "native",
-        "origin": null
-      },
-      {
-        "name": "Rusudan",
-        "role": "native",
-        "origin": null
+        "origin": "Czech Republic"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
+      "country_code": "CZ",
+      "country_name": "Czech Republic",
       "region": null,
-      "city": "Tbilisi",
-      "recorded_by": "Nick Panzarella",
+      "city": "Prague",
+      "recorded_by": "Vojta Smekel",
       "recording_date": null
     },
     "transcription": {
@@ -27462,32 +27427,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
-      "iso639_3": "kat",
-      "bcp47": "ka",
-      "name": "Georgian",
-      "glottocode": "nucl1302",
-      "autonym": "ქართული",
-      "dialect": null
+      "iso639_3": "szl",
+      "bcp47": "szl",
+      "name": "Silesian",
+      "glottocode": "sile1253",
+      "autonym": "Po naszymu",
+      "dialect": "Cieszyn Silesian"
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Natia",
+        "name": "Otmar",
         "role": "native",
-        "origin": null
-      },
-      {
-        "name": "Tamari",
-        "role": "native",
-        "origin": null
+        "origin": "Czech Republic"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
+      "country_code": "CZ",
+      "country_name": "Czech Republic",
       "region": null,
-      "city": "Tbilisi",
-      "recorded_by": "Nick Panzarella",
+      "city": null,
+      "recorded_by": "Robert Keresztesy",
       "recording_date": null
     },
     "transcription": {
@@ -27522,34 +27482,29 @@
     "duration_seconds": 87,
     "upload_date": "2017-09-09",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "sign_language",
     "primary_language": {
-      "iso639_3": "kat",
-      "bcp47": "ka",
-      "name": "Georgian",
-      "glottocode": "nucl1302",
-      "autonym": "ქართული",
+      "iso639_3": "hks",
+      "bcp47": "hks",
+      "name": "Hong Kong Sign Language",
+      "glottocode": "hong1241",
+      "autonym": "香港手語",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Tamar",
+        "name": "KK",
         "role": "native",
-        "origin": null
-      },
-      {
-        "name": "Nino",
-        "role": "native",
-        "origin": null
+        "origin": "Hong Kong"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
+      "country_code": "HK",
+      "country_name": "Hong Kong",
       "region": null,
-      "city": "Tbilisi",
-      "recorded_by": "Nick Panzarella",
+      "city": "Hong Kong",
+      "recorded_by": "Kelly Wing",
       "recording_date": null
     },
     "transcription": {
@@ -27586,32 +27541,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
-      "iso639_3": "kat",
-      "bcp47": "ka",
-      "name": "Georgian",
-      "glottocode": "nucl1302",
-      "autonym": "ქართული",
+      "iso639_3": "ady",
+      "bcp47": "ady",
+      "name": "Adyghe",
+      "glottocode": "adyg1241",
+      "autonym": "Адыгабзэ",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Tamar",
+        "name": "Inna",
         "role": "native",
-        "origin": null
-      },
-      {
-        "name": "Tekla",
-        "role": "native",
-        "origin": null
+        "origin": "Russia"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
+      "country_code": "RU",
+      "country_name": "Russia",
       "region": null,
-      "city": "Tbilisi",
-      "recorded_by": "Nick Panzarella",
+      "city": "Moscow",
+      "recorded_by": "Elise Lieberman",
       "recording_date": null
     },
     "transcription": {
@@ -27647,32 +27597,30 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
-      "iso639_3": "kat",
-      "bcp47": "ka",
-      "name": "Georgian",
-      "glottocode": "nucl1302",
-      "autonym": "ქართული",
-      "dialect": null
+      "iso639_3": "cmn",
+      "bcp47": "zh-CN",
+      "name": "Mandarin Chinese",
+      "glottocode": "mand1415",
+      "autonym": "贵阳话",
+      "dialect": "Guiyangese"
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Mariko",
-        "role": "native",
-        "origin": null
+        "name": "Changjiu",
+        "role": "native"
       },
       {
-        "name": "Mariam",
-        "role": "native",
-        "origin": null
+        "name": "Chaofen",
+        "role": "native"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
-      "region": null,
-      "city": "Tbilisi",
-      "recorded_by": "Nick Panzarella",
+      "country_code": "CA",
+      "country_name": "Canada",
+      "region": "Ontario",
+      "city": "Richmond Hill",
+      "recorded_by": "Brian Zhao",
       "recording_date": null
     },
     "transcription": {
@@ -27712,32 +27660,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
-      "iso639_3": "kat",
-      "bcp47": "ka",
-      "name": "Georgian",
-      "glottocode": "nucl1302",
-      "autonym": "ქართული",
+      "iso639_3": "gsw",
+      "bcp47": "gsw",
+      "name": "Swiss German",
+      "glottocode": "swis1247",
+      "autonym": "Schwyzerdütsch",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Nino",
+        "name": "Dessire",
         "role": "native",
-        "origin": null
-      },
-      {
-        "name": "Tsotne",
-        "role": "native",
-        "origin": null
+        "origin": "Switzerland"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
+      "country_code": "UY",
+      "country_name": "Uruguay",
       "region": null,
-      "city": "Tbilisi",
-      "recorded_by": "Nick Panzarella",
+      "city": "Montevideo",
+      "recorded_by": "Daniel Bogre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -27775,32 +27718,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
-      "iso639_3": "kat",
-      "bcp47": "ka",
-      "name": "Georgian",
-      "glottocode": "nucl1302",
-      "autonym": "ქართული",
+      "iso639_3": "arz",
+      "bcp47": "arz",
+      "name": "Egyptian Arabic",
+      "glottocode": "egyp1253",
+      "autonym": "العامية المصرية",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Elene",
+        "name": "Youssef Madkour",
         "role": "native",
-        "origin": null
-      },
-      {
-        "name": "Mariam",
-        "role": "native",
-        "origin": null
+        "origin": "Egypt"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
-      "region": null,
-      "city": "Tbilisi",
-      "recorded_by": "Nick Panzarella",
+      "country_code": "US",
+      "country_name": "United States",
+      "region": "New York",
+      "city": "New York City",
+      "recorded_by": "Youssef Madkour",
       "recording_date": null
     },
     "transcription": {
@@ -27834,32 +27772,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
-      "iso639_3": "kat",
-      "bcp47": "ka",
-      "name": "Georgian",
-      "glottocode": "nucl1302",
-      "autonym": "ქართული",
+      "iso639_3": "kir",
+      "bcp47": "ky",
+      "name": "Kyrgyz",
+      "glottocode": "kirg1245",
+      "autonym": "Кыргызча",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Nino",
+        "name": "Aigul",
         "role": "native",
-        "origin": null
-      },
-      {
-        "name": "Salome",
-        "role": "native",
-        "origin": null
+        "origin": "Kyrgyzstan"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
+      "country_code": "RU",
+      "country_name": "Russia",
       "region": null,
-      "city": "Tbilisi",
-      "recorded_by": "Nick Panzarella",
+      "city": "Moscow",
+      "recorded_by": "Elise Lieberman",
       "recording_date": null
     },
     "transcription": {
@@ -27894,32 +27827,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
-      "iso639_3": "kat",
-      "bcp47": "ka",
-      "name": "Georgian",
-      "glottocode": "nucl1302",
-      "autonym": "ქართული",
-      "dialect": null
+      "iso639_3": "vec",
+      "bcp47": "vec",
+      "name": "Venetian",
+      "glottocode": "vene1257",
+      "autonym": "Vèneto",
+      "dialect": "Chipileño"
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Ana",
+        "name": "Nicholas Piloni",
         "role": "native",
-        "origin": null
-      },
-      {
-        "name": "Mariam",
-        "role": "native",
-        "origin": null
+        "origin": "Mexico"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
-      "region": null,
-      "city": "Tbilisi",
-      "recorded_by": "Nick Panzarella",
+      "country_code": "US",
+      "country_name": "United States",
+      "region": "Massachusetts",
+      "city": "Cambridge",
+      "recorded_by": "Nicholas Piloni",
       "recording_date": null
     },
     "transcription": {
@@ -27960,32 +27888,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
-      "iso639_3": "kat",
-      "bcp47": "ka",
-      "name": "Georgian",
-      "glottocode": "nucl1302",
-      "autonym": "ქართული",
+      "iso639_3": "sev",
+      "bcp47": "sev",
+      "name": "Nyarafolo Senoufo",
+      "glottocode": "nyar1246",
+      "autonym": "Nyarafolo",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Bakhva",
+        "name": "Afou",
         "role": "native",
-        "origin": null
-      },
-      {
-        "name": "Giorgi",
-        "role": "native",
-        "origin": null
+        "origin": "Côte d'Ivoire"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
-      "region": null,
-      "city": "Tbilisi",
-      "recorded_by": "Nick Panzarella",
+      "country_code": "FR",
+      "country_name": "France",
+      "region": "Île-de-France",
+      "city": "Paris",
+      "recorded_by": "Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -28020,29 +27943,24 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
-      "iso639_3": "kat",
-      "bcp47": "ka",
-      "name": "Georgian",
-      "glottocode": "nucl1302",
-      "autonym": "ქართული",
+      "iso639_3": "che",
+      "bcp47": "ce",
+      "name": "Chechen",
+      "glottocode": "chec1245",
+      "autonym": "Нохчийн мотт",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Alexandre",
+        "name": "Movsar",
         "role": "native",
-        "origin": null
-      },
-      {
-        "name": "David",
-        "role": "native",
-        "origin": null
+        "origin": "Russia"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
+      "country_code": "RU",
+      "country_name": "Russia",
       "region": null,
       "city": "Tbilisi",
       "recorded_by": "Nick Panzarella",
@@ -28077,27 +27995,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
-      "iso639_3": "rus",
-      "bcp47": "ru",
-      "name": "Russian",
-      "glottocode": "russ1263",
-      "autonym": "русский язык",
+      "iso639_3": "bre",
+      "bcp47": "br",
+      "name": "Breton",
+      "glottocode": "bret1244",
+      "autonym": "Brezhoneg",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Daria",
+        "name": "Myrizinn",
         "role": "native",
-        "origin": null
+        "origin": "France"
       }
     ],
     "provenance": {
-      "country_code": "RU",
-      "country_name": "Russia",
-      "region": null,
-      "city": "Moscow",
-      "recorded_by": "Elise Lieberman",
+      "country_code": "FR",
+      "country_name": "France",
+      "region": "Brittany",
+      "city": "Quimper",
+      "recorded_by": "Timothy McKeon",
       "recording_date": null
     },
     "transcription": {
@@ -28130,29 +28048,29 @@
     "duration_seconds": 214,
     "upload_date": "2017-08-15",
     "license": "CC-BY-NC-4.0",
-    "content_type": "oral_history",
+    "content_type": "sign_language",
     "primary_language": {
-      "iso639_3": "xmf",
-      "bcp47": "xmf",
-      "name": "Mingrelian",
-      "glottocode": "ming1252",
-      "autonym": "მარგალური ნინა",
+      "iso639_3": "fse",
+      "bcp47": "fse",
+      "name": "Finnish Sign Language",
+      "glottocode": "finn1319",
+      "autonym": "Suomalainen viittomakieli",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Mariam",
+        "name": "Eetu",
         "role": "native",
-        "origin": null
+        "origin": "Finland"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
+      "country_code": "FI",
+      "country_name": "Finland",
       "region": null,
-      "city": "Tbilisi",
-      "recorded_by": "Nick Panzarella",
+      "city": "Helsinki",
+      "recorded_by": "Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -28186,32 +28104,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
-      "iso639_3": "kat",
-      "bcp47": "ka",
-      "name": "Georgian",
-      "glottocode": "nucl1302",
-      "autonym": "ქართული",
+      "iso639_3": "twi",
+      "bcp47": "tw",
+      "name": "Twi",
+      "glottocode": "twii1234",
+      "autonym": "Twi",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Salome",
+        "name": "Theresa",
         "role": "native",
-        "origin": null
-      },
-      {
-        "name": "Nino",
-        "role": "native",
-        "origin": null
+        "origin": "Ghana"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
-      "region": null,
-      "city": "Tbilisi",
-      "recorded_by": "Nick Panzarella",
+      "country_code": "DE",
+      "country_name": "Germany",
+      "region": "North Rhine-Westphalia",
+      "city": "Düsseldorf",
+      "recorded_by": "Fiel Sahir",
       "recording_date": null
     },
     "transcription": {
@@ -28248,32 +28161,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
-      "iso639_3": "kat",
-      "bcp47": "ka",
-      "name": "Georgian",
-      "glottocode": "nucl1302",
-      "autonym": "ქართული",
+      "iso639_3": "crh",
+      "bcp47": "crh",
+      "name": "Crimean Tatar",
+      "glottocode": "crim1257",
+      "autonym": "Qırımtatar tili",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Mariami",
+        "name": "Neceadin",
         "role": "native",
-        "origin": null
-      },
-      {
-        "name": "Nino",
-        "role": "native",
-        "origin": null
+        "origin": "Ukraine"
       }
     ],
     "provenance": {
-      "country_code": "GE",
-      "country_name": "Georgia",
-      "region": null,
-      "city": "Tbilisi",
-      "recorded_by": "Nick Panzarella",
+      "country_code": "RO",
+      "country_name": "Romania",
+      "region": "Constanța",
+      "city": "Hagieni",
+      "recorded_by": "Robert Keresztesy",
       "recording_date": null
     },
     "transcription": {
@@ -28310,27 +28218,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
-      "iso639_3": "lad",
-      "bcp47": "lad",
-      "name": "Ladino",
-      "glottocode": "ladi1251",
-      "autonym": "Judeo-Espanyol",
-      "dialect": null
+      "iso639_3": "oss",
+      "bcp47": "os",
+      "name": "Ossetian",
+      "glottocode": "osse1245",
+      "autonym": "Ирон",
+      "dialect": "Kudar"
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Ekin",
+        "name": "Zarina",
         "role": "native",
-        "origin": null
+        "origin": "Russia"
       }
     ],
     "provenance": {
-      "country_code": "TR",
-      "country_name": "Turkey",
+      "country_code": "RU",
+      "country_name": "Russia",
       "region": null,
-      "city": "Istanbul",
-      "recorded_by": null,
+      "city": "Moscow",
+      "recorded_by": "Elise Lieberman",
       "recording_date": null
     },
     "transcription": {
@@ -28366,27 +28274,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
-      "iso639_3": "fkv",
-      "bcp47": "fkv",
-      "name": "Kven Finnish",
-      "glottocode": "kven1236",
-      "autonym": "kainun kieli",
+      "iso639_3": "gle",
+      "bcp47": "ga",
+      "name": "Irish",
+      "glottocode": "iris1253",
+      "autonym": "Gaeilge",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Linda",
+        "name": "Prionsías",
         "role": "native",
-        "origin": null
+        "origin": "Ireland"
       }
     ],
     "provenance": {
-      "country_code": "NO",
-      "country_name": "Norway",
-      "region": null,
-      "city": null,
-      "recorded_by": null,
+      "country_code": "US",
+      "country_name": "United States",
+      "region": "New York",
+      "city": "New York City",
+      "recorded_by": "Daniel Bogre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -28436,34 +28344,29 @@
     "duration_seconds": 301,
     "upload_date": "2017-07-29",
     "license": "CC-BY-NC-4.0",
-    "content_type": "sign_language",
+    "content_type": "conversation",
     "primary_language": {
-      "iso639_3": "isg",
-      "bcp47": "isg",
-      "name": "Irish Sign Language",
-      "glottocode": "iris1235",
-      "autonym": null,
+      "iso639_3": "slk",
+      "bcp47": "sk",
+      "name": "Slovak",
+      "glottocode": "slov1269",
+      "autonym": "Slovenčina",
       "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Siobhan",
+        "name": "Michael",
         "role": "native",
-        "origin": null
-      },
-      {
-        "name": "Lauren",
-        "role": "native",
-        "origin": null
+        "origin": "Slovakia"
       }
     ],
     "provenance": {
-      "country_code": "IE",
-      "country_name": "Ireland",
+      "country_code": "SK",
+      "country_name": "Slovakia",
       "region": null,
-      "city": null,
-      "recorded_by": null,
+      "city": "Bratislava",
+      "recorded_by": "Fiel Sahir",
       "recording_date": null
     },
     "transcription": {
@@ -28499,27 +28402,27 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
-      "iso639_3": "rup",
-      "bcp47": "rup",
-      "name": "Macedo-Romanian",
-      "glottocode": "arom1237",
-      "autonym": "armãneashti",
-      "dialect": "Vlach"
+      "iso639_3": "klu",
+      "bcp47": "klu",
+      "name": "Klao",
+      "glottocode": "klao1243",
+      "autonym": "Klao",
+      "dialect": null
     },
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Sindi",
+        "name": "John",
         "role": "native",
-        "origin": null
+        "origin": "Liberia"
       }
     ],
     "provenance": {
-      "country_code": "AL",
-      "country_name": "Albania",
-      "region": null,
-      "city": null,
-      "recorded_by": null,
+      "country_code": "LR",
+      "country_name": "Liberia",
+      "region": "Grand Cess County",
+      "city": "Grand Cess",
+      "recorded_by": "Gwen",
       "recording_date": null
     },
     "transcription": {
@@ -28579,7 +28482,7 @@
       "country_code": "SG",
       "country_name": "Singapore",
       "region": null,
-      "city": null,
+      "city": "Singapore",
       "recorded_by": "Lindie Botes",
       "recording_date": null
     },
@@ -30626,12 +30529,12 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
-      "iso639_3": "pnt",
-      "bcp47": "pnt",
-      "name": "Pontic",
-      "glottocode": "pont1253",
-      "autonym": "Ποντιακά",
-      "dialect": null
+      "iso639_3": "ell",
+      "bcp47": "el",
+      "name": "Greek",
+      "glottocode": "mode1248",
+      "autonym": "Ελληνικά",
+      "dialect": "Modern Greek / Pontic"
     },
     "additional_languages": [
       {
@@ -30645,7 +30548,7 @@
       {
         "name": "Asimenia",
         "role": "native",
-        "origin": null
+        "origin": "Greece"
       }
     ],
     "provenance": {

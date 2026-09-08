@@ -45,7 +45,7 @@
     "dataset",
     "search"
   ],
-  "author": "Panglotive Team",
+  "author": "Panglotive Team <contact@panglotive.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.13.9",
