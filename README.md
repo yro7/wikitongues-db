@@ -53,7 +53,7 @@ However, existing metadata across YouTube and Commons is heterogeneous, with fre
 | **Glottocode Resolution** | `862 / 863` (99.9%) |
 | **Native Script Autonyms** | `863 / 863` (100.0%) |
 | **Resolved Dialects / Varieties** | `296 / 863` (34.3%) |
-| **Identified Recorders** | `449 / 863` (52.0%) |
+| **Identified Recorders** | `491 / 863` (56.9%) |
 | **Embedded Transcripts / Translations** | `57` |
 | **Total Archival Duration** | `53h 54m 30s` (`194,070` seconds) |
 | **Videos with Subtitles / Captions** | `284` |

@@ -210,13 +210,20 @@ describe('Dataset Integrity & Strict Linguistic Validation', () => {
     expect(signLang?.transcription?.english_translation).toContain('Sukanya Bhan');
   });
 
-  it('should verify enhanced provenance recorder recovery (>= 480 recorders)', () => {
+  it('should verify enhanced provenance recorder recovery (>= 491 recorders)', () => {
     const withRecorder = dataset.filter((d) => d.provenance?.recorded_by !== null);
-    expect(withRecorder.length).toBeGreaterThanOrEqual(481);
+    expect(withRecorder.length).toBeGreaterThanOrEqual(491);
 
     const aran = dataset.find((d) => d.id === 'pdYpvY6Efos');
     expect(aran?.provenance?.recorded_by).toBe('Daniel Bogre Udell');
     expect(aran?.provenance?.city).toBe('Vielha e Mijaran');
+
+    const purka = dataset.find((d) => d.id === 'BT7Pgimrq4g');
+    expect(purka?.provenance?.recorded_by).toBe('Oliver Loode, Kristen Tcherneshoff');
+    expect(purka?.provenance?.city).toBe('Purka');
+
+    const anneli = dataset.find((d) => d.id === 'o6FUP_2RmcI');
+    expect(anneli?.transcription?.native_text).not.toMatch(/_{3,}/);
   });
 
   it('should test compiled dist package artifacts', async () => {

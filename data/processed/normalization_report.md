@@ -16,7 +16,7 @@
 | **Glottocode Coverage** | `862 / 863` (99.9% - only Atlaans conlang is null) |
 | **Autonym Coverage** | `863 / 863` (100.0%) |
 | **Dialect Resolution** | `296 / 863` (34.3%) |
-| **Recorders Identified** | `481 / 863` (55.7%) |
+| **Recorders Identified** | `491 / 863` (56.9%) |
 | **Total Archival Duration** | `3234 min 30 sec` (`194070` s) |
 | **Average Video Duration** | `3 min 44 sec` (`224.9` s) |
 | **Has Subtitles / Captions** | `284` videos |
@@ -36,7 +36,7 @@ Every `null` value across all 863 database records was audited against raw sourc
 | `additional_languages[].dialect` | `12` | **Vrai null sémantique** | Standard national languages (French, English, German, Russian, etc.) spoken in multilingual videos. |
 | `transcription.native_text` | `826` | **Vrai null sémantique / Mix** | Includes sign languages (`sign_language`) which have no written form, and oral recordings where no transcription was provided to YouTube. |
 | `provenance.recording_date` | `862` | **Trou dans la base (Source gap)** | Only 1 video (`dXYMO6zam90`) contains an explicit date (`16/03/2022`) in description. Wikitongues does not record field recording dates on YouTube. The upload date is 100% available in `upload_date`. |
-| `provenance.recorded_by` | `382` | **Trou dans la base (Source gap)** | 481 recorders are identified (55.7%). The remaining 382 videos have zero recorder credits anywhere in their source metadata. |
+| `provenance.recorded_by` | `372` | **Trou dans la base (Source gap)** | 491 recorders are identified (56.9%). The remaining 372 videos have zero recorder credits anywhere in their source metadata. |
 | `provenance.region` / `city` | `487` / `522` | **Trou dans la base (Source gap)** | Most archival records specify only national provenance. Unspecified regional locations are absent from YouTube descriptions. |
 | `speakers[].origin` | `383` | **Trou dans la base (Indistinguishable)** | 380 speakers have known country provenance. However, because speakers may belong to the diaspora, automatically equating origin with country of recording risks hallucination. |
 

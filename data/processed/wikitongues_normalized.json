@@ -27,7 +27,7 @@
       "country_name": "Peru",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Wikitongues",
       "recording_date": null
     },
     "transcription": {
@@ -73,7 +73,7 @@
       "country_name": "Italy",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Wikitongues",
       "recording_date": null
     },
     "transcription": {
@@ -871,7 +871,7 @@
       "country_name": "Benin",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Wikitongues",
       "recording_date": null
     },
     "transcription": {
@@ -994,7 +994,7 @@
       "country_name": "Nigeria",
       "region": "Rivers State",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Opulence Armstrong, Franca Umasoye Igwe",
       "recording_date": null
     },
     "transcription": {
@@ -18057,7 +18057,7 @@
       "country_name": "Estonia",
       "region": "Võrumaa",
       "city": "Purka",
-      "recorded_by": null,
+      "recorded_by": "Oliver Loode, Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -18162,9 +18162,9 @@
     "provenance": {
       "country_code": "EE",
       "country_name": "Estonia",
-      "region": "Võrumaa",
+      "region": "Tartumaa",
       "city": "Räni",
-      "recorded_by": null,
+      "recorded_by": "Oliver Loode, Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -18548,7 +18548,7 @@
       "country_name": "Finland",
       "region": "Uusimaa",
       "city": "Porvoo",
-      "recorded_by": null,
+      "recorded_by": "Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -26091,7 +26091,7 @@
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Alaric",
+        "name": "Dr. Alaric Naudé",
         "role": "native",
         "origin": "South Africa"
       }
@@ -26100,8 +26100,8 @@
       "country_code": "ZA",
       "country_name": "South Africa",
       "region": null,
-      "city": null,
-      "recorded_by": null,
+      "city": "Hwaseong",
+      "recorded_by": "Dr. Alaric Naudé",
       "recording_date": null
     },
     "transcription": {
@@ -34196,7 +34196,7 @@
       {
         "name": "Simon Roper",
         "role": "native",
-        "origin": null
+        "origin": "United Kingdom"
       }
     ],
     "provenance": {
@@ -34204,7 +34204,7 @@
       "country_name": "United Kingdom",
       "region": "Cumbria",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Simon Roper",
       "recording_date": null
     },
     "transcription": {
@@ -36854,7 +36854,7 @@
     "duration_seconds": 245,
     "upload_date": "2016-02-29",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "oral_history",
+    "content_type": "conversation",
     "primary_language": {
       "iso639_3": "mqy",
       "bcp47": "mqy",
@@ -36868,15 +36868,15 @@
       {
         "name": "Sita",
         "role": "native",
-        "origin": null
+        "origin": "Indonesia"
       }
     ],
     "provenance": {
       "country_code": "ID",
       "country_name": "Indonesia",
       "region": "East Nusa Tenggara",
-      "city": null,
-      "recorded_by": null,
+      "city": "Wae Rebo",
+      "recorded_by": "Athina Ardyanto",
       "recording_date": null
     },
     "transcription": {
@@ -42118,7 +42118,7 @@
         "es",
         "sv"
       ],
-      "native_text": "Hej! Jag heter Anneli och jag bor i Lund, som ligger i södra Sverige. Jag är egentligen kines men jag är både född och uppväxt i Lund, (och) mina föräldrar flyttade från Kina till Sverige för trettio (30) år sedan. \n\nJag pluggar (studerar) just nu på Katedralskolan i Lund, vilket ligger ungefär tio minuter ifrån där jag bor. [och] Jag pluggar just nu IB-programmet, som sägs vara Sveriges fastaste program men [ja] vi får se hur det blir i Kina \n[?]. \n\nPå min fritid gillar jag att spela musik. Jag spelar fiol, vilket jag har gjort sedan jag var fem år gammal. Jag spelar piano, vilket jag aldrig har tagit lektion i men jag lär mig själv och jag spelar också gärna på konserter. Jag är konsertmästare. Jag älskar att rita, att fografera, jag älskar konst överlag och jag älskar att läsa också. Min favorit författare är Haruki Murakami, som skriver surrrealistisk science-fiction som är väldigt bra, som ni borde [typ såhär] kolla in. Jag gillar också att titta på film, jag kollar [mycket] på massor av action. (och ja) Jag älskar konst! Jag vet inte vad mer jag ska säga, så...hejdå!\n\n_______________",
+      "native_text": "Hej! Jag heter Anneli och jag bor i Lund, som ligger i södra Sverige. Jag är egentligen kines men jag är både född och uppväxt i Lund, (och) mina föräldrar flyttade från Kina till Sverige för trettio (30) år sedan. \n\nJag pluggar (studerar) just nu på Katedralskolan i Lund, vilket ligger ungefär tio minuter ifrån där jag bor. [och] Jag pluggar just nu IB-programmet, som sägs vara Sveriges fastaste program men [ja] vi får se hur det blir i Kina \n[?]. \n\nPå min fritid gillar jag att spela musik. Jag spelar fiol, vilket jag har gjort sedan jag var fem år gammal. Jag spelar piano, vilket jag aldrig har tagit lektion i men jag lär mig själv och jag spelar också gärna på konserter. Jag är konsertmästare. Jag älskar att rita, att fografera, jag älskar konst överlag och jag älskar att läsa också. Min favorit författare är Haruki Murakami, som skriver surrrealistisk science-fiction som är väldigt bra, som ni borde [typ såhär] kolla in. Jag gillar också att titta på film, jag kollar [mycket] på massor av action. (och ja) Jag älskar konst! Jag vet inte vad mer jag ska säga, så...hejdå!",
       "english_translation": "Hello! My name is Anneli and I live in Lund, which is located in the south of Sweden. I’m actually Chinese but I was born and raised in Lund, (and) my parents moved from China to Sweden thirty (30) years ago.\n\nI’m currently studying at Katedralskolan (an upper secondary school) in Lund, which is about ten minutes from where I live. (and) I’m currently attending the IB-program, which is said to Sweden’s most firm program but [yeah], we will see how it goes in China [?].\n\nIn my spare time I like to play music (instruments). I can play the violin, which I’ve done since I was five years old. I can play the piano, which I never have taken lessons to do but am teaching myself, and I also play at concerts. I am a concertmaster. I love to draw, to take photographs and I also love to read. My favourite author is Haruki Murakami that writes surrealistic science-fiction (books) which are very good and [which you kind of] should check out. I also love to watch movies, I watch a lot of science-fiction [much]. [and, yeah] I love art! I don’t know what else to more to say, so...goodbye!"
     },
     "raw_metadata": {
@@ -44727,7 +44727,7 @@
     "transcription": {
       "has_subtitles": false,
       "available_subtitles": [],
-      "native_text": "Hejsan! Mitt namn är Hani Raffi. (jag) Kommer från Uppsala, Sverige (och jag är) uppväxt och född i Sverige. Mina föräldrar kommer däremot från Irak, de kom nittionhundraåttionio (1989) till Sverige. Så jag talar svenska, arabiska, lite spanska, lite litauiska och såklart engelska. \n\nVad betyder svenska för mig? Saken är ju den att i Sverige vet vi ju om att vi har så många olika kulturer (och här bor) folk från alla olika delar av världen, vilket gör det (Sverige) till ett så varm ställe, så blandad ställe. Du lär dig varje dag, alla (här) är öppna, alla lär känna varandra och du har inte bara etnicitet och nationalitet, vilket jag tycker är fantastiskt! Det är den skönaste känslan som finns! [jag] Personligen är jag inte helt svensk men jag känner mig så svensk som det bara går, det sitter här inne, det sitter inte i blodet [som åsikterna kan tyckas]. (men) Sverige för mig är så underbart. Det bästa som finns är att komma från ett land som bara betyder frihet, neutralitet och har en så bra grund: du kan bli vad du vill (och) göra vad du vill i det här landet. Det känns verkligen som en styrka inom mig [?].  \n\n[speciellt det med att] Jag kommer från Uppsala, (som ligger) i mitten av Sverige, så min dialekt är väl lite åt det hållet. Jag kommer från en lite av en förort, Gottsunda. Det roliga är att det alltid kommer (dyker) upp något nytt ord som du alltid inte förstår när du går hem och umgås med dina vänner, [i svenskan] är det så lätt att göra om ord och ta in ord från andra språk, som till exempel engelska, arabiska, turkiska, ryska. Alla möjliga språk kommer in i slang (och; men] det [språket?] flyter bara på. Det är det som är så underbart med det svenska språket, att man kan få in det så fint [?] och att det är så mångkulturellt, så mångsidigt. (och, ja) Det är väl det som svenska betyder för mig, att det är en så skön känsla att veta om att du är välkommen där du har sitt val \n[?]. Tack så mycket!\n\n_________",
+      "native_text": "Hejsan! Mitt namn är Hani Raffi. (jag) Kommer från Uppsala, Sverige (och jag är) uppväxt och född i Sverige. Mina föräldrar kommer däremot från Irak, de kom nittionhundraåttionio (1989) till Sverige. Så jag talar svenska, arabiska, lite spanska, lite litauiska och såklart engelska. \n\nVad betyder svenska för mig? Saken är ju den att i Sverige vet vi ju om att vi har så många olika kulturer (och här bor) folk från alla olika delar av världen, vilket gör det (Sverige) till ett så varm ställe, så blandad ställe. Du lär dig varje dag, alla (här) är öppna, alla lär känna varandra och du har inte bara etnicitet och nationalitet, vilket jag tycker är fantastiskt! Det är den skönaste känslan som finns! [jag] Personligen är jag inte helt svensk men jag känner mig så svensk som det bara går, det sitter här inne, det sitter inte i blodet [som åsikterna kan tyckas]. (men) Sverige för mig är så underbart. Det bästa som finns är att komma från ett land som bara betyder frihet, neutralitet och har en så bra grund: du kan bli vad du vill (och) göra vad du vill i det här landet. Det känns verkligen som en styrka inom mig [?].  \n\n[speciellt det med att] Jag kommer från Uppsala, (som ligger) i mitten av Sverige, så min dialekt är väl lite åt det hållet. Jag kommer från en lite av en förort, Gottsunda. Det roliga är att det alltid kommer (dyker) upp något nytt ord som du alltid inte förstår när du går hem och umgås med dina vänner, [i svenskan] är det så lätt att göra om ord och ta in ord från andra språk, som till exempel engelska, arabiska, turkiska, ryska. Alla möjliga språk kommer in i slang (och; men] det [språket?] flyter bara på. Det är det som är så underbart med det svenska språket, att man kan få in det så fint [?] och att det är så mångkulturellt, så mångsidigt. (och, ja) Det är väl det som svenska betyder för mig, att det är en så skön känsla att veta om att du är välkommen där du har sitt val \n[?]. Tack så mycket!",
       "english_translation": "Hello there! My name is Hani Raffi. (I) Am from Uppsala, Sweden (and I was) both raised and born in Sweden. My parents, on the hand, came from Iraq, they came to Sweden in nineteen hundred eighty-nine (1989). Thus, I speak Swedish, Arabic, a little bit of Spanish, a little bit Lithuanian and of course English.\n\nWhat does Swedish mean to me? The thing is that, in Sweden, we know that we have so many cultures [and] here there are people from every part of the world, which makes it (Sweden) a so warm place, a so mixed (culturally diverse) place. You learn every day, everyone here are so open, everybody get to know each other and you don’t only have ethnicity and nationality, which I think is just fantastic! It’s the most beautiful feeling there is! (I) Personally I am not Swedish but I feel as Swedish as possible, it is about what is in here, not about what is in your blood (as the opinions may be thought [?]). (but) Sweden is so beautiful to me. The best thing there is, is to come from a country that only means (expresses) freedom, neutrality and that has a stable foundation: you can become what you want (and) you can do what you want in this country. It really feels like a force inside of me [?].\n\n(especially that) I am from Uppsala, (which is located) in the middle of Sweden, thus my dialect is from there. I’m from a suburb, Gottsunda. The funny thing is that, when you come home and socialise with your friends you may come a cross a new word that you don’t always understand, (in Swedish) it’s so easy to reinvent words and borrow words from other languages into (Swedish) slang, such as (from) English, Arabic, Turkish and Russian. All possible languages find there way into slang but the language just keeps on going. This is what is so beautiful with the Swedish language, you can get it in so beautifully/nicely [?] and that it is so multicultural and manifold. (and, yeah) That is what Swedish means to me, the beautiful feeling to be welcome where you have ones choice [?]. Thank you very much!"
     },
     "raw_metadata": {
