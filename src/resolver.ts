@@ -69,7 +69,23 @@ export const MULTILINGUAL_ALIASES: Record<string, string> = {
   yorouba: 'yor',
   swahili: 'swh',
   persan: 'fas',
+  persian: 'fas',
   farsi: 'fas',
+  kurde: 'kur',
+  kurdish: 'kur',
+  sorani: 'ckb',
+  kurmanji: 'kmr',
+  berber: 'ber',
+  albanais: 'sqi',
+  albanian: 'sqi',
+  pashto: 'pus',
+  pachto: 'pus',
+  pashtoun: 'pus',
+  serbocroate: 'hbs',
+  'serbo-croate': 'hbs',
+  serbocroatian: 'hbs',
+  'serbo-croatian': 'hbs',
+  norwegian: 'nor',
   hindi: 'hin',
   bengali: 'ben',
   tamoul: 'tam',
@@ -207,6 +223,34 @@ export const MULTILINGUAL_ALIASES: Record<string, string> = {
   so: 'som',
   zu: 'zul',
   xh: 'xho',
+};
+
+/**
+ * ISO 639-3 Macrolanguage to member language codes expansion mapping.
+ * Ensures searches for macrolanguages (e.g. Arabic, Persian, Kurdish, Norwegian)
+ * resolve to all specific dialectal records present in the dataset.
+ */
+export const MACROLANGUAGE_EXPANSIONS: Record<string, string[]> = {
+  fas: ['fas', 'pes', 'prs'],
+  nor: ['nor', 'nob', 'nno'],
+  kur: ['kur', 'kmr', 'ckb', 'sdh'],
+  ber: ['ber', 'kab', 'shi', 'rif', 'tzm', 'thv', 'zen'],
+  ara: [
+    'ara', 'ary', 'arz', 'apc', 'acm', 'ayl', 'aao', 'abh', 'abv', 'acw',
+    'acx', 'ade', 'aeb', 'aec', 'afb', 'ajp', 'apd', 'arq', 'ars', 'auz',
+    'avl', 'ayh', 'ayn', 'ayp', 'bbz', 'pga', 'shu', 'ssh'
+  ],
+  sqi: ['sqi', 'als', 'aln', 'aae', 'aat'],
+  hbs: ['hbs', 'bos', 'hrv', 'srp', 'cnr'],
+  zho: ['zho', 'cmn', 'yue', 'wuu', 'nan', 'hak', 'gan', 'czo', 'cjy', 'hsn'],
+  pus: ['pus', 'pbu', 'pbt', 'pst'],
+  que: ['que', 'quz', 'qvc', 'qwh', 'qub'],
+  aym: ['aym', 'ayr', 'ayc'],
+  grn: ['grn', 'gug', 'gnw', 'gui', 'gun'],
+  msa: ['msa', 'zlm', 'ind', 'min'],
+  aze: ['aze', 'azj', 'azb'],
+  est: ['est', 'ekk', 'vro'],
+  aka: ['aka', 'twi', 'fat'],
 };
 
 export class LanguageResolver {
@@ -378,6 +422,16 @@ export class LanguageResolver {
     // 9. Fallback: return raw lower string if 3 letters
     if (matchedIsos.size === 0 && rawLower.length === 3) {
       matchedIsos.add(rawLower);
+    }
+
+    // 10. Macrolanguage expansion: expand any matched macrolanguage code to its member dialects/languages
+    for (const iso of [...matchedIsos]) {
+      const expansion = MACROLANGUAGE_EXPANSIONS[iso];
+      if (expansion) {
+        for (const subIso of expansion) {
+          matchedIsos.add(subIso);
+        }
+      }
     }
 
     return matchedIsos;

@@ -1121,7 +1121,7 @@
       "bcp47": "en",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": null
     },
     "additional_languages": [
@@ -1244,8 +1244,8 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "zh-Hans",
-        "en"
+        "en",
+        "zh-Hans"
       ],
       "native_text": null,
       "english_translation": null
@@ -1503,7 +1503,7 @@
       "bcp47": "en",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": null
     },
     "additional_languages": [],
@@ -1525,8 +1525,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
-        "live_chat"
+        "en"
       ],
       "native_text": null,
       "english_translation": null
@@ -1591,7 +1590,7 @@
     "url": "https://www.youtube.com/watch?v=Lf6AAjLz8Cg",
     "duration_seconds": 87,
     "upload_date": "2024-11-25",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "tru",
@@ -1604,9 +1603,9 @@
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Unknown",
+        "name": "Ramcina Gabriel",
         "role": "native",
-        "origin": null
+        "origin": "Syria"
       }
     ],
     "provenance": {
@@ -1614,7 +1613,7 @@
       "country_name": "Turkey",
       "region": "Tur Abdin",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Andrew",
       "recording_date": null
     },
     "transcription": {
@@ -1637,7 +1636,7 @@
     "url": "https://www.youtube.com/watch?v=GehQiDuETPM",
     "duration_seconds": 128,
     "upload_date": "2024-11-18",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "mid",
@@ -1652,7 +1651,7 @@
         "iso639_3": "myz",
         "bcp47": "myz",
         "name": "Classical Mandaic",
-        "glottocode": "mand1417"
+        "glottocode": "clas1253"
       }
     ],
     "speakers": [
@@ -1798,7 +1797,7 @@
       "bcp47": "en",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": null
     },
     "additional_languages": [],
@@ -2021,8 +2020,8 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
-        "de"
+        "de",
+        "en"
       ],
       "native_text": null,
       "english_translation": null
@@ -2166,8 +2165,8 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
-        "de"
+        "de",
+        "en"
       ],
       "native_text": null,
       "english_translation": null
@@ -2677,7 +2676,7 @@
     "url": "https://www.youtube.com/watch?v=j4G1BIZO2PY",
     "duration_seconds": 609,
     "upload_date": "2023-04-20",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "PUBLIC_DOMAIN",
     "content_type": "conversation",
     "primary_language": {
       "iso639_3": "sjd",
@@ -2757,7 +2756,7 @@
     "url": "https://www.youtube.com/watch?v=EXzApwbjjgE",
     "duration_seconds": 278,
     "upload_date": "2023-03-26",
-    "license": "CC-BY-NC-4.0",
+    "license": "ALL_RIGHTS_RESERVED",
     "content_type": "conversation",
     "primary_language": {
       "iso639_3": "prx",
@@ -2835,7 +2834,7 @@
     "url": "https://www.youtube.com/watch?v=OnGhQZ_PbWs",
     "duration_seconds": 251,
     "upload_date": "2023-03-23",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "PUBLIC_DOMAIN",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "wuu",
@@ -3141,7 +3140,7 @@
       "iso639_3": "yhd",
       "bcp47": "yhd",
       "name": "Judeo-Iraqi Arabic",
-      "glottocode": "jude1256",
+      "glottocode": "jude1266",
       "autonym": "ערבית יהודית עיראקית",
       "dialect": "Baghdadi Judeo-Arabic"
     },
@@ -3162,8 +3161,10 @@
       "recording_date": null
     },
     "transcription": {
-      "has_subtitles": false,
-      "available_subtitles": [],
+      "has_subtitles": true,
+      "available_subtitles": [
+        "en"
+      ],
       "native_text": null,
       "english_translation": null
     },
@@ -3209,7 +3210,7 @@
     "url": "https://www.youtube.com/watch?v=5Gc--eO0ok8",
     "duration_seconds": 382,
     "upload_date": "2022-07-27",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
       "iso639_3": "mnc",
@@ -3246,8 +3247,12 @@
       "recording_date": null
     },
     "transcription": {
-      "has_subtitles": false,
-      "available_subtitles": [],
+      "has_subtitles": true,
+      "available_subtitles": [
+        "en",
+        "zh-Hans",
+        "zh-Hant"
+      ],
       "native_text": null,
       "english_translation": null
     },
@@ -3373,7 +3378,7 @@
     "url": "https://www.youtube.com/watch?v=QAK3clpBLNg",
     "duration_seconds": 674,
     "upload_date": "2022-04-28",
-    "license": "CC-BY-NC-4.0",
+    "license": "ALL_RIGHTS_RESERVED",
     "content_type": "reading_or_song",
     "primary_language": {
       "iso639_3": "ydd",
@@ -3530,7 +3535,7 @@
     "url": "https://www.youtube.com/watch?v=rUE1bzIx3u8",
     "duration_seconds": 195,
     "upload_date": "2022-02-24",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "PUBLIC_DOMAIN",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "glv",
@@ -3557,8 +3562,10 @@
       "recording_date": null
     },
     "transcription": {
-      "has_subtitles": false,
-      "available_subtitles": [],
+      "has_subtitles": true,
+      "available_subtitles": [
+        "en"
+      ],
       "native_text": null,
       "english_translation": null
     },
@@ -3605,7 +3612,7 @@
     "url": "https://www.youtube.com/watch?v=M82TbP5Gan4",
     "duration_seconds": 110,
     "upload_date": "2022-02-18",
-    "license": "CC-BY-NC-4.0",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "mzn",
@@ -3679,7 +3686,7 @@
     "url": "https://www.youtube.com/watch?v=FqAnl_8tMmI",
     "duration_seconds": 126,
     "upload_date": "2022-02-11",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "hak",
@@ -3775,8 +3782,10 @@
       "recording_date": null
     },
     "transcription": {
-      "has_subtitles": false,
-      "available_subtitles": [],
+      "has_subtitles": true,
+      "available_subtitles": [
+        "en"
+      ],
       "native_text": null,
       "english_translation": null
     },
@@ -3822,13 +3831,13 @@
     "url": "https://www.youtube.com/watch?v=r8R0FbhpGuE",
     "duration_seconds": 117,
     "upload_date": "2021-12-23",
-    "license": "CC-BY-SA-4.0",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "nan",
       "bcp47": "nan",
       "name": "Min Nan Chinese",
-      "glottocode": "minn1248",
+      "glottocode": "minn1241",
       "autonym": "閩南語 / Hokkien",
       "dialect": "Median Hokkien"
     },
@@ -3890,7 +3899,7 @@
     "url": "https://www.youtube.com/watch?v=9Fa1TOfPuJ0",
     "duration_seconds": 101,
     "upload_date": "2021-12-21",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "PUBLIC_DOMAIN",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "dar",
@@ -3965,13 +3974,13 @@
     "url": "https://www.youtube.com/watch?v=4S5ZOg05dVY",
     "duration_seconds": 66,
     "upload_date": "2021-08-26",
-    "license": "CC-BY-NC-4.0",
+    "license": "ALL_RIGHTS_RESERVED",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "krc",
       "bcp47": "krc",
       "name": "Karachay-Balkar",
-      "glottocode": "kara1464",
+      "glottocode": "kara1465",
       "autonym": "Къарачай-малкъар тил",
       "dialect": "Karachay-Balkar"
     },
@@ -4044,7 +4053,7 @@
     "url": "https://www.youtube.com/watch?v=QnlFfV60Qeo",
     "duration_seconds": 1745,
     "upload_date": "2021-08-19",
-    "license": "CC-BY-SA-4.0",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "ppl",
@@ -4276,7 +4285,7 @@
     "url": "https://www.youtube.com/watch?v=fiOglXiVbjo",
     "duration_seconds": 200,
     "upload_date": "2021-07-23",
-    "license": "CC-BY-NC-4.0",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "nds",
@@ -4303,8 +4312,11 @@
       "recording_date": null
     },
     "transcription": {
-      "has_subtitles": false,
-      "available_subtitles": [],
+      "has_subtitles": true,
+      "available_subtitles": [
+        "en",
+        "eo"
+      ],
       "native_text": null,
       "english_translation": null
     },
@@ -4350,7 +4362,7 @@
     "url": "https://www.youtube.com/watch?v=_7ZdE-msDOQ",
     "duration_seconds": 334,
     "upload_date": "2021-07-22",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "nds",
@@ -4424,7 +4436,7 @@
     "url": "https://www.youtube.com/watch?v=eHN_bCg-JuQ",
     "duration_seconds": 280,
     "upload_date": "2021-07-16",
-    "license": "CC-BY-NC-4.0",
+    "license": "ALL_RIGHTS_RESERVED",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "sna",
@@ -4495,13 +4507,13 @@
     "url": "https://www.youtube.com/watch?v=u3c9Ke5yDNk",
     "duration_seconds": 139,
     "upload_date": "2021-07-09",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "xay",
       "bcp47": "xay",
       "name": "Kayan Mahakam",
-      "glottocode": "kaya1317",
+      "glottocode": "kaya1324",
       "autonym": "Kayan",
       "dialect": "Kayan Mahakam"
     },
@@ -4593,8 +4605,11 @@
       "recording_date": null
     },
     "transcription": {
-      "has_subtitles": false,
-      "available_subtitles": [],
+      "has_subtitles": true,
+      "available_subtitles": [
+        "en",
+        "pt-BR"
+      ],
       "native_text": null,
       "english_translation": null
     },
@@ -4638,13 +4653,13 @@
     "url": "https://www.youtube.com/watch?v=ArS9-GVw8nc",
     "duration_seconds": 266,
     "upload_date": "2021-06-25",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "jdt",
       "bcp47": "jdt",
       "name": "Judeo-Tat",
-      "glottocode": "jude1257",
+      "glottocode": "jude1256",
       "autonym": "жугьури / Çuhuri",
       "dialect": "Judeo-Tat"
     },
@@ -4725,7 +4740,7 @@
     "url": "https://www.youtube.com/watch?v=9EpGjIsie44",
     "duration_seconds": 404,
     "upload_date": "2021-06-24",
-    "license": "CC-BY-NC-4.0",
+    "license": "CC-BY-SA-4.0",
     "content_type": "conversation",
     "primary_language": {
       "iso639_3": "jav",
@@ -4830,8 +4845,11 @@
       "recording_date": null
     },
     "transcription": {
-      "has_subtitles": false,
-      "available_subtitles": [],
+      "has_subtitles": true,
+      "available_subtitles": [
+        "en",
+        "eo"
+      ],
       "native_text": null,
       "english_translation": null
     },
@@ -4949,7 +4967,7 @@
     "url": "https://www.youtube.com/watch?v=N4RMhrlk60E",
     "duration_seconds": 274,
     "upload_date": "2021-06-11",
-    "license": "CC-BY-NC-4.0",
+    "license": "ALL_RIGHTS_RESERVED",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "eus",
@@ -5026,7 +5044,7 @@
     "url": "https://www.youtube.com/watch?v=pAUaSmVQ1Sg",
     "duration_seconds": 208,
     "upload_date": "2021-06-10",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "nds",
@@ -5098,7 +5116,7 @@
     "url": "https://www.youtube.com/watch?v=FvuH1eaV8Xw",
     "duration_seconds": 92,
     "upload_date": "2021-05-28",
-    "license": "CC-BY-NC-4.0",
+    "license": "ALL_RIGHTS_RESERVED",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "yor",
@@ -5253,7 +5271,7 @@
     "url": "https://www.youtube.com/watch?v=Jfqg5yEV2to",
     "duration_seconds": 136,
     "upload_date": "2021-05-21",
-    "license": "CC-BY-SA-4.0",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "kek",
@@ -5326,7 +5344,7 @@
     "url": "https://www.youtube.com/watch?v=e-rY2zkCNtU",
     "duration_seconds": 127,
     "upload_date": "2021-05-07",
-    "license": "CC-BY-NC-4.0",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "nan",
@@ -5473,7 +5491,7 @@
     "url": "https://www.youtube.com/watch?v=mN7592r79vM",
     "duration_seconds": 56,
     "upload_date": "2021-04-30",
-    "license": "CC-BY-NC-4.0",
+    "license": "ALL_RIGHTS_RESERVED",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "kat",
@@ -5546,7 +5564,7 @@
     "url": "https://www.youtube.com/watch?v=zOb8s6GAj5E",
     "duration_seconds": 136,
     "upload_date": "2021-04-29",
-    "license": "CC-BY-NC-4.0",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "wuu",
@@ -5618,7 +5636,7 @@
     "url": "https://www.youtube.com/watch?v=YyYrWgfaRwk",
     "duration_seconds": 40,
     "upload_date": "2021-04-09",
-    "license": "CC-BY-NC-4.0",
+    "license": "ALL_RIGHTS_RESERVED",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "yor",
@@ -5691,7 +5709,7 @@
       "iso639_3": "mgr",
       "bcp47": "mgr",
       "name": "Mambwe-Lungu",
-      "glottocode": "mamb1294",
+      "glottocode": "mamb1296",
       "autonym": "Chilungu",
       "dialect": "Lungu"
     },
@@ -5755,7 +5773,7 @@
     "url": "https://www.youtube.com/watch?v=35f7h4GsURo",
     "duration_seconds": 2125,
     "upload_date": "2021-04-02",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "lad",
@@ -5824,7 +5842,7 @@
     "url": "https://www.youtube.com/watch?v=TCLzMvpaB8M",
     "duration_seconds": 105,
     "upload_date": "2021-04-01",
-    "license": "CC-BY-NC-4.0",
+    "license": "ALL_RIGHTS_RESERVED",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "mlt",
@@ -5851,8 +5869,10 @@
       "recording_date": null
     },
     "transcription": {
-      "has_subtitles": false,
-      "available_subtitles": [],
+      "has_subtitles": true,
+      "available_subtitles": [
+        "en"
+      ],
       "native_text": null,
       "english_translation": null
     },
@@ -6037,7 +6057,7 @@
     "url": "https://www.youtube.com/watch?v=E3qV-_Ba4PU",
     "duration_seconds": 377,
     "upload_date": "2021-03-11",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "lad",
@@ -6064,8 +6084,11 @@
       "recording_date": null
     },
     "transcription": {
-      "has_subtitles": false,
-      "available_subtitles": [],
+      "has_subtitles": true,
+      "available_subtitles": [
+        "en",
+        "eo"
+      ],
       "native_text": null,
       "english_translation": null
     },
@@ -6395,7 +6418,7 @@
     "url": "https://www.youtube.com/watch?v=jZgofxN6rmk",
     "duration_seconds": 80,
     "upload_date": "2021-02-19",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "PUBLIC_DOMAIN",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "khm",
@@ -6465,7 +6488,7 @@
     "url": "https://www.youtube.com/watch?v=fbOOrqY7b_o",
     "duration_seconds": 101,
     "upload_date": "2021-02-18",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "nap",
@@ -6543,13 +6566,13 @@
     "url": "https://www.youtube.com/watch?v=WlqTafVa5pU",
     "duration_seconds": 226,
     "upload_date": "2021-02-12",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "sjs",
       "bcp47": "sjs",
       "name": "Sanhaja of Srair",
-      "glottocode": "sanh1239",
+      "glottocode": "senh1238",
       "autonym": "Tamazight n Senhaja de Srair",
       "dialect": "Ketama"
     },
@@ -6619,7 +6642,7 @@
     "url": "https://www.youtube.com/watch?v=8GsglYcXhyg",
     "duration_seconds": 92,
     "upload_date": "2021-02-11",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "vep",
@@ -6690,7 +6713,7 @@
     "url": "https://www.youtube.com/watch?v=5F5m6W95U_M",
     "duration_seconds": 50,
     "upload_date": "2021-02-05",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "arz",
@@ -6765,7 +6788,7 @@
     "url": "https://www.youtube.com/watch?v=gTt6LkoZ1z4",
     "duration_seconds": 164,
     "upload_date": "2021-02-04",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "kea",
@@ -6833,7 +6856,7 @@
     "url": "https://www.youtube.com/watch?v=pjtSNq2yXVE",
     "duration_seconds": 115,
     "upload_date": "2021-01-26",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "luo",
@@ -6846,17 +6869,17 @@
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Unknown",
+        "name": "Moses",
         "role": "native",
-        "origin": null
+        "origin": "Kenya"
       }
     ],
     "provenance": {
       "country_code": "KE",
       "country_name": "Kenya",
-      "region": null,
+      "region": "Mfangano Island",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Avi Kumar",
       "recording_date": null
     },
     "transcription": {
@@ -7050,7 +7073,7 @@
     "url": "https://www.youtube.com/watch?v=nMEKd_KSf30",
     "duration_seconds": 161,
     "upload_date": "2020-12-20",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "sin",
@@ -7120,7 +7143,7 @@
     "url": "https://www.youtube.com/watch?v=1xGw9kQjHWI",
     "duration_seconds": 124,
     "upload_date": "2020-12-12",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "mqx",
@@ -7189,7 +7212,7 @@
     "url": "https://www.youtube.com/watch?v=e9y_WshNAyE",
     "duration_seconds": 306,
     "upload_date": "2020-12-11",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "fra",
@@ -7261,7 +7284,7 @@
     "url": "https://www.youtube.com/watch?v=rSTBr8QbCtg",
     "duration_seconds": 257,
     "upload_date": "2020-11-28",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "naq",
@@ -7472,7 +7495,7 @@
     "url": "https://www.youtube.com/watch?v=GohjqZQHDlM",
     "duration_seconds": 163,
     "upload_date": "2020-11-15",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "sas",
@@ -7508,7 +7531,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en"
+        "id"
       ],
       "native_text": null,
       "english_translation": null
@@ -7551,7 +7574,7 @@
     "url": "https://www.youtube.com/watch?v=vFbZR5shzCk",
     "duration_seconds": 82,
     "upload_date": "2020-11-14",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "tuv",
@@ -7621,7 +7644,7 @@
     "url": "https://www.youtube.com/watch?v=-lVudWbCaik",
     "duration_seconds": 137,
     "upload_date": "2020-11-08",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
       "iso639_3": "vie",
@@ -7697,13 +7720,13 @@
     "url": "https://www.youtube.com/watch?v=I-xiEyYtAwo",
     "duration_seconds": 319,
     "upload_date": "2020-11-06",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "nrf",
       "bcp47": "nrf-FR",
       "name": "Jèrriais",
-      "glottocode": "jeru1240",
+      "glottocode": "jerr1238",
       "autonym": "Caucheis",
       "dialect": "Cauchois (Norman)"
     },
@@ -7906,7 +7929,7 @@
     "url": "https://www.youtube.com/watch?v=Bzlwr2_8ljg",
     "duration_seconds": 216,
     "upload_date": "2020-10-26",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "lmo",
@@ -8047,7 +8070,7 @@
     "url": "https://www.youtube.com/watch?v=JQR2KOO7-No",
     "duration_seconds": 332,
     "upload_date": "2020-10-09",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "reading_or_song",
     "primary_language": {
       "iso639_3": "ilb",
@@ -8114,7 +8137,7 @@
     "url": "https://www.youtube.com/watch?v=1nCw24V3nV8",
     "duration_seconds": 85,
     "upload_date": "2020-10-08",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "sah",
@@ -8182,7 +8205,7 @@
     "url": "https://www.youtube.com/watch?v=5yx8o4JOQRA",
     "duration_seconds": 146,
     "upload_date": "2020-09-27",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "hui",
@@ -8247,7 +8270,7 @@
     "url": "https://www.youtube.com/watch?v=7q4G38S-Wm4",
     "duration_seconds": 274,
     "upload_date": "2020-09-26",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "vls",
@@ -8276,7 +8299,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en"
+        "nl"
       ],
       "native_text": null,
       "english_translation": null
@@ -8320,7 +8343,7 @@
     "url": "https://www.youtube.com/watch?v=B56nxfnSV4U",
     "duration_seconds": 90,
     "upload_date": "2020-09-25",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
       "iso639_3": "yue",
@@ -8354,7 +8377,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en"
+        "yue-HK"
       ],
       "native_text": null,
       "english_translation": null
@@ -8399,7 +8422,7 @@
     "url": "https://www.youtube.com/watch?v=MMfozbb4w74",
     "duration_seconds": 138,
     "upload_date": "2020-09-24",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "lmo",
@@ -8470,7 +8493,7 @@
     "url": "https://www.youtube.com/watch?v=hs6qyMcOwjY",
     "duration_seconds": 443,
     "upload_date": "2020-09-19",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "ind",
@@ -8540,7 +8563,7 @@
       "iso639_3": "urf",
       "bcp47": "urf",
       "name": "Uradhi",
-      "glottocode": "urad1238",
+      "glottocode": "urad1239",
       "autonym": "Injinoo Ikya",
       "dialect": "Injinoo Ikya"
     },
@@ -8598,13 +8621,13 @@
     "url": "https://www.youtube.com/watch?v=olM7YMyxd5I",
     "duration_seconds": 185,
     "upload_date": "2020-09-17",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "rsk",
       "bcp47": "rsk",
       "name": "Pannonian Rusyn",
-      "glottocode": "pann1239",
+      "glottocode": "pann1240",
       "autonym": "Руски язик",
       "dialect": "Pannonian"
     },
@@ -8664,13 +8687,13 @@
     "url": "https://www.youtube.com/watch?v=QMNBUmWBZ-o",
     "duration_seconds": 623,
     "upload_date": "2020-09-16",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "kru",
       "bcp47": "kru",
       "name": "Kurux",
-      "glottocode": "kuru1300",
+      "glottocode": "kuru1301",
       "autonym": "कुड़ुख़",
       "dialect": null
     },
@@ -8736,13 +8759,13 @@
     "url": "https://www.youtube.com/watch?v=qlJ7A9kbH40",
     "duration_seconds": 138,
     "upload_date": "2020-09-12",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "bhv",
       "bcp47": "bhv",
       "name": "Bahau",
-      "glottocode": "baha1258",
+      "glottocode": "baha1257",
       "autonym": "Bahau",
       "dialect": null
     },
@@ -8803,7 +8826,7 @@
     "url": "https://www.youtube.com/watch?v=A9BO3Sv1MEE",
     "duration_seconds": 112,
     "upload_date": "2020-09-11",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "epo",
@@ -8832,18 +8855,18 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
+        "ar",
+        "da",
+        "de",
         "en",
         "eo",
         "es",
         "fr",
-        "pt",
-        "ru",
-        "de",
         "it",
         "ja",
-        "zh",
-        "pl",
-        "nl"
+        "nl",
+        "pt-BR",
+        "tr"
       ],
       "native_text": null,
       "english_translation": null
@@ -8881,7 +8904,7 @@
     "url": "https://www.youtube.com/watch?v=8sP3R7aCAno",
     "duration_seconds": 251,
     "upload_date": "2020-08-23",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "diq",
@@ -8910,16 +8933,16 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
-        "tr",
+        "ar",
         "de",
+        "en",
+        "eo",
         "fr",
-        "es",
-        "it",
-        "ru",
-        "nl",
-        "sv",
-        "pl"
+        "ka",
+        "ku",
+        "la",
+        "tr",
+        "zza"
       ],
       "native_text": null,
       "english_translation": null
@@ -8962,7 +8985,7 @@
     "url": "https://www.youtube.com/watch?v=etUt37dgA4o",
     "duration_seconds": 126,
     "upload_date": "2020-08-19",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "mas",
@@ -9030,7 +9053,7 @@
     "url": "https://www.youtube.com/watch?v=8vZwNYjN1CE",
     "duration_seconds": 209,
     "upload_date": "2020-07-31",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "bho",
@@ -9096,7 +9119,7 @@
     "url": "https://www.youtube.com/watch?v=yyFsmiNXqXg",
     "duration_seconds": 180,
     "upload_date": "2020-07-30",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "reading_or_song",
     "primary_language": {
       "iso639_3": "nya",
@@ -9125,7 +9148,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en"
+        "ny"
       ],
       "native_text": null,
       "english_translation": null
@@ -9165,7 +9188,7 @@
     "url": "https://www.youtube.com/watch?v=98uqtsvCWwU",
     "duration_seconds": 403,
     "upload_date": "2020-07-25",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "min",
@@ -9231,13 +9254,13 @@
     "url": "https://www.youtube.com/watch?v=V1hLSrjKNas",
     "duration_seconds": 155,
     "upload_date": "2020-07-24",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "bsq",
       "bcp47": "bsq",
       "name": "Bassa",
-      "glottocode": "bass1259",
+      "glottocode": "nucl1418",
       "autonym": "Ɓǎsɔ́ɔ̀-wùɖù",
       "dialect": null
     },
@@ -9299,7 +9322,7 @@
     "url": "https://www.youtube.com/watch?v=3ghwdhXaLoo",
     "duration_seconds": 241,
     "upload_date": "2020-07-23",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "nys",
@@ -9365,7 +9388,7 @@
     "url": "https://www.youtube.com/watch?v=NI9lRDW_x2E",
     "duration_seconds": 571,
     "upload_date": "2020-07-17",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "spa",
@@ -9431,7 +9454,7 @@
     "url": "https://www.youtube.com/watch?v=DoQdMWN5C8A",
     "duration_seconds": 123,
     "upload_date": "2020-07-16",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "twi",
@@ -9468,7 +9491,7 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "tw"
+        "eo"
       ],
       "native_text": null,
       "english_translation": null
@@ -9509,7 +9532,7 @@
     "url": "https://www.youtube.com/watch?v=3428HkaqA94",
     "duration_seconds": 170,
     "upload_date": "2020-07-15",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "yue",
@@ -9539,7 +9562,7 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "zh-Hant"
+        "yue-HK"
       ],
       "native_text": null,
       "english_translation": null
@@ -9663,7 +9686,7 @@
     "url": "https://www.youtube.com/watch?v=1fuNjOEhNvI",
     "duration_seconds": 125,
     "upload_date": "2020-07-10",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "gle",
@@ -9739,7 +9762,7 @@
     "url": "https://www.youtube.com/watch?v=4f2IQ219Xg4",
     "duration_seconds": 129,
     "upload_date": "2020-07-09",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "cns",
@@ -9813,7 +9836,7 @@
       "iso639_3": "yii",
       "bcp47": "yii",
       "name": "Yidiny",
-      "glottocode": "yidi1249",
+      "glottocode": "yidi1250",
       "autonym": "Gunggay",
       "dialect": "Gunggay"
     },
@@ -9874,7 +9897,7 @@
     "url": "https://www.youtube.com/watch?v=dgT6xExNcns",
     "duration_seconds": 199,
     "upload_date": "2020-07-07",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "ibo",
@@ -9935,7 +9958,7 @@
     "url": "https://www.youtube.com/watch?v=SMgN7tClSM8",
     "duration_seconds": 105,
     "upload_date": "2020-07-03",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "hil",
@@ -9964,7 +9987,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
+        "en-GB",
         "hil"
       ],
       "native_text": null,
@@ -10002,7 +10025,7 @@
     "url": "https://www.youtube.com/watch?v=zhQNFQCcMxI",
     "duration_seconds": 89,
     "upload_date": "2020-07-02",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "ktg",
@@ -10074,7 +10097,7 @@
     "url": "https://www.youtube.com/watch?v=tUWWNDUV2Tg",
     "duration_seconds": 467,
     "upload_date": "2020-07-01",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "apc",
@@ -10110,7 +10133,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en"
+        "ar"
       ],
       "native_text": null,
       "english_translation": null
@@ -10149,7 +10172,7 @@
     "url": "https://www.youtube.com/watch?v=k19I3vyu0WU",
     "duration_seconds": 82,
     "upload_date": "2020-06-30",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "qus",
@@ -10557,7 +10580,7 @@
     "url": "https://www.youtube.com/watch?v=xAw_7w-hQwU",
     "duration_seconds": 1412,
     "upload_date": "2020-06-18",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "hke",
@@ -10629,7 +10652,7 @@
     "url": "https://www.youtube.com/watch?v=g92Og21FC6Y",
     "duration_seconds": 123,
     "upload_date": "2020-06-17",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "wln",
@@ -10665,7 +10688,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
+        "fr",
         "wa"
       ],
       "native_text": null,
@@ -10708,7 +10731,7 @@
     "url": "https://www.youtube.com/watch?v=m8IQRKl7UT0",
     "duration_seconds": 196,
     "upload_date": "2020-06-16",
-    "license": "CC-BY-SA-4.0",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "min",
@@ -10848,7 +10871,7 @@
     "url": "https://www.youtube.com/watch?v=IM-g4Kh0G8w",
     "duration_seconds": 211,
     "upload_date": "2020-06-12",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "tcs",
@@ -10913,7 +10936,7 @@
     "url": "https://www.youtube.com/watch?v=4NwcTJ8_ZWY",
     "duration_seconds": 201,
     "upload_date": "2020-06-11",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "rhg",
@@ -10979,7 +11002,7 @@
     "url": "https://www.youtube.com/watch?v=klhzWSo4MTQ",
     "duration_seconds": 422,
     "upload_date": "2020-06-10",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "conversation",
     "primary_language": {
       "iso639_3": "nap",
@@ -11121,7 +11144,7 @@
     "url": "https://www.youtube.com/watch?v=mygnGGT679A",
     "duration_seconds": 195,
     "upload_date": "2020-06-07",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "cat",
@@ -11150,8 +11173,8 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
-        "ca"
+        "ca",
+        "es"
       ],
       "native_text": null,
       "english_translation": null
@@ -11188,7 +11211,7 @@
     "url": "https://www.youtube.com/watch?v=ym-Wmc3aJAo",
     "duration_seconds": 314,
     "upload_date": "2020-06-06",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "ewo",
@@ -11267,7 +11290,7 @@
     "url": "https://www.youtube.com/watch?v=xPixyaLG86Y",
     "duration_seconds": 137,
     "upload_date": "2020-06-05",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "bar",
@@ -11401,7 +11424,7 @@
     "url": "https://www.youtube.com/watch?v=VyuK6ggrZCc",
     "duration_seconds": 247,
     "upload_date": "2020-06-03",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "tir",
@@ -11470,7 +11493,7 @@
     "url": "https://www.youtube.com/watch?v=2b_aZQDIr1k",
     "duration_seconds": 252,
     "upload_date": "2020-05-31",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "glg",
@@ -11577,9 +11600,9 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
+        "eo",
         "fr",
-        "mfe",
-        "es"
+        "mfe"
       ],
       "native_text": null,
       "english_translation": null
@@ -11685,7 +11708,7 @@
     "url": "https://www.youtube.com/watch?v=pfi1mvVB0iU",
     "duration_seconds": 261,
     "upload_date": "2020-05-28",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "wbl",
@@ -11823,7 +11846,7 @@
     "url": "https://www.youtube.com/watch?v=rsmIHIUXAa8",
     "duration_seconds": 250,
     "upload_date": "2020-05-22",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "spa",
@@ -11866,7 +11889,7 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "es"
+        "pt-BR"
       ],
       "native_text": null,
       "english_translation": null
@@ -11969,7 +11992,7 @@
     "url": "https://www.youtube.com/watch?v=JeRb7Ud1kSU",
     "duration_seconds": 125,
     "upload_date": "2020-05-20",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "rus",
@@ -11998,7 +12021,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en"
+        "ru"
       ],
       "native_text": null,
       "english_translation": null
@@ -12038,7 +12061,7 @@
     "url": "https://www.youtube.com/watch?v=Q5r3K3O_9no",
     "duration_seconds": 134,
     "upload_date": "2020-05-19",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "kbp",
@@ -12067,7 +12090,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en"
+        "fr"
       ],
       "native_text": null,
       "english_translation": null
@@ -12257,7 +12280,7 @@
     "url": "https://www.youtube.com/watch?v=iFUPTM1rX28",
     "duration_seconds": 285,
     "upload_date": "2020-05-15",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "shi",
@@ -12326,7 +12349,7 @@
     "url": "https://www.youtube.com/watch?v=uOYnyIX_8Gw",
     "duration_seconds": 181,
     "upload_date": "2020-05-14",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "fra",
@@ -12355,7 +12378,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en"
+        "fr"
       ],
       "native_text": null,
       "english_translation": null
@@ -12467,7 +12490,7 @@
     "url": "https://www.youtube.com/watch?v=S7nctC7ckbU",
     "duration_seconds": 127,
     "upload_date": "2020-04-29",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "kan",
@@ -12522,7 +12545,7 @@
     "url": "https://www.youtube.com/watch?v=Cy3FzYLmUQc",
     "duration_seconds": 527,
     "upload_date": "2020-04-25",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "fuc",
@@ -12666,7 +12689,7 @@
     "url": "https://www.youtube.com/watch?v=d5gC7zVKnkY",
     "duration_seconds": 197,
     "upload_date": "2020-04-23",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "tyv",
@@ -12696,7 +12719,7 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "ru",
+        "tr",
         "tyv"
       ],
       "native_text": null,
@@ -12737,7 +12760,7 @@
     "url": "https://www.youtube.com/watch?v=4PSRh2q4AYo",
     "duration_seconds": 224,
     "upload_date": "2020-04-22",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "npi",
@@ -12796,7 +12819,7 @@
     "url": "https://www.youtube.com/watch?v=CNFK7h0G5a4",
     "duration_seconds": 406,
     "upload_date": "2020-04-21",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "sign_language",
     "primary_language": {
       "iso639_3": "csq",
@@ -12853,7 +12876,7 @@
     "url": "https://www.youtube.com/watch?v=hgJeqdSw4aI",
     "duration_seconds": 139,
     "upload_date": "2020-04-19",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "quv",
@@ -12889,8 +12912,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
-        "es"
+        "es-419"
       ],
       "native_text": null,
       "english_translation": null
@@ -12933,7 +12955,7 @@
     "url": "https://www.youtube.com/watch?v=F9OpKOhJs-c",
     "duration_seconds": 92,
     "upload_date": "2020-04-17",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "rar",
@@ -12990,7 +13012,7 @@
     "url": "https://www.youtube.com/watch?v=k7Earnq8sHw",
     "duration_seconds": 294,
     "upload_date": "2020-04-16",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "jam",
@@ -13052,7 +13074,7 @@
     "url": "https://www.youtube.com/watch?v=NmmrJbZvWmc",
     "duration_seconds": 40,
     "upload_date": "2020-04-14",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "tuk",
@@ -13113,7 +13135,7 @@
     "url": "https://www.youtube.com/watch?v=u0cJXVvo5I4",
     "duration_seconds": 129,
     "upload_date": "2020-04-11",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "sro",
@@ -13192,7 +13214,7 @@
     "url": "https://www.youtube.com/watch?v=Opv58piY_bs",
     "duration_seconds": 163,
     "upload_date": "2020-04-10",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "lip",
@@ -13259,7 +13281,7 @@
     "url": "https://www.youtube.com/watch?v=yIO-F3l4b7w",
     "duration_seconds": 266,
     "upload_date": "2020-04-09",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "fin",
@@ -13288,8 +13310,8 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
-        "fi"
+        "fi",
+        "sv"
       ],
       "native_text": null,
       "english_translation": null
@@ -13724,7 +13746,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en"
+        "de"
       ],
       "native_text": null,
       "english_translation": null
@@ -13889,7 +13911,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en"
+        "ne"
       ],
       "native_text": null,
       "english_translation": null
@@ -14382,7 +14404,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en"
+        "it"
       ],
       "native_text": null,
       "english_translation": null
@@ -15123,8 +15145,8 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
-        "co"
+        "co",
+        "en"
       ],
       "native_text": null,
       "english_translation": null
@@ -16141,8 +16163,8 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "pt",
-        "es"
+        "es",
+        "pt-PT"
       ],
       "native_text": null,
       "english_translation": null
@@ -18259,8 +18281,8 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "kmr",
-        "ar"
+        "fr",
+        "ku"
       ],
       "native_text": null,
       "english_translation": null
@@ -18638,7 +18660,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en"
+        "da"
       ],
       "native_text": null,
       "english_translation": null
@@ -18960,7 +18982,7 @@
     "url": "https://www.youtube.com/watch?v=8iE0R8b3tq4",
     "duration_seconds": 186,
     "upload_date": "2019-06-22",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "abs",
@@ -18990,7 +19012,7 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "id"
+        "es"
       ],
       "native_text": null,
       "english_translation": null
@@ -19039,7 +19061,7 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "no"
+        "eo"
       ],
       "native_text": null,
       "english_translation": null
@@ -19307,8 +19329,8 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
-        "ace"
+        "ace",
+        "en"
       ],
       "native_text": null,
       "english_translation": null
@@ -19949,7 +19971,7 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "es"
+        "pt-BR"
       ],
       "native_text": null,
       "english_translation": null
@@ -20283,7 +20305,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en"
+        "es"
       ],
       "native_text": null,
       "english_translation": null
@@ -20462,7 +20484,7 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "krm"
+        "es"
       ],
       "native_text": null,
       "english_translation": null
@@ -20744,8 +20766,8 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
-        "srd"
+        "it",
+        "sc"
       ],
       "native_text": null,
       "english_translation": null
@@ -21222,7 +21244,7 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "mg"
+        "fr"
       ],
       "native_text": null,
       "english_translation": null
@@ -21302,7 +21324,7 @@
       "iso639_3": "szl",
       "bcp47": "szl",
       "name": "Silesian",
-      "glottocode": "sile1254",
+      "glottocode": "sile1253",
       "autonym": "Ślōnskŏ gŏdka",
       "dialect": null
     },
@@ -21636,8 +21658,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
-        "ast"
+        "es"
       ],
       "native_text": null,
       "english_translation": null
@@ -21797,7 +21818,7 @@
       "iso639_3": "bbc",
       "bcp47": "bbc",
       "name": "Batak Toba",
-      "glottocode": "bata1299",
+      "glottocode": "bata1289",
       "autonym": "Hata Batak Toba",
       "dialect": null
     },
@@ -22134,7 +22155,6 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
         "es"
       ],
       "native_text": null,
@@ -22241,12 +22261,12 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
-        "fr",
         "ar",
-        "kab",
+        "ber",
+        "en",
         "es",
-        "de"
+        "fr",
+        "it"
       ],
       "native_text": null,
       "english_translation": null
@@ -22374,7 +22394,7 @@
       "iso639_3": "pes",
       "bcp47": "fa",
       "name": "Iranian Persian",
-      "glottocode": "iran1263",
+      "glottocode": "west2369",
       "autonym": "فارسی",
       "dialect": null
     },
@@ -22719,7 +22739,7 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "bar"
+        "es"
       ],
       "native_text": null,
       "english_translation": null
@@ -22773,10 +22793,10 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
+        "ber",
         "en",
-        "fr",
         "es",
-        "ar"
+        "gl"
       ],
       "native_text": null,
       "english_translation": null
@@ -22958,7 +22978,7 @@
       "iso639_3": "irk",
       "bcp47": "irk",
       "name": "Iraqw",
-      "glottocode": "iraq1246",
+      "glottocode": "iraq1241",
       "autonym": "Iraqw",
       "dialect": null
     },
@@ -23208,7 +23228,7 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "fy"
+        "eo"
       ],
       "native_text": null,
       "english_translation": null
@@ -23436,8 +23456,8 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
-        "fr"
+        "ar",
+        "en"
       ],
       "native_text": null,
       "english_translation": null
@@ -23583,7 +23603,7 @@
       "iso639_3": "kua",
       "bcp47": "kj",
       "name": "Kuanyama",
-      "glottocode": "kwan1273",
+      "glottocode": "kuan1247",
       "autonym": "Oshikwanyama",
       "dialect": "Oshiwambo"
     },
@@ -23704,7 +23724,7 @@
       "iso639_3": "oss",
       "bcp47": "os",
       "name": "Ossetian",
-      "glottocode": "osse1245",
+      "glottocode": "osse1243",
       "autonym": "Ирон ӕвзаг",
       "dialect": "Iron Ossetian"
     },
@@ -23923,7 +23943,7 @@
     "url": "https://www.youtube.com/watch?v=NMBVCEq8TLU",
     "duration_seconds": 98,
     "upload_date": "2018-04-04",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "lou",
@@ -24329,7 +24349,6 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
         "es"
       ],
       "native_text": null,
@@ -24450,8 +24469,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
-        "fr"
+        "es"
       ],
       "native_text": null,
       "english_translation": null
@@ -24511,8 +24529,8 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
-        "ar"
+        "ar",
+        "en"
       ],
       "native_text": null,
       "english_translation": null
@@ -24679,7 +24697,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en"
+        "br"
       ],
       "native_text": null,
       "english_translation": null
@@ -25016,7 +25034,7 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "fr"
+        "eo"
       ],
       "native_text": null,
       "english_translation": null
@@ -25475,7 +25493,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en"
+        "it"
       ],
       "native_text": null,
       "english_translation": null
@@ -25586,8 +25604,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
-        "es"
+        "en"
       ],
       "native_text": null,
       "english_translation": null
@@ -25869,7 +25886,7 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "ht"
+        "es"
       ],
       "native_text": null,
       "english_translation": null
@@ -26116,7 +26133,7 @@
     "url": "https://www.youtube.com/watch?v=ZKcvZmtar9g",
     "duration_seconds": 53,
     "upload_date": "2017-12-23",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "gle",
@@ -26146,8 +26163,8 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "ga",
-        "es"
+        "es",
+        "ga"
       ],
       "native_text": null,
       "english_translation": null
@@ -26332,7 +26349,7 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en"
+        "es"
       ],
       "native_text": null,
       "english_translation": null
@@ -26733,7 +26750,7 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "es"
+        "fil"
       ],
       "native_text": null,
       "english_translation": null
@@ -26766,7 +26783,7 @@
       "bcp47": "cmn",
       "name": "Mandarin Chinese",
       "glottocode": "mand1415",
-      "autonym": null,
+      "autonym": "中文",
       "dialect": "Henan Mandarin"
     },
     "additional_languages": [],
@@ -26839,8 +26856,8 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "ksh",
-        "en"
+        "en",
+        "ksh"
       ],
       "native_text": null,
       "english_translation": null
@@ -26919,7 +26936,7 @@
     "url": "https://www.youtube.com/watch?v=30d4TyH_9Ts",
     "duration_seconds": 441,
     "upload_date": "2017-10-13",
-    "license": "CC-BY-NC-4.0",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "bre",
@@ -26971,7 +26988,7 @@
     "url": "https://www.youtube.com/watch?v=ok7DGXbk8Mk",
     "duration_seconds": 50,
     "upload_date": "2017-10-13",
-    "license": "CC-BY-NC-4.0",
+    "license": "ALL_RIGHTS_RESERVED",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "ita",
@@ -27026,17 +27043,42 @@
     "url": "https://www.youtube.com/watch?v=8jAAPdvTld0",
     "duration_seconds": 340,
     "upload_date": "2017-10-13",
-    "license": "CC-BY-NC-4.0",
+    "license": "ALL_RIGHTS_RESERVED",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "jpn",
       "bcp47": "ja",
       "name": "Japanese",
-      "glottocode": "japa1256",
+      "glottocode": "nucl1643",
       "autonym": "日本語",
       "dialect": null
     },
-    "additional_languages": [],
+    "additional_languages": [
+      {
+        "iso639_3": "fra",
+        "bcp47": "fr",
+        "name": "French",
+        "glottocode": "stan1290",
+        "autonym": "Français",
+        "dialect": null
+      },
+      {
+        "iso639_3": "eng",
+        "bcp47": "en",
+        "name": "English",
+        "glottocode": "stan1293",
+        "autonym": "English",
+        "dialect": null
+      },
+      {
+        "iso639_3": "por",
+        "bcp47": "pt",
+        "name": "Portuguese",
+        "glottocode": "port1283",
+        "autonym": "Português",
+        "dialect": "Angolan Portuguese"
+      }
+    ],
     "speakers": [
       {
         "name": "Stéfane Helder",
@@ -27093,7 +27135,24 @@
       "autonym": "Khoekhoegowab",
       "dialect": null
     },
-    "additional_languages": [],
+    "additional_languages": [
+      {
+        "iso639_3": "eng",
+        "bcp47": "en",
+        "name": "English",
+        "glottocode": "stan1293",
+        "autonym": "English",
+        "dialect": null
+      },
+      {
+        "iso639_3": "afr",
+        "bcp47": "af",
+        "name": "Afrikaans",
+        "glottocode": "afri1274",
+        "autonym": "Afrikaans",
+        "dialect": null
+      }
+    ],
     "speakers": [
       {
         "name": "Revival",
@@ -27147,7 +27206,7 @@
       "iso639_3": "cfm",
       "bcp47": "cfm",
       "name": "Falam Chin",
-      "glottocode": "fala1242",
+      "glottocode": "fala1243",
       "autonym": "Falam",
       "dialect": null
     },
@@ -27198,7 +27257,7 @@
     "url": "https://www.youtube.com/watch?v=A1QY9Ul5_iM",
     "duration_seconds": 183,
     "upload_date": "2017-09-21",
-    "license": "CC-BY-NC-4.0",
+    "license": "CC-BY-SA-4.0",
     "content_type": "conversation",
     "primary_language": {
       "iso639_3": "ary",
@@ -27227,8 +27286,8 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
         "ary",
+        "en",
         "es-AR",
         "vi"
       ],
@@ -27258,13 +27317,13 @@
     "url": "https://www.youtube.com/watch?v=F4xgvj4kSnU",
     "duration_seconds": 158,
     "upload_date": "2017-09-20",
-    "license": "CC-BY-NC-4.0",
+    "license": "CC-BY-SA-4.0",
     "content_type": "conversation",
     "primary_language": {
       "iso639_3": "bgq",
       "bcp47": "bgq",
       "name": "Bagri",
-      "glottocode": "bagr1244",
+      "glottocode": "bagr1243",
       "autonym": "बागड़ी",
       "dialect": null
     },
@@ -27317,7 +27376,7 @@
     "url": "https://www.youtube.com/watch?v=f7Msppvklb0",
     "duration_seconds": 151,
     "upload_date": "2017-09-16",
-    "license": "CC-BY-NC-4.0",
+    "license": "ALL_RIGHTS_RESERVED",
     "content_type": "conversation",
     "primary_language": {
       "iso639_3": "dan",
@@ -27372,7 +27431,7 @@
     "url": "https://www.youtube.com/watch?v=CwGK0BmHbmY",
     "duration_seconds": 223,
     "upload_date": "2017-09-16",
-    "license": "CC-BY-NC-4.0",
+    "license": "ALL_RIGHTS_RESERVED",
     "content_type": "conversation",
     "primary_language": {
       "iso639_3": "ces",
@@ -27382,7 +27441,48 @@
       "autonym": "Čeština",
       "dialect": null
     },
-    "additional_languages": [],
+    "additional_languages": [
+      {
+        "iso639_3": "eng",
+        "bcp47": "en",
+        "name": "English",
+        "glottocode": "stan1293",
+        "autonym": "English",
+        "dialect": null
+      },
+      {
+        "iso639_3": "bul",
+        "bcp47": "bg",
+        "name": "Bulgarian",
+        "glottocode": "bulg1262",
+        "autonym": "български",
+        "dialect": null
+      },
+      {
+        "iso639_3": "ita",
+        "bcp47": "it",
+        "name": "Italian",
+        "glottocode": "ital1282",
+        "autonym": "Italiano",
+        "dialect": null
+      },
+      {
+        "iso639_3": "deu",
+        "bcp47": "de",
+        "name": "German",
+        "glottocode": "stan1295",
+        "autonym": "Deutsch",
+        "dialect": null
+      },
+      {
+        "iso639_3": "rus",
+        "bcp47": "ru",
+        "name": "Russian",
+        "glottocode": "russ1263",
+        "autonym": "Русский",
+        "dialect": null
+      }
+    ],
     "speakers": [
       {
         "name": "Dr. Karel Oliva",
@@ -27424,7 +27524,7 @@
     "url": "https://www.youtube.com/watch?v=t6a5LmxqW6c",
     "duration_seconds": 113,
     "upload_date": "2017-09-13",
-    "license": "CC-BY-NC-4.0",
+    "license": "CC-BY-SA-4.0",
     "content_type": "conversation",
     "primary_language": {
       "iso639_3": "szl",
@@ -27594,7 +27694,7 @@
     "url": "https://www.youtube.com/watch?v=CbiVj4rV3dY",
     "duration_seconds": 288,
     "upload_date": "2017-09-05",
-    "license": "CC-BY-NC-4.0",
+    "license": "CC-BY-SA-4.0",
     "content_type": "conversation",
     "primary_language": {
       "iso639_3": "cmn",
@@ -27626,8 +27726,8 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "zh-Hans",
-        "en"
+        "en",
+        "zh-Hans"
       ],
       "native_text": null,
       "english_translation": null
@@ -27657,7 +27757,7 @@
     "url": "https://www.youtube.com/watch?v=yE9HBsnhEc8",
     "duration_seconds": 103,
     "upload_date": "2017-08-31",
-    "license": "CC-BY-NC-4.0",
+    "license": "ALL_RIGHTS_RESERVED",
     "content_type": "conversation",
     "primary_language": {
       "iso639_3": "gsw",
@@ -27824,13 +27924,13 @@
     "url": "https://www.youtube.com/watch?v=3jpoUySC6sk",
     "duration_seconds": 240,
     "upload_date": "2017-08-24",
-    "license": "CC-BY-NC-4.0",
+    "license": "CC-BY-SA-4.0",
     "content_type": "conversation",
     "primary_language": {
       "iso639_3": "vec",
       "bcp47": "vec",
       "name": "Venetian",
-      "glottocode": "vene1257",
+      "glottocode": "vene1258",
       "autonym": "Vèneto",
       "dialect": "Chipileño"
     },
@@ -27885,13 +27985,13 @@
     "url": "https://www.youtube.com/watch?v=Z2lYJyGr0vc",
     "duration_seconds": 177,
     "upload_date": "2017-08-22",
-    "license": "CC-BY-NC-4.0",
+    "license": "CC-BY-SA-4.0",
     "content_type": "conversation",
     "primary_language": {
       "iso639_3": "sev",
       "bcp47": "sev",
       "name": "Nyarafolo Senoufo",
-      "glottocode": "nyar1246",
+      "glottocode": "nyar1245",
       "autonym": "Nyarafolo",
       "dialect": null
     },
@@ -28053,7 +28153,7 @@
       "iso639_3": "fse",
       "bcp47": "fse",
       "name": "Finnish Sign Language",
-      "glottocode": "finn1319",
+      "glottocode": "finn1310",
       "autonym": "Suomalainen viittomakieli",
       "dialect": null
     },
@@ -28158,7 +28258,7 @@
     "url": "https://www.youtube.com/watch?v=kc8rKa11EzI",
     "duration_seconds": 157,
     "upload_date": "2017-08-10",
-    "license": "CC-BY-NC-4.0",
+    "license": "CC-BY-SA-4.0",
     "content_type": "conversation",
     "primary_language": {
       "iso639_3": "crh",
@@ -28221,7 +28321,7 @@
       "iso639_3": "oss",
       "bcp47": "os",
       "name": "Ossetian",
-      "glottocode": "osse1245",
+      "glottocode": "osse1243",
       "autonym": "Ирон",
       "dialect": "Kudar"
     },
@@ -28399,7 +28499,7 @@
     "url": "https://www.youtube.com/watch?v=KncKzJEIUko",
     "duration_seconds": 127,
     "upload_date": "2017-07-28",
-    "license": "CC-BY-NC-4.0",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "klu",
@@ -29135,7 +29235,7 @@
       "bcp47": "vec",
       "name": "Venetian",
       "glottocode": "vene1258",
-      "autonym": null,
+      "autonym": "Vèneto",
       "dialect": "Veronese"
     },
     "additional_languages": [],
@@ -29191,7 +29291,7 @@
       "bcp47": "en",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": "Scottish English"
     },
     "additional_languages": [],
@@ -29484,7 +29584,7 @@
       "bcp47": "slf",
       "name": "Swiss-Italian Sign Language",
       "glottocode": "swis1235",
-      "autonym": null,
+      "autonym": "Lingua dei segni svizzera italiana (LIS-SI)",
       "dialect": null
     },
     "additional_languages": [],
@@ -29536,7 +29636,7 @@
       "bcp47": "vai",
       "name": "Vai",
       "glottocode": "vaii1241",
-      "autonym": null,
+      "autonym": "ꕙꔤ",
       "dialect": null
     },
     "additional_languages": [],
@@ -29595,7 +29695,7 @@
       "bcp47": "iba",
       "name": "Iban",
       "glottocode": "iban1264",
-      "autonym": null,
+      "autonym": "Jaku Iban",
       "dialect": null
     },
     "additional_languages": [],
@@ -30094,7 +30194,7 @@
     "url": "https://www.youtube.com/watch?v=jeSxC2RNSkk",
     "duration_seconds": 278,
     "upload_date": "2017-05-04",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "gle",
@@ -30502,9 +30602,9 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
+        "es-419",
         "fr",
-        "ht",
-        "es-419"
+        "ht"
       ],
       "native_text": null,
       "english_translation": null
@@ -30670,8 +30770,8 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "pt-BR",
-        "es"
+        "es",
+        "pt-BR"
       ],
       "native_text": null,
       "english_translation": null
@@ -30868,7 +30968,7 @@
       "bcp47": "en",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": "Scottish English"
     },
     "additional_languages": [],
@@ -31153,8 +31253,8 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "yue-HK",
-        "en"
+        "en",
+        "yue-HK"
       ],
       "native_text": null,
       "english_translation": null
@@ -31289,7 +31389,7 @@
       "bcp47": "bg-GR",
       "name": "Bulgarian",
       "glottocode": "bulg1262",
-      "autonym": null,
+      "autonym": "български",
       "dialect": "Pomak"
     },
     "additional_languages": [],
@@ -32038,7 +32138,7 @@
       "bcp47": "kjg",
       "name": "Khmu",
       "glottocode": "khmu1256",
-      "autonym": null,
+      "autonym": "Khmhu'",
       "dialect": null
     },
     "additional_languages": [],
@@ -32535,8 +32635,8 @@
       "available_subtitles": [
         "en",
         "eo",
-        "ia",
-        "es"
+        "es",
+        "ia"
       ],
       "native_text": null,
       "english_translation": null
@@ -33376,9 +33476,9 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
+        "de",
         "en",
-        "eo",
-        "de"
+        "eo"
       ],
       "native_text": null,
       "english_translation": null
@@ -33904,8 +34004,8 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "ru",
-        "es"
+        "es",
+        "ru"
       ],
       "native_text": null,
       "english_translation": null
@@ -34088,7 +34188,7 @@
       "bcp47": "en-GB",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": "Cumbrian English"
     },
     "additional_languages": [],
@@ -34369,8 +34469,8 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "pt-BR",
-        "es"
+        "es",
+        "pt-BR"
       ],
       "native_text": null,
       "english_translation": null
@@ -34576,8 +34676,8 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "kw",
-        "en"
+        "en",
+        "kw"
       ],
       "native_text": null,
       "english_translation": null
@@ -34812,7 +34912,7 @@
       "bcp47": "en-GB",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": "Scottish English"
     },
     "additional_languages": [],
@@ -35205,7 +35305,7 @@
       "bcp47": "bfr",
       "name": "Bazigar",
       "glottocode": "bazi1237",
-      "autonym": null,
+      "autonym": "Bazigar",
       "dialect": null
     },
     "additional_languages": [],
@@ -35806,7 +35906,7 @@
       "bcp47": "en",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": null
     },
     "additional_languages": [
@@ -35921,7 +36021,7 @@
       "bcp47": "en-GB",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": "Scottish English"
     },
     "additional_languages": [],
@@ -36094,8 +36194,8 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "zh-Hans",
-        "en"
+        "en",
+        "zh-Hans"
       ],
       "native_text": null,
       "english_translation": null
@@ -36146,8 +36246,8 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
-        "de"
+        "de",
+        "en"
       ],
       "native_text": null,
       "english_translation": null
@@ -36387,7 +36487,7 @@
       "bcp47": "en-GB",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": "Scottish English"
     },
     "additional_languages": [],
@@ -37651,7 +37751,7 @@
       "bcp47": "lld",
       "name": "Ladin",
       "glottocode": "ladi1250",
-      "autonym": null,
+      "autonym": "Ladin",
       "dialect": "Solandro"
     },
     "additional_languages": [],
@@ -38086,8 +38186,8 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "la",
-        "es"
+        "es",
+        "la"
       ],
       "native_text": null,
       "english_translation": null
@@ -38217,7 +38317,7 @@
       "bcp47": "ssr",
       "name": "Swiss-French Sign Language",
       "glottocode": "swis1241",
-      "autonym": null,
+      "autonym": "Langue des signes suisse romande (LSF-SR)",
       "dialect": null
     },
     "additional_languages": [
@@ -38723,7 +38823,7 @@
       "bcp47": "thq",
       "name": "Kochila Tharu",
       "glottocode": "koch1247",
-      "autonym": null,
+      "autonym": "कोचिला थारू",
       "dialect": "Kochila Tharu"
     },
     "additional_languages": [],
@@ -38954,8 +39054,8 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
-        "el"
+        "el",
+        "en"
       ],
       "native_text": null,
       "english_translation": null
@@ -40105,8 +40205,8 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "pt-PT",
-        "es"
+        "es",
+        "pt-PT"
       ],
       "native_text": null,
       "english_translation": null
@@ -40191,7 +40291,7 @@
       "bcp47": "en-FJ",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": "Fiji English"
     },
     "additional_languages": [],
@@ -40288,7 +40388,7 @@
       "bcp47": "mek",
       "name": "Mekeo",
       "glottocode": "meke1243",
-      "autonym": null,
+      "autonym": "Mekeo",
       "dialect": null
     },
     "additional_languages": [],
@@ -40473,8 +40573,8 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "en",
-        "cy"
+        "cy",
+        "en"
       ],
       "native_text": null,
       "english_translation": null
@@ -40999,7 +41099,7 @@
       "bcp47": "sax",
       "name": "Sa",
       "glottocode": "saaa1241",
-      "autonym": null,
+      "autonym": "Sa",
       "dialect": null
     },
     "additional_languages": [],
@@ -41337,8 +41437,8 @@
       "has_subtitles": true,
       "available_subtitles": [
         "ar",
-        "en",
-        "cy"
+        "cy",
+        "en"
       ],
       "native_text": null,
       "english_translation": null
@@ -41423,7 +41523,7 @@
       "bcp47": "ysl",
       "name": "Yugoslavian Sign Language",
       "glottocode": "yugo1238",
-      "autonym": null,
+      "autonym": "Gjuha e Shenjave Kosovare",
       "dialect": "Kosovar Sign Language"
     },
     "additional_languages": [],
@@ -41862,8 +41962,8 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "zh-Hans",
-        "en"
+        "en",
+        "zh-Hans"
       ],
       "native_text": null,
       "english_translation": null
@@ -42285,9 +42385,9 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
+        "es",
         "gl",
-        "ja",
-        "es"
+        "ja"
       ],
       "native_text": null,
       "english_translation": null
@@ -42411,7 +42511,7 @@
       "bcp47": "llu",
       "name": "Lau",
       "glottocode": "lauu1247",
-      "autonym": null,
+      "autonym": "Lau",
       "dialect": null
     },
     "additional_languages": [],
@@ -42914,7 +43014,7 @@
       "bcp47": "bgx",
       "name": "Balkan Gagauz Turkish",
       "glottocode": "balk1254",
-      "autonym": null,
+      "autonym": "Rumeli Türkçesi / Gagauzça",
       "dialect": null
     },
     "additional_languages": [],
@@ -43020,7 +43120,7 @@
       "bcp47": "sco",
       "name": "Scots",
       "glottocode": "scot1243",
-      "autonym": null,
+      "autonym": "Scots",
       "dialect": "Doric Scots"
     },
     "additional_languages": [
@@ -43071,7 +43171,7 @@
       "bcp47": "sco",
       "name": "Scots",
       "glottocode": "scot1243",
-      "autonym": null,
+      "autonym": "Scots",
       "dialect": "Shetlandic"
     },
     "additional_languages": [],
@@ -44064,7 +44164,7 @@
       "bcp47": "en",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": null
     },
     "additional_languages": [],
@@ -44360,8 +44460,8 @@
       "available_subtitles": [
         "en",
         "eo",
-        "pl",
-        "es"
+        "es",
+        "pl"
       ],
       "native_text": null,
       "english_translation": null
@@ -44502,7 +44602,7 @@
         "iso639_3": "nob",
         "bcp47": "nb",
         "name": "Norwegian Bokmål",
-        "glottocode": "norw1258"
+        "glottocode": "norw1259"
       }
     ],
     "speakers": [
@@ -44598,7 +44698,7 @@
     "url": "https://www.youtube.com/watch?v=4dfcO_bsB90",
     "duration_seconds": 117,
     "upload_date": "2014-04-15",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "swe",
@@ -44905,9 +45005,9 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
+        "es",
         "gl",
-        "ko",
-        "es"
+        "ko"
       ],
       "native_text": null,
       "english_translation": null
@@ -45115,7 +45215,7 @@
       "bcp47": "en",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": null
     },
     "additional_languages": [],
@@ -45211,7 +45311,7 @@
       "bcp47": "en",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": null
     },
     "additional_languages": [],
@@ -45316,7 +45416,7 @@
       "bcp47": "en",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": null
     },
     "additional_languages": [],
@@ -45473,7 +45573,7 @@
       "bcp47": "en",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": null
     },
     "additional_languages": [
@@ -45838,7 +45938,7 @@
       "bcp47": "en-ZA",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": "South African English"
     },
     "additional_languages": [],
@@ -45913,8 +46013,8 @@
       "available_subtitles": [
         "en",
         "eo",
-        "it",
-        "es"
+        "es",
+        "it"
       ],
       "native_text": null,
       "english_translation": null
@@ -46286,8 +46386,8 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "gl",
-        "es"
+        "es",
+        "gl"
       ],
       "native_text": null,
       "english_translation": null
@@ -46631,7 +46731,7 @@
       "bcp47": "en",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": null
     },
     "additional_languages": [],
@@ -46757,7 +46857,7 @@
       "bcp47": "en",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": null
     },
     "additional_languages": [],
@@ -46806,7 +46906,7 @@
       "bcp47": "en",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": null
     },
     "additional_languages": [],
@@ -46934,7 +47034,7 @@
       "bcp47": "en",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": null
     },
     "additional_languages": [],
@@ -47007,8 +47107,8 @@
       "available_subtitles": [
         "ar",
         "en",
-        "fr",
-        "es"
+        "es",
+        "fr"
       ],
       "native_text": null,
       "english_translation": null
@@ -47179,7 +47279,7 @@
       "bcp47": "en",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": null
     },
     "additional_languages": [],
@@ -47231,7 +47331,7 @@
       "bcp47": "en",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": null
     },
     "additional_languages": [],
@@ -47361,9 +47461,9 @@
     "transcription": {
       "has_subtitles": true,
       "available_subtitles": [
-        "yue-HK",
         "en",
-        "eo"
+        "eo",
+        "yue-HK"
       ],
       "native_text": null,
       "english_translation": null
@@ -47973,7 +48073,7 @@
       "bcp47": "en",
       "name": "English",
       "glottocode": "stan1293",
-      "autonym": null,
+      "autonym": "English",
       "dialect": null
     },
     "additional_languages": [],
@@ -48134,8 +48234,8 @@
       "has_subtitles": true,
       "available_subtitles": [
         "en",
-        "fr",
-        "es"
+        "es",
+        "fr"
       ],
       "native_text": null,
       "english_translation": null
@@ -48534,7 +48634,16 @@
       "autonym": "français cadien",
       "dialect": "Louisiana French"
     },
-    "additional_languages": [],
+    "additional_languages": [
+      {
+        "iso639_3": "eng",
+        "bcp47": "en",
+        "name": "English",
+        "glottocode": "stan1293",
+        "autonym": "English",
+        "dialect": null
+      }
+    ],
     "speakers": [
       {
         "name": "Louis Michot",
@@ -48580,7 +48689,16 @@
       "autonym": "français cadien",
       "dialect": "Louisiana French"
     },
-    "additional_languages": [],
+    "additional_languages": [
+      {
+        "iso639_3": "eng",
+        "bcp47": "en",
+        "name": "English",
+        "glottocode": "stan1293",
+        "autonym": "English",
+        "dialect": null
+      }
+    ],
     "speakers": [
       {
         "name": "Louis Michot",
@@ -48626,7 +48744,16 @@
       "autonym": "français cadien",
       "dialect": "Louisiana French"
     },
-    "additional_languages": [],
+    "additional_languages": [
+      {
+        "iso639_3": "eng",
+        "bcp47": "en",
+        "name": "English",
+        "glottocode": "stan1293",
+        "autonym": "English",
+        "dialect": null
+      }
+    ],
     "speakers": [
       {
         "name": "Louis Michot",

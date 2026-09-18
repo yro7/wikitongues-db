@@ -99,6 +99,12 @@ describe('WikitonguesDB API', () => {
     expect(db.findByLanguage('allemand').length).toBeGreaterThan(0);
     expect(db.findByLanguage('basque').length).toBeGreaterThan(0);
     expect(db.findByLanguage('arabe').length).toBeGreaterThan(0);
+    expect(db.findByLanguage('persan').length).toBeGreaterThan(0);
+    expect(db.findByLanguage('farsi').length).toBeGreaterThan(0);
+    expect(db.findByLanguage('norvegien').length).toBeGreaterThan(0);
+    expect(db.findByLanguage('kurde').length).toBeGreaterThan(0);
+    expect(db.findByLanguage('albanais').length).toBeGreaterThan(0);
+    expect(db.findByLanguage('pashto').length).toBeGreaterThan(0);
 
     // Spanish aliases
     expect(db.findByLanguage('euskera').length).toBeGreaterThan(0);
@@ -239,7 +245,7 @@ describe('WikitonguesDB API', () => {
 
     const sampledQue = db.random(1, 42, { language: 'que' });
     expect(sampledQue.length).toBe(1);
-    expect(sampledQue.at(0)?.primaryLanguage.iso639_3).toBe('que');
+    expect(sampledQue.at(0)?.allIsoCodes.has('que')).toBe(true);
   });
 
   it('should compute dataset stats and inventories', () => {
