@@ -30,7 +30,7 @@ describe('WikitonguesDB API', () => {
     const vid = db.get('nXBPa_wb3dM');
     expect(vid).not.toBeNull();
     expect(vid!.id).toBe('nXBPa_wb3dM');
-    expect(vid!.primaryLanguage.iso639_3).toBe('que');
+    expect(vid!.primaryLanguage.iso639_3).toBe('quz');
     expect(vid!.primaryLanguage.name).toBe('Quechua');
     expect(vid!.embedUrl).toBe('https://www.youtube.com/embed/nXBPa_wb3dM');
     expect(vid!.provenance.countryName).toContain('Peru');
@@ -42,12 +42,12 @@ describe('WikitonguesDB API', () => {
   });
 
   it('should lookup by ISO 639-3 and BCP 47', () => {
-    // Quechua (que / qu)
-    const queByIso = db.getByIso('que');
+    // Cusco Quechua (quz)
+    const queByIso = db.getByIso('quz');
     expect(queByIso.length).toBeGreaterThan(0);
     expect(queByIso.ids).toContain('nXBPa_wb3dM');
 
-    const queByBcp = db.getByBcp47('qu');
+    const queByBcp = db.getByBcp47('quz');
     expect(queByBcp.length).toBeGreaterThan(0);
 
     // Igbo (ibo / ig)
@@ -57,7 +57,7 @@ describe('WikitonguesDB API', () => {
   });
 
   it('should lookup by Glottocode', () => {
-    const queByGlotto = db.getByGlottocode('quec1387');
+    const queByGlotto = db.getByGlottocode('cusc1236');
     expect(queByGlotto.length).toBeGreaterThan(0);
     expect(queByGlotto.ids).toContain('nXBPa_wb3dM');
   });
@@ -252,9 +252,9 @@ describe('WikitonguesDB API', () => {
     expect(sample2.length).toBe(3);
     expect(sample1.ids).toEqual(sample2.ids);
 
-    const sampledQue = db.random(1, 42, { language: 'que' });
+    const sampledQue = db.random(1, 42, { language: 'quz' });
     expect(sampledQue.length).toBe(1);
-    expect(sampledQue.at(0)?.allIsoCodes.has('que')).toBe(true);
+    expect(sampledQue.at(0)?.allIsoCodes.has('quz')).toBe(true);
   });
 
   it('should compute dataset stats and inventories', () => {

@@ -7,10 +7,10 @@
     "license": "ALL_RIGHTS_RESERVED",
     "content_type": "fellowship_doc",
     "primary_language": {
-      "iso639_3": "que",
-      "bcp47": "qu",
+      "iso639_3": "quz",
+      "bcp47": "quz",
       "name": "Quechua",
-      "glottocode": "quec1387",
+      "glottocode": "cusc1236",
       "autonym": "Qhichwa",
       "dialect": "Cusco Quechua"
     },
@@ -293,7 +293,7 @@
       "iso639_3": "jpr",
       "bcp47": "jpr",
       "name": "Judeo-Persian",
-      "glottocode": "jude1257",
+      "glottocode": "jude1270",
       "autonym": "Jidi",
       "dialect": "Judeo-Shirazi"
     },
@@ -337,7 +337,7 @@
     "content_type": "conversation",
     "primary_language": {
       "iso639_3": "oci",
-      "bcp47": "oc",
+      "bcp47": "oc-vivaraup",
       "name": "Occitan",
       "glottocode": "occi1239",
       "autonym": "Lenga d'òc",
@@ -1219,7 +1219,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "wuu",
-      "bcp47": "wuu",
+      "bcp47": "wuu-CN",
       "name": "Wu Chinese",
       "glottocode": "wuch1236",
       "autonym": "常熟话",
@@ -1750,7 +1750,7 @@
       "iso639_3": "aii",
       "bcp47": "aii",
       "name": "Assyrian Neo-Aramaic",
-      "glottocode": "assy1241",
+      "glottocode": "urmi1250",
       "autonym": "Suret (ܣܘܪܝܬ)",
       "dialect": "Christian Urmi (C. Urmi)"
     },
@@ -1996,8 +1996,8 @@
     "primary_language": {
       "iso639_3": "frs",
       "bcp47": "frs",
-      "name": "Eastern Frisian",
-      "glottocode": "nort2628",
+      "name": "East Frisian Low Saxon",
+      "glottocode": "east2288",
       "autonym": "Oostfräisk",
       "dialect": "East Frisian Low Saxon"
     },
@@ -2141,8 +2141,8 @@
     "primary_language": {
       "iso639_3": "frs",
       "bcp47": "frs",
-      "name": "Eastern Frisian",
-      "glottocode": "nort2628",
+      "name": "East Frisian Low Saxon",
+      "glottocode": "east2288",
       "autonym": "Oostfräisk",
       "dialect": "East Frisian Low Saxon"
     },
@@ -2337,10 +2337,10 @@
     "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
-      "iso639_3": "gon",
-      "bcp47": "gon",
-      "name": "Gondi",
-      "glottocode": "nort3258",
+      "iso639_3": "esg",
+      "bcp47": "esg",
+      "name": "Aheri Gondi",
+      "glottocode": "aher1237",
       "autonym": "Gōndi (गोंडी / Kōītur)",
       "dialect": "Aheri Gondi"
     },
@@ -2542,7 +2542,7 @@
       "iso639_3": "trw",
       "bcp47": "trw",
       "name": "Torwali",
-      "glottocode": "torw1241",
+      "glottocode": "bahr1242",
       "autonym": "توروالی",
       "dialect": "Bahrain"
     },
@@ -3902,10 +3902,10 @@
     "license": "PUBLIC_DOMAIN",
     "content_type": "oral_history",
     "primary_language": {
-      "iso639_3": "dar",
-      "bcp47": "dar",
-      "name": "Dargwa",
-      "glottocode": "darg1241",
+      "iso639_3": "xdq",
+      "bcp47": "xdq",
+      "name": "Kaitag",
+      "glottocode": "kajt1238",
       "autonym": "Хайдакъган",
       "dialect": "Kaitag"
     },
@@ -4140,7 +4140,7 @@
     "additional_languages": [
       {
         "iso639_3": "eng",
-        "bcp47": "en-GB",
+        "bcp47": "en-GB-scotland",
         "name": "English",
         "glottocode": "stan1293"
       }
@@ -4289,7 +4289,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "nds",
-      "bcp47": "nds",
+      "bcp47": "nds-BR",
       "name": "Low German",
       "glottocode": "nort2627",
       "autonym": "Pomerano",
@@ -4971,7 +4971,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "eus",
-      "bcp47": "eu",
+      "bcp47": "eu-biscayan",
       "name": "Basque",
       "glottocode": "basq1248",
       "autonym": "Euskara",
@@ -5047,9 +5047,9 @@
     "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
-      "iso639_3": "nds",
-      "bcp47": "nds-NL",
-      "name": "Low German",
+      "iso639_3": "twd",
+      "bcp47": "twd-NL",
+      "name": "Twents",
       "glottocode": "nort2627",
       "autonym": "Twents",
       "dialect": "Twents Low Saxon"
@@ -5568,7 +5568,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "wuu",
-      "bcp47": "wuu",
+      "bcp47": "wuu-CN",
       "name": "Wu Chinese",
       "glottocode": "wuch1236",
       "autonym": "杭州话",
@@ -6133,7 +6133,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "guj",
-      "bcp47": "gu",
+      "bcp47": "gu-Arab",
       "name": "Gujarati",
       "glottocode": "guja1252",
       "autonym": "لسان الدعوة / Lisaan ud-Da'wat",
@@ -7648,7 +7648,7 @@
     "content_type": "conversation",
     "primary_language": {
       "iso639_3": "vie",
-      "bcp47": "vi",
+      "bcp47": "vi-huett",
       "name": "Vietnamese",
       "glottocode": "viet1252",
       "autonym": "Tiếng Huế",
@@ -7725,7 +7725,7 @@
     "primary_language": {
       "iso639_3": "nrf",
       "bcp47": "nrf-FR",
-      "name": "Jèrriais",
+      "name": "Norman",
       "glottocode": "jerr1238",
       "autonym": "Caucheis",
       "dialect": "Cauchois (Norman)"
@@ -10101,7 +10101,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "apc",
-      "bcp47": "apc",
+      "bcp47": "apc-SY",
       "name": "Levantine Arabic",
       "glottocode": "nort3139",
       "autonym": "لهجة حلبية",
@@ -11294,7 +11294,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "bar",
-      "bcp47": "bar",
+      "bcp47": "bar-RO",
       "name": "Bavarian",
       "glottocode": "bava1246",
       "autonym": "Schwäbisch (Banat)",
@@ -12421,7 +12421,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "oci",
-      "bcp47": "oc-FR-nice",
+      "bcp47": "oc-FR-nicard",
       "name": "Occitan",
       "glottocode": "occi1239",
       "autonym": "Niçard / Nissart",
@@ -14951,7 +14951,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "wuu",
-      "bcp47": "wuu",
+      "bcp47": "wuu-CN",
       "name": "Wu Chinese",
       "glottocode": "wuch1236",
       "autonym": "吴语",
@@ -19898,9 +19898,9 @@
     "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
-      "iso639_3": "nds",
-      "bcp47": "nds-NL-gronings",
-      "name": "Low German",
+      "iso639_3": "gos",
+      "bcp47": "gos-NL",
+      "name": "Gronings",
       "glottocode": "nort2627",
       "autonym": "Grönnegs",
       "dialect": "Gronings"
@@ -24504,7 +24504,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "apc",
-      "bcp47": "apc",
+      "bcp47": "apc-SY",
       "name": "Levantine Arabic",
       "glottocode": "nort3139",
       "autonym": "عربي سوري / Shami",
@@ -28262,7 +28262,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "crh",
-      "bcp47": "crh",
+      "bcp47": "crh-RO",
       "name": "Crimean Tatar",
       "glottocode": "crim1257",
       "autonym": "Qırımtatar tili",
@@ -29288,7 +29288,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "eng",
-      "bcp47": "en",
+      "bcp47": "en-GB-scotland",
       "name": "English",
       "glottocode": "stan1293",
       "autonym": "English",
@@ -30965,7 +30965,7 @@
     "content_type": "reading_or_song",
     "primary_language": {
       "iso639_3": "eng",
-      "bcp47": "en",
+      "bcp47": "en-GB-scotland",
       "name": "English",
       "glottocode": "stan1293",
       "autonym": "English",
@@ -32968,7 +32968,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "mal",
-      "bcp47": "mal",
+      "bcp47": "ml",
       "name": "Malayalam",
       "glottocode": "mala1464",
       "autonym": "ബ്യാരി",
@@ -34335,7 +34335,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "twi",
-      "bcp47": "tw",
+      "bcp47": "tw-asante",
       "name": "Twi",
       "glottocode": "twii1234",
       "autonym": "Twi",
@@ -34909,7 +34909,7 @@
     "content_type": "reading_or_song",
     "primary_language": {
       "iso639_3": "eng",
-      "bcp47": "en-GB",
+      "bcp47": "en-GB-scotland",
       "name": "English",
       "glottocode": "stan1293",
       "autonym": "English",
@@ -36018,7 +36018,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "eng",
-      "bcp47": "en-GB",
+      "bcp47": "en-GB-scotland",
       "name": "English",
       "glottocode": "stan1293",
       "autonym": "English",
@@ -36484,7 +36484,7 @@
     "content_type": "reading_or_song",
     "primary_language": {
       "iso639_3": "eng",
-      "bcp47": "en-GB",
+      "bcp47": "en-GB-scotland",
       "name": "English",
       "glottocode": "stan1293",
       "autonym": "English",
@@ -42041,7 +42041,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "apc",
-      "bcp47": "apc",
+      "bcp47": "apc-SY",
       "name": "Levantine Arabic",
       "glottocode": "nort3139",
       "autonym": "اللهجة السورية",
@@ -44857,7 +44857,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "oci",
-      "bcp47": "oc-aran",
+      "bcp47": "oc-aranes",
       "name": "Occitan",
       "glottocode": "occi1239",
       "autonym": "aranés",
@@ -45095,7 +45095,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "oci",
-      "bcp47": "oc-aran",
+      "bcp47": "oc-aranes",
       "name": "Occitan",
       "glottocode": "occi1239",
       "autonym": "aranés",
@@ -45705,7 +45705,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "oci",
-      "bcp47": "oc-aran",
+      "bcp47": "oc-aranes",
       "name": "Occitan",
       "glottocode": "occi1239",
       "autonym": "aranés",
@@ -46244,7 +46244,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "oci",
-      "bcp47": "oc-aran",
+      "bcp47": "oc-aranes",
       "name": "Occitan",
       "glottocode": "occi1239",
       "autonym": "aranés",
@@ -47532,7 +47532,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "cat",
-      "bcp47": "ca",
+      "bcp47": "ca-ES",
       "name": "Catalan",
       "glottocode": "stan1289",
       "autonym": "català",
@@ -47604,7 +47604,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "cat",
-      "bcp47": "ca",
+      "bcp47": "ca-ES",
       "name": "Catalan",
       "glottocode": "stan1289",
       "autonym": "català",

@@ -237,7 +237,7 @@ describe('Dataset Integrity & Strict Linguistic Validation', () => {
 
     const dbInstance = new cjsModule.WikitonguesDB();
     expect(dbInstance.length).toBe(863);
-    expect(dbInstance.get('nXBPa_wb3dM')?.primaryLanguage.iso639_3).toBe('que');
+    expect(dbInstance.get('nXBPa_wb3dM')?.primaryLanguage.iso639_3).toBe('quz');
     expect(dbInstance.findByLanguage('russe').length).toBeGreaterThan(0);
   });
 });
