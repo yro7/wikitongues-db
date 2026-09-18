@@ -11,15 +11,16 @@
 | :--- | :--- |
 | **Processed Records** | `863` / `863` (100.0%) |
 | **SIL Validation Rate** | **100%** (0 hallucinated codes) |
-| **Unique Primary ISO 639-3 Codes** | `462` |
-| **Unique BCP 47 Tags** | `515` |
-| **Glottocode Coverage** | `466 / 863` (54.0%) |
-| **Autonym Coverage** | `820 / 863` (95.0%) |
-| **Dialect Resolution** | `266 / 863` (30.8%) |
+| **Unique Primary ISO 639-3 Codes** | `467` |
+| **Unique BCP 47 Tags** | `541` |
+| **Glottocode Coverage** | `862 / 863` (99.9% - only Atlaans conlang is null) |
+| **Autonym Coverage** | `863 / 863` (100.0%) |
+| **Dialect Resolution** | `296 / 863` (34.3%) |
+| **Recorders Identified** | `449 / 863` (52.0%) |
 | **Total Archival Duration** | `3234 min 30 sec` (`194070` s) |
 | **Average Video Duration** | `3 min 44 sec` (`224.9` s) |
-| **Has Subtitles / Captions** | `275` videos |
-| **Has Embedded Transcripts** | `2` videos |
+| **Has Subtitles / Captions** | `284` videos |
+| **Has Embedded Transcripts / Translations** | `57` videos |
 
 ---
 
@@ -27,9 +28,9 @@
 
 | Content Type | Count | Share |
 | :--- | :--- | :--- |
-| `oral_history` | 699 | 81.0% |
-| `conversation` | 113 | 13.1% |
-| `sign_language` | 22 | 2.5% |
+| `oral_history` | 773 | 89.6% |
+| `conversation` | 38 | 4.4% |
+| `sign_language` | 23 | 2.7% |
 | `reading_or_song` | 13 | 1.5% |
 | `meta` | 11 | 1.3% |
 | `fellowship_doc` | 4 | 0.5% |
@@ -41,10 +42,10 @@
 
 | License | Count | Share |
 | :--- | :--- | :--- |
-| `ALL_RIGHTS_RESERVED` | 409 | 47.4% |
-| `CC-BY-NC-4.0` | 228 | 26.4% |
-| `CC-BY-SA-4.0` | 221 | 25.6% |
-| `PUBLIC_DOMAIN` | 5 | 0.6% |
+| `ALL_RIGHTS_RESERVED` | 332 | 38.5% |
+| `CC-BY-NC-4.0` | 261 | 30.2% |
+| `CC-BY-SA-4.0` | 260 | 30.1% |
+| `PUBLIC_DOMAIN` | 10 | 1.2% |
 
 ---
 

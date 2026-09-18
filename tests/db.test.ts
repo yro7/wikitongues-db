@@ -125,6 +125,15 @@ describe('WikitonguesDB API', () => {
     const arberesh = db.findByLanguage('Arbëresh');
     expect(arberesh.length).toBeGreaterThan(0);
     expect(arberesh.ids).toContain('lstcnY-UXbs');
+
+    // Dialect: Scanian
+    const scanian = db.findByLanguage('Scanian');
+    expect(scanian.length).toBeGreaterThan(0);
+
+    // Dialect: Kukamiria
+    const kukamiria = db.findByLanguage('Kukamiria');
+    expect(kukamiria.length).toBeGreaterThan(0);
+    expect(kukamiria.ids).toContain('cxiGMkEZvKQ');
   });
 
   it('should support fluent QueryBuilder chaining', () => {

@@ -48,13 +48,15 @@ However, existing metadata across YouTube and Commons is heterogeneous, with fre
 | Metric | Value |
 | :--- | :--- |
 | **Total Curated Videos** | `863` |
-| **Unique Primary ISO 639-3 Languages** | `462` |
-| **Unique BCP 47 Language Tags** | `515` |
-| **Glottocode Resolution** | `466 / 863` (54.0%) |
-| **Native Script Autonyms** | `820 / 863` (95.0%) |
-| **Resolved Dialects / Varieties** | `266 / 863` (30.8%) |
+| **Unique Primary ISO 639-3 Languages** | `467` |
+| **Unique BCP 47 Language Tags** | `541` |
+| **Glottocode Resolution** | `862 / 863` (99.9%) |
+| **Native Script Autonyms** | `863 / 863` (100.0%) |
+| **Resolved Dialects / Varieties** | `296 / 863` (34.3%) |
+| **Identified Recorders** | `449 / 863` (52.0%) |
+| **Embedded Transcripts / Translations** | `57` |
 | **Total Archival Duration** | `53h 54m 30s` (`194,070` seconds) |
-| **Videos with Subtitles / Captions** | `275` |
+| **Videos with Subtitles / Captions** | `284` |
 | **Runtime Dependencies** | `0` |
 
 ---
