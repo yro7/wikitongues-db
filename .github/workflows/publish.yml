@@ -30,6 +30,9 @@ jobs:
       - name: Run typecheck
         run: npm run typecheck
 
+      - name: Build package artifacts
+        run: npm run build
+
       - name: Run vitest suite
         run: npm test
 
