@@ -107,6 +107,12 @@ export const MULTILINGUAL_ALIASES: Record<string, string> = {
   navajo: 'nav',
   inuktitut: 'iku',
   tatar: 'tat',
+  nepali: 'npi',
+  nepalais: 'npi',
+  népalais: 'npi',
+  nepales: 'npi',
+  nepalés: 'npi',
+  atlaans: 'mis',
 
   // Spanish
   ruso: 'rus',
@@ -251,6 +257,8 @@ export const MACROLANGUAGE_EXPANSIONS: Record<string, string[]> = {
   aze: ['aze', 'azj', 'azb'],
   est: ['est', 'ekk', 'vro'],
   aka: ['aka', 'twi', 'fat'],
+  nep: ['nep', 'npi'],
+  ful: ['ful', 'fuf', 'fuh', 'fub', 'fuq'],
 };
 
 export class LanguageResolver {

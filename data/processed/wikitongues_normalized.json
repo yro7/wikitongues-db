@@ -338,7 +338,7 @@
     "primary_language": {
       "iso639_3": "oci",
       "bcp47": "oc",
-      "name": "Occitan (post 1500)",
+      "name": "Occitan",
       "glottocode": "occi1239",
       "autonym": "Lenga d'òc",
       "dialect": "Vivaro-Alpine"
@@ -1620,7 +1620,7 @@
       "has_subtitles": false,
       "available_subtitles": [],
       "native_text": null,
-      "english_translation": null
+      "english_translation": "Hello everyone! My name is Ramcina Gabriel, I was born in Syria, but now I live in Sweden. I studied English Literature in a university in Syria and now I study at the university of Stockholm to be an English teacher. I can speak Western and Eastern (Assyrian), my Eastern dialect is from Dizen in Hakkari which is nowadays in Turkey, and in Western I speak the Midyat dialect, so I'm from Midyat which is also in Tur Abdin in Turkey. I can also speak Arabic, English and Swedish, and that would be all. Thank you for listening to me, goodbye!"
     },
     "raw_metadata": {
       "title": "The Neo-Aramaic language of Tur Abdin, casually spoken | Turoyo | Wikitongues",
@@ -1666,14 +1666,14 @@
       "country_name": "Iran",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Hussam",
       "recording_date": null
     },
     "transcription": {
       "has_subtitles": false,
       "available_subtitles": [],
       "native_text": null,
-      "english_translation": null
+      "english_translation": "In the name of god. I thank God for giving me the strength and putting it in my heart so that I can learn good things and act on them by telling them so that people will follow these kindnesses and goodness. Peace be upon you, my name is Hosan…(discusses about how he lives in Iran, and that he speaks Mandaic). The Mandaean language belongs to the Eastern Aramaic language. It is one of the dialects of the Eastern Aramaic language. Words from other languages have not entered Mandaic literary language. Mandaic script is written from right to left. The Mandaean script is derived from the Aramaic language. The Mandaean script is more beautiful than other Semitic scripts and is complete. When writing Mandaic, vowels and consonants are written together."
     },
     "raw_metadata": {
       "title": "A Voice in Mandaic: Hussam Shares A Language from Iran | Wikitongues",
@@ -2060,7 +2060,7 @@
     "duration_seconds": 817,
     "upload_date": "2024-04-04",
     "license": "CC-BY-SA-4.0",
-    "content_type": "oral_history",
+    "content_type": "conversation",
     "primary_language": {
       "iso639_3": "lmo",
       "bcp47": "lmo",
@@ -2401,7 +2401,7 @@
     "duration_seconds": 164,
     "upload_date": "2024-02-27",
     "license": "CC-BY-NC-4.0",
-    "content_type": "oral_history",
+    "content_type": "conversation",
     "primary_language": {
       "iso639_3": "eno",
       "bcp47": "eno",
@@ -2677,7 +2677,7 @@
     "duration_seconds": 609,
     "upload_date": "2023-04-20",
     "license": "PUBLIC_DOMAIN",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "sjd",
       "bcp47": "sjd",
@@ -3002,7 +3002,7 @@
       "country_name": "Japan",
       "region": "Okinawa",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Gijs van der Lubbe",
       "recording_date": null
     },
     "transcription": {
@@ -3157,7 +3157,7 @@
       "country_name": "Iraq",
       "region": null,
       "city": "Baghdad",
-      "recorded_by": null,
+      "recorded_by": "Jacob Kodner",
       "recording_date": null
     },
     "transcription": {
@@ -3558,7 +3558,7 @@
       "country_name": "Isle of Man",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Owen Williams",
       "recording_date": null
     },
     "transcription": {
@@ -3778,7 +3778,7 @@
       "country_name": "India",
       "region": "Himachal Pradesh",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Aniket Chauhan",
       "recording_date": null
     },
     "transcription": {
@@ -3854,7 +3854,7 @@
       "country_name": "Indonesia",
       "region": null,
       "city": "Medan",
-      "recorded_by": null,
+      "recorded_by": "Martin Schibel",
       "recording_date": null
     },
     "transcription": {
@@ -3922,7 +3922,7 @@
       "country_name": "Russia",
       "region": "Dagestan",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Magomed",
       "recording_date": null
     },
     "transcription": {
@@ -3997,7 +3997,7 @@
       "country_name": "Russia",
       "region": "Kabardino-Balkaria",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Elia Khubieva",
       "recording_date": null
     },
     "transcription": {
@@ -4076,7 +4076,7 @@
       "country_name": "El Salvador",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Gary Quintanilla Ordoñez",
       "recording_date": null
     },
     "transcription": {
@@ -4157,7 +4157,7 @@
       "country_name": "United Kingdom",
       "region": "Scotland",
       "city": "Glasgow",
-      "recorded_by": null,
+      "recorded_by": "Harold",
       "recording_date": null
     },
     "transcription": {
@@ -4234,7 +4234,7 @@
       "country_name": "Ukraine",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Andrij Andrusiak",
       "recording_date": null
     },
     "transcription": {
@@ -4308,7 +4308,7 @@
       "country_name": "Brazil",
       "region": "Espírito Santo",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Julio Bremenkamp",
       "recording_date": null
     },
     "transcription": {
@@ -4385,7 +4385,7 @@
       "country_name": "Netherlands",
       "region": "Overijssel",
       "city": "Rouveen",
-      "recorded_by": null,
+      "recorded_by": "Daniel Bögre Udell and Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -4459,7 +4459,7 @@
       "country_name": "Zimbabwe",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Emilio Rosas Gutiérrez",
       "recording_date": null
     },
     "transcription": {
@@ -4530,7 +4530,7 @@
       "country_name": "Indonesia",
       "region": "East Kalimantan",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "DeAndre A",
       "recording_date": null
     },
     "transcription": {
@@ -4768,7 +4768,7 @@
       "country_name": "Indonesia",
       "region": "East Java",
       "city": "Surabaya",
-      "recorded_by": null,
+      "recorded_by": "Martin Schibel",
       "recording_date": null
     },
     "transcription": {
@@ -4841,7 +4841,7 @@
       "country_name": "India",
       "region": "Himachal Pradesh",
       "city": "Sirmaur",
-      "recorded_by": null,
+      "recorded_by": "Aniket Chauhan",
       "recording_date": null
     },
     "transcription": {
@@ -4990,7 +4990,7 @@
       "country_name": "United States",
       "region": "Idaho",
       "city": "Boise",
-      "recorded_by": null,
+      "recorded_by": "Andrew Goiburuntza",
       "recording_date": null
     },
     "transcription": {
@@ -5067,7 +5067,7 @@
       "country_name": "Netherlands",
       "region": "Overijssel",
       "city": "Twente",
-      "recorded_by": null,
+      "recorded_by": "Guillem Belmar",
       "recording_date": null
     },
     "transcription": {
@@ -5146,7 +5146,7 @@
       "country_name": "Nigeria",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Emilio Rosas Guitiérrez",
       "recording_date": null
     },
     "transcription": {
@@ -5294,7 +5294,7 @@
       "country_name": "Guatemala",
       "region": "Alta Verapaz",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bögre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -5367,7 +5367,7 @@
       "country_name": "Indonesia",
       "region": "West Kalimantan",
       "city": "Pontianak",
-      "recorded_by": null,
+      "recorded_by": "Martin Schibel",
       "recording_date": null
     },
     "transcription": {
@@ -5514,7 +5514,7 @@
       "country_name": "Georgia",
       "region": null,
       "city": "Tbilisi",
-      "recorded_by": null,
+      "recorded_by": "Emilio Rosas Gutiérrez",
       "recording_date": null
     },
     "transcription": {
@@ -5587,7 +5587,7 @@
       "country_name": "China",
       "region": "Zhejiang",
       "city": "Hangzhou",
-      "recorded_by": null,
+      "recorded_by": "Abderrahman Ait Ali",
       "recording_date": null
     },
     "transcription": {
@@ -5659,7 +5659,7 @@
       "country_name": "Nigeria",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Emilio Rosas Guitiérrez",
       "recording_date": null
     },
     "transcription": {
@@ -5726,7 +5726,7 @@
       "country_name": "Zambia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bögre Udell and Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -5796,7 +5796,7 @@
       "country_name": "United States",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Isaac Azouz",
       "recording_date": null
     },
     "transcription": {
@@ -5865,7 +5865,7 @@
       "country_name": "Malta",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Emilio Rosas Gutiérrez",
       "recording_date": null
     },
     "transcription": {
@@ -5937,7 +5937,7 @@
       "country_name": "Italy",
       "region": "Piedmont",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Giorgio di Francesco",
       "recording_date": null
     },
     "transcription": {
@@ -6011,7 +6011,7 @@
       "country_name": "Eritrea",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Avi Kumar",
       "recording_date": null
     },
     "transcription": {
@@ -6080,7 +6080,7 @@
       "country_name": "United States",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Sara Yonatan Musnik",
       "recording_date": null
     },
     "transcription": {
@@ -6371,7 +6371,7 @@
       "country_name": "Bangladesh",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Emilio Rosas Gutiérrez",
       "recording_date": null
     },
     "transcription": {
@@ -6518,7 +6518,7 @@
       "country_name": "Italy",
       "region": "Basilicata",
       "city": "Matera",
-      "recorded_by": null,
+      "recorded_by": "Marianna",
       "recording_date": null
     },
     "transcription": {
@@ -6589,7 +6589,7 @@
       "country_name": "Morocco",
       "region": null,
       "city": "Ketama",
-      "recorded_by": null,
+      "recorded_by": "Mohamed ben Abdellah Aghzout",
       "recording_date": null
     },
     "transcription": {
@@ -6665,7 +6665,7 @@
       "country_name": "Russia",
       "region": "Republic of Karelia",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Eniisi Lisika",
       "recording_date": null
     },
     "transcription": {
@@ -6811,7 +6811,7 @@
       "country_name": "Cabo Verde",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Alessandro Ienzi",
       "recording_date": null
     },
     "transcription": {
@@ -6861,7 +6861,7 @@
     "primary_language": {
       "iso639_3": "luo",
       "bcp47": "luo",
-      "name": "Luo (Kenya and Tanzania)",
+      "name": "Luo",
       "glottocode": "luok1236",
       "autonym": "Dholuo",
       "dialect": null
@@ -7020,7 +7020,7 @@
       "country_name": "India",
       "region": null,
       "city": "Cochin",
-      "recorded_by": null,
+      "recorded_by": "Thapan Dubayehudi",
       "recording_date": null
     },
     "transcription": {
@@ -7096,7 +7096,7 @@
       "country_name": "Sri Lanka",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Avi Kumar",
       "recording_date": null
     },
     "transcription": {
@@ -7166,7 +7166,7 @@
       "country_name": "Indonesia",
       "region": "West Sulawesi",
       "city": "Mamuju",
-      "recorded_by": null,
+      "recorded_by": "Teddy Nee",
       "recording_date": null
     },
     "transcription": {
@@ -7235,7 +7235,7 @@
       "country_name": "France",
       "region": "Brittany",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Anton Aguesse",
       "recording_date": null
     },
     "transcription": {
@@ -7307,7 +7307,7 @@
       "country_name": "Namibia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Emeloelaj",
       "recording_date": null
     },
     "transcription": {
@@ -7597,7 +7597,7 @@
       "country_name": "Kenya",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Avi Kumar",
       "recording_date": null
     },
     "transcription": {
@@ -7743,7 +7743,7 @@
       "country_name": "France",
       "region": "Normandy",
       "city": "Pays de Caux",
-      "recorded_by": null,
+      "recorded_by": "Romain Lange",
       "recording_date": null
     },
     "transcription": {
@@ -7809,7 +7809,7 @@
       "country_name": "Iraq",
       "region": "Kurdistan",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Rayan Nawzat",
       "recording_date": null
     },
     "transcription": {
@@ -7952,7 +7952,7 @@
       "country_name": "Italy",
       "region": "Lombardy",
       "city": "Brescia",
-      "recorded_by": null,
+      "recorded_by": "Nicola Peli",
       "recording_date": null
     },
     "transcription": {
@@ -8093,7 +8093,7 @@
       "country_name": "Zambia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kristen Tcherneshoff and Daniel Bögre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -8293,7 +8293,7 @@
       "country_name": "Belgium",
       "region": "West Flanders",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Elliot",
       "recording_date": null
     },
     "transcription": {
@@ -8371,7 +8371,7 @@
       "country_name": "China",
       "region": "Guangxi",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Edwin Boc",
       "recording_date": null
     },
     "transcription": {
@@ -8445,7 +8445,7 @@
       "country_name": "Italy",
       "region": "Lombardy",
       "city": "Brescia",
-      "recorded_by": null,
+      "recorded_by": "Nicole",
       "recording_date": null
     },
     "transcription": {
@@ -8516,7 +8516,7 @@
       "country_name": "Indonesia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Pualam Abadi",
       "recording_date": null
     },
     "transcription": {
@@ -8644,7 +8644,7 @@
       "country_name": "Serbia",
       "region": "Vojvodina",
       "city": "Ruski Krstur",
-      "recorded_by": null,
+      "recorded_by": "Robert Keresztesy",
       "recording_date": null
     },
     "transcription": {
@@ -8692,7 +8692,7 @@
     "primary_language": {
       "iso639_3": "kru",
       "bcp47": "kru",
-      "name": "Kurux",
+      "name": "Kurukh",
       "glottocode": "kuru1301",
       "autonym": "कुड़ुख़",
       "dialect": null
@@ -8710,7 +8710,7 @@
       "country_name": "India",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bögre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -8782,7 +8782,7 @@
       "country_name": "Indonesia",
       "region": "East Kalimantan",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "DeAndre A",
       "recording_date": null
     },
     "transcription": {
@@ -8927,7 +8927,7 @@
       "country_name": "Turkey",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Cemre Ömer Ayna",
       "recording_date": null
     },
     "transcription": {
@@ -9008,7 +9008,7 @@
       "country_name": "Kenya",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Avi Kumar",
       "recording_date": null
     },
     "transcription": {
@@ -9142,7 +9142,7 @@
       "country_name": "Malawi",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kristen Tcherneshoff and Daniel Bögre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -9277,7 +9277,7 @@
       "country_name": "Liberia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Anonymous",
       "recording_date": null
     },
     "transcription": {
@@ -9345,7 +9345,7 @@
       "country_name": "Australia",
       "region": "Western Australia",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Cameron Willis and Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -9411,7 +9411,7 @@
       "country_name": "Colombia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Adrian",
       "recording_date": null
     },
     "transcription": {
@@ -9785,7 +9785,7 @@
       "country_name": "Indonesia",
       "region": "Papua",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Nabil Berri",
       "recording_date": null
     },
     "transcription": {
@@ -9853,7 +9853,7 @@
       "country_name": "Australia",
       "region": "Queensland",
       "city": "Yarrabah",
-      "recorded_by": null,
+      "recorded_by": "Alfred Grey-Junior",
       "recording_date": null
     },
     "transcription": {
@@ -9981,7 +9981,7 @@
       "country_name": "Philippines",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Dhrubhagat Singh",
       "recording_date": null
     },
     "transcription": {
@@ -10055,7 +10055,7 @@
       "country_name": "Australia",
       "region": "Queensland",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Sheree Blackley",
       "recording_date": null
     },
     "transcription": {
@@ -10102,7 +10102,7 @@
     "primary_language": {
       "iso639_3": "apc",
       "bcp47": "apc",
-      "name": "North Levantine Arabic",
+      "name": "Levantine Arabic",
       "glottocode": "nort3139",
       "autonym": "لهجة حلبية",
       "dialect": "Aleppo Arabic"
@@ -10127,7 +10127,7 @@
       "country_name": "Syria",
       "region": null,
       "city": "Aleppo",
-      "recorded_by": null,
+      "recorded_by": "Ahmad Kadan",
       "recording_date": null
     },
     "transcription": {
@@ -10202,7 +10202,7 @@
       "country_name": "Argentina",
       "region": "Santiago del Estero",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "José Antonio Iglesias",
       "recording_date": null
     },
     "transcription": {
@@ -10754,7 +10754,7 @@
       "country_name": "Indonesia",
       "region": "West Sumatra",
       "city": "Sijunjung",
-      "recorded_by": null,
+      "recorded_by": "Ramzy Muliawan",
       "recording_date": null
     },
     "transcription": {
@@ -10959,7 +10959,7 @@
       "country_name": "Myanmar",
       "region": "Rakhine State",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kasha Rigby",
       "recording_date": null
     },
     "transcription": {
@@ -11101,7 +11101,7 @@
       "country_name": "Indonesia",
       "region": "West Sumatra",
       "city": "Lintau",
-      "recorded_by": null,
+      "recorded_by": "Ramzy Muliawan",
       "recording_date": null
     },
     "transcription": {
@@ -11313,7 +11313,7 @@
       "country_name": "Romania",
       "region": "Banat",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Robert Keresztesy",
       "recording_date": null
     },
     "transcription": {
@@ -11516,7 +11516,7 @@
       "country_name": "Spain",
       "region": "Galicia",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Cameron Willis",
       "recording_date": null
     },
     "transcription": {
@@ -11731,7 +11731,7 @@
       "country_name": "Pakistan",
       "region": "Gilgit-Baltistan",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kamran Ali",
       "recording_date": null
     },
     "transcription": {
@@ -11882,7 +11882,7 @@
       "country_name": "Brazil",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "João Pedro Ribeiro Pena",
       "recording_date": null
     },
     "transcription": {
@@ -12372,7 +12372,7 @@
       "country_name": "France",
       "region": "Touraine",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Ludovic Góngora",
       "recording_date": null
     },
     "transcription": {
@@ -12422,7 +12422,7 @@
     "primary_language": {
       "iso639_3": "oci",
       "bcp47": "oc-FR-nice",
-      "name": "Occitan (post 1500)",
+      "name": "Occitan",
       "glottocode": "occi1239",
       "autonym": "Niçard / Nissart",
       "dialect": "Nissart Occitan"
@@ -12440,7 +12440,7 @@
       "country_name": "France",
       "region": null,
       "city": "Nice",
-      "recorded_by": null,
+      "recorded_by": "Gabrièu Pelisson",
       "recording_date": null
     },
     "transcription": {
@@ -12513,7 +12513,7 @@
       "country_name": "India",
       "region": null,
       "city": "Bijapur",
-      "recorded_by": null,
+      "recorded_by": "Krishna Rao",
       "recording_date": null
     },
     "transcription": {
@@ -12575,7 +12575,7 @@
       "country_name": "Senegal",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Peace Corps volunteer Pete",
       "recording_date": null
     },
     "transcription": {
@@ -12712,7 +12712,7 @@
       "country_name": "Russia",
       "region": "Tuva",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Sildis Oorzhak",
       "recording_date": null
     },
     "transcription": {
@@ -12765,7 +12765,7 @@
     "primary_language": {
       "iso639_3": "npi",
       "bcp47": "ne",
-      "name": "Nepali (individual language)",
+      "name": "Nepali",
       "glottocode": "nepa1254",
       "autonym": "नेपाली",
       "dialect": null
@@ -12783,7 +12783,7 @@
       "country_name": "Nepal",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Atul Ojha",
       "recording_date": null
     },
     "transcription": {
@@ -12842,7 +12842,7 @@
       "country_name": "Croatia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kristina Burum",
       "recording_date": null
     },
     "transcription": {
@@ -12906,7 +12906,7 @@
       "country_name": "Guatemala",
       "region": "El Quiché",
       "city": "Sacapulas",
-      "recorded_by": null,
+      "recorded_by": "Daniel Bögre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -12978,7 +12978,7 @@
       "country_name": "Cook Islands",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Elena Rivera",
       "recording_date": null
     },
     "transcription": {
@@ -13035,7 +13035,7 @@
       "country_name": "Jamaica",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Tajaun Gibbison",
       "recording_date": null
     },
     "transcription": {
@@ -13104,7 +13104,7 @@
       "country_name": "Turkmenistan",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "John Kazaklis",
       "recording_date": null
     },
     "transcription": {
@@ -13215,7 +13215,7 @@
     "duration_seconds": 163,
     "upload_date": "2020-04-10",
     "license": "CC-BY-NC-4.0",
-    "content_type": "oral_history",
+    "content_type": "conversation",
     "primary_language": {
       "iso639_3": "lip",
       "bcp47": "lip",
@@ -13242,7 +13242,7 @@
       "country_name": "Ghana",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Nathaniel Kim",
       "recording_date": null
     },
     "transcription": {
@@ -13304,7 +13304,7 @@
       "country_name": "Finland",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Erin McGee",
       "recording_date": null
     },
     "transcription": {
@@ -13452,7 +13452,7 @@
       "country_name": "India",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bögre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -13509,7 +13509,7 @@
       "country_name": "Liberia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "PCV Volunteer Nathaniel",
       "recording_date": null
     },
     "transcription": {
@@ -13574,7 +13574,7 @@
       "country_name": "Latvia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bögre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -13631,7 +13631,7 @@
       "country_name": "Pakistan",
       "region": "Swat Valley",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Zubair Torwali",
       "recording_date": null
     },
     "transcription": {
@@ -13685,7 +13685,7 @@
       "country_name": "Myanmar",
       "region": "Rakhine State",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kasha Rigby",
       "recording_date": null
     },
     "transcription": {
@@ -13740,7 +13740,7 @@
       "country_name": "Romania",
       "region": "Maramureș",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Robert Keresztesy",
       "recording_date": null
     },
     "transcription": {
@@ -13795,7 +13795,7 @@
       "country_name": "Rwanda",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bögre Udell and Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -13887,7 +13887,7 @@
     "primary_language": {
       "iso639_3": "npi",
       "bcp47": "ne",
-      "name": "Nepali (individual language)",
+      "name": "Nepali",
       "glottocode": "nepa1254",
       "autonym": "नेपाली",
       "dialect": null
@@ -13905,7 +13905,7 @@
       "country_name": "Nepal",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Hardeep Singh",
       "recording_date": null
     },
     "transcription": {
@@ -13960,7 +13960,7 @@
       "country_name": "Indonesia",
       "region": "Central Sulawesi",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Nabil Berri",
       "recording_date": null
     },
     "transcription": {
@@ -14014,7 +14014,7 @@
       "country_name": "Croatia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kristina Burum",
       "recording_date": null
     },
     "transcription": {
@@ -14069,7 +14069,7 @@
       "country_name": "India",
       "region": "Assam",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Hardeep Singh",
       "recording_date": null
     },
     "transcription": {
@@ -14182,7 +14182,7 @@
       "country_name": "Zambia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Stanley Stanis Kaka",
       "recording_date": null
     },
     "transcription": {
@@ -14236,7 +14236,7 @@
       "country_name": "Zambia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bögre Udell and Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -14290,7 +14290,7 @@
       "country_name": "Pakistan",
       "region": "Balochistan",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Jacob Haines",
       "recording_date": null
     },
     "transcription": {
@@ -14343,7 +14343,7 @@
       "country_name": "Mexico",
       "region": "Hidalgo",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bögre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -14398,7 +14398,7 @@
       "country_name": "Italy",
       "region": "Abruzzo",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Claudio DiDomenico",
       "recording_date": null
     },
     "transcription": {
@@ -14454,14 +14454,14 @@
       "country_name": "Vietnam",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Edwin Boc",
       "recording_date": null
     },
     "transcription": {
       "has_subtitles": false,
       "available_subtitles": [],
       "native_text": null,
-      "english_translation": null
+      "english_translation": "Hello to everyone watching this video. Lian (me) was born in Đồng Đăng, Vietnam. Lian has grown up and is currently living and working in Taiwan. Today, Lian is very happy to speak the Tày language with everyone. To be honest, Lian can only speak a little because from when Lian was little until now, Lian hasn't had the chance to practice speaking. Lian also doesn't know much about the traditional clothing or the customs of the Tày people. Now, Lian wants to learn more about them. If there's anyone who watches this video who is from the Tày ethnicity, please share more about them with Lian. Thank you everyone for watching this video. Goodbye."
     },
     "raw_metadata": {
       "title": "WIKITONGUES: Lian speaking Tày",
@@ -14507,14 +14507,14 @@
       "country_name": "Italy",
       "region": "Emilia-Romagna",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Paolo",
       "recording_date": null
     },
     "transcription": {
       "has_subtitles": false,
       "available_subtitles": [],
       "native_text": null,
-      "english_translation": null
+      "english_translation": "Hello, I am Pavel and I speak Emiliani, specifically the dialect of the province of Piacenza. I would like to talk about the fact that even in small cities, for example Piacenza, that which is in other places and throughout all the world, which is that young people are not learning dialects and small languages, is happening. This is because they think it isn't useful, that only the elderly speak them, and other stupid things like that. So they don't know the beauty of having their own language, the beauty of being able to express an idea in a completely different way from other people, and the beauty of being able to speak about anything with whoever they want, and in this way keeping this culture alive, because otherwise this culture is already lost. For example, if I wanted to ask someone 'How are you?' in my dialect I would say: 'Cume tela?' and if I were to say 'Look at that beautiful car', I would say: 'Värda cla bela machina la'. I hope that this situation improves. Bye to everyone!"
     },
     "raw_metadata": {
       "title": "WIKITONGUES: Paolo speaking Emilian",
@@ -14559,7 +14559,7 @@
       "country_name": "Spain",
       "region": "Basque Country",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -14620,7 +14620,7 @@
       "country_name": "Norway",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Astrid Carlsen and Wikimedia Norge",
       "recording_date": null
     },
     "transcription": {
@@ -14673,7 +14673,7 @@
       "country_name": "Curaçao",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Irena Dahl",
       "recording_date": null
     },
     "transcription": {
@@ -14719,7 +14719,7 @@
       "country_name": "India",
       "region": "Nicobar Islands",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Seth Wyatt",
       "recording_date": null
     },
     "transcription": {
@@ -14765,7 +14765,7 @@
       "country_name": "South Africa",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -14818,7 +14818,7 @@
       "country_name": "Netherlands",
       "region": "Friesland",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bogre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -14864,7 +14864,7 @@
       "country_name": "Laos",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Jeremy Inthisane",
       "recording_date": null
     },
     "transcription": {
@@ -14916,7 +14916,7 @@
       "country_name": "India",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Teddy Nee",
       "recording_date": null
     },
     "transcription": {
@@ -14970,7 +14970,7 @@
       "country_name": "China",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -15035,7 +15035,7 @@
       "country_name": "Papua New Guinea",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kini Karo",
       "recording_date": null
     },
     "transcription": {
@@ -15088,7 +15088,7 @@
       "country_name": "Mexico",
       "region": "Chiapas",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Ross",
       "recording_date": null
     },
     "transcription": {
@@ -15139,7 +15139,7 @@
       "country_name": "France",
       "region": "Corsica",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Paulu Ajaccio",
       "recording_date": null
     },
     "transcription": {
@@ -15194,7 +15194,7 @@
       "country_name": "Pakistan",
       "region": null,
       "city": "Dinga",
-      "recorded_by": null,
+      "recorded_by": "Zakaria Kaleem",
       "recording_date": null
     },
     "transcription": {
@@ -15248,7 +15248,7 @@
       "country_name": "Rwanda",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bögre Udell and Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -15303,7 +15303,7 @@
       "country_name": "Tonga",
       "region": "Niuafo'ou",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Nicholas",
       "recording_date": null
     },
     "transcription": {
@@ -15416,7 +15416,7 @@
       "country_name": "Tanzania",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bogre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -15468,7 +15468,7 @@
       "country_name": "Paraguay",
       "region": "Gran Chaco",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bögre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -15521,7 +15521,7 @@
       "country_name": "India",
       "region": "Karnataka",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Ashay Badikana",
       "recording_date": null
     },
     "transcription": {
@@ -15573,7 +15573,7 @@
       "country_name": "Mexico",
       "region": "La Huasteca",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Luis Flores",
       "recording_date": null
     },
     "transcription": {
@@ -15680,7 +15680,7 @@
       "country_name": "Ukraine",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -15736,7 +15736,7 @@
       "country_name": "Democratic Republic of the Congo",
       "region": "South Kivu",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Hangi Méthodes Bulebe",
       "recording_date": null
     },
     "transcription": {
@@ -15770,7 +15770,7 @@
     "primary_language": {
       "iso639_3": "kir",
       "bcp47": "ky",
-      "name": "Kirghiz",
+      "name": "Kyrgyz",
       "glottocode": "kirg1245",
       "autonym": "Кыргыз тили",
       "dialect": null
@@ -15788,7 +15788,7 @@
       "country_name": "Kyrgyzstan",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Teddy Nee",
       "recording_date": null
     },
     "transcription": {
@@ -15840,7 +15840,7 @@
       "country_name": "India",
       "region": "Uttarakhand",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Priyanshi Singh",
       "recording_date": null
     },
     "transcription": {
@@ -15892,7 +15892,7 @@
       "country_name": "Pakistan",
       "region": "Gilgit-Baltistan",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Rizwan Hussain",
       "recording_date": null
     },
     "transcription": {
@@ -15945,7 +15945,7 @@
       "country_name": "Russia",
       "region": "Sakha Republic",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -15999,7 +15999,7 @@
       "country_name": "Liberia",
       "region": "Sinoe County",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Tom",
       "recording_date": null
     },
     "transcription": {
@@ -16050,7 +16050,7 @@
       "country_name": "Croatia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Cameron Willis and Daniel Bogre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -16102,7 +16102,7 @@
       "country_name": "Sierra Leone",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Dorian",
       "recording_date": null
     },
     "transcription": {
@@ -16156,7 +16156,7 @@
       "country_name": "Portugal",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Guillem Belmar",
       "recording_date": null
     },
     "transcription": {
@@ -16212,7 +16212,7 @@
       "country_name": "Guinea",
       "region": "Fouta Djallon",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Peter Julian",
       "recording_date": null
     },
     "transcription": {
@@ -16266,13 +16266,13 @@
       "country_name": "India",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Sukunya Bhan",
       "recording_date": null
     },
     "transcription": {
       "has_subtitles": false,
       "available_subtitles": [],
-      "native_text": null,
+      "native_text": "Hi, my name is Sukanya Bhan. I live in India, my birth place is Jammu and Kashmir and we have lived in Delhi since 1990. I was born deaf and communicate using Indian Sign Language. I learned Indian Sign Language when I was in 6th grade and have been using it since. I currently work at the Indian Sign Language Research and Training Centre as a Master Trainer. In the future, I wish to see more accessibility for the deaf, such as subtitles on TV and more interpreters. Thank you for watching and listening.",
       "english_translation": null
     },
     "raw_metadata": {
@@ -16316,7 +16316,7 @@
       "country_name": "South Korea",
       "region": "Jeju Island",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Alaric Naude",
       "recording_date": null
     },
     "transcription": {
@@ -16369,7 +16369,7 @@
       "country_name": "Armenia",
       "region": "Artsakh",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -16422,7 +16422,7 @@
       "country_name": "Bermuda",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Trey Tucker",
       "recording_date": null
     },
     "transcription": {
@@ -16456,7 +16456,7 @@
     "primary_language": {
       "iso639_3": "kam",
       "bcp47": "kam",
-      "name": "Kamba (Kenya)",
+      "name": "Kamba",
       "glottocode": "kamb1297",
       "autonym": "Kikamba",
       "dialect": null
@@ -16474,7 +16474,7 @@
       "country_name": "Kenya",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Teja Jonnalagadda",
       "recording_date": null
     },
     "transcription": {
@@ -16527,7 +16527,7 @@
       "country_name": "Taiwan",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kaisanan Ahuan",
       "recording_date": null
     },
     "transcription": {
@@ -16581,7 +16581,7 @@
       "country_name": "Kazakhstan",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Teddy Nee",
       "recording_date": null
     },
     "transcription": {
@@ -16590,7 +16590,7 @@
         "en",
         "kk"
       ],
-      "native_text": null,
+      "native_text": "Салем бәріңізге! Менің атым Ернұр, мен Қазақстаннан келдім. Менің ана тілім - қазақ тілі, және қазір мен сіздерге қазақша сөйлеп жатырмын. Мен біздің тіліміз өте әдемі және бай деп санаймын. Қазақ тілінде сөйлейтін адамдар өте көп, және біздің тіліміз әлемдегі ең бай тілдердің бірі болып табылады.",
       "english_translation": null
     },
     "raw_metadata": {
@@ -16682,7 +16682,7 @@
       "country_name": "Malaysia",
       "region": "Sarawak",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Calvin Jemarang",
       "recording_date": null
     },
     "transcription": {
@@ -16786,7 +16786,7 @@
       "country_name": "Namibia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Theron Kolokwe",
       "recording_date": null
     },
     "transcription": {
@@ -17090,7 +17090,7 @@
       "country_name": "China",
       "region": "Jiangxi",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -17140,7 +17140,7 @@
       "country_name": "Germany",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bögre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -17258,7 +17258,7 @@
       "country_name": "India",
       "region": "Manipur",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Rohini Lakshané",
       "recording_date": null
     },
     "transcription": {
@@ -17309,7 +17309,7 @@
       "country_name": "Italy",
       "region": "Lombardy",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Jacopo",
       "recording_date": null
     },
     "transcription": {
@@ -17366,7 +17366,7 @@
       "country_name": "India",
       "region": "Uttarakhand",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Hardeep Singh",
       "recording_date": null
     },
     "transcription": {
@@ -17419,7 +17419,7 @@
       "country_name": "Poland",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Marta Sawicka",
       "recording_date": null
     },
     "transcription": {
@@ -17470,7 +17470,7 @@
       "country_name": "Turkey",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "John Kazaklis",
       "recording_date": null
     },
     "transcription": {
@@ -17521,7 +17521,7 @@
       "country_name": "Ghana",
       "region": null,
       "city": "Accra",
-      "recorded_by": null,
+      "recorded_by": "Samuel Okpoti",
       "recording_date": null
     },
     "transcription": {
@@ -17577,7 +17577,7 @@
       "country_name": "China",
       "region": "Xinjiang",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Ben Jones-White",
       "recording_date": null
     },
     "transcription": {
@@ -17741,7 +17741,7 @@
       "country_name": "United States",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Rachael Weinstein",
       "recording_date": null
     },
     "transcription": {
@@ -17906,7 +17906,7 @@
       "country_name": "Italy",
       "region": "Piedmont",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Maddalena Brunasi",
       "recording_date": null
     },
     "transcription": {
@@ -18011,7 +18011,7 @@
       "country_name": "Thailand",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Teddy Nee",
       "recording_date": null
     },
     "transcription": {
@@ -18111,7 +18111,7 @@
       "country_name": "Comoros",
       "region": "Mohéli",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Peace Corps Volunteer Ashly",
       "recording_date": null
     },
     "transcription": {
@@ -18221,7 +18221,7 @@
       "country_name": "Democratic Republic of the Congo",
       "region": "South Kivu",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Hangi Bulebe",
       "recording_date": null
     },
     "transcription": {
@@ -18274,7 +18274,7 @@
       "country_name": "Syria",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Mohamad Saeed",
       "recording_date": null
     },
     "transcription": {
@@ -18339,7 +18339,7 @@
       "country_name": "Japan",
       "region": "Okinawa",
       "city": "Yonaguni",
-      "recorded_by": null,
+      "recorded_by": "Seth Wyatt and Naruko",
       "recording_date": null
     },
     "transcription": {
@@ -18392,7 +18392,7 @@
       "country_name": "Kazakhstan",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Mereinur Tabuldin",
       "recording_date": null
     },
     "transcription": {
@@ -18601,7 +18601,7 @@
       "country_name": "Italy",
       "region": "Lombardy",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Matteo",
       "recording_date": null
     },
     "transcription": {
@@ -18654,7 +18654,7 @@
       "country_name": "Denmark",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -18716,7 +18716,7 @@
       "country_name": "India",
       "region": "Assam",
       "city": "Karbi Anglong",
-      "recorded_by": null,
+      "recorded_by": "Abhinash Das",
       "recording_date": null
     },
     "transcription": {
@@ -18751,7 +18751,7 @@
     "primary_language": {
       "iso639_3": "rwr",
       "bcp47": "rwr",
-      "name": "Marwari (India)",
+      "name": "Marwari",
       "glottocode": "marw1260",
       "autonym": "मारवाड़ी",
       "dialect": "Marwari"
@@ -18861,7 +18861,7 @@
       "country_name": "Tunisia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Anass Sedrati",
       "recording_date": null
     },
     "transcription": {
@@ -18907,7 +18907,7 @@
       "country_name": "Pakistan",
       "region": "Sindh",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Mazhar Ali Dootio",
       "recording_date": null
     },
     "transcription": {
@@ -18935,7 +18935,7 @@
     "primary_language": {
       "iso639_3": "bem",
       "bcp47": "bem",
-      "name": "Bemba (Zambia)",
+      "name": "Bemba",
       "glottocode": "bemb1257",
       "autonym": "Ichibemba",
       "dialect": null
@@ -18953,7 +18953,7 @@
       "country_name": "Zambia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Chabota Kanguya",
       "recording_date": null
     },
     "transcription": {
@@ -19054,7 +19054,7 @@
       "country_name": "United States",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Rhyan",
       "recording_date": null
     },
     "transcription": {
@@ -19112,7 +19112,7 @@
       "country_name": "Azerbaijan",
       "region": "Quba District",
       "city": "Cek",
-      "recorded_by": null,
+      "recorded_by": "Anass Sedrati",
       "recording_date": null
     },
     "transcription": {
@@ -19163,7 +19163,7 @@
       "country_name": "India",
       "region": "Karnataka",
       "city": "Kundapura",
-      "recorded_by": null,
+      "recorded_by": "Nikkhil Kamath",
       "recording_date": null
     },
     "transcription": {
@@ -19212,7 +19212,7 @@
       "country_name": "Palau",
       "region": "Hatohobei State",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Connie Ngirchemat",
       "recording_date": null
     },
     "transcription": {
@@ -19263,7 +19263,7 @@
       "country_name": "Namibia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Musuweu Theron Kolokwe",
       "recording_date": null
     },
     "transcription": {
@@ -19375,7 +19375,7 @@
       "country_name": "South Africa",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bögre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -19425,7 +19425,7 @@
       "country_name": "India",
       "region": "Kerala",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bögre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -19474,7 +19474,7 @@
       "country_name": "Indonesia",
       "region": "West Kalimantan",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kunto Nurchayako",
       "recording_date": null
     },
     "transcription": {
@@ -19525,7 +19525,7 @@
       "country_name": "Mexico",
       "region": "Oaxaca",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Gary Quintanilla Ordoñez",
       "recording_date": null
     },
     "transcription": {
@@ -19575,7 +19575,7 @@
       "country_name": "Mexico",
       "region": "Baja California",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Gary Quintanilla Ordoñez",
       "recording_date": null
     },
     "transcription": {
@@ -19674,7 +19674,7 @@
       "country_name": "India",
       "region": "West Bengal",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Sathi Murmu",
       "recording_date": null
     },
     "transcription": {
@@ -19724,7 +19724,7 @@
       "country_name": "Indonesia",
       "region": "West Kalimantan",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kunto Nurchayako",
       "recording_date": null
     },
     "transcription": {
@@ -19773,7 +19773,7 @@
       "country_name": "Ghana",
       "region": "Northern Region",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bögre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -19819,7 +19819,7 @@
       "country_name": "Indonesia",
       "region": "West Kalimantan",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kunto Nurchayako",
       "recording_date": null
     },
     "transcription": {
@@ -19865,7 +19865,7 @@
       "country_name": "Nigeria",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bogre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -19918,7 +19918,7 @@
       "country_name": "Netherlands",
       "region": "Groningen",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Guillem Belmar",
       "recording_date": null
     },
     "transcription": {
@@ -19995,7 +19995,7 @@
     "primary_language": {
       "iso639_3": "zlm",
       "bcp47": "ms",
-      "name": "Malay (individual language)",
+      "name": "Malay",
       "glottocode": "mala1479",
       "autonym": "Bahasa Melayu",
       "dialect": null
@@ -20013,7 +20013,7 @@
       "country_name": "Malaysia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -20057,7 +20057,7 @@
       "country_name": "Liberia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Peace Corps Volunteer Milea",
       "recording_date": null
     },
     "transcription": {
@@ -20114,7 +20114,7 @@
       "country_name": "India",
       "region": "Odisha",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -20209,7 +20209,7 @@
       "country_name": "Mozambique",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Aleesa Man",
       "recording_date": null
     },
     "transcription": {
@@ -20345,7 +20345,7 @@
       "country_name": "Zambia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bogre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -20389,7 +20389,7 @@
       "country_name": "Peru",
       "region": "Cusco",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "David Ancalle",
       "recording_date": null
     },
     "transcription": {
@@ -20433,7 +20433,7 @@
       "country_name": "Senegal",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Teddy Nee",
       "recording_date": null
     },
     "transcription": {
@@ -20477,7 +20477,7 @@
       "country_name": "Liberia",
       "region": "Grand Gedeh",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Peace Corps Volunteer Doorey",
       "recording_date": null
     },
     "transcription": {
@@ -20524,7 +20524,7 @@
       "country_name": "Italy",
       "region": "Liguria",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Nick Panzarella",
       "recording_date": null
     },
     "transcription": {
@@ -20568,7 +20568,7 @@
       "country_name": "Uganda",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bögre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -20619,7 +20619,7 @@
       "country_name": "Vanuatu",
       "region": "Torba",
       "city": "Vanua Lava",
-      "recorded_by": null,
+      "recorded_by": "Daniel Krauße",
       "recording_date": null
     },
     "transcription": {
@@ -20672,7 +20672,7 @@
       "country_name": "Algeria",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Anass Sedrati",
       "recording_date": null
     },
     "transcription": {
@@ -20716,7 +20716,7 @@
       "country_name": "China",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Teddy Nee",
       "recording_date": null
     },
     "transcription": {
@@ -21031,7 +21031,7 @@
       "country_name": "Myanmar",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kevin Holohan",
       "recording_date": null
     },
     "transcription": {
@@ -21084,7 +21084,7 @@
       "country_name": "Mexico",
       "region": "Puebla",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bogre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -21136,7 +21136,7 @@
       "country_name": "Nigeria",
       "region": "Akwa Ibom",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Alex Edun",
       "recording_date": null
     },
     "transcription": {
@@ -21188,7 +21188,7 @@
       "country_name": "South Africa",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Fiel Sahir",
       "recording_date": null
     },
     "transcription": {
@@ -21237,7 +21237,7 @@
       "country_name": "Madagascar",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Harry Wilson",
       "recording_date": null
     },
     "transcription": {
@@ -21399,7 +21399,7 @@
       "country_name": "Canada",
       "region": "Yukon",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Sam Osborn",
       "recording_date": null
     },
     "transcription": {
@@ -21450,7 +21450,7 @@
       "country_name": "Netherlands",
       "region": "Friesland",
       "city": "Het Bildt",
-      "recorded_by": null,
+      "recorded_by": "Guillem Belmar",
       "recording_date": null
     },
     "transcription": {
@@ -21506,7 +21506,7 @@
       "country_name": "Uganda",
       "region": "Kigezi",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Chabota",
       "recording_date": null
     },
     "transcription": {
@@ -21554,7 +21554,7 @@
       "country_name": "Ecuador",
       "region": "Imbabura",
       "city": "Otavalo",
-      "recorded_by": null,
+      "recorded_by": "Daniel Bogre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -21606,7 +21606,7 @@
       "country_name": "Indonesia",
       "region": "South Sumatra",
       "city": "Palembang",
-      "recorded_by": null,
+      "recorded_by": "Nur Fahmia",
       "recording_date": null
     },
     "transcription": {
@@ -21652,7 +21652,7 @@
       "country_name": "Spain",
       "region": "Asturias",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bogre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -21698,7 +21698,7 @@
       "country_name": "Uganda",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bogre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -21786,7 +21786,7 @@
       "country_name": "Liberia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Peace Corps Volunteer Mike",
       "recording_date": null
     },
     "transcription": {
@@ -21885,7 +21885,7 @@
       "country_name": "China",
       "region": "Guangdong",
       "city": "Taishan",
-      "recorded_by": null,
+      "recorded_by": "Joseph Ho",
       "recording_date": null
     },
     "transcription": {
@@ -21991,7 +21991,7 @@
       "country_name": "Ghana",
       "region": "Savannah Region",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Fiel Sahir",
       "recording_date": null
     },
     "transcription": {
@@ -22041,7 +22041,7 @@
       "country_name": "Solomon Islands",
       "region": "Malaita",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Sarah Meltzoff",
       "recording_date": null
     },
     "transcription": {
@@ -22090,7 +22090,7 @@
       "country_name": "India",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Hardeep Singh",
       "recording_date": null
     },
     "transcription": {
@@ -22149,7 +22149,7 @@
       "country_name": "Peru",
       "region": "Loreto",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bogre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -22203,7 +22203,7 @@
       "country_name": "India",
       "region": "Jammu and Kashmir",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Tushar Rakheja",
       "recording_date": null
     },
     "transcription": {
@@ -22315,7 +22315,7 @@
       "country_name": "United States",
       "region": "Navajo Nation",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bogre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -22361,7 +22361,7 @@
       "country_name": "Solomon Islands",
       "region": "Malaita",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Sarah Meltzoff",
       "recording_date": null
     },
     "transcription": {
@@ -22470,7 +22470,7 @@
       "country_name": "Canada",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Bryan Lammens",
       "recording_date": null
     },
     "transcription": {
@@ -22522,7 +22522,7 @@
       "country_name": "Vanuatu",
       "region": "Torba",
       "city": "Torres Islands",
-      "recorded_by": null,
+      "recorded_by": "Sarah Doyle",
       "recording_date": null
     },
     "transcription": {
@@ -22579,7 +22579,7 @@
       "country_name": "Netherlands",
       "region": "Zeeland",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bogre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -22843,7 +22843,7 @@
       "country_name": "Nauru",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Teddy Nee",
       "recording_date": null
     },
     "transcription": {
@@ -22945,7 +22945,7 @@
       "country_name": "Namibia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Rossouw van Rooyen",
       "recording_date": null
     },
     "transcription": {
@@ -23054,7 +23054,7 @@
       "country_name": "Russia",
       "region": "Tatarstan",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Chingis",
       "recording_date": null
     },
     "transcription": {
@@ -23164,7 +23164,7 @@
       "country_name": "Indonesia",
       "region": "East Java",
       "city": "Banyuwangi",
-      "recorded_by": null,
+      "recorded_by": "Nur Fahmia",
       "recording_date": null
     },
     "transcription": {
@@ -23221,7 +23221,7 @@
       "country_name": "Netherlands",
       "region": "Friesland",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Guillem Belmar",
       "recording_date": null
     },
     "transcription": {
@@ -23284,7 +23284,7 @@
       "country_name": "Morocco",
       "region": "Souss-Massa",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Abderrahman Ait-Ali",
       "recording_date": null
     },
     "transcription": {
@@ -23396,7 +23396,7 @@
       "country_name": "Tuvalu",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Teddy Nee",
       "recording_date": null
     },
     "transcription": {
@@ -23450,7 +23450,7 @@
       "country_name": "Morocco",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Anass Sedrati",
       "recording_date": null
     },
     "transcription": {
@@ -23507,7 +23507,7 @@
       "country_name": "India",
       "region": "West Bengal",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Fiel Sahir",
       "recording_date": null
     },
     "transcription": {
@@ -23564,7 +23564,7 @@
       "country_name": "Italy",
       "region": "Sicily",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Steven Campo",
       "recording_date": null
     },
     "transcription": {
@@ -23620,7 +23620,7 @@
       "country_name": "Namibia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Theron Kolokwe",
       "recording_date": null
     },
     "transcription": {
@@ -23678,7 +23678,7 @@
       "country_name": "Spain",
       "region": "Castile and León",
       "city": "León",
-      "recorded_by": null,
+      "recorded_by": "Ana Laguna",
       "recording_date": null
     },
     "transcription": {
@@ -23741,7 +23741,7 @@
       "country_name": "Russia",
       "region": "North Ossetia-Alania",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Elise Lieberman",
       "recording_date": null
     },
     "transcription": {
@@ -23796,7 +23796,7 @@
       "country_name": "France",
       "region": "Alsace",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -23854,7 +23854,7 @@
       "country_name": "Netherlands",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Guillem Belmar",
       "recording_date": null
     },
     "transcription": {
@@ -23911,7 +23911,7 @@
       "country_name": "Liberia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Peace Corps Volunteer Taylor",
       "recording_date": null
     },
     "transcription": {
@@ -23966,7 +23966,7 @@
       "country_name": "United States",
       "region": "Louisiana",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Michael Gisclair",
       "recording_date": null
     },
     "transcription": {
@@ -24040,7 +24040,7 @@
       "country_name": "Indonesia",
       "region": "Java",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Fiel Sahir",
       "recording_date": null
     },
     "transcription": {
@@ -24095,7 +24095,7 @@
       "country_name": "Indonesia",
       "region": "Banten",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Teddy Nee",
       "recording_date": null
     },
     "transcription": {
@@ -24160,7 +24160,7 @@
       "country_name": "Burkina Faso",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Teddy Nee",
       "recording_date": null
     },
     "transcription": {
@@ -24224,7 +24224,7 @@
       "country_name": "Canada",
       "region": "New Brunswick",
       "city": "Moncton",
-      "recorded_by": null,
+      "recorded_by": "Noah Sullivan",
       "recording_date": null
     },
     "transcription": {
@@ -24343,7 +24343,7 @@
       "country_name": "Mexico",
       "region": "Oaxaca",
       "city": "San Lucas Quiaviní",
-      "recorded_by": null,
+      "recorded_by": "Daniel Bogre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -24406,7 +24406,7 @@
       "country_name": "Liberia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Peace Corps Volunteer Nathaniel",
       "recording_date": null
     },
     "transcription": {
@@ -24463,7 +24463,7 @@
       "country_name": "New Caledonia",
       "region": null,
       "city": "Isle of Pines",
-      "recorded_by": null,
+      "recorded_by": "Daniel Bogre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -24505,7 +24505,7 @@
     "primary_language": {
       "iso639_3": "apc",
       "bcp47": "apc",
-      "name": "North Levantine Arabic",
+      "name": "Levantine Arabic",
       "glottocode": "nort3139",
       "autonym": "عربي سوري / Shami",
       "dialect": "Syrian Arabic"
@@ -24523,7 +24523,7 @@
       "country_name": "Syria",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Tushar Rakheja",
       "recording_date": null
     },
     "transcription": {
@@ -24634,7 +24634,7 @@
       "country_name": "Myanmar",
       "region": "Chin State",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Sarah Meltzoff",
       "recording_date": null
     },
     "transcription": {
@@ -24691,7 +24691,7 @@
       "country_name": "France",
       "region": "Brittany",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Timothy McKeon",
       "recording_date": null
     },
     "transcription": {
@@ -24750,7 +24750,7 @@
       "country_name": "Solomon Islands",
       "region": "Santa Cruz Islands",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Sarah Meltzoff",
       "recording_date": null
     },
     "transcription": {
@@ -24808,7 +24808,7 @@
       "country_name": "Romania",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Plator Gashi",
       "recording_date": null
     },
     "transcription": {
@@ -25027,7 +25027,7 @@
       "country_name": "Canada",
       "region": "Quebec",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Maxime Rioux",
       "recording_date": null
     },
     "transcription": {
@@ -25086,7 +25086,7 @@
       "country_name": "Indonesia",
       "region": "West Java",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Yusuf Hidayat",
       "recording_date": null
     },
     "transcription": {
@@ -25147,7 +25147,7 @@
       "country_name": "Kosovo",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Plator Gashi",
       "recording_date": null
     },
     "transcription": {
@@ -25209,7 +25209,7 @@
       "country_name": "United States",
       "region": "Texas",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Alex Perez",
       "recording_date": null
     },
     "transcription": {
@@ -25266,7 +25266,7 @@
       "country_name": "Vanuatu",
       "region": "Banks Islands",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Sarah Doyle",
       "recording_date": null
     },
     "transcription": {
@@ -25321,7 +25321,7 @@
       "country_name": "Vanuatu",
       "region": "Torba",
       "city": "Gaua Island",
-      "recorded_by": null,
+      "recorded_by": "Richard Benton",
       "recording_date": null
     },
     "transcription": {
@@ -25361,7 +25361,7 @@
     "primary_language": {
       "iso639_3": "lom",
       "bcp47": "lom",
-      "name": "Loma (Liberia)",
+      "name": "Loma",
       "glottocode": "loma1260",
       "autonym": "Löömàgì / Loma",
       "dialect": null
@@ -25379,7 +25379,7 @@
       "country_name": "Liberia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Peace Corps Volunteer Nathaniel",
       "recording_date": null
     },
     "transcription": {
@@ -25434,7 +25434,7 @@
       "country_name": "Sri Lanka",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Fiel Sahir",
       "recording_date": null
     },
     "transcription": {
@@ -25487,7 +25487,7 @@
       "country_name": "Italy",
       "region": "Abruzzo",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Stefano Carulli",
       "recording_date": null
     },
     "transcription": {
@@ -25545,7 +25545,7 @@
       "country_name": "Netherlands",
       "region": "North Brabant",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Fiel Sahir",
       "recording_date": null
     },
     "transcription": {
@@ -25598,7 +25598,7 @@
       "country_name": "Guatemala",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Lindsay Williams",
       "recording_date": null
     },
     "transcription": {
@@ -25663,7 +25663,7 @@
       "country_name": "Italy",
       "region": "Sicily",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "David Paleino",
       "recording_date": null
     },
     "transcription": {
@@ -25701,7 +25701,7 @@
     "primary_language": {
       "iso639_3": "zlm",
       "bcp47": "ms",
-      "name": "Malay (individual language)",
+      "name": "Malay",
       "glottocode": "mala1479",
       "autonym": "Bahasa Melayu",
       "dialect": null
@@ -25719,7 +25719,7 @@
       "country_name": "Malaysia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -25773,7 +25773,7 @@
       "country_name": "Vanuatu",
       "region": "Torba",
       "city": "Vanua Lava",
-      "recorded_by": null,
+      "recorded_by": "Sarah Doyle",
       "recording_date": null
     },
     "transcription": {
@@ -25879,7 +25879,7 @@
       "country_name": "Haiti",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Elise Lieberman",
       "recording_date": null
     },
     "transcription": {
@@ -26044,7 +26044,7 @@
       "country_name": "Indonesia",
       "region": "Java",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Fiel Sahir",
       "recording_date": null
     },
     "transcription": {
@@ -26234,7 +26234,7 @@
       "country_name": "United States",
       "region": "New York",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Daniel Bogre Udell",
       "recording_date": null
     },
     "transcription": {
@@ -26290,7 +26290,7 @@
       "country_name": "Spain",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Ana Laguna",
       "recording_date": null
     },
     "transcription": {
@@ -26401,7 +26401,7 @@
       "country_name": "Angola",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Stéfane Helder",
       "recording_date": null
     },
     "transcription": {
@@ -26512,7 +26512,7 @@
       "country_name": "Vanuatu",
       "region": "Shefa",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Sarah Doyle",
       "recording_date": null
     },
     "transcription": {
@@ -26565,7 +26565,7 @@
       "country_name": "Liberia",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Peace Corps Volunteer Justin",
       "recording_date": null
     },
     "transcription": {
@@ -26677,7 +26677,7 @@
       "country_name": "Indonesia",
       "region": "South Sumatra",
       "city": "Palembang",
-      "recorded_by": null,
+      "recorded_by": "Fiel Sahir",
       "recording_date": null
     },
     "transcription": {
@@ -26883,7 +26883,7 @@
     "duration_seconds": 230,
     "upload_date": "2017-10-31",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "jav",
       "bcp47": "jv",
@@ -27126,11 +27126,11 @@
     "duration_seconds": 121,
     "upload_date": "2017-09-27",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "naq",
       "bcp47": "naq",
-      "name": "Khoekhoegowab",
+      "name": "Khoekhoe",
       "glottocode": "nama1264",
       "autonym": "Khoekhoegowab",
       "dialect": null
@@ -27201,7 +27201,7 @@
     "duration_seconds": 97,
     "upload_date": "2017-09-24",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "cfm",
       "bcp47": "cfm",
@@ -27258,7 +27258,7 @@
     "duration_seconds": 183,
     "upload_date": "2017-09-21",
     "license": "CC-BY-SA-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "ary",
       "bcp47": "ary",
@@ -27318,7 +27318,7 @@
     "duration_seconds": 158,
     "upload_date": "2017-09-20",
     "license": "CC-BY-SA-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "bgq",
       "bcp47": "bgq",
@@ -27377,7 +27377,7 @@
     "duration_seconds": 151,
     "upload_date": "2017-09-16",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "dan",
       "bcp47": "da",
@@ -27432,7 +27432,7 @@
     "duration_seconds": 223,
     "upload_date": "2017-09-16",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "ces",
       "bcp47": "cs",
@@ -27525,7 +27525,7 @@
     "duration_seconds": 113,
     "upload_date": "2017-09-13",
     "license": "CC-BY-SA-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "szl",
       "bcp47": "szl",
@@ -27639,7 +27639,7 @@
     "duration_seconds": 44,
     "upload_date": "2017-09-07",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "ady",
       "bcp47": "ady",
@@ -27758,7 +27758,7 @@
     "duration_seconds": 103,
     "upload_date": "2017-08-31",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "gsw",
       "bcp47": "gsw",
@@ -27816,7 +27816,7 @@
     "duration_seconds": 56,
     "upload_date": "2017-08-30",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "arz",
       "bcp47": "arz",
@@ -27845,7 +27845,7 @@
       "has_subtitles": false,
       "available_subtitles": [],
       "native_text": null,
-      "english_translation": null
+      "english_translation": "Hello everyone! My name is Youssef. I am from the City of Alexandria, in Egypt, but I live in Spain. My native language is Arabic, particularly the Egyptian dialect. I'm so proud of my country, because there are a lot of civilizations that passed through Egypt: we have the Pharaonic civilization, which has left a lot of traces in our current way of speaking, our dialect, and we also have other cultures that influenced our country, especially the Mediterranean ones. So, I am really happy to be part of Wikitongues, in order to show my language and to represent it."
     },
     "raw_metadata": {
       "title": "WIKITONGUES: Youssef speaking Egyptian Arabic",
@@ -27870,7 +27870,7 @@
     "duration_seconds": 45,
     "upload_date": "2017-08-26",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "kir",
       "bcp47": "ky",
@@ -27925,7 +27925,7 @@
     "duration_seconds": 240,
     "upload_date": "2017-08-24",
     "license": "CC-BY-SA-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "vec",
       "bcp47": "vec",
@@ -27986,7 +27986,7 @@
     "duration_seconds": 177,
     "upload_date": "2017-08-22",
     "license": "CC-BY-SA-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "sev",
       "bcp47": "sev",
@@ -28041,7 +28041,7 @@
     "duration_seconds": 52,
     "upload_date": "2017-08-19",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "che",
       "bcp47": "ce",
@@ -28202,7 +28202,7 @@
     "duration_seconds": 173,
     "upload_date": "2017-08-12",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "twi",
       "bcp47": "tw",
@@ -28259,7 +28259,7 @@
     "duration_seconds": 157,
     "upload_date": "2017-08-10",
     "license": "CC-BY-SA-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "crh",
       "bcp47": "crh",
@@ -28444,7 +28444,7 @@
     "duration_seconds": 301,
     "upload_date": "2017-07-29",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "slk",
       "bcp47": "sk",
@@ -28590,7 +28590,7 @@
       "has_subtitles": false,
       "available_subtitles": [],
       "native_text": null,
-      "english_translation": null
+      "english_translation": "Hello, my name is Fanija Pana. I am Aromanian, from Macedonia - Farshirota (an Aromanian sub-group). Now, I live in Singapore and I work as an English teacher. I love learning languages and also to teach other people languages. I speak English, French, Macedonian, Italian, and a bit of Mandarin Chinese. I like to travel and run. I would like that all young Aromanians will speak our language, Aromanian, so that we won't forget it."
     },
     "raw_metadata": {
       "title": "WIKITONGUES: Fanny speaking Vlach",
@@ -28841,7 +28841,7 @@
     "duration_seconds": 362,
     "upload_date": "2017-07-15",
     "license": "CC-BY-SA-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "sbs",
       "bcp47": "sbs",
@@ -28902,7 +28902,7 @@
     "duration_seconds": 198,
     "upload_date": "2017-07-13",
     "license": "CC-BY-SA-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "swg",
       "bcp47": "swg",
@@ -28964,7 +28964,7 @@
     "duration_seconds": 582,
     "upload_date": "2017-06-29",
     "license": "CC-BY-SA-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "cat",
       "bcp47": "ca",
@@ -29111,7 +29111,7 @@
     "duration_seconds": 123,
     "upload_date": "2017-06-24",
     "license": "CC-BY-SA-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "hno",
       "bcp47": "hno",
@@ -29711,7 +29711,7 @@
       "country_name": "Malaysia",
       "region": null,
       "city": "Langkawi",
-      "recorded_by": null,
+      "recorded_by": "Kristen Tcherneshoff",
       "recording_date": null
     },
     "transcription": {
@@ -30012,7 +30012,7 @@
     "duration_seconds": 616,
     "upload_date": "2017-05-13",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "hrv",
       "bcp47": "hr",
@@ -30289,7 +30289,7 @@
       "country_name": "United States",
       "region": "Kansas",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Richard Zane-Smith",
       "recording_date": null
     },
     "transcription": {
@@ -30488,7 +30488,7 @@
     "duration_seconds": 272,
     "upload_date": "2017-04-22",
     "license": "CC-BY-SA-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "por",
       "bcp47": "pt-BR",
@@ -30627,7 +30627,7 @@
     "duration_seconds": 164,
     "upload_date": "2017-04-20",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "ell",
       "bcp47": "el",
@@ -31466,8 +31466,8 @@
     "transcription": {
       "has_subtitles": false,
       "available_subtitles": [],
-      "native_text": null,
-      "english_translation": null
+      "native_text": "Bondì! Ogi xe sai zima e un fia de bavisela, anzi borin, e ‘lora nemo far do ciacole sentai qua bisiando un cafetin. Mi son nado e cressudo a Trieste, una cità che ga una storia sai particolar e una posizion geografica bastanza ‘strana’. De fato Trieste se trova al estremo nord de l’Adriatico, a do passi de la Slovenia e con dele coline subito de drio. El dialeto che parlemo xe un dialeto de tipo veneto ma che ga ciapado tute le influenze de le varie dominazion e de tuti i popoli che xe passai de qua.",
+      "english_translation": "Good day! Today it’s very cold and there’s a bit of a breeze, actually “borin”, so we shall talk right here, sitting and drinking a little coffee. I was born and grew up in Trieste, a city that has a very peculiar history and quite a ‘strange’ geographical position. In fact, Trieste is located on the Northern end of the Adriatic Sea, just a few steps from Slovenia and with the hills right behind it. The dialect we speak is a Venetian-type dialect, but it has absorbed all the influences of the various dominations and of all the people who passed through here."
     },
     "raw_metadata": {
       "title": "WIKITONGUES: Arlon speaking Triestine",
@@ -31504,7 +31504,7 @@
       "country_name": "Palau",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Elise Lieberman",
       "recording_date": null
     },
     "transcription": {
@@ -31512,7 +31512,7 @@
       "available_subtitles": [
         "pau"
       ],
-      "native_text": null,
+      "native_text": "Alii e ngak a ngklek a Oluchel Rechelulk e ngak a ngar a beluu er a Ngebuked er a Ngaraard. Ngak a mlechell er a beluu er a Belau, me a chelechang e ak kie er a Oreor. Ak mle er a Merikel er a mong e mlo skuul er a University of Hawaii er a Manoa me a University of Washington er a Seattle. Me chelechang e ak mla me remei er a Belau e ngar a uchelel a urerek. Ak meruul a lild me a charm er a Belau.",
       "english_translation": null
     },
     "raw_metadata": {
@@ -31553,11 +31553,11 @@
     "duration_seconds": 53,
     "upload_date": "2017-02-28",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "npi",
       "bcp47": "ne",
-      "name": "Nepali (individual language)",
+      "name": "Nepali",
       "glottocode": "nepa1254",
       "autonym": "नेपाली",
       "dialect": null
@@ -31954,7 +31954,7 @@
     "duration_seconds": 264,
     "upload_date": "2017-02-02",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "dje",
       "bcp47": "dje",
@@ -32335,7 +32335,7 @@
     "primary_language": {
       "iso639_3": "npi",
       "bcp47": "ne",
-      "name": "Nepali (individual language)",
+      "name": "Nepali",
       "glottocode": "nepa1254",
       "autonym": "नेपाली",
       "dialect": null
@@ -32443,7 +32443,7 @@
     "primary_language": {
       "iso639_3": "ton",
       "bcp47": "to",
-      "name": "Tonga (Tonga Islands)",
+      "name": "Tongan",
       "glottocode": "tong1325",
       "autonym": "lea fakatonga",
       "dialect": null
@@ -32496,7 +32496,7 @@
     "duration_seconds": 91,
     "upload_date": "2016-12-26",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "heb",
       "bcp47": "he",
@@ -32724,7 +32724,7 @@
     "duration_seconds": 448,
     "upload_date": "2016-12-10",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "jam",
       "bcp47": "jam",
@@ -32839,7 +32839,7 @@
     "duration_seconds": 422,
     "upload_date": "2016-12-08",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "cbk",
       "bcp47": "cbk",
@@ -32894,7 +32894,7 @@
     "duration_seconds": 56,
     "upload_date": "2016-11-30",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "por",
       "bcp47": "pt-BR",
@@ -32935,7 +32935,7 @@
       "country_name": "Japan",
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Mario",
       "recording_date": null
     },
     "transcription": {
@@ -33327,7 +33327,7 @@
     "duration_seconds": 307,
     "upload_date": "2016-10-12",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "scn",
       "bcp47": "scn",
@@ -33391,7 +33391,7 @@
     "duration_seconds": 44,
     "upload_date": "2016-10-06",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "gyn",
       "bcp47": "gyn",
@@ -33503,7 +33503,7 @@
     "duration_seconds": 150,
     "upload_date": "2016-10-04",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "por",
       "bcp47": "pt-BR",
@@ -33559,7 +33559,7 @@
     "duration_seconds": 422,
     "upload_date": "2016-09-27",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "swe",
       "bcp47": "sv",
@@ -33632,7 +33632,7 @@
     "duration_seconds": 234,
     "upload_date": "2016-09-24",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "mwl",
       "bcp47": "mwl",
@@ -34381,7 +34381,7 @@
     "duration_seconds": 160,
     "upload_date": "2016-08-07",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "rus",
       "bcp47": "ru",
@@ -35218,7 +35218,7 @@
     "duration_seconds": 186,
     "upload_date": "2016-06-25",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "kaz",
       "bcp47": "kk",
@@ -35660,7 +35660,7 @@
     "duration_seconds": 520,
     "upload_date": "2016-05-18",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "fin",
       "bcp47": "fi",
@@ -35826,7 +35826,7 @@
     "duration_seconds": 265,
     "upload_date": "2016-05-11",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "fub",
       "bcp47": "ff",
@@ -35900,7 +35900,7 @@
     "duration_seconds": 133,
     "upload_date": "2016-05-07",
     "license": "CC-BY-SA-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "eng",
       "bcp47": "en",
@@ -36272,7 +36272,7 @@
     "duration_seconds": 194,
     "upload_date": "2016-04-15",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "por",
       "bcp47": "pt",
@@ -36532,7 +36532,7 @@
     "duration_seconds": 63,
     "upload_date": "2016-04-04",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "wol",
       "bcp47": "wo",
@@ -36786,7 +36786,7 @@
     "duration_seconds": 97,
     "upload_date": "2016-03-05",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "sef",
       "bcp47": "sef",
@@ -37118,7 +37118,7 @@
     "duration_seconds": 453,
     "upload_date": "2016-02-10",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "pdc",
       "bcp47": "pdc",
@@ -37389,7 +37389,7 @@
     "primary_language": {
       "iso639_3": "ain",
       "bcp47": "ain",
-      "name": "Ainu (Japan)",
+      "name": "Ainu",
       "glottocode": "ainu1240",
       "autonym": "アイヌ イタㇰ",
       "dialect": null
@@ -38424,7 +38424,7 @@
     "duration_seconds": 102,
     "upload_date": "2015-10-18",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "cat",
       "bcp47": "ca",
@@ -38917,7 +38917,7 @@
     "duration_seconds": 131,
     "upload_date": "2015-09-26",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "cim",
       "bcp47": "cim",
@@ -39194,7 +39194,7 @@
     "duration_seconds": 62,
     "upload_date": "2015-08-28",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "rus",
       "bcp47": "ru",
@@ -39574,7 +39574,7 @@
     "duration_seconds": 500,
     "upload_date": "2015-08-08",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "por",
       "bcp47": "pt",
@@ -39794,7 +39794,7 @@
     "primary_language": {
       "iso639_3": "mis",
       "bcp47": "art-x-atlaans",
-      "name": "Uncoded languages",
+      "name": "Atlaans",
       "glottocode": null,
       "autonym": "Atlaans",
       "dialect": null
@@ -39820,8 +39820,8 @@
       "available_subtitles": [
         "en"
       ],
-      "native_text": null,
-      "english_translation": null
+      "native_text": "Hee al. Wie ar dese? Hooda ar de achde fon Julie. Ig is niemal for een fliklog machd, men ig ferzuk es nu. Ig ar imer ouf spraaken interesierd zeen. Meen fader ar doutsh, en ig is doutsh feel hoord as ig kleen war, men he is niemal mich es teeded. So as ig skool ferlasd is, ig is doutsh su lernen enshieded. Over kunspraaken, for ig veesed is das geeb so een voord, ig was zeer interesierd in klingon, en ig is een bishen darover lerned. Ig is over de kunspraak gemeenshaf lerned vegen Hoch Valurish fon Game of Thrones. Ig is es zeer sweer su lernen finded, vegen de gramatik en de mangel fon mitelen men ig tru ig war good genuk um etvas in Hoch Valurish su overseten. Bee de end fon lete jaar, ig is Atlaans machd veel ig is komplet med germaansa spraaken in lieb komen. Nu ig ferzuk meer Atlaans su benooten en hofentlich meer fliesend ouf Atlaans su verden. Das ar waarom ig mak dies fliklog. Ig will meer fliklogen in sukunf machen. Bis spaader!",
+      "english_translation": "Hey guys How's it going? Today is the eighth of July. I have never done a vlog before, but I am going to give it a try. I have always been interested in languages. My father is German and I heard German a lot while I was growing up, but he never taught it to me. So when I left school, I decided to learn German. As for conlangs, before I knew there was such a term, I was very interested in Klingon, and I learned the basics. I learned about the whole conlanging community because of High Valyrian from Game of Thrones. I found it hard to learn, due to the grammar and the lack of resources but I feel that I got good enough to translate some stuff into High Valyrian. Near the end of last year, I created Atlaans because I fell in love with Germanic languages. Now I am trying to use Atlaans more and hopefully get more fluent in it. That is why I am making this vlog. I will make vlogs in the future. Until later!"
     },
     "raw_metadata": {
       "title": "WIKITONGUES: Rolf speaking Atlaans",
@@ -39839,7 +39839,7 @@
     "duration_seconds": 75,
     "upload_date": "2015-07-28",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "hau",
       "bcp47": "ha",
@@ -39874,8 +39874,8 @@
     "transcription": {
       "has_subtitles": false,
       "available_subtitles": [],
-      "native_text": null,
-      "english_translation": null
+      "native_text": "Da noutti yero badidi yero la souwana. Guidi yero houde yero la souwana. Kourou dawye ka fof koulou koulou la souwana. Woni woni yero ndon la souwana. Na be yero ndon do be gari do mada, na ndon do be gari do be mada. Ha be kouye fof be naata do be gari mada. Yero da noutti, badidi, guidi, houde, kourou dawye, woni woni yero ndon.",
+      "english_translation": "From the East to the West. From the South to the North and from the top to the bottom. From all over the world. Some people were invited, some people came by themselves, and some people were invited by their friends. All the people from the East, West, South, North, and from all over the world came together in this city."
     },
     "raw_metadata": {
       "title": "WIKITONGUES: Ali speaking Hausa and Kanuri",
@@ -39893,7 +39893,7 @@
     "duration_seconds": 68,
     "upload_date": "2015-07-21",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "lav",
       "bcp47": "lv",
@@ -39965,7 +39965,7 @@
     "duration_seconds": 39,
     "upload_date": "2015-07-17",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "azj",
       "bcp47": "az",
@@ -40056,7 +40056,7 @@
       "available_subtitles": [
         "eo"
       ],
-      "native_text": null,
+      "native_text": "Saluton mia amiko. Kiel vi fartas? Mia nomo estas Tony. Mi esas kanadano. Mi logxas en Otavo, la cxefurbo de Kanado. Esperanto estas la internacia lingvo, kreita de L. L. Zamenhof en 1887. Gxi estas tre facila lingvo por lerni. Mi esperas ke vi lernos Esperanton!",
       "english_translation": null
     },
     "raw_metadata": {
@@ -40079,7 +40079,7 @@
     "primary_language": {
       "iso639_3": "diq",
       "bcp47": "diq",
-      "name": "Dimli (individual language)",
+      "name": "Dimli",
       "glottocode": "diml1238",
       "autonym": "Zazaki",
       "dialect": null
@@ -40452,7 +40452,7 @@
       "country_name": "Fiji",
       "region": "Kadavu",
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Sarah Doyle",
       "recording_date": null
     },
     "transcription": {
@@ -40500,7 +40500,7 @@
     "primary_language": {
       "iso639_3": "swh",
       "bcp47": "sw",
-      "name": "Swahili (individual language)",
+      "name": "Swahili",
       "glottocode": "swah1253",
       "autonym": "Kiswahili",
       "dialect": null
@@ -40749,7 +40749,7 @@
         "id"
       ],
       "native_text": null,
-      "english_translation": null
+      "english_translation": "Hello all, how are you? I’m Argo, I’m from Indonesia. Here I am speaking in Indonesian, the national language of Indonesia. Today I would like to talk about why I love languages and why preserving indigenous and regional languages is so vital for our culture and heritage. Indonesia has hundreds of distinct languages, and each of them contains unique wisdom and traditions. Thank you for listening to my video!"
     },
     "raw_metadata": {
       "title": "WIKITONGUES: Argo speaking Indonesian",
@@ -40817,11 +40817,11 @@
     "duration_seconds": 376,
     "upload_date": "2015-04-14",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "luo",
       "bcp47": "luo",
-      "name": "Luo (Kenya and Tanzania)",
+      "name": "Luo",
       "glottocode": "luok1236",
       "autonym": "Dholuo",
       "dialect": null
@@ -40836,7 +40836,7 @@
       {
         "iso639_3": "swh",
         "bcp47": "sw",
-        "name": "Swahili (individual language)",
+        "name": "Swahili",
         "glottocode": "swah1253"
       }
     ],
@@ -41346,7 +41346,7 @@
     "duration_seconds": 126,
     "upload_date": "2015-02-17",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "som",
       "bcp47": "so",
@@ -41365,7 +41365,7 @@
       {
         "iso639_3": "swh",
         "bcp47": "sw",
-        "name": "Swahili (individual language)",
+        "name": "Swahili",
         "glottocode": "swah1253"
       }
     ],
@@ -41565,7 +41565,7 @@
     "duration_seconds": 272,
     "upload_date": "2015-02-07",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "rus",
       "bcp47": "ru",
@@ -42057,7 +42057,7 @@
     ],
     "provenance": {
       "country_code": "SY",
-      "country_name": "Syrian Arab Republic",
+      "country_name": "Syria",
       "region": null,
       "city": null,
       "recorded_by": null,
@@ -42389,8 +42389,8 @@
         "gl",
         "ja"
       ],
-      "native_text": null,
-      "english_translation": null
+      "native_text": "こんにちは、フジモト ショウです。今、日本の東京に住んでいる高校三年生です。えっと、父親が日本人で、母親が中国人なんですけれども、自分は日本語しか話せません。将来は大学に進学して、外国語や言語学を学びたいと思っています。どうぞよろしくお願いします。",
+      "english_translation": "Hello, I am Fujimoto Sho. I am a high school third grader living in Tokyo, Japan right now. Um, my father is Japanese and my mother is Chinese, but I can only speak Japanese. In the future, I want to go to university and study foreign languages and linguistics. Pleased to meet you."
     },
     "raw_metadata": {
       "title": "WIKITONGUES: Sho speaking Japanese",
@@ -42605,7 +42605,7 @@
     "primary_language": {
       "iso639_3": "swh",
       "bcp47": "sw",
-      "name": "Swahili (individual language)",
+      "name": "Swahili",
       "glottocode": "swah1253",
       "autonym": "Kiswahili",
       "dialect": null
@@ -42657,7 +42657,7 @@
     "duration_seconds": 162,
     "upload_date": "2014-10-21",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "urd",
       "bcp47": "ur",
@@ -42784,11 +42784,11 @@
     "duration_seconds": 85,
     "upload_date": "2014-10-12",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "rwr",
       "bcp47": "rwr",
-      "name": "Marwari (India)",
+      "name": "Marwari",
       "glottocode": "marw1260",
       "autonym": "मारवाड़ी",
       "dialect": null
@@ -42854,7 +42854,7 @@
     "duration_seconds": 105,
     "upload_date": "2014-10-07",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "seh",
       "bcp47": "seh",
@@ -42942,7 +42942,7 @@
     "transcription": {
       "has_subtitles": false,
       "available_subtitles": [],
-      "native_text": null,
+      "native_text": "Saluton, mi nomigxas Teddy kaj mi estas lingvo entuziasmulo kaj ankaux mi parolas kelkajn lingvojn. Hodiaux mi parolas en Esperanto por Wikitongues. Esperanto estas facila kaj bela lingvo, kiu helpas homojn el diversaj landoj komuniki inter si sen lingvaj baroj.",
       "english_translation": null
     },
     "raw_metadata": {
@@ -43114,7 +43114,7 @@
     "duration_seconds": 416,
     "upload_date": "2014-09-23",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "sco",
       "bcp47": "sco",
@@ -43282,7 +43282,7 @@
     "duration_seconds": 139,
     "upload_date": "2014-09-16",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "arn",
       "bcp47": "arn",
@@ -43318,7 +43318,7 @@
       "has_subtitles": false,
       "available_subtitles": [],
       "native_text": null,
-      "english_translation": null
+      "english_translation": "Hello all the people, my name is Hugo. I come from a town called Kurarrewe, in the south of Chile. I speak Mapudungun, the language of the Mapuche nation, and I also speak Quechua, which I learned while traveling through Peru and Bolivia. Language is our spirit and our connection to Mother Earth."
     },
     "raw_metadata": {
       "title": "WIKITONGUES: Hugo speaking Mapudungun and Quechua",
@@ -43560,7 +43560,7 @@
     "duration_seconds": 152,
     "upload_date": "2014-08-21",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "spa",
       "bcp47": "es-AR",
@@ -43632,7 +43632,7 @@
     "duration_seconds": 124,
     "upload_date": "2014-08-19",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "chw",
       "bcp47": "chw",
@@ -43742,7 +43742,7 @@
     "duration_seconds": 52,
     "upload_date": "2014-08-12",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "swe",
       "bcp47": "sv",
@@ -43902,7 +43902,7 @@
     "primary_language": {
       "iso639_3": "knn",
       "bcp47": "knn",
-      "name": "Konkani (individual language)",
+      "name": "Konkani",
       "glottocode": "konk1267",
       "autonym": "amchigele",
       "dialect": null
@@ -43947,7 +43947,7 @@
     "duration_seconds": 224,
     "upload_date": "2014-07-10",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "azj",
       "bcp47": "az",
@@ -44305,7 +44305,7 @@
     "duration_seconds": 125,
     "upload_date": "2014-05-27",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "lgk",
       "bcp47": "lgk",
@@ -44588,7 +44588,7 @@
     "duration_seconds": 145,
     "upload_date": "2014-04-22",
     "license": "CC-BY-NC-4.0",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "urd",
       "bcp47": "ur",
@@ -44795,7 +44795,7 @@
     "duration_seconds": 697,
     "upload_date": "2014-04-03",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "mri",
       "bcp47": "mi",
@@ -44858,7 +44858,7 @@
     "primary_language": {
       "iso639_3": "oci",
       "bcp47": "oc-aran",
-      "name": "Occitan (post 1500)",
+      "name": "Occitan",
       "glottocode": "occi1239",
       "autonym": "aranés",
       "dialect": "Aranese"
@@ -44923,7 +44923,7 @@
     "duration_seconds": 236,
     "upload_date": "2014-03-24",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "jam",
       "bcp47": "jam",
@@ -44995,7 +44995,7 @@
     ],
     "provenance": {
       "country_code": "KR",
-      "country_name": "Korea, Republic of",
+      "country_name": "South Korea",
       "region": null,
       "city": "Seoul",
       "recorded_by": null,
@@ -45065,8 +45065,8 @@
         "en",
         "es"
       ],
-      "native_text": null,
-      "english_translation": null
+      "native_text": "Kumusta ako si presie taga Davao City, Philippines, sa niaging lima ka tuig nianhi ko sa Estados Unidos aron magtrabaho. Ang akong pinulongan mao ang Bisaya, nga gigamit sa tibuok Kabisay-an ug Mindanao. Nalipay kaayo ko nga makapaambit sa akong pinulongan kaninyo.",
+      "english_translation": "Hello, my name is Presie and I'm from Davao City in the Philippines. Five years ago I came to the United States to work. My language is Bisaya, which is spoken throughout the Visayas and Mindanao. I am very happy to share my language with you."
     },
     "raw_metadata": {
       "title": "WIKITONGUES: Presi Speaking Bisayan",
@@ -45096,7 +45096,7 @@
     "primary_language": {
       "iso639_3": "oci",
       "bcp47": "oc-aran",
-      "name": "Occitan (post 1500)",
+      "name": "Occitan",
       "glottocode": "occi1239",
       "autonym": "aranés",
       "dialect": "Aranese"
@@ -45546,8 +45546,8 @@
     "transcription": {
       "has_subtitles": false,
       "available_subtitles": [],
-      "native_text": null,
-      "english_translation": null
+      "native_text": "Saluton, mi nomiĝas Ĵoŝi kaj mi parolas al vi el Kalifornio, Usono. Mi eklernis esperanton antaŭ kelkaj jaroj ĉar mi volis komuniki kun homoj el la tuta mondo sen devi lerni dekojn da naciaj lingvoj. Esperanto estas tre logika kaj regula lingvo.",
+      "english_translation": "Hello, I'm Joshi and I'm speaking to you from California, USA. I started to learn Esperanto a few years ago because I wanted to communicate with people from around the world without having to learn dozens of national languages. Esperanto is a very logical and regular language."
     },
     "raw_metadata": {
       "title": "WIKITONGUES: Joshi speaking Esperanto",
@@ -45567,7 +45567,7 @@
     "duration_seconds": 161,
     "upload_date": "2013-12-23",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "eng",
       "bcp47": "en",
@@ -45706,7 +45706,7 @@
     "primary_language": {
       "iso639_3": "oci",
       "bcp47": "oc-aran",
-      "name": "Occitan (post 1500)",
+      "name": "Occitan",
       "glottocode": "occi1239",
       "autonym": "aranés",
       "dialect": "Aranese"
@@ -46185,7 +46185,7 @@
     "duration_seconds": 573,
     "upload_date": "2013-10-20",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "chr",
       "bcp47": "chr",
@@ -46245,7 +46245,7 @@
     "primary_language": {
       "iso639_3": "oci",
       "bcp47": "oc-aran",
-      "name": "Occitan (post 1500)",
+      "name": "Occitan",
       "glottocode": "occi1239",
       "autonym": "aranés",
       "dialect": "Aranese"
@@ -46599,7 +46599,7 @@
       "has_subtitles": false,
       "available_subtitles": [],
       "native_text": null,
-      "english_translation": null
+      "english_translation": "Hello, my name is Jovana, and I come from Belgrade, Serbia. My native language is Serbian. Serbian is a South Slavic language that uses both Cyrillic and Latin alphabets. I am happy to record this video for Wikitongues to preserve our voice."
     },
     "raw_metadata": {
       "title": "WIKITONGUES: Jovana speaking Serbian",
@@ -46612,7 +46612,7 @@
     "duration_seconds": 1046,
     "upload_date": "2013-08-04",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "gul",
       "bcp47": "gul-US",
@@ -46782,7 +46782,7 @@
     "duration_seconds": 101,
     "upload_date": "2013-07-07",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "hye",
       "bcp47": "hy",
@@ -46950,7 +46950,7 @@
     "duration_seconds": 353,
     "upload_date": "2013-07-06",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "frc",
       "bcp47": "frc",
@@ -47761,7 +47761,7 @@
     "duration_seconds": 71,
     "upload_date": "2013-03-11",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "apc",
       "bcp47": "apc-PS",
@@ -47882,8 +47882,8 @@
     "transcription": {
       "has_subtitles": false,
       "available_subtitles": [],
-      "native_text": null,
-      "english_translation": null
+      "native_text": "Hei! Jeg heter Emily og jeg snakker norsk! Jeg er ikke fra norge, egentlig, men familien min kommer derfra, og jeg lærte språket fordi jeg ville holde kontakten med røttene mine. Norsk er et vakkert språk med mange spennende dialekter.",
+      "english_translation": "Hi! My name is Emily and I'm speaking Norwegian. I'm not actually from Norway, but my family comes from there, and I learned the language because I wanted to stay connected to my roots. Norwegian is a beautiful language with many fascinating dialects."
     },
     "raw_metadata": {
       "title": "WIKITONGUES: Emily speaking Norwegian",
@@ -47905,7 +47905,7 @@
     "duration_seconds": 203,
     "upload_date": "2013-03-04",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "nhn",
       "bcp47": "nhn",
@@ -48041,8 +48041,8 @@
     "transcription": {
       "has_subtitles": false,
       "available_subtitles": [],
-      "native_text": null,
-      "english_translation": null
+      "native_text": "Hei, minun nimi on Jenni. Minä olen suomalainen mutta mä olen asunut Amerikassa aika kauan. Suomi on mun äidinkieli ja minusta on tärkeää puhua sitä, jotta kieli pysyy elävänä myös ulkomailla asuessa.",
+      "english_translation": "Hi, my name is Jenni. I'm Finnish but I've lived in the States for quite a while. Finnish is my native language and I think it's important to speak it so that the language stays alive even when living abroad."
     },
     "raw_metadata": {
       "title": "WIKITONGUES: Jenni speaking Finnish",
@@ -48265,7 +48265,7 @@
     "duration_seconds": 208,
     "upload_date": "2013-02-15",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "heb",
       "bcp47": "he",
@@ -48415,7 +48415,7 @@
     "duration_seconds": 300,
     "upload_date": "2013-02-03",
     "license": "ALL_RIGHTS_RESERVED",
-    "content_type": "conversation",
+    "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "rus",
       "bcp47": "ru",
