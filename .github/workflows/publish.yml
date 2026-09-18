@@ -1,0 +1,81 @@
+name: CI & Publish
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Typecheck & Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run typecheck
+        run: npm run typecheck
+
+      - name: Run vitest suite
+        run: npm test
+
+  publish:
+    name: Publish to npm (Trusted Publishing)
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          registry-url: https://registry.npmjs.org
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check version against npm registry
+        id: check_version
+        run: |
+          LOCAL_VERSION=$(node -p "require('./package.json').version")
+          REMOTE_VERSION=$(npm view wikitongues-db version 2>/dev/null || echo "0.0.0")
+          echo "Local version:  $LOCAL_VERSION"
+          echo "Remote version: $REMOTE_VERSION"
+
+          if [ "$LOCAL_VERSION" != "$REMOTE_VERSION" ]; then
+            echo "should_publish=true" >> "$GITHUB_OUTPUT"
+            echo "A new version ($LOCAL_VERSION) was detected. Proceeding to publish."
+          else
+            echo "should_publish=false" >> "$GITHUB_OUTPUT"
+            echo "Version $LOCAL_VERSION is already published on npm. Skipping publish step."
+          fi
+
+      - name: Build bundle
+        if: steps.check_version.outputs.should_publish == 'true'
+        run: npm run build
+
+      - name: Publish package with provenance
+        if: steps.check_version.outputs.should_publish == 'true'
+        run: npm publish --provenance
