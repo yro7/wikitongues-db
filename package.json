@@ -1,6 +1,6 @@
 {
   "name": "wikitongues-db",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lightweight, zero-dependency database and query library mapping ISO 639-3 and BCP 47 language codes to Wikitongues oral history video recordings.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
