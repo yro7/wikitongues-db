@@ -185,6 +185,40 @@ describe('Dataset Integrity & Strict Linguistic Validation', () => {
     expect(MULTILINGUAL_ALIASES['arabe']).toBe('ara');
   });
 
+  it('should verify transcription integrity with zero leaked boilerplate or URLs', () => {
+    const leakPattern = /(?:amara\.org|This video is licensed|Help us caption|Creative Commons Attribution)/i;
+    for (const item of dataset) {
+      if (item.transcription?.native_text) {
+        expect(item.transcription.native_text).not.toMatch(leakPattern);
+      }
+      if (item.transcription?.english_translation) {
+        expect(item.transcription.english_translation).not.toMatch(leakPattern);
+      }
+    }
+
+    // Specific cleanups check
+    const nicole = dataset.find((d) => d.id === 'MMfozbb4w74');
+    expect(nicole?.transcription?.english_translation).toContain('Goodbye everybody!');
+    expect(nicole?.transcription?.english_translation).not.toContain('Bresciano features vowel harmony');
+
+    const helsinki = dataset.find((d) => d.id === '38mq_FwgCNs');
+    expect(helsinki?.transcription?.native_text).toContain('Nu kan jag ryska');
+    expect(helsinki?.transcription?.english_translation).toContain('Now I know Russian');
+
+    const signLang = dataset.find((d) => d.id === 'BCEO_U7713M');
+    expect(signLang?.transcription?.native_text).toBeNull();
+    expect(signLang?.transcription?.english_translation).toContain('Sukanya Bhan');
+  });
+
+  it('should verify enhanced provenance recorder recovery (>= 480 recorders)', () => {
+    const withRecorder = dataset.filter((d) => d.provenance?.recorded_by !== null);
+    expect(withRecorder.length).toBeGreaterThanOrEqual(481);
+
+    const aran = dataset.find((d) => d.id === 'pdYpvY6Efos');
+    expect(aran?.provenance?.recorded_by).toBe('Daniel Bogre Udell');
+    expect(aran?.provenance?.city).toBe('Vielha e Mijaran');
+  });
+
   it('should test compiled dist package artifacts', async () => {
     const distCjsPath = path.join(rootDir, 'dist/index.js');
     expect(fs.existsSync(distCjsPath)).toBe(true);
