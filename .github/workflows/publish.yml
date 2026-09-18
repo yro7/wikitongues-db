@@ -37,7 +37,7 @@ jobs:
         run: npm test
 
   publish:
-    name: Publish to npm (Trusted Publishing)
+    name: Publish to npm (Auto-Bump & Trusted Publishing)
     needs: test
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
@@ -59,26 +59,35 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Check version against npm registry
-        id: check_version
+      - name: Resolve and bump version
+        id: resolve_version
         run: |
           LOCAL_VERSION=$(node -p "require('./package.json').version")
           REMOTE_VERSION=$(npm view wikitongues-db version 2>/dev/null || echo "0.0.0")
-          echo "Local version:  $LOCAL_VERSION"
-          echo "Remote version: $REMOTE_VERSION"
+          echo "Version locale : $LOCAL_VERSION"
+          echo "Dernière version npm : $REMOTE_VERSION"
 
-          if [ "$LOCAL_VERSION" != "$REMOTE_VERSION" ]; then
-            echo "should_publish=true" >> "$GITHUB_OUTPUT"
-            echo "A new version ($LOCAL_VERSION) was detected. Proceeding to publish."
+          IS_LOCAL_GREATER=$(node -e "
+            const [lMaj, lMin, lPat] = '$LOCAL_VERSION'.split('.').map(Number);
+            const [rMaj, rMin, rPat] = '$REMOTE_VERSION'.split('.').map(Number);
+            const cmp = (lMaj - rMaj) || (lMin - rMin) || (lPat - rPat);
+            console.log(cmp > 0);
+          ")
+
+          if [ "$IS_LOCAL_GREATER" = "true" ]; then
+            echo "Version locale supérieure ($LOCAL_VERSION > $REMOTE_VERSION) : conservation de la version locale."
           else
-            echo "should_publish=false" >> "$GITHUB_OUTPUT"
-            echo "Version $LOCAL_VERSION is already published on npm. Skipping publish step."
+            echo "Version locale non incrémentée ($LOCAL_VERSION <= $REMOTE_VERSION)."
+            npm version "$REMOTE_VERSION" --no-git-tag-version --allow-same-version
+            NEW_VERSION=$(npm version patch --no-git-tag-version)
+            echo "Auto-bump patch appliqué à la volée : $NEW_VERSION"
           fi
 
+          FINAL_VERSION=$(node -p "require('./package.json').version")
+          echo "Version finale à publier : $FINAL_VERSION"
+
       - name: Build bundle
-        if: steps.check_version.outputs.should_publish == 'true'
         run: npm run build
 
       - name: Publish package with provenance
-        if: steps.check_version.outputs.should_publish == 'true'
         run: npm publish --provenance
