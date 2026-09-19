@@ -49,6 +49,14 @@
   ],
   "author": "Panglotive Team <contact@panglotive.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yro7/wikitongues-db"
+  },
+  "homepage": "https://github.com/yro7/wikitongues-db#readme",
+  "bugs": {
+    "url": "https://github.com/yro7/wikitongues-db/issues"
+  },
   "devDependencies": {
     "@types/node": "^22.13.9",
     "tsup": "^8.4.0",
