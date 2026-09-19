@@ -52,18 +52,32 @@ const quechuaVids = db.findByLanguage('Qhichwa');
 console.log(`[Autonym 'Qhichwa']: Found ${quechuaVids.length} videos`);
 console.log(`  Language: ${quechuaVids.at(0)?.primaryLanguage.name} (ISO: ${quechuaVids.at(0)?.primaryLanguage.iso639_3})`);
 
-// Look up by dialect variety
-const arbereshVids = db.findByLanguage('Arbëresh');
-console.log(`[Dialect 'Arbëresh']: Found ${arbereshVids.length} videos`);
+// Look up by Wikitongues classification (ISO calls it "Central Kurdish")
+const soraniVids = db.findByLanguage('Sorani');
+console.log(`[Classification 'Sorani']: Found ${soraniVids.length} videos`);
+console.log(`  ISO name: ${soraniVids.at(0)?.primaryLanguage.standards.iso639_3.name} | Glottolog: ${soraniVids.at(0)?.primaryLanguage.standards.glottolog.name}`);
+
+// Look up by autonym
+const arbereshVids = db.findByLanguage('Arbërisht');
+console.log(`[Autonym 'Arbërisht']: Found ${arbereshVids.length} videos`);
 console.log(`  Speaker & Origin: ${arbereshVids.at(0)?.speakers[0]?.name} (${arbereshVids.at(0)?.provenance.countryName})`);
+
+// The three institutional standards, resolved at load time
+const brazilian = db.get('qpfxFvpLAJ8')!.primaryLanguage;
+console.log(`[Tri-ontological view of '${brazilian.wikitonguesClassification}']`);
+console.log(`  ISO 639-3 : ${brazilian.standards.iso639_3.code} — ${brazilian.standards.iso639_3.name}`);
+console.log(`  Glottolog : ${brazilian.standards.glottolog.code} — ${brazilian.standards.glottolog.name} (${brazilian.standards.glottolog.level} of ${brazilian.standards.glottolog.parentLanguageId})`);
+console.log(`  BCP-47    : ${brazilian.standards.bcp47.tag} — region ${brazilian.standards.bcp47.regionSubtag}`);
+console.log(`  Same language node: ${db.getByGlottocode('port1283').length} videos under port1283, ${db.getByGlottocode('braz1246').length} under braz1246`);
 
 // Look up by BCP 47 subtag with region
 const ptBrVids = db.findByLanguage('pt-BR');
-console.log(`[BCP 47 'pt-BR']: Found ${ptBrVids.length} videos`);
+console.log(`[BCP 47 'pt-BR' via smart search]: Found ${ptBrVids.length} videos (resolves to the whole language)`);
+console.log(`[BCP 47 'pt-BR' exact]: Found ${db.getByBcp47('pt-BR').length} videos`);
 
-// Look up by Glottocode
-const glottoVids = db.findByLanguage('quec1387');
-console.log(`[Glottocode 'quec1387']: Found ${glottoVids.length} videos`);
+// Look up by Glottocode (language node — also returns its dialect nodes)
+const glottoVids = db.findByLanguage('cusc1236');
+console.log(`[Glottocode 'cusc1236']: Found ${glottoVids.length} videos`);
 
 // ---------------------------------------------------------------------------
 // Example 3: O(1) Indexed Lookups
@@ -181,6 +195,6 @@ separator('7. Direct Access to Raw Normalized Dataset');
 
 console.log(`Direct dataset array imported: ${rawDataset.length} entries`);
 console.log(`First entry ID: ${rawDataset[0].id}`);
-console.log(`First entry Language: ${rawDataset[0].primary_language.name}`);
+console.log(`First entry Language: ${rawDataset[0].primary_language.wikitongues_classification} (${JSON.stringify(rawDataset[0].primary_language.standards)})`);
 
 separator('All examples executed successfully!');

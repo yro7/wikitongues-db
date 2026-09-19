@@ -1,6 +1,6 @@
 # wikitongues-db
 
-> A zero-dependency, in-memory database and search engine mapping ISO 639-3, BCP 47, Glottolog, autonyms, and dialects to curated Wikitongues video recordings. Published for **TypeScript / JavaScript (npm)**.
+> A zero-dependency, in-memory database and search engine mapping three independent language classifications — **ISO 639-3**, **Glottolog** and **BCP 47** — plus autonyms and Wikitongues' own labels to curated Wikitongues video recordings. Published for **TypeScript / JavaScript (npm)**.
 
 ---
 
@@ -11,9 +11,9 @@
 However, existing metadata across YouTube and Commons is heterogeneous, with free-text descriptions, unstructured notes, and no unified linguistic index.
 
 **`wikitongues-db`** bridges this gap by providing:
-1. **A curated, deterministic dataset**: 863 normalized records across 460+ languages with structured speaker roles, dialects, geographic provenance, licensing, and transcript status.
-2. **Strict linguistic validation**: Verified against official **SIL ISO 639-3** tables, **BCP 47** tags, and **Glottolog** identifiers.
-3. **Multi-faceted resolution**: Instant matching by ISO code, BCP 47 tag, Glottocode, English canonical name, multilingual common name (e.g. `russe`, `espagnol`), native script autonym (`Qhichwa`, `Asụsụ Igbo`, `Русский`), or dialect variety (`Arbëresh`, `Gascon`, `Biscayan`).
+1. **A curated, deterministic dataset**: 862 normalized records across 460+ languages with structured speaker roles, geographic provenance, licensing, and transcript status.
+2. **Tri-ontological classification**: every language carries its **SIL ISO 639-3** code, its **Glottolog** node (language *or dialect*) and its **BCP 47** tag, each recorded independently according to its own authority's logic and resolved at load time against the bundled reference tables (see [CLASSIFICATION_RULES.md](CLASSIFICATION_RULES.md)). A record that does not resolve does not load.
+3. **Multi-faceted resolution**: Instant matching by ISO code, BCP 47 tag, Glottocode (a language node also matches its dialect nodes), ISO / Glottolog names, Wikitongues' own label (`Sorani`, `Gascon`, `Biscayan`), multilingual common name (e.g. `russe`, `espagnol`), or native script autonym (`Qhichwa`, `Asụsụ Igbo`, `Русский`).
 4. **Rich content types**: Covers oral histories (81%), spontaneous conversations (13%), sign languages (2.5%), readings/songs (1.5%), and fellowship documentaries.
 5. **Zero-dependency TypeScript client**: Embedded in-memory database with $O(1)$ inverted indices, fluent query builder, and full-text search engine.
 
@@ -28,17 +28,50 @@ However, existing metadata across YouTube and Commons is heterogeneous, with fre
                      │ (Curated Metadata)
                      ▼
 ┌─────────────────────────────────────────┐
-│  SIL ISO 639-3 & Glottolog Validator    │  <-- Anti-hallucination safeguard
+│  Persisted anchor keys per language     │
+│  standards: { iso639_3, glottocode,     │
+│               bcp47 }                   │
+│  + speaker_claim, wikitongues_          │
+│    classification, wikitongues_lineage, │
+│    autonym                              │
 └────────────────────┬────────────────────┘
-                     │ (Deterministic Indexing)
+                     │ (Deterministic hydration at load time)
+                     │  ← iso-639-3.tab / glottolog_languages.csv /
+                     │    IANA subtag registry (pruned, bundled)
                      ▼
 ┌─────────────────────────────────────────┐
-│     wikitongues-db (Static JSON / DB)   │
+│  Language.standards = {                 │
+│    iso639_3:  { code, name, scope … }   │
+│    glottolog: { code, name, level,      │
+│                 parentLanguageId … }    │
+│    bcp47:     { tag, primarySubtag,     │
+│                 regionSubtag … }        │
+│  }                                      │
 └────────────────────┬────────────────────┘
-                     │
                      ▼
            TypeScript (npm)
           O(1) in-memory API
+```
+
+### The language model
+
+Three institutional standards answer three different questions, so the dataset never collapses them into a single `name` / `dialect` pair:
+
+| Standard | Question it answers | Example (Ygor speaking Brazilian Portuguese) |
+| :--- | :--- | :--- |
+| `standards.iso639_3` | Which individual language does SIL register? | `por` — Portuguese |
+| `standards.glottolog` | Which node of the phylogenetic tree? | `braz1246` — Brazilian Portuguese, *dialect* of `port1283` |
+| `standards.bcp47` | Which locale tag? | `pt-BR` |
+
+Alongside them, three cultural identifiers are persisted verbatim: `speaker_claim` (how the speaker names their language in the video, `null` if they never do), `wikitongues_classification` (the label Wikitongues itself uses, e.g. `Jèrriais`) with `wikitongues_lineage` (`Norman Romance`), and `autonym` (`Português`).
+
+```typescript
+const lang = db.get('qpfxFvpLAJ8')!.primaryLanguage;
+lang.standards.iso639_3;   // { code: 'por', name: 'Portuguese', scope: 'I', type: 'L', part1: 'pt' }
+lang.standards.glottolog;  // { code: 'braz1246', name: 'Brazilian Portuguese', level: 'dialect', parentLanguageId: 'port1283', familyId: 'indo1319', … }
+lang.standards.bcp47;      // { tag: 'pt-BR', primarySubtag: 'pt', regionSubtag: 'BR', variantSubtags: [] }
+lang.wikitonguesClassification; // 'Brazilian Portuguese'
+lang.iso639_3; lang.glottocode; lang.bcp47; lang.name; // short accessors
 ```
 
 ---
@@ -47,16 +80,17 @@ However, existing metadata across YouTube and Commons is heterogeneous, with fre
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Curated Videos** | `863` |
-| **Unique Primary ISO 639-3 Languages** | `467` |
-| **Unique BCP 47 Language Tags** | `541` |
-| **Glottocode Resolution** | `862 / 863` (99.9%) |
-| **Native Script Autonyms** | `863 / 863` (100.0%) |
-| **Resolved Dialects / Varieties** | `296 / 863` (34.3%) |
-| **Identified Recorders** | `491 / 863` (56.9%) |
-| **Embedded Transcripts / Translations** | `57` |
-| **Total Archival Duration** | `53h 54m 30s` (`194,070` seconds) |
-| **Videos with Subtitles / Captions** | `284` |
+| **Total Curated Videos** | `862` |
+| **Unique Primary ISO 639-3 Languages** | `466` |
+| **Unique Primary Glottolog Nodes** | `485` (`72` dialect-level) |
+| **Unique BCP 47 Language Tags** | `501` |
+| **Fully Classified (ISO + Glottolog + BCP 47)** | `862 / 862` (100%, enforced at load time) |
+| **Native Script Autonyms** | `862 / 862` (100.0%) |
+| **Wikitongues Lineage Labels** | `120` |
+| **Identified Recorders** | `491 / 862` (57.0%) |
+| **Embedded Transcripts / Translations** | `56` |
+| **Total Archival Duration** | `53h 52m 42s` (`193,962` seconds) |
+| **Videos with Subtitles / Captions** | `283` |
 | **Runtime Dependencies** | `0` |
 
 ---
@@ -80,17 +114,18 @@ pnpm add wikitongues-db
 ```typescript
 import { WikitonguesDB } from 'wikitongues-db';
 
-// Initializes in-memory inverted indices across 863 curated recordings instantly
+// Hydrates and indexes 862 curated recordings instantly (throws HydrationError on an invalid record)
 const db = new WikitonguesDB();
 
-// 1. Smart Language Search (supports ISO 639-3, BCP 47, Glottolog, French/English aliases, autonyms)
+// 1. Smart Language Search (ISO 639-3, BCP 47, Glottolog, ISO / Glottolog / Wikitongues names, aliases, autonyms)
 const russianVids = db.findByLanguage('russe');     // or "Russian", "rus", "ru", "Русский", "russ1263"
 const quechuaVids = db.findByLanguage('Qhichwa');   // by native autonym
-const arbereshVids = db.findByLanguage('Arbëresh'); // by dialect
+const soraniVids = db.findByLanguage('Sorani');     // by Wikitongues' label (ISO says "Central Kurdish")
 
 // 2. O(1) Indexed Lookups
 const video = db.get('nXBPa_wb3dM');                // Lookup by YouTube ID
 const basqueVids = db.getByIso('eus');              // Lookup by ISO 639-3
+const portuguese = db.getByGlottocode('port1283');  // Language node: includes dialect nodes such as braz1246
 const peruVids = db.getByCountry('PE');             // Lookup by ISO 3166-1 alpha-2 or country name
 ```
 
@@ -120,7 +155,7 @@ for (const v of results) {
 ```typescript
 const matches = db.search('dagestan caucasian oral history', 5);
 for (const v of matches) {
-  console.log(v.title, v.primaryLanguage.name, v.url);
+  console.log(v.title, v.primaryLanguage.wikitonguesClassification, v.url);
 }
 ```
 
@@ -154,7 +189,20 @@ import dataset from 'wikitongues-db/data';
 // or: import { dataset } from 'wikitongues-db';
 
 console.log(`Loaded ${dataset.length} normalized records directly`);
+// dataset[0].primary_language.standards → { iso639_3: 'quz', glottocode: 'cusc1236', bcp47: 'quz' }
 ```
+
+The raw dataset holds only the anchor keys; use `WikitonguesDB` (or `ReferenceHydrator`) to resolve them into names, levels and subtags.
+
+### 6. Reference Tables
+
+`src/generated/reference.json` is a pruned copy of the ISO 639-3 table, Glottolog and the IANA subtag registry containing exactly the codes the dataset uses (plus parent languages and families). Regenerate it after any change to the dataset or to `data/references/`:
+
+```bash
+npm run build:reference   # also run automatically by `npm run build`
+```
+
+The test suite fails if the committed file is out of date.
 
 ---
 
@@ -163,7 +211,8 @@ console.log(`Loaded ${dataset.length} normalized records directly`);
 - [x] **Phase 1 — Normalization & Semantic Validation**: Curate structured entities strictly against SIL ISO 639-3 and Glottolog tables.
 - [x] **Phase 2 — Inverted Indexing & Smart Resolution**: $O(1)$ lookups, multilingual search, and query engine.
 - [x] **Phase 3 — TypeScript (npm) Package**: Zero-dependency package with embedded dataset, dual ESM/CJS, and full TypeScript types.
-- [ ] **Phase 4 — Rust (crates.io)**: High-performance, zero-alloc lookup engine.
+- [x] **Phase 4 — Tri-ontological classification (v0.2.0)**: independent ISO 639-3 / Glottolog / BCP 47 anchors hydrated from bundled reference tables; no nullable standards.
+- [ ] **Phase 5 — Rust (crates.io)**: High-performance, zero-alloc lookup engine.
 
 ---
 
