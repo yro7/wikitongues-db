@@ -60,32 +60,16 @@ export class QueryBuilder {
         return true;
       }
 
-      if ((lang.glottocode || '').toLowerCase() === rawLower) {
+      if (lang.glottocode === rawLower || lang.standards.glottolog.parentLanguageId === rawLower) {
         return true;
       }
 
-      const lNameNorm = normalizeText(lang.name);
-      if (norm && (lNameNorm === norm || (pattern && pattern.test(lNameNorm)))) {
-        return true;
-      }
-
-      if (lang.autonym) {
-        const lAutoNorm = normalizeText(lang.autonym);
-        if (
-          norm &&
-          (lAutoNorm === norm ||
-            (pattern && pattern.test(lAutoNorm)) ||
-            lang.autonym.toLowerCase().includes(rawLower))
-        ) {
-          return true;
+      if (norm) {
+        for (const label of lang.labels) {
+          const lNorm = normalizeText(label);
+          if (lNorm === norm || (pattern && pattern.test(lNorm))) return true;
         }
-      }
-
-      if (lang.dialect) {
-        const lDialNorm = normalizeText(lang.dialect);
-        if (norm && (lDialNorm === norm || (pattern && pattern.test(lDialNorm)))) {
-          return true;
-        }
+        if (lang.autonym.toLowerCase().includes(rawLower)) return true;
       }
 
       return false;
@@ -147,7 +131,7 @@ export class QueryBuilder {
     const codeClean = code.trim().toLowerCase();
     const predicate = (v: Video): boolean => {
       return v.allLanguages.some(
-        (lang) => (lang.glottocode || '').toLowerCase() === codeClean
+        (lang) => lang.glottocode === codeClean || lang.standards.glottolog.parentLanguageId === codeClean
       );
     };
     this._filters.push(predicate);

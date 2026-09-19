@@ -10,7 +10,9 @@ import { DatasetIndex } from './index-engine';
 import { SearchEngine } from './search';
 import { QueryBuilder } from './query';
 import { dataset as bundledDataset } from './dataset';
+import { ReferenceHydrator } from './hydrator';
 import {
+  ReferenceTables,
   VideoData,
   FilterOptions,
   LanguageSummary,
@@ -22,43 +24,36 @@ import {
 export interface WikitonguesDBOptions {
   data?: (VideoData | Video)[];
   records?: (VideoData | Video)[];
+  /**
+   * Reference tables used to hydrate `standards`. Defaults to the bundled pruned tables
+   * (src/generated/reference.json); pass full tables when loading records outside the dataset.
+   */
+  reference?: ReferenceTables;
 }
 
 export class WikitonguesDB {
   protected readonly _videos: Video[] = [];
+  public readonly hydrator: ReferenceHydrator;
   public readonly resolver: LanguageResolver;
   public readonly index: DatasetIndex;
   public readonly searchEngine: SearchEngine;
 
+  /**
+   * Loads and hydrates every record. Throws HydrationError on the first record whose
+   * standards do not resolve against the reference tables (see CLASSIFICATION_RULES.md §3.1.1).
+   */
   constructor(options?: WikitonguesDBOptions) {
+    this.hydrator = new ReferenceHydrator(options?.reference);
     this.resolver = new LanguageResolver();
 
     const rawRecords = options?.data || options?.records || bundledDataset;
 
     for (const record of rawRecords) {
-      const video = record instanceof Video ? record : Video.fromDict(record);
+      const video = record instanceof Video ? record : Video.fromDict(record, this.hydrator);
       this._videos.push(video);
 
-      // Register language entities into resolver
-      const pl = video.primaryLanguage;
-      this.resolver.registerDatasetLanguage(
-        pl.iso639_3,
-        pl.bcp47,
-        pl.name,
-        pl.glottocode,
-        pl.autonym,
-        pl.dialect
-      );
-
-      for (const al of video.additionalLanguages) {
-        this.resolver.registerDatasetLanguage(
-          al.iso639_3,
-          al.bcp47,
-          al.name,
-          al.glottocode,
-          al.autonym,
-          al.dialect
-        );
+      for (const lang of video.allLanguages) {
+        this.resolver.registerDatasetLanguage(lang);
       }
     }
 
@@ -141,7 +136,8 @@ export class WikitonguesDB {
   }
 
   /**
-   * Lookup videos matching a Glottolog code in O(1) time.
+   * Lookup videos matching a Glottolog code in O(1) time. A language node also matches videos
+   * classified under one of its dialect nodes (e.g. `port1283` returns `braz1246` recordings).
    */
   public getByGlottocode(glottocode: string): VideoCollection {
     const list = this.index.byGlottocode.get(glottocode.trim().toLowerCase());
@@ -180,7 +176,8 @@ export class WikitonguesDB {
 
   /**
    * Intelligent language search: resolves natural names, multilingual aliases ('russe'),
-   * ISO 639-3 ('rus'), BCP 47 ('ru'), autonyms ('Русский'), and dialects.
+   * ISO 639-3 ('rus'), BCP 47 ('ru'), Glottocodes, autonyms ('Русский'), Wikitongues
+   * classifications, Glottolog / ISO names and speaker claims.
    */
   public findByLanguage(
     languageQuery: string,
@@ -257,11 +254,12 @@ export class WikitonguesDB {
       string,
       {
         iso639_3: string;
-        bcp47: string;
-        name: string;
-        glottocode: string | null;
+        iso_name: string;
+        bcp47_tags: Set<string>;
+        glottocodes: Set<string>;
+        glottolog_names: Set<string>;
+        wikitongues_classifications: Set<string>;
         autonyms: Set<string>;
-        dialects: Set<string>;
         video_count: number;
         total_duration_seconds: number;
         countries: Set<string>;
@@ -271,16 +269,16 @@ export class WikitonguesDB {
     for (const v of this._videos) {
       const pl = v.primaryLanguage;
       const iso = pl.iso639_3;
-      if (!iso) continue;
 
       if (!langMap.has(iso)) {
         langMap.set(iso, {
           iso639_3: iso,
-          bcp47: pl.bcp47,
-          name: pl.name,
-          glottocode: pl.glottocode,
+          iso_name: pl.standards.iso639_3.name,
+          bcp47_tags: new Set(),
+          glottocodes: new Set(),
+          glottolog_names: new Set(),
+          wikitongues_classifications: new Set(),
           autonyms: new Set(),
-          dialects: new Set(),
           video_count: 0,
           total_duration_seconds: 0,
           countries: new Set(),
@@ -290,8 +288,11 @@ export class WikitonguesDB {
       const entry = langMap.get(iso)!;
       entry.video_count += 1;
       entry.total_duration_seconds += v.durationSeconds;
-      if (pl.autonym) entry.autonyms.add(pl.autonym);
-      if (pl.dialect) entry.dialects.add(pl.dialect);
+      entry.bcp47_tags.add(pl.bcp47);
+      entry.glottocodes.add(pl.glottocode);
+      entry.glottolog_names.add(pl.standards.glottolog.name);
+      entry.wikitongues_classifications.add(pl.wikitonguesClassification);
+      entry.autonyms.add(pl.autonym);
       if (v.countryCode) entry.countries.add(v.countryCode);
     }
 
@@ -299,11 +300,12 @@ export class WikitonguesDB {
     for (const item of langMap.values()) {
       result.push({
         iso639_3: item.iso639_3,
-        bcp47: item.bcp47,
-        name: item.name,
-        glottocode: item.glottocode,
+        iso_name: item.iso_name,
+        bcp47_tags: Array.from(item.bcp47_tags).sort(),
+        glottocodes: Array.from(item.glottocodes).sort(),
+        glottolog_names: Array.from(item.glottolog_names).sort(),
+        wikitongues_classifications: Array.from(item.wikitongues_classifications).sort(),
         autonyms: Array.from(item.autonyms).sort(),
-        dialects: Array.from(item.dialects).sort(),
         video_count: item.video_count,
         total_duration_seconds: item.total_duration_seconds,
         countries: Array.from(item.countries).sort(),

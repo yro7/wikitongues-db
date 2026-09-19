@@ -1,9 +1,11 @@
 /**
  * Language Resolver module for Wikitongues Database.
  * Resolves natural language search queries (ISO 639-3, BCP 47, Glottocode, English canonical names,
- * multilingual common names like 'russe' / 'español', autonyms, and dialects)
+ * multilingual common names like 'russe' / 'español', autonyms, Glottolog / ISO names and speaker claims)
  * to matched language identifiers.
  */
+
+import type { Language } from './models';
 
 export function normalizeText(text?: string | null): string {
   if (!text) return '';
@@ -112,7 +114,6 @@ export const MULTILINGUAL_ALIASES: Record<string, string> = {
   népalais: 'npi',
   nepales: 'npi',
   nepalés: 'npi',
-  atlaans: 'mis',
 
   // Spanish
   ruso: 'rus',
@@ -267,7 +268,8 @@ export class LanguageResolver {
   public glottoToIso: Map<string, string> = new Map();
   public isoToGlotto: Map<string, string> = new Map();
   public autonymToIso: Map<string, Set<string>> = new Map();
-  public dialectToIso: Map<string, Set<string>> = new Map();
+  /** Secondary labels (Glottolog node names, ISO reference names, speaker claims) → ISO codes. */
+  public labelToIso: Map<string, Set<string>> = new Map();
   public aliases: Map<string, string> = new Map();
 
   constructor() {
@@ -276,66 +278,47 @@ export class LanguageResolver {
     }
   }
 
+  private addToSet(map: Map<string, Set<string>>, key: string, iso: string): void {
+    if (!key) return;
+    if (!map.has(key)) map.set(key, new Set());
+    map.get(key)!.add(iso);
+  }
+
   /**
-   * Dynamically register language metadata discovered from normalized records.
+   * Register a hydrated language from the dataset: its primary label (Wikitongues classification)
+   * goes to the name index; Glottolog / ISO names and the speaker claim to the secondary label index.
    */
-  public registerDatasetLanguage(
-    iso639_3: string,
-    bcp47: string,
-    name: string,
-    glottocode?: string | null,
-    autonym?: string | null,
-    dialect?: string | null
-  ): void {
-    const iso = iso639_3.toLowerCase().trim();
+  public registerDatasetLanguage(lang: Language): void {
+    const iso = lang.iso639_3;
     if (!iso) return;
 
-    if (name) {
-      const normName = normalizeText(name);
+    const primaryLabel = lang.wikitonguesClassification;
+    const normName = normalizeText(primaryLabel);
+    if (normName) {
       this.nameToIso.set(normName, iso);
-      this.isoToName.set(iso, name);
+      if (!this.isoToName.has(iso)) this.isoToName.set(iso, lang.standards.iso639_3.name);
     }
 
-    if (bcp47) {
-      const bcpClean = bcp47.toLowerCase().trim();
-      this.aliases.set(bcpClean, iso);
-      if (bcpClean.includes('-')) {
-        const prefix = bcpClean.split('-')[0];
-        if (!this.aliases.has(prefix)) {
-          this.aliases.set(prefix, iso);
-        }
+    const bcpClean = lang.bcp47.toLowerCase();
+    this.aliases.set(bcpClean, iso);
+    if (bcpClean.includes('-')) {
+      const prefix = bcpClean.split('-')[0];
+      if (!this.aliases.has(prefix)) {
+        this.aliases.set(prefix, iso);
       }
     }
 
-    if (glottocode) {
-      const gc = glottocode.toLowerCase().trim();
-      this.glottoToIso.set(gc, iso);
-      this.isoToGlotto.set(iso, gc);
-    }
+    const gc = lang.glottocode;
+    this.glottoToIso.set(gc, iso);
+    this.isoToGlotto.set(iso, gc);
+    const parent = lang.standards.glottolog.parentLanguageId;
+    if (parent && !this.glottoToIso.has(parent)) this.glottoToIso.set(parent, iso);
 
-    if (autonym) {
-      const normAutonym = normalizeText(autonym);
-      if (normAutonym) {
-        if (!this.autonymToIso.has(normAutonym)) {
-          this.autonymToIso.set(normAutonym, new Set());
-        }
-        this.autonymToIso.get(normAutonym)!.add(iso);
-      }
-      const rawAutonym = autonym.toLowerCase().trim();
-      if (!this.autonymToIso.has(rawAutonym)) {
-        this.autonymToIso.set(rawAutonym, new Set());
-      }
-      this.autonymToIso.get(rawAutonym)!.add(iso);
-    }
+    this.addToSet(this.autonymToIso, normalizeText(lang.autonym), iso);
+    this.addToSet(this.autonymToIso, lang.autonym.toLowerCase().trim(), iso);
 
-    if (dialect) {
-      const normDialect = normalizeText(dialect);
-      if (normDialect) {
-        if (!this.dialectToIso.has(normDialect)) {
-          this.dialectToIso.set(normDialect, new Set());
-        }
-        this.dialectToIso.get(normDialect)!.add(iso);
-      }
+    for (const label of [lang.standards.glottolog.name, lang.standards.iso639_3.name, lang.speakerClaim]) {
+      if (label) this.addToSet(this.labelToIso, normalizeText(label), iso);
     }
   }
 
@@ -391,9 +374,9 @@ export class LanguageResolver {
       }
     }
 
-    // 6. Exact match in dialects
-    if (this.dialectToIso.has(norm)) {
-      for (const iso of this.dialectToIso.get(norm)!) {
+    // 6. Exact match in secondary labels (Glottolog / ISO names, speaker claims)
+    if (this.labelToIso.has(norm)) {
+      for (const iso of this.labelToIso.get(norm)!) {
         matchedIsos.add(iso);
       }
     }
@@ -409,7 +392,7 @@ export class LanguageResolver {
       }
     }
 
-    // 8. Substring in autonyms & dialects
+    // 8. Substring in autonyms & secondary labels
     if (matchedIsos.size === 0) {
       for (const [autoKey, isoSet] of this.autonymToIso.entries()) {
         if (autoKey.includes(norm)) {
@@ -418,7 +401,7 @@ export class LanguageResolver {
           }
         }
       }
-      for (const [dialKey, isoSet] of this.dialectToIso.entries()) {
+      for (const [dialKey, isoSet] of this.labelToIso.entries()) {
         if (dialKey.includes(norm)) {
           for (const iso of isoSet) {
             matchedIsos.add(iso);

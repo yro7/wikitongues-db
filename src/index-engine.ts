@@ -1,6 +1,6 @@
 /**
  * In-memory Inverted Index engine for Wikitongues Database.
- * Provides O(1) indexed lookups by ID, ISO 639-3, BCP 47, Glottocode, Country, Speaker, License, etc.
+ * Provides O(1) indexed lookups by ID, ISO 639-3, BCP 47, Glottocode (incl. parent language of dialects), Country, Speaker, License, etc.
  */
 
 import { Video } from './models';
@@ -43,14 +43,14 @@ export class DatasetIndex {
       }
 
       // 2. ISO 639-3 Primary & All
-      const plIso = video.primaryLanguage.iso639_3.toLowerCase().trim();
+      const plIso = video.primaryLanguage.iso639_3;
       if (plIso) {
         this.appendToMap(this.byIsoPrimary, plIso, video);
         this.appendToMap(this.byIso, plIso, video);
       }
 
       for (const addLang of video.additionalLanguages) {
-        const aIso = addLang.iso639_3.toLowerCase().trim();
+        const aIso = addLang.iso639_3;
         if (aIso && aIso !== plIso) {
           this.appendToMap(this.byIso, aIso, video);
         }
@@ -68,11 +68,12 @@ export class DatasetIndex {
         }
       }
 
-      // 4. Glottocode Index
+      // 4. Glottocode Index (dialect nodes are also indexed under their parent language node)
       for (const lang of video.allLanguages) {
-        const gc = (lang.glottocode || '').toLowerCase().trim();
-        if (gc) {
-          this.appendToMap(this.byGlottocode, gc, video);
+        this.appendToMap(this.byGlottocode, lang.glottocode, video);
+        const parent = lang.standards.glottolog.parentLanguageId;
+        if (parent) {
+          this.appendToMap(this.byGlottocode, parent, video);
         }
       }
 

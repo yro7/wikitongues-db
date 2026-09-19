@@ -238,7 +238,7 @@ export class VideoCollection implements Iterable<Video> {
     } else if (key === 'language' || key === 'language_name') {
       keyFn = (v) => v.primaryLanguage.name.toLowerCase();
     } else if (key === 'iso' || key === 'iso639_3') {
-      keyFn = (v) => v.primaryLanguage.iso639_3.toLowerCase();
+      keyFn = (v) => v.primaryLanguage.iso639_3;
     } else if (key === 'country' || key === 'country_code') {
       keyFn = (v) => v.countryCode || '';
     } else if (key === 'title') {
@@ -333,11 +333,15 @@ export class VideoCollection implements Iterable<Video> {
       'license',
       'content_type',
       'iso639_3',
+      'iso_name',
       'bcp47',
-      'language_name',
       'glottocode',
+      'glottolog_name',
+      'glottolog_level',
+      'wikitongues_classification',
+      'wikitongues_lineage',
+      'speaker_claim',
       'autonym',
-      'dialect',
       'country_code',
       'country_name',
       'has_subtitles',
@@ -356,11 +360,15 @@ export class VideoCollection implements Iterable<Video> {
         v.license,
         v.contentType,
         v.primaryLanguage.iso639_3,
+        escape(v.primaryLanguage.standards.iso639_3.name),
         v.primaryLanguage.bcp47,
-        escape(v.primaryLanguage.name),
-        v.primaryLanguage.glottocode || '',
-        escape(v.primaryLanguage.autonym || ''),
-        escape(v.primaryLanguage.dialect || ''),
+        v.primaryLanguage.glottocode,
+        escape(v.primaryLanguage.standards.glottolog.name),
+        v.primaryLanguage.standards.glottolog.level,
+        escape(v.primaryLanguage.wikitonguesClassification),
+        escape(v.primaryLanguage.wikitonguesLineage ?? ''),
+        escape(v.primaryLanguage.speakerClaim ?? ''),
+        escape(v.primaryLanguage.autonym),
         v.countryCode || '',
         escape(v.countryName || ''),
         v.transcription.hasSubtitles,

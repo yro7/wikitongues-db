@@ -21,10 +21,22 @@ export {
   MULTILINGUAL_ALIASES,
 } from './resolver';
 export { DatasetIndex } from './index-engine';
+export { ReferenceHydrator, HydrationError } from './hydrator';
 export { dataset } from './dataset';
 
 export type {
   LanguageData,
+  StandardsData,
+  ResolvedStandards,
+  ResolvedIso639_3,
+  ResolvedGlottolog,
+  ResolvedBcp47,
+  ReferenceTables,
+  Iso639_3Entry,
+  GlottologEntry,
+  IanaLanguageEntry,
+  IanaSubtagEntry,
+  IanaVariantEntry,
   SpeakerData,
   ProvenanceData,
   TranscriptionData,

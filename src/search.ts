@@ -85,11 +85,13 @@ export class SearchEngine {
 
     // 2. Primary Language Fields
     const pl = video.primaryLanguage;
-    const plNameNorm = normalizeText(pl.name);
-    const plIso = pl.iso639_3.toLowerCase();
+    const plNameNorm = normalizeText(pl.wikitonguesClassification);
+    const plIso = pl.iso639_3;
     const plBcp = pl.bcp47.toLowerCase();
     const plAuto = normalizeText(pl.autonym);
-    const plDial = normalizeText(pl.dialect);
+    // Secondary labels: Glottolog node name and ISO reference name (may differ from Wikitongues' label)
+    const plDial = normalizeText(`${pl.standards.glottolog.name} ${pl.standards.iso639_3.name}`);
+    const plLineage = normalizeText(pl.wikitonguesLineage);
 
     if (normQuery === plNameNorm || normQuery === plIso || normQuery === plBcp) {
       score += 15.0;
@@ -109,6 +111,10 @@ export class SearchEngine {
       score += 10.0;
     }
 
+    if (plLineage && plLineage.includes(normQuery)) {
+      score += 4.0;
+    }
+
     for (const token of tokens) {
       if (token.length > 2) {
         if (plNameNorm.includes(token)) score += 4.0;
@@ -119,8 +125,8 @@ export class SearchEngine {
 
     // 3. Additional Languages
     for (const al of video.additionalLanguages) {
-      const alName = normalizeText(al.name);
-      const alIso = al.iso639_3.toLowerCase();
+      const alName = normalizeText(al.wikitonguesClassification);
+      const alIso = al.iso639_3;
       if (normQuery === alName || normQuery === alIso) {
         score += 8.0;
       } else if (alName.includes(normQuery)) {
@@ -208,7 +214,7 @@ export class SearchEngine {
 
     // 8. Token coverage bonus
     let matchedTokens = 0;
-    const allText = `${titleNorm} ${plNameNorm} ${plDial} ${cname} ${video.tags
+    const allText = `${titleNorm} ${plNameNorm} ${plDial} ${plLineage} ${cname} ${video.tags
       .map(normalizeText)
       .join(' ')}`;
     for (const token of tokens) {
