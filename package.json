@@ -32,6 +32,7 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "examples": "tsx examples.ts",
+    "demo": "tsx demos/run-all.ts",
     "prepublishOnly": "npm run build && npm test"
   },
   "keywords": [

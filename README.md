@@ -194,7 +194,27 @@ console.log(`Loaded ${dataset.length} normalized records directly`);
 
 The raw dataset holds only the anchor keys; use `WikitonguesDB` (or `ReferenceHydrator`) to resolve them into names, levels and subtags.
 
-### 6. Reference Tables
+### 6. Runnable demos
+
+```bash
+npm run demo                              # runs demos/01 … 08 in order
+npx tsx demos/02-smart-search.ts Sorani   # most scripts take arguments
+npx tsx demos/03-tri-ontological-view.ts PeZHJcQYt3c
+npx tsx demos/04-glottolog-tree.ts occi1239
+```
+
+| Script | Shows |
+| :--- | :--- |
+| `demos/01-load-and-stats.ts` | Construction, `stats()`, the bundled reference tables |
+| `demos/02-smart-search.ts` | One `findByLanguage()` call resolving ISO, BCP 47, Glottocode, names, aliases, autonyms |
+| `demos/03-tri-ontological-view.ts` | The three resolved standards + cultural identifiers for one recording |
+| `demos/04-glottolog-tree.ts` | A language node returning its dialect nodes, primary or additional |
+| `demos/05-query-builder.ts` | Chained filters, grouping, pagination, `count()` / `exists()` |
+| `demos/06-inventory.ts` | Where SIL, Glottolog, BCP 47 and Wikitongues disagree, as tables |
+| `demos/07-fail-fast.ts` | Every kind of invalid record and the `HydrationError` it raises |
+| `demos/08-export.ts` | Seeded sampling, CSV, JSONL, hydrated vs persisted form |
+
+### 7. Reference Tables
 
 `src/generated/reference.json` is a pruned copy of the ISO 639-3 table, Glottolog and the IANA subtag registry containing exactly the codes the dataset uses (plus parent languages and families). Regenerate it after any change to the dataset or to `data/references/`:
 
