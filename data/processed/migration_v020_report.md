@@ -1,0 +1,983 @@
+# Migration v0.2.0 — Review Report
+
+Generated 2026-09-19T08:36:09.918Z · 863 → 862 records
+
+## Dropped records (1)
+
+- `9Nl_ttQDYkQ` — WIKITONGUES: Rolf speaking Atlaans (Atlaans)
+
+## Classification: fallback to old name (REVIEW) (21)
+
+- `nXBPa_wb3dM` [0] no language pattern in title, kept old `Cusco Quechua` ← Can comic books keep the Incan language alive? | Wikitongues Fellows #3
+- `lstcnY-UXbs` [0] no language pattern in title, kept old `Arbëreshë Albanian` ← Arbëresh: The Albanian Diaspora that Preserved a Medieval Language | Wikitongues Fellows #2
+- `KSkvTeEipuc` [0] no language pattern in title, kept old `Fon` ← This African language couldn't be typed until now | Wikitongues Fellows #1: Mahuton Possoupe
+- `D7FgPZhheZ0` [0] no language pattern in title, kept old `Ekpeye` ← Revitalizing Ekpeye: A Cultural Documentary | Nigeria | Owu Festival
+- `TQWD-hkiRg4` [0] no language pattern in title, kept old `English` ← What Makes Us Human: UNESCO's Official Illustrated Book on Language Preservation | Wikitongues
+- `TQWD-hkiRg4` [1] no language pattern in title, kept old `Hawaiian` ← What Makes Us Human: UNESCO's Official Illustrated Book on Language Preservation | Wikitongues
+- `vy__EegO_BY` [0] no language pattern in title, kept old `English` ← Get support for your language project! | Fellowship | Wikitongues
+- `GehQiDuETPM` [1] no candidate in ["Mandaic"] left for old `Classical Mandaic` ← A Voice in Mandaic: Hussam Shares A Language from Iran | Wikitongues
+- `M2genaU2tj0` [1] no candidate in ["Andriese"] left for old `English` ← The Art of Language: A Poem in Andriese | Neapolitan | Wikitongues
+- `UiFZZT6hb2Q` [0] no language pattern in title, kept old `English` ← Join our mission | Wikitongues updates
+- `wwwrEdwQ2fQ` [1] no candidate in ["Sanskrit"] left for old `English` ← The Sanskrit language, casually spoken | Wikitongues
+- `msL692DxAS4` [1] no candidate in ["Yiddish"] left for old `English` ← Yiddish and Scottish English, casually spoken | Harold speaking Yiddish | Wikitongues
+- `mDycRy0tZXs` [0] no language pattern in title, kept old `Uradhi` ← Reviving the Injinoo Ikya language | Aboriginal Australians & Torres Strait Islanders | Wikitongues
+- `Mfd16z-ucWY` [0] no language pattern in title, kept old `Egyptian Arabic` ← Census 2020 Language Project, in Egyptian Arabic | League of Women Voters
+- `x7cFUScyj4g` [0] no language pattern in title, kept old `Korean` ← Census 2020 Language Project in Korean | League of Women Voters
+- `dm1e9mJ2BJQ` [0] no language pattern in title, kept old `English` ← What's the Census 2020 Language Project? | League of Women Voters
+- `xNlyppTb0Xw` [0] no language pattern in title, kept old `English` ← Steve's language learning story | Lingq | WIKITONGUES
+- `C9M-Sep16Dg` [0] no language pattern in title, kept old `English` ← Wikitongues: How are you feeling?
+- `0PKycEkSsF8` [0] no language pattern in title, kept old `English` ← Happy 2019 from Wikitongues
+- `QLLyXc24Vcc` [1] no candidate in ["Mooré","Dioula"] left for old `Dyula` ← WIKITONGUES: Achille speaking Mooré and Dioula
+- `7EJud2CMRyo` [3] no candidate in ["Fulfulde","Zarma","French","Hassaniya Arabic","Tamazight"] left for old `Hassaniyya` ← WIKITONGUES: Ibrahim speaking Fulfulde, Zarma, French, Hassaniya Arabic, and Tamazight
+
+## Classification: fuzzy match (review) (367)
+
+- `9VEN0siUHqg` [0] old `Batak Mandailing` → `Mandailing` (score 2) ← Suhyar speaking Mandailing | Austronesian | Batak | Wikitongues
+- `7cMIidnH7xY` [0] old `Judeo-Persian` → `Jidi (Judeo-Shirazi)` (score 1) ← Elie speaking Jidi (Judeo-Shirazi) | Judeo-Iranian | Languages of the Jewish Diaspora | Wikitongues
+- `wQlK-V5eEFY` [0] old `Soga` → `Soga (Lusoga)` (score 2) ← Phillip speaking Soga (Lusoga) | Bantu | Niger-Congo | Wikitongues
+- `3waS1hmNVig` [0] old `Western Tlacolula Valley Zapotec` → `San Juan Del Rio Zapotec` (score 1) ← Adalberto speaking San Juan Del Rio Zapotec | Valley Zapotec | Otomanguean | Wikitongues
+- `1vrhTY8cXIo` [0] old `Turoyo` → `Surayt (Turoyo)` (score 2) ← Romrama Speaking Surayt (Turoyo) | Semitic | Afro-Asiatic | Wikitongues
+- `yr7gko_DaoI` [0] old `Chippewa` → `(Southwestern) Ojibwe` (leftover) ← Casey speaking (Southwestern) Ojibwe | Algonquin | Algic | Wikitongues
+- `i1j6Dymblf8` [0] old `Northern Frisian` → `Fering` (leftover) ← Andreas singing in Fering | North Frisian | Germanic | Wikitongues
+- `6X3Re1sawRs` [0] old `Baatonum` → `Baatɔnum` (leftover) ← Abdulrahman shares his language, Baatɔnum | Savanna | Niger-Congo | Nigeria | Benin | Wikitongues
+- `KGFew34cjgM` [0] old `Wu Chinese` → `Changshu Wu` (leftover) ← Meijuan speaking Changshu Wu | Taihu Wu | Northern Wu | China | Wikitongues
+- `8iLevbjGlVI` [0] old `Batak Mandailing` → `Mandailing Batak` (score 1) ← Abdullah speaking Mandailing Batak | Austronesian | Indonesia | Wikitongues
+- `Lf6AAjLz8Cg` [0] old `Turoyo` → `Neo-Aramaic` (leftover) ← The Neo-Aramaic language of Tur Abdin, casually spoken | Turoyo | Wikitongues
+- `M2genaU2tj0` [0] old `Neapolitan` → `Andriese` (first leftover of ["Andriese"]) ← The Art of Language: A Poem in Andriese | Neapolitan | Wikitongues
+- `1sEc3I9R_7s` [0] old `Assyrian Neo-Aramaic` → `Neo-Aramaic of Urmia` (score 1) ← The Neo-Aramaic of Urmia language, casually spoken | Wikitongues
+- `qUTzZe5JiIY` [0] old `Gan Chinese` → `Húkǒu` (leftover) ← The Húkǒu language, casually spoken | Wikitongues
+- `wwwrEdwQ2fQ` [0] old `Classical Sanskrit` → `Sanskrit` (score 2) ← The Sanskrit language, casually spoken | Wikitongues
+- `A2eea72GoMI` [0] old `Crimean Tatar` → `Tatar` (score 2) ← A song in the Tatar language | Wikitongues
+- `K_AxZMICTsU` [0] old `Western Tlacolula Valley Zapotec` → `Valley Zapotec` (score 2) ← The Valley Zapotec language, casually spoken | Wikitongues
+- `8lR3D9LVYIs` [0] old `Occitan` → `Gascon` (leftover) ← The Gascon language, casually spoken | Wikitongues
+- `EXzApwbjjgE` [0] old `Purik` → `Purgi` (leftover) ← The Purgi and Shina languages, casually spoken | Wikitongues
+- `OnGhQZ_PbWs` [0] old `Wu Chinese` → `Wenglingnese` (leftover) ← The Wenglingnese language, casually spoken | Wikitongues
+- `nQ93o5rZ9yA` [0] old `Tajik` → `Mugat` (leftover) ← The Mugat language, casually spoken | Akmal and his children speaking Mugat | Wikitongues
+- `0T2OnDntxOI` [0] old `Central Okinawan` → `Uchinaaguchi` (leftover) ← The Okinawan language, casually spoken | Gijs and Takako speaking Uchinaaguchi | Wikitongues
+- `P4cgvW83mDQ` [0] old `Tajik` → `Mugat` (leftover) ← The Mugat language, casually spoken | Nur Ali speaking Mugat | Wikitongues
+- `rsPCCsw7UsQ` [0] old `Judeo-Iraqi Arabic` → `Baghdadi Judeo-Arabic` (score 1) ← The Judeo-Arabic language, casually spoken | Joseph speaking Baghdadi Judeo-Arabic | Wikitongues
+- `OjT3DSOZGCg` [0] old `Korean` → `Koryo-mar` (leftover) ← The Korean language in Uzbekistan | Olga speaking Koryo-mar and Russian | Wikitongues
+- `QAK3clpBLNg` [0] old `Eastern Yiddish` → `Yiddish` (score 2) ← Yiddish songs with Russian explanations | Olga speaking Russian and Yiddish | Wikitongues
+- `HuhNYr_p9g8` [0] old `Louisiana Creole` → `Kouri-Vini` (leftover) ← The Louisiana Creole language, casually spoken | Taalib speaking Kouri-Vini | Wikitongues
+- `NNep7NOeaVI` [0] old `Mahasu Pahari` → `Mahasuvi` (leftover) ← The Mahasuvi language's Rohruri dialect, casually spoken | Wikitongues
+- `r8R0FbhpGuE` [0] old `Min Nan Chinese` → `Median Hokkien` (leftover) ← The Hokkien language, casually spoken | Selly speaking Median Hokkien | Wikitongues
+- `QnlFfV60Qeo` [0] old `Pipil` → `Nawat` (leftover) ← The Nahuat language, casually spoken | Nantzin speaking Nawat | Wikitongues
+- `msL692DxAS4` [0] old `Eastern Yiddish` → `Yiddish` (score 2) ← Yiddish and Scottish English, casually spoken | Harold speaking Yiddish | Wikitongues
+- `MiyopZEfuJI` [0] old `Ukrainian` → `Surzhyk` (leftover) ← The Surzhyk language, casually spoken | Andrij speaking Surzhyk | Wikitongues
+- `fiOglXiVbjo` [0] old `Low German` → `Pomeranian` (leftover) ← The East Pomeranian language, casually spoken | Lilia Jonat speaking Pomeranian | Wikitongues
+- `_7ZdE-msDOQ` [0] old `Low German` → `Rouveen Low Saxon` (score 1) ← The Low Saxon language, casually spoken | Albert speaking Rouveen Low Saxon | Wikitongues
+- `eHN_bCg-JuQ` [0] old `Shona` → `Karanga Shona` (score 2) ← The Shona language, casually spoken | Rue speaking Karanga Shona | Wikitongues
+- `qpfxFvpLAJ8` [0] old `Portuguese` → `Brazilian Portuguese` (score 2) ← The Portuguese language, casually spoken | Ygor speaking Brazilian Portuguese | Wikitongues
+- `9EpGjIsie44` [0] old `Javanese` → `Surabaya Javanese` (score 2) ← The Javanese language, casually spoken | Davi and Jonathan speaking Surabaya Javanese | Wikitongues
+- `_oCwNGxY5Co` [0] old `Sirmauri` → `Giripari` (leftover) ← The Sirmauri language, casually spoken | Kirnesh speaking Giripari dialect | Wikitongues
+- `ZgaPLvMBeFo` [0] old `Kupang Malay` → `Kupang` (score 2) ← Kupang Malay, casually spoken | Engelbirth speaking Kupang and Bahasa Indonesia | Wikitongues
+- `ZgaPLvMBeFo` [1] old `Indonesian` → `Bahasa Indonesia` (leftover) ← Kupang Malay, casually spoken | Engelbirth speaking Kupang and Bahasa Indonesia | Wikitongues
+- `N4RMhrlk60E` [0] old `Basque` → `Biscayan` (leftover) ← The Basque language, casually spoken | Andrew speaking Biscayan | Wikitongues
+- `M0KK_ogkLDw` [0] old `Turoyo` → `Aramaic` (leftover) ← A prayer in the Turoyo language | Adam speaking Aramaic | Wikitongues
+- `Jfqg5yEV2to` [0] old `Kekchí` → `Kekchi Mayan` (score 2) ← The Qʼeqchiʼ language, casually spoken | Amalaia speaking Kekchi Mayan | Wikitongues
+- `e-rY2zkCNtU` [0] old `Min Nan Chinese` → `Pontianak Teochew` (leftover) ← The Teochew language, casually spoken | Widya speaking Pontianak Teochew | Wikitongues
+- `zOb8s6GAj5E` [0] old `Wu Chinese` → `Hangzhou Chinese` (score 1) ← The Wu Chinese language, casually spoken | Chengxi speaking Hangzhou Chinese | Wikitongues
+- `5UQPNAEDa4Y` [0] old `Mambwe-Lungu` → `(and singing!) Mambwe-Lungu` (score 2) ← Zambia's Lungu language, casually spoken | Daniel speaking (and singing!) Mambwe-Lungu | Wikitongues
+- `kKg2gaNzBK4` [0] old `Piemontese` → `Piedmontese` (leftover) ← Italy's Piedmontese language, casually spoken | Giorgio speaking Piedmontese | Wikitongues
+- `ZvdvKBvPH9M` [0] old `Gujarati` → `Lisaan ud Da'wat` (leftover) ← The Lisaan ud Da'wat language, casually spoken | Ali speaking Lisaan ud Da'wat | Wikitongues
+- `fbOOrqY7b_o` [0] old `Neapolitan` → `Materano` (leftover) ← Pasquale speaking Materano and Italian | Romance languages in Italy | Wikitongues
+- `WlqTafVa5pU` [0] old `Sanhaja of Srair` → `Shelha` (leftover) ← Sanhaja de Srair, a Berber language from Ketama, Morocco | Mohammed speaking Shelha | Wikitongues
+- `8GsglYcXhyg` [0] old `Veps` → `Vepsian` (score 2) ← Listen to the Veps language of Karelia | Eniisi speaking Vepsian | Wikitongues
+- `5F5m6W95U_M` [0] old `Egyptian Arabic` → `Judeo-Egyptian Arabic` (score 2) ← The Judeo-Arabic language of Egyptian Jews | Ben speaking Judeo-Egyptian Arabic | Wikitongues
+- `gTt6LkoZ1z4` [0] old `Kabuverdianu` → `Cape Verdean Creole` (leftover) ← Listen to Cabo Verde Creole | Patrick speaking Cape Verdean Creole | Wikitongues
+- `mORCaQbggIo` [0] old `Central Kurdish` → `Sorani` (leftover) ← Listen to the Kurdish language in Iraq | Xatun speaking Sorani | Wikitongues
+- `Zk376vSlUyA` [0] old `Malayalam` → `Judeo-Malayalam` (score 2) ← Listen to the language of Cochin Jews | Thapan speaking Judeo-Malayalam | Wikitongues
+- `nMEKd_KSf30` [0] old `Sinhala` → `Sinhalese` (leftover) ← Listen to Sinhala, a language of Sri Lanka | Shehan speaking Sinhalese | Wikitongues
+- `e9y_WshNAyE` [0] old `French` → `Gallo` (leftover) ← Listen to Gallo, a Romance language of Brittany, France | Anton speaking Gallo | Wikitongues
+- `rSTBr8QbCtg` [0] old `Khoekhoe` → `Nama` (leftover) ← Beautiful click consonants in Namibia's Khoekhoe language | Emeloelaj speaking Nama | Wikitongues
+- `vfXBjv-uMZM` [0] old `Irish` → `Irish Gaelic` (score 2) ← Speaking Irish Gaelic in New York City | Frances speaking the Irish language | Wikitongues
+- `oY8ihozIYng` [0] old `Classical Syriac` → `Syriac` (score 2) ← A prayer in the Aramaic language | Jeries speaking Syriac | Wikitongues
+- `-lVudWbCaik` [0] old `Vietnamese` → `Hue Vietnamese` (score 2) ← Vietnamese language conversation | Loan and Lian speaking Hue Vietnamese | Wikitongues
+- `I-xiEyYtAwo` [0] old `Norman` → `Cauchois` (leftover) ← Norman, a Romance language of Britain and France | Jean speaking Cauchois | Wikitongues
+- `lRujenUdJng` [0] old `Mesopotamian Arabic` → `Iraqi Arabic` (score 1) ← The Arabic language in Kurdistan, Iraq | Rashad speaking Iraqi Arabic | Wikitongues
+- `Ddydi1lcvGU` [0] old `Central Kurdish` → `Sorani` (leftover) ← The Kurdish language in Iraq | Dara speaking Sorani | Wikitongues
+- `Bzlwr2_8ljg` [0] old `Lombard` → `Bresciano` (leftover) ← The Lombard language in Brescia, Italy | Marco speaking Bresciano | Wikitongues
+- `1nCw24V3nV8` [0] old `Yakut` → `Sakha (Yakut)` (score 2) ← Polyglot learner of Sakha, a Turkic language | Albert speaking Sakha (Yakut) | Wikitongues
+- `7q4G38S-Wm4` [0] old `Vlaams` → `West-Vlams` (leftover) ← The West-Flemish language of Belgium | Bontje speaking West-Vlams | Wikitongues
+- `B56nxfnSV4U` [0] old `Yue Chinese` → `Cantonese` (leftover) ← Guangxi Cantonese language conversation | Ying and Lian speaking Cantonese | Wikitongues
+- `MMfozbb4w74` [0] old `Lombard` → `Bresciano` (leftover) ← The Lombard language in Brescia, Italy | Nicole speaking Bresciano | Romance languages | Wikitongues
+- `QMNBUmWBZ-o` [0] old `Kurukh` → `Kurux` (leftover) ← Kurux, an Indigenous language of India | Dr. Abhay Xaxa speaking Kurux | Wikitongues
+- `8sP3R7aCAno` [0] old `Dimli` → `Southern Zazaki` (leftover) ← Zazaki, an Iranian language from Turkey | Cemre speaking Southern Zazaki | Wikitongues
+- `etUt37dgA4o` [0] old `Masai` → `Maasai` (leftover) ← John speaking Maasai | East African language | Wikitongues
+- `yyFsmiNXqXg` [0] old `Nyanja` → `Chichewa (Nyanja)` (score 2) ← Britta speaking Chichewa (Nyanja) | Bantu languages | Folk songs | Wikitongues
+- `3ghwdhXaLoo` [0] old `Nyunga` → `Nyungar` (score 2) ← Ingrid speaking Nyungar | Aboriginal Australians and Torres Strait Islanders | Wikitongues
+- `NI9lRDW_x2E` [0] old `Spanish` → `Caribbean Spanish` (score 2) ← Adrian speaking Caribbean Spanish | Romance languages | Wikitongues
+- `DoQdMWN5C8A` [1] old `Southern Dagaare` → `Dagaare` (score 2) ← Zita speaking Twi and Dagaare | Ghanaian languages | Wikitongues
+- `3428HkaqA94` [0] old `Yue Chinese` → `Hong Kong Cantonese` (leftover) ← Edward speaking Hong Kong Cantonese | Sino-Tibetan languages | Wikitongues
+- `RObSwrdDnN8` [2] old `Eastern Xwla Gbe` → `Eastern Xwla` (score 2) ← Mahuton speaking Fon, Gun, and Eastern Xwla | Niger-Congo languages | Wikitongues
+- `pDDrFE3CaTc` [0] old `Yidiny` → `Gunggay` (leftover) ← Alfred speaking Gunggay | Aboriginal Australians and Torres Strait Islanders | Wikitongues
+- `zhQNFQCcMxI` [0] old `Kalkutung` → `Kalkutungu` (score 2) ← Sheree speaking Kalkutungu and English | Aboriginal Australians and Torres Strait Islanders
+- `tUWWNDUV2Tg` [0] old `Levantine Arabic` → `Aleppo Arabic` (score 1) ← Ahmad speaking Aleppo Arabic and English | Semitic languages | Wikitongues
+- `k19I3vyu0WU` [0] old `Santiago del Estero Quichua` → `Santiagueño Quichua` (score 1) ← Juan Carlos speaking Santiagueño Quichua and Spanish | Quechuan languages | Wikitongues
+- `xAw_7w-hQwU` [0] old `Hunde` → `Kihunde` (score 2) ← Hangi speaking Kihunde | Central African languages | Wikitongues
+- `m8IQRKl7UT0` [0] old `Minangkabau` → `Sijunjung Simaung` (leftover) ← Deola speaking Sijunjung Simaung | Minangkabau language | Wikitongues and Wikimedia Indonesia
+- `csUZolJETdI` [1] old `Egyptian Arabic` → `Arabic` (score 2) ← Nasser speaking Arabic and Siwi | Egyptian languages | Wikitongues
+- `IM-g4Kh0G8w` [0] old `Torres Strait Creole` → `Yumplatok` (leftover) ← Anne speaking Yumplatok | Aboriginal Australians and Torres Strait Islanders | Wikitongues
+- `klhzWSo4MTQ` [0] old `Neapolitan` → `Abruzzese` (leftover) ← Gianluca, Bruno, and Franca speaking Abruzzese | Romance languages | Wikitongues
+- `eVUBHDW5ccY` [0] old `Minangkabau` → `Lintau Minangkabau` (score 2) ← Tricia speaking Lintau Minangkabau | Minangkabau language | Wikitongues
+- `mygnGGT679A` [0] old `Catalan` → `Valencian Catalan` (score 2) ← Francesc speaking Valencian Catalan | Romance languages | Wikitongues
+- `xPixyaLG86Y` [0] old `Bavarian` → `Banat Swabian (Bavarian)` (score 2) ← Alexander speaking Banat Swabian (Bavarian) | Germanic languages | Wikitongues
+- `j7N_qP2mt3o` [0] old `Murrinh-Patha` → `Murrinhpatha` (leftover) ← Bonaventure speaking Murrinhpatha | Aboriginal Australians and Torres Strait Islanders | Wikitongues
+- `OLf2L_0XvRM` [0] old `Morisyen` → `Mauritian Creole` (leftover) ← Dominic speaking Mauritian Creole and French | French Creole language | Wikitongues
+- `SfmhsM67L_U` [0] old `Bandjalang` → `Yugambeh` (leftover) ← Shaun speaking Yugambeh | Aboriginal Australians and Torres Strait Islanders | Wikitongues
+- `0CoY1psR5bs` [0] old `Minangkabau` → `Koto Marapak` (leftover) ← Menlu speaking Koto Marapak | Minangkabau language | Wikimedia Indonesia and Wikitongues
+- `rsmIHIUXAa8` [0] old `Spanish` → `Rioplatense Spanish` (score 2) ← João Pedro speaking Rioplatense Spanish, Portuguese, and English | Romance Languages | Wikitongues
+- `GPjY_W_Lq0M` [0] old `Haitian` → `Haitian Creole` (score 2) ← Kristen and Michel speaking Haitian Creole | Haitian Flag Day | Wikitongues Conversation
+- `sJ06GMMcGVM` [0] old `Minangkabau` → `Sijunjung-Simaung` (leftover) ← Supiak speaking Sijunjung-Simaung | Minangkabau language | Wikimedia Indonesia and Wikitongues
+- `uOYnyIX_8Gw` [0] old `French` → `Tourangeau` (leftover) ← Ludovic speaking Tourangeau | Romance Languages | Wikitongues
+- `GPaZb-MzzpQ` [0] old `Occitan` → `Nissart Occitan` (score 2) ← Gabrièu speaking Nissart Occitan | Romance languages | Wikitongues
+- `S7nctC7ckbU` [0] old `Kannada` → `Bijapur Kannada` (score 2) ← Srinivas speaking Bijapur Kannada | Dravidian languages | WIKITONGUES
+- `Cy3FzYLmUQc` [1] old `French` → `West African French` (score 2) ← Leo speaking Pulaar and West African French | Fula language | Wikitongues
+- `d5gC7zVKnkY` [0] old `Tuvinian` → `Tuvan` (leftover) ← Aydyn speaking Tuvan | Siberian language | WIKITONGUES
+- `CNFK7h0G5a4` [0] old `Croatia Sign Language` → `Croatian Sign Language (HZJ)` (leftover) ← WIKITONGUES: Suzana speaking Croatian Sign Language (HZJ)
+- `hgJeqdSw4aI` [0] old `Sacapulteco` → `Sakapulteko` (leftover) ← Pascual speaking Sakapulteko and Spanish | Mayan peoples | WIKITONGUES
+- `F9OpKOhJs-c` [0] old `Rarotongan` → `Cook Islands Māori` (leftover) ← WIKITONGUES: Vaine Kae speaking Cook Islands Māori
+- `u0cJXVvo5I4` [0] old `Campidanese Sardinian` → `Occidental Campidanese Sardinian` (score 2) ← WIKITONGUES: Lior Markus speaking Occidental Campidanese Sardinian and Hebrew
+- `uRC9W6v4NuU` [0] old `Kurukh` → `Kurux` (leftover) ← WIKITONGUES: Lalita Roshni speaking Kurux and English
+- `itdBLyLCiU0` [0] old `Bavarian` → `Zipser German` (leftover) ← WIKITONGUES: Jakob speaking Zipser German
+- `hrxUsCrOQ-c` [0] old `Western Panjabi` → `Majhi Punjabi` (leftover) ← WIKITONGUES: Faraz speaking Majhi Punjabi
+- `VPnXITN30VU` [0] old `Croatia Sign Language` → `Croatian Sign Language` (leftover) ← WIKITONGUES: Ana speaking Croatian Sign Language
+- `IA4PxlO9OOU` [0] old `Mezquital Otomi` → `Hñähñu` (leftover) ← WIKITONGUES: Evan speaking Hñähñu
+- `zNwcnycMMwY` [0] old `Neapolitan` → `Abruzzese` (leftover) ← WIKITONGUES: Claudio speaking Abruzzese
+- `aQNZL4zrDaY` [0] old `Pedi` → `Northern Sotho` (leftover) ← WIKITONGUES: Edgar speaking Northern Sotho
+- `bY_TcgYvcLk` [1] old `Western Frisian` → `Frisian` (score 2) ← WIKITONGUES: Monique speaking Dutch and Frisian
+- `dyg_z_ywVzA` [0] old `Wu Chinese` → `Wu` (score 2) ← WIKITONGUES: 王奕 speaking Wu
+- `BOtJvy4ybc4` [0] old `Keapara` → `Kalo` (leftover) ← WIKITONGUES: Kini speaking English, Tok Pisin, and Kalo
+- `Ho2vOSl9v0E` [0] old `Western Panjabi` → `Dinga Punjabi` (leftover) ← WIKITONGUES: Zahida speaking Dinga Punjabi
+- `_DSEp-UKmzA` [0] old `Rwandan Sign Language` → `Rwandan Sign Langugae` (score 1) ← WIKITONGUES: Samuel signing Rwandan Sign Langugae
+- `icBfqfPlKjU` [0] old `Niuafo'ou` → `Niuafo’ou` (leftover) ← WIKITONGUES: Nicholas speaking Niuafo’ou
+- `gBM-kh4k-PY` [0] old `Chamacoco` → `Yshyr` (leftover) ← WIKITONGUES: Andrés speaking Yshyr
+- `o5m5OwJ65cM` [0] old `Huastec` → `Tenek` (leftover) ← WIKITONGUES: Luis speaking Tenek
+- `PGqlzdlO_rM` [0] old `Armenian` → `Artsakh Armenian` (score 2) ← WIKITONGUES: Irina speaking Artsakh Armenian
+- `tTBDXjKZB08` [0] old `English` → `Bermudian English` (score 2) ← WIKITONGUES: Trey speaking Bermudian English
+- `C380uSo4Ils` [0] old `Kamba` → `Kikamba` (score 2) ← WIKITONGUES: Rose speaking Kikamba
+- `z2GFNc-X6mA` [0] old `Babuza` → `Taokas` (leftover) ← WIKITONGUES: Kaisanan speaking Taokas
+- `ak9Zqiddtt8` [0] old `Punan Bah-Biau` → `Bah-Biau Punan` (score 1) ← WIKITONGUES: PuingAke'Kuking speaking Bah-Biau Punan
+- `nJU_XnQzzHk` [0] old `Southwestern Tlaxiaco Mixtec` → `Nuyoo Mixtec` (score 1) ← WIKITONGUES: Nezahualcoyotl speaking Nuyoo Mixtec
+- `ZjPiQYvtnLA` [0] old `Juǀʼhoan` → `Ju` (score 2) ← WIKITONGUES: Classen speaking Ju|’hoan
+- `yLyMILKtFHo` [0] old `Southern Grebo` → `Grebo` (score 2) ← WIKITONGUES: Esther speaking Grebo
+- `LVCtvZ19tv8` [0] old `Pampanga` → `Pampangan` (score 2) ← WIKITONGUES: Kouta speaking Pampangan and Filipino
+- `Gdr_yKrlf4I` [0] old `Dutch` → `Oiltjers Dutch` (score 2) ← WIKITONGUES: Yorick speaking Oiltjers Dutch
+- `5cidz5Y3KFQ` [0] old `Gan Chinese` → `Gan` (score 2) ← WIKITONGUES: Cindy speaking Gan
+- `LTsoLZtf4Dw` [0] old `Low German` → `West-Veluws` (leftover) ← WIKITONGUES: Kees, Albert, Anja, and Jan speaking West-Veluws
+- `vkVHspUH9U4` [0] old `Khoibu Naga` → `Khoibu` (score 2) ← WIKITONGUES: Donyashel speaking Khoibu
+- `GyxYnfM_y5M` [0] old `Adyghe` → `Circassian` (leftover) ← WIKITONGUES: Yenal speaking Circassian
+- `wziUoXmcCVc` [0] old `Ga` → `Gaa` (score 2) ← WIKITONGUES: Samuel speaking Gaa
+- `Ty3IAWxANi4` [0] old `Uighur` → `Uyghur` (leftover) ← WIKITONGUES: Mustafa, Gulnisa, and Elise speaking Uyghur
+- `0t189tY4hEM` [1] old `Piemontese` → `Piedmontese` (leftover) ← WIKITONGUES: Annita speaking Italian and Piedmontese
+- `7ZFaAtiiVIk` [0] old `Mwali Comorian` → `Shimwali` (leftover) ← WIKITONGUES: Imouda speaking Shimwali
+- `bT99iXQa7DM` [0] old `Northern Kurdish` → `Kurmanji Kurdish` (score 1) ← WIKITONGUES: Mohamad speaking Kurmanji Kurdish
+- `dgxGqecUCwU` [0] old `Yonaguni` → `Dunan` (leftover) ← WIKITONGUES: Naruko speaking Dunan and Japanese
+- `kAUsuyOVd_Q` [0] old `Central Bikol` → `Bicolano` (leftover) ← WIKITONGUES: Adela speaking Bicolano
+- `cfO536EExPw` [0] old `Iloko` → `Ilocano` (leftover) ← WIKITONGUES: June speaking Ilocano
+- `8iE0R8b3tq4` [0] old `Ambonese Malay` → `Bahasa Aru` (leftover) ← WIKITONGUES: Elfie speaking Bahasa Aru
+- `w-PP0r8ohF8` [0] old `Norwegian Bokmål` → `American Norwegian` (score 1) ← WIKITONGUES: Rhyan speaking American Norwegian
+- `oOr8uPY5PNQ` [0] old `Kryts` → `Jek` (leftover) ← WIKITONGUES: Tarkhan speaking Jek
+- `oRWL2htbGK0` [0] old `Kannada` → `Kundagannada` (leftover) ← WIKITONGUES: Rukku speaking Kundagannada
+- `EC5Ae63LasY` [0] old `Achinese` → `Acehnese` (leftover) ← WIKITONGUES: T.A., Iqbal, and Kalam speaking Acehnese
+- `IdYu9RBWv0o` [0] old `Benyadu'` → `Benyadu` (score 2) ← WIKITONGUES: Hendrik speaking Benyadu
+- `tzUaooThBzI` [0] old `Santali` → `Santhali` (leftover) ← WIKITONGUES: Sathi speaking Santhali
+- `6htms5vFurs` [0] old `Bekati'` → `Beahe` (leftover) ← WIKITONGUES: Victorinus speaking Beahe
+- `xhLQcnmX54g` [0] old `Bekati'` → `Bekati` (score 2) ← WIKITONGUES: Yulius speaking Bekati
+- `gymwIdhFlWM` [0] old `Yucateco` → `Yucatecan` (leftover) ← WIKITONGUES: Manuel speaking Yucatecan
+- `oVRij25QNlQ` [0] old `Nias` → `Li Niha` (leftover) ← WIKITONGUES: Anugrah speaking Li Niha
+- `K2iYeGTwcU8` [0] old `Cusco Quechua` → `Quechua` (score 2) ← WIKITONGUES: Casiano speaking Quechua
+- `808KeQLlP0I` [0] old `Eastern Krahn` → `Konobo` (leftover) ← WIKITONGUES: Jackson speaking Konobo
+- `AYgWSuv00pc` [0] old `Ganda` → `Luganda` (score 2) ← WIKITONGUES: Twaha speaking Luganda
+- `7vwcbBfETXA` [0] old `Hakka Chinese` → `Hakka` (score 2) ← WIKITONGUES: Sanda speaking Hakka
+- `5as9jMrmjpU` [0] old `Logudorese Sardinian` → `Sardinian` (score 2) ← WIKITONGUES: Ricardo speaking Sardinian
+- `SdfMpBDPVis` [0] old `S'gaw Karen` → `S’gaw Karen` (score 1) ← WIKITONGUES: Sunkist speaking S’gaw Karen
+- `cAyhRppr5QM` [0] old `Highland Totonac` → `Totonac` (score 2) ← WIKITONGUES: Zeferino speaking Totonac
+- `qnlqAuPiigY` [0] old `Ibibio` → `Ibibo` (leftover) ← WIKITONGUES: Esther speaking Ibibo
+- `_GDuaW95qUQ` [0] old `Afrikaans` → `Afrikaaans` (leftover) ← WIKITONGUES: Alex speaking Afrikaaans
+- `DJ0NRqv5r7g` [0] old `Plateau Malagasy` → `Malagasy` (score 2) ← WIKITONGUES: Haingo speaking Malagasy
+- `b6eEK15bgAE` [0] old `North Azerbaijani` → `Azeri` (leftover) ← WIKITONGUES: Tarlan speaking Azeri
+- `0KDTO6q3tdM` [0] old `Dutch` → `Bildts` (leftover) ← WIKITONGUES: Anna speaking Bildts
+- `kQIy1RLuwNo` [0] old `Chiga` → `Kiga` (leftover) ← WIKITONGUES: Paison speaking Kiga and English
+- `b_DtKXDXLFY` [0] old `Otavalo Highland Quichua` → `Otavalo Kichwa` (score 1) ← Luzmila speaking Otavalo Kichwa | Wikitongues
+- `h8rq3IQI-z0` [0] old `Gwere` → `Lugwere` (score 2) ← WIKITONGUES: Edgar speaking Lugwere
+- `chsL-GSpTBc` [0] old `Lehali` → `Tehali` (leftover) ← WIKITONGUES: Anna speaking Tehali
+- `8OBVOJxBU7E` [0] old `Yue Chinese` → `Siyi Yue` (score 1) ← WIKITONGUES: Joseph speaking Siyi Yue
+- `wpqaGLWxZUY` [0] old `Bekati'` → `Bedineh` (leftover) ← WIKITONGUES: Albina and Donawati speaking Bedineh
+- `cxiGMkEZvKQ` [0] old `Cocama-Cocamilla` → `Kukama` (leftover) ← WIKITONGUES: Nilo speaking Kukama and Spanish
+- `QUSLdT-YkHY` [0] old `To'abaita` → `To’abaita` (leftover) ← WIKITONGUES: Michael speaking To’abaita
+- `98mMMwkyPzU` [0] old `Iranian Persian` → `Farsi` (leftover) ← WIKITONGUES: Daniel speaking Farsi
+- `gs-Hs_ZarnE` [0] old `Zeeuws` → `Zeelandic` (leftover) ← WIKITONGUES: Klazina and Huib speaking Zeelandic
+- `usLABtKtRho` [0] old `Tosk Albanian` → `Albanian` (score 2) ← WIKITONGUES: Pavlin speaking Albanian
+- `B-UiHe5DIt4` [0] old `Nauru` → `Nauruan` (score 2) ← WIKITONGUES: Siro speaking Nauruan
+- `dhRoN1V1rQI` [0] old `Shipibo-Conibo` → `Shipibo` (score 2) ← WIKITONGUES: Luz speaking Shipibo
+- `aZGyISJ3djo` [0] old `Western Frisian` → `West Frisian` (score 1) ← WIKITONGUES: Sjoukje speaking West Frisian
+- `jzgaOtKpCd0` [0] old `Tuvalu` → `Tuvaluan` (score 2) ← WIKITONGUES: Paulo speaking Tuvaluan
+- `glqy1koOinI` [0] old `Kuanyama` → `Oshiwambo` (leftover) ← WIKITONGUES: Hannah speaking Oshiwambo
+- `QA_5uU6DE20` [0] old `Asturian` → `Leonese` (leftover) ← WIKITONGUES: José Benito speaking Leonese
+- `yMf1aVKqsSQ` [0] old `Swiss German` → `Alsatian` (leftover) ← WIKITONGUES: Dominique speaking Alsatian
+- `x5nIUaB98dQ` [0] old `Liberia Kpelle` → `Kpelle` (score 2) ← WIKITONGUES: Jerry speaking Kpelle
+- `NMBVCEq8TLU` [0] old `Louisiana Creole` → `Kouri-Vini` (leftover) ← Michael speaking Kouri-Vini | Louisiana Creole language | Wikitongues
+- `N7T85Q0ez1o` [0] old `Sundanese` → `Bantenese` (leftover) ← WIKITONGUES: Mandala speaking Bantenese
+- `QLLyXc24Vcc` [0] old `Mossi` → `Mooré` (first leftover of ["Mooré","Dioula"]) ← WIKITONGUES: Achille speaking Mooré and Dioula
+- `yOrLAkSNe5c` [0] old `French` → `Chiac` (leftover) ← WIKITONGUES: Jacques and Yvette speaking Chiac
+- `cHTNty8YeT0` [0] old `Western Tlacolula Valley Zapotec` → `Zapotec` (score 2) ← WIKITONGUES: Román speaking Zapotec and Spanish
+- `6OTT7m8MgAI` [0] old `Eastern Maninkakan` → `Mandingo` (leftover) ← WIKITONGUES: Musu speaking Mandingo
+- `-UCw1Q9ni2E` [0] old `Numèè` → `Booráá` (leftover) ← WIKITONGUES: Sonia speaking Booráá
+- `CDeE2dZyb0M` [0] old `Levantine Arabic` → `Syrian Arabic` (score 1) ← WIKITONGUES: David speaking Syrian Arabic
+- `xpDBaE9TSe8` [0] old `Eastern Tamang` → `Tamang` (score 2) ← WIKITONGUES: Chez speaking Tamang
+- `vjK-2lc0KQU` [0] old `Zou` → `Zom` (leftover) ← WIKITONGUES: Khup speaking Zom
+- `rzkKRTvwGG8` [0] old `Natügu` → `Natqnnga` (leftover) ← WIKITONGUES: Patricia speaking Natqnnga
+- `uh9hePNiPfg` [0] old `Macedo-Romanian` → `Aromanian` (leftover) ← WIKITONGUES: Cristian speaking Aromanian
+- `xF_CJUadatY` [0] old `Yue Chinese` → `Cantonese` (leftover) ← WIKITONGUES: Karen speaking Cantonese
+- `xe6ebodfmKU` [0] old `Nepal Bhasa` → `Newari` (leftover) ← WIKITONGUES: Jasmin speaking Newari
+- `kAenLJSfNWM` [0] old `French` → `Québecois French` (score 2) ← WIKITONGUES: Maxime speaking Québecois French
+- `reNXOCf-9z0` [0] old `Motlav` → `Mwotlap` (leftover) ← WIKITONGUES: Serah speaking Mwotlap
+- `uPa84Ro8SrU` [0] old `Nume` → `Nur` (leftover) ← WIKITONGUES: James speaking Nur
+- `4sgX-jvskfI` [0] old `Tamil` → `Sri Lankan Tamil` (score 2) ← WIKITONGUES: Priya speaking Sri Lankan Tamil
+- `tvNW5-lnx0g` [0] old `Neapolitan` → `Abruzzese` (leftover) ← WIKITONGUES: Stefano speaking Abruzzese
+- `IVFfgzvSLXI` [0] old `Dutch` → `Brabants` (leftover) ← WIKITONGUES: Jan speaking Brabants
+- `vUeMj9_XrJA` [0] old `Macedo-Romanian` → `Aromanian` (leftover) ← WIKITONGUES: Angel speaking Aromanian
+- `J0Yx_sLr6Vo` [0] old `Haitian` → `Haitian Creole` (score 2) ← WIKITONGUES: Margaret speaking Haitian Creole
+- `WmoSv7Cl1-M` [0] old `Bavarian` → `Gottscheerish` (leftover) ← WIKITONGUES: Martha and Albert speaking Gottscheerish
+- `5imsaweRZWQ` [0] old `East Ambae` → `North Ambae` (score 1) ← WIKITONGUES: Daisy speaking North Ambae
+- `TVMfOk6x8VI` [0] old `Eastern Maninkakan` → `Mandingo` (leftover) ← WIKITONGUES: Garfeen speaking Mandingo
+- `WUrJB96-BuE` [0] old `Musi` → `Palembangnese` (leftover) ← WIKITONGUES: Ihsan and Septiadi speaking Palembangnese
+- `LZoRgfFdXXQ` [0] old `Mandarin Chinese` → `Henan Chinese` (score 1) ← WIKITONGUES: Ying speaking Henan Chinese
+- `ftqet7jH91g` [0] old `Central Kurdish` → `Sorani Kurdish` (score 1) ← WIKITONGUES: Golala speaking Sorani Kurdish
+- `ok7DGXbk8Mk` [0] old `Italian` → `Trentino` (leftover) ← WIKITONGIES: Fabiola speaking Trentino
+- `-128MZD3rKU` [0] old `Khoekhoe` → `Khoekhoegowab` (score 2) ← WIKITONGUES: Revival speaking English, Khoekhoegowab, and Afrikaans
+- `U9NivlodX8c` [0] old `Falam Chin` → `Falam` (score 2) ← WIKITONGUES: Tay Za speaking Falam
+- `t6a5LmxqW6c` [0] old `Silesian` → `Po Naszymu` (leftover) ← WIKITONGUES: Otmar speaking Po Naszymu
+- `CbiVj4rV3dY` [0] old `Mandarin Chinese` → `Guiyangese` (leftover) ← WIKITONGUES: Changjiu and Chaofen speaking Guiyangese
+- `3jpoUySC6sk` [0] old `Venetian` → `Chipileño` (leftover) ← WIKITONGUES: Nicholas speaking Chipileño
+- `Z2lYJyGr0vc` [0] old `Nyarafolo Senoufo` → `Nyarafolo` (score 2) ← WIKITONGUES: Afou speaking Nyarafolo
+- `pS5Adkwaf-U` [0] old `Ossetian` → `Kudarsky` (leftover) ← WIKITONGUES: Zarina speaking Kudarsky
+- `vwWzzl2oZTk` [0] old `Macedo-Romanian` → `Vlach` (leftover) ← WIKITONGUES: Fanny speaking Vlach
+- `wuP_E0oFZkY` [0] old `Lozi` → `siLozi` (score 2) ← WIKITONGUES: Winnie speaking siLozi
+- `EBLGBob9ZFA` [0] old `Malaccan Creole Portuguese` → `Kristang` (leftover) ← WIKITONGUES: Kevin and Fuad speaking Kristang
+- `YqFbV7vFIK8` [0] old `Limburgan` → `Limburgish` (leftover) ← WIKITONGUES: Carolien speaking Limburgish
+- `stVATHE414E` [0] old `Northern Hindko` → `Hindko` (score 2) ← WIKITONGUES: Zaeem speaking Hindko and Pashto
+- `stVATHE414E` [1] old `Northern Pashto` → `Pashto` (score 2) ← WIKITONGUES: Zaeem speaking Hindko and Pashto
+- `_N4HGvswrjE` [0] old `Venetian` → `Veronese` (leftover) ← WIKITONGUES: Elisa speaking Veronese
+- `0cj-CL9sRR0` [0] old `German` → `Transylvanian Saxon` (leftover) ← WIKITONGUES: Thomas speaking Transylvanian Saxon
+- `YEij6a6wt0Y` [0] old `Odia` → `Baleswari Odia` (score 2) ← WIKITONGUES: Musamoni speaking Baleswari Odia
+- `VV0bmwKLHX0` [0] old `Wyandot` → `Waⁿdat` (leftover) ← WIKITONGUES: Richard speaking Waⁿdat
+- `-8ZNc02x-U0` [0] old `Lule Sami` → `Lule Saami` (score 1) ← WIKITONGUES: Simon Piera speaking Lule Saami
+- `yjBhhSKuBd8` [0] old `Tlingit` → `Lingít` (score 2) ← WIKITONGUES: Lgeik'i and Naakil.aan speaking Lingít
+- `wAipXzYNztM` [0] old `Haitian` → `Haitian Creole` (score 2) ← WIKITONGUES: Castelline speaking Haitian Creole
+- `vHWpv_3NmBs` [1] old `Modern Greek` → `Pontic` (leftover) ← WIKITONGUES: Asimenia speaking Greek and Pontic
+- `jshv9n3xAO4` [0] old `German` → `Texas German` (score 2) ← WIKITONGUES: Evelyn speaking Texas German
+- `a9XYhuJhJY8` [0] old `Chukot` → `Chukchi` (leftover) ← WIKITONGUES: Evgenii speaking Chukchi
+- `xj26oHydbyE` [0] old `Yue Chinese` → `Cantonese` (leftover) ← WIKITONGUES: Iasmin speaking Cantonese
+- `xYUS0HFhkW0` [0] old `Bulgarian` → `Pomak` (leftover) ← WIKITONGUES: Sali speaking Pomak
+- `cZItz2uKXUo` [0] old `Venetian` → `Triestine` (leftover) ← WIKITONGUES: Arlon speaking Triestine
+- `xMmfbZIIclw` [0] old `Portuguese` → `Angolan Portuguese` (score 2) ← WIKITONGUES: Stéfane speaking Angolan Portuguese
+- `bY8HBFwRE-w` [0] old `Macedo-Romanian` → `Aromanian` (leftover) ← WIKITONGUES: Stere speaking Aromanian
+- `k3x-2IhJwjo` [0] old `Central Okinawan` → `Okinawan` (score 2) ← WIKITONGUES: Naoki speaking Okinawan,  Kalmyk, Erzya, and Prussian
+- `sNDAfGlc-4c` [0] old `Guambiano` → `Nam Trik` (leftover) ← WIKITONGUES: Daniel speaking Nam Trik
+- `SMy4jzw2W08` [0] old `Hungarian` → `Csángó Hungarian` (score 2) ← WIKITONGUES: Tereza speaking Csángó Hungarian
+- `z8eTwjQCCuA` [0] old `Yucateco` → `Yucatecan` (leftover) ← WIKITONGUES: Hilario speaking Yucatecan
+- `tFoIGW7FLUk` [0] old `Jamaican Creole English` → `Jamaican Patois` (score 1) ← WIKITONGUES: Venecia speaking English and Jamaican Patois
+- `1w_SXQUCfsw` [0] old `Eastern Yiddish` → `Yiddish` (score 2) ← WIKITONGUES: Suri speaking Yiddish
+- `-UlCJviJ8MQ` [1] old `Mandarin Chinese` → `Mandarin` (score 2) ← WIKITONGUES: Mario speaking English, Mandarin, Japanese, and Portuguese
+- `pmwUGyC-Hh0` [0] old `Malayalam` → `Byari` (leftover) ← WIKITONGUES: Navas speaking Byari
+- `oMeQ8llXq6o` [0] old `Bakhtiari` → `Bakhtiari Farsi` (score 2) ← WIKITONGUES: Mohammad speaking Bakhtiari Farsi
+- `Bozt5oUv74w` [0] old `Nepal Bhasa` → `Newari` (leftover) ← WIKITONGUES: Aaku speaking Newari
+- `5u4r0SUv10g` [0] old `Northern Uzbek` → `Uzbek` (score 2) ← WIKITONGUES: Adam speaking Uzbek
+- `dHCf9k3u2IQ` [1] old `Modern Greek` → `Griko` (leftover) ← WIKITONGUES: Giuseppe speaking Sicilian and Griko
+- `192WARvBmLg` [0] old `Guyanese Creole English` → `Guyanese Creole` (score 2) ← WIKITONGUES: Sandra speaking English and Guyanese Creole
+- `1_dH403pqRU` [0] old `German` → `Texas German` (score 2) ← WIKITONGUES: Vernell speaking Texas German
+- `16uK2Gbyk2k` [0] old `Haitian` → `Haitian Creole` (score 2) ← WIKITONGUES: Rose speaking Haitian Creole
+- `7l8wsBlSCpQ` [0] old `Halh Mongolian` → `Mongolian` (score 2) ← WIKITONGUES: Khulan speaking Mongolian
+- `2IzpOFfd4Zs` [0] old `Kildin Sami` → `Kildin Saami` (score 1) ← WIKITONGUES: Anna speaking Kildin Saami
+- `YTgDOQuuvdc` [0] old `Bago-Kusuntu` → `Koussountou` (leftover) ← WIKITONGUES: Labaram speaking Koussountou
+- `ofWA7ERRwzs` [0] old `English` → `Cumbrian` (leftover) ← WIKITONGUES: Simon speaking Cumbrian
+- `Ms9kzKnXHA4` [0] old `French` → `Gallo` (leftover) ← WIKITONGUES: Paul speaking Gallo
+- `G1ZIzrAxWbA` [1] old `Gheg Albanian` → `Albanian` (score 2) ← WIKITONGUES: Maxim speaking Russian and Albanian
+- `-kFzjAR-05M` [0] old `Guadeloupean Creole French` → `Martinique Creole` (leftover) ← WIKITONGUES: Tory speaking Martinique Creole
+- `hG5rMFqZ-XQ` [0] old `Eastern Yiddish` → `Yiddish` (score 2) ← WIKITONGUES: Matt speaking Yiddish
+- `vistydJ8zRM` [0] old `Buginese` → `Bugis` (leftover) ← WIKITONGUES: Mazhar speaking Bugis
+- `VnVR__nf0HI` [0] old `Sranan Tongo` → `Sranan` (score 2) ← WIKITONGUES: Hans speaking Sranan
+- `T8cLcztsDXY` [0] old `Plateau Malagasy` → `Malagasy` (score 2) ← WIKITONGUES: Miarisoa speaking Malagasy
+- `TmWrYi9qZrs` [0] old `Wu Chinese` → `Linhainese` (leftover) ← WIKITONGUES: Charles speaking Linhainese
+- `ozo3HCJVJEA` [0] old `Saraiki` → `Seraiki` (leftover) ← WIKITONGUES: Lillotama speaking Seraiki
+- `YbIyO-cMwhw` [0] old `Eastern Tamang` → `Tamang` (score 2) ← WIKITONGUES: Ram speaking Tamang
+- `7EJud2CMRyo` [0] old `Adamawa Fulfulde` → `Fulfulde` (score 2) ← WIKITONGUES: Ibrahim speaking Fulfulde, Zarma, French, Hassaniya Arabic, and Tamazight
+- `22HBqPN8Oco` [2] old `Modern Greek` → `Greek` (score 2) ← WIKITONGUES: John speaking English, Spanish, and Greek
+- `rJYH4xad_fE` [0] old `Panjabi` → `Powadhi Punjabi` (leftover) ← WIKITONGUES: Randeep speaking Powadhi Punjabi
+- `m4l6NewVbes` [0] old `Arbëreshë Albanian` → `Albanian` (score 2) ← WIKITONGUES: Stefano speaking Albanian
+- `gaUt3gTwwzU` [0] old `Wu Chinese` → `Shanghainese` (leftover) ← WIKITONGUES: Ivy speaking Shanghainese
+- `zLaE0SmZdMo` [0] old `Sea Island Creole English` → `Seminole Creole` (leftover) ← WIKITONGUES: Bertha speaking Seminole Creole
+- `3PZd-DmY_dE` [0] old `Bengkala Sign Language` → `Kata Kolok` (leftover) ← WIKITONGUES: Wayan Pindi signing Kata Kolok
+- `eyPtlVS09RQ` [0] old `Cebaara Senoufo` → `Senoufo` (score 2) ← WIKITONGUES: Souleymane speaking Senoufo, French, Arabic, and Mandingo
+- `eyPtlVS09RQ` [2] old `Standard Arabic` → `Arabic` (score 2) ← WIKITONGUES: Souleymane speaking Senoufo, French, Arabic, and Mandingo
+- `eyPtlVS09RQ` [3] old `Eastern Maninkakan` → `Mandingo` (leftover) ← WIKITONGUES: Souleymane speaking Senoufo, French, Arabic, and Mandingo
+- `8v2n3lBibWk` [0] old `Dela-Oenale` → `Dela` (score 2) ← WIKITONGUES: Thressia speaking Dela
+- `w_FJ_D1BVkI` [0] old `Piemontese` → `Piedmontese` (leftover) ← WIKITONGUES: Simon speaking Piedmontese
+- `N_WS0_9PZgw` [0] old `Arbëreshë Albanian` → `Albanian` (score 2) ← WIKITONGUES: Giuseppina speaking Albanian
+- `Sra5evn--8c` [0] old `Ladin` → `Solandro` (leftover) ← WIKITONGUES: Andrea speaking Solandro
+- `w8iwYaa41uo` [0] old `Giryama` → `Kigiryama` (score 2) ← WIKITONGUES: Saro speaking Kigiryama
+- `uizL1thcRXg` [0] old `Swiss-French Sign Language` → `Swiss-French SL` (score 1) ← WIKITONGUES: Véronique and Sandra signing Swiss-French SL and Swiss-German SL
+- `uizL1thcRXg` [1] old `Swiss-German Sign Language` → `Swiss-German SL` (score 1) ← WIKITONGUES: Véronique and Sandra signing Swiss-French SL and Swiss-German SL
+- `vydhTL5SoIs` [0] old `Central Aymara` → `Aymara` (score 2) ← WIKITONGUES: Martha speaking Aymara
+- `nQmB8u7aBZs` [0] old `Slovenian` → `Slovene` (leftover) ← WIKITONGUES: Matic speaking Slovene
+- `qfKmOf3d0fc` [0] old `Kochila Tharu` → `Tharu` (score 2) ← WIKITONGUES: Sanjib speaking Tharu
+- `H8t_snz8B5A` [0] old `Plateau Malagasy` → `Malagasy` (score 2) ← WIKITONGUES: Candy speaking Malagasy
+- `eLX1KG3FnBg` [0] old `Paraguayan Guaraní` → `Guarani` (score 2) ← WIKITONGUES: María speaking Guarani
+- `321JX9QiME0` [0] old `Tsakonian` → `Tsakonika` (leftover) ← Listen to the Tsakonian language of Greece | Manolis speaking Tsakonika | Wikitongues
+- `JFp2hDgjIyM` [0] old `Avaric` → `Avar` (score 2) ← WIKITONGUES: Isayev Mahammad speaking Avar
+- `b8WMfsLoUAo` [0] old `Romagnol` → `Romagnolo` (score 2) ← WIKITONGUES: Danio speaking Romagnolo
+- `Vbpr0ryoroA` [0] old `Standard Estonian` → `Estonian` (score 2) ← WIKITONGUES: Liisi speaking Estonian
+- `ZrfoXAsPHD4` [0] old `Kalaallisut` → `Greenlandic` (leftover) ← WIKITONGUES: Mark speaking Greenlandic
+- `mCghaYzVDxw` [1] old `Central Kanuri` → `Kanuri` (score 2) ← WIKITONGUES: Ali speaking Hausa and Kanuri
+- `8i4EEb5QMgU` [0] old `Standard Latvian` → `Latvian` (score 2) ← WIKITONGUES: Anna speaking English, French, Czech, Russian and Latvian
+- `kb3Xs56iCg8` [0] old `North Azerbaijani` → `Azeri` (leftover) ← WIKITONGUES: Memmed speaking English, Czech and Azeri
+- `fO0ZyO_Yk9I` [0] old `Dimli` → `Zazaki` (leftover) ← WIKITONGUES: Gül speaking Zazaki
+- `buuGVrfI2jo` [0] old `Northeastern Thai` → `Isan` (leftover) ← WIKITONGUES: Thong speaking Isan
+- `yiVuJhiTyrE` [0] old `Fijian` → `Kadavu Fijian` (score 2) ← Ratulevu speaking Kadavu Fijian | Pacific Islander languages | Wikitongues
+- `_lTVSjRv10k` [0] old `Acoli` → `Acholi` (leftover) ← WIKITONGUES: Opoka speaking Acholi
+- `dxtFwV5Es7k` [0] old `Luo` → `Dholuo` (score 2) ← WIKITONGUES: Miriam speaking English, Dholuo, and Swahili
+- `PaZqV91ybbM` [0] old `Swedish` → `Halländska Swedish` (score 2) ← WIKITONGUES: Alexandra speaking Halländska Swedish
+- `IvwbztWHe0I` [0] old `Ambonese Malay` → `Ambonese` (score 2) ← WIKITONGUES: Nila speaking Ambonese
+- `dDQLdHkhPTE` [0] old `Macedo-Romanian` → `Aromanian` (leftover) ← WIKITONGUES: Florentina speaking Aromanian
+- `8IvBOcstwCU` [0] old `Eastern Huasteca Nahuatl` → `Huasteca Nahuatl` (score 2) ← WIKITONGUES: Yan speaking Huasteca Nahuatl
+- `-7Ch2p6xPAM` [0] old `Nafusi` → `Zuwara Berber` (leftover) ← WIKITONGUES: Muhned speaking Zuwara Berber
+- `lhufdY1uT3k` [0] old `Argentine Sign Language` → `Argentinian Sign Language` (leftover) ← WIKITONGUES: Candela signing Argentinian Sign Language
+- `SGTGWJf4dWw` [0] old `Yugoslavian Sign Language` → `Kosovar Sign Language` (leftover) ← WIKITONGUES: Drita signing Kosovar Sign Language
+- `pCfEViYa110` [0] old `Dehu` → `Drehu` (leftover) ← WIKITONGUES: Simane speaking Drehu
+- `G5WqvFD-ELo` [0] old `Mandarin Chinese` → `Mandarin` (score 2) ← WIKITONGUES: Shuang speaking Mandarin
+- `9on81ZtUf5A` [0] old `Levantine Arabic` → `Syrian Arabic` (score 1) ← WIKITONGUES: Niḍāl speaking Syrian Arabic
+- `1uIg0COZE5A` [0] old `Pular` → `Fula` (leftover) ← WIKITONGUES: Alim speaking Fula
+- `cyhc6ddqdhc` [0] old `Limburgan` → `Limburgish` (leftover) ← WIKITONGUES: Ron speaking Limburgish
+- `zLTgmdLaQJ4` [0] old `Balkan Romani` → `Romani` (score 2) ← WIKITONGUES: Daut speaking Romani
+- `GZcV67w2o1g` [0] old `Marwari` → `Marwadi` (leftover) ← WIKITONGUES: Devika speaking English, Marwadi, Marathi and Hindi
+- `le3cBRlWSE8` [0] old `Scots` → `Doric Scots` (score 2) ← WIKITONGUES: David speaking Doric Scots and English
+- `m0EwquC6wBU` [0] old `Scots` → `Shetlandic` (leftover) ← WIKITONGUES: Christine speaking Shetlandic
+- `9p-xnXddSy8` [1] old `South Bolivian Quechua` → `Quechua` (score 2) ← WIKITONGUES: Hugo speaking Mapudungun and Quechua
+- `mrnxCBfLHFQ` [0] old `Tsonga` → `Shangaan` (leftover) ← WIKITONGUES: Tiger speaking Shangaan
+- `PpNr0MgTAbY` [0] old `Chuwabu` → `Chuwabo` (leftover) ← WIKITONGUES: Aldade speaking Portuguese and Chuwabo
+- `72L2JsuGcH0` [0] old `Levantine Arabic` → `Lebanese Arabic` (score 1) ← WIKITONGUES: Anis Speaking Lebanese Arabic
+- `8RyDKy_HUj0` [0] old `Tsonga` → `Shangaan` (leftover) ← WIKITONGUES: Michael speaking Shangaan
+- `Kz6bU7RqIjc` [0] old `North Azerbaijani` → `Azerbaijani` (score 2) ← WIKITONGUES: Tural Speaking Azerbaijani, Turkish and Russian
+- `-oarxcgzsXY` [0] old `North Efate` → `Nafasana` (leftover) ← WIKITONGUES: Lopez speaking Nafasana
+- `pqPtJM4ZRQE` [0] old `North Efate` → `Nakanamanga` (leftover) ← WIKITONGUES: Priscilla speaking Nakanamanga
+- `RHJOlCbQbbU` [0] old `Lingarak` → `Neverver` (leftover) ← Ladonna speaking Bislama and Neverver | Pacific Islander languages | Wikitongues
+- `H3g87x0nL1M` [0] old `Standard Latvian` → `Latvian` (score 2) ← WIKITONGUES: Marks speaking Latvian
+- `fMTSDqjcvEk` [0] old `North Azerbaijani` → `Azerbaijani` (score 2) ← WIKITONGUES: Galib Speaking Azerbaijani
+- `zXM5DJNZhFI` [1] old `Norwegian Bokmål` → `Norwegian` (score 2) ← WIKITONGUES: Sidra Speaking Urdu and Norwegian
+- `P2vfi0HAaCU` [0] old `Levantine Arabic` → `Syrian Arabic` (score 1) ← WIKITONGUES: Fahed speaking Syrian Arabic
+- `boFQzRB3OuQ` [0] old `Occitan` → `Aranese Occitan` (score 2) ← Sònia Speaking Aranese Occitan | Romance languages | Wikitongues
+- `DmvDD9kJipE` [0] old `Jamaican Creole English` → `Jamaican Patois` (score 1) ← WIKITONGUES: Omar Speaking English and Jamaican Patois
+- `nFLhxxsN7gQ` [0] old `Cebuano` → `Bisayan` (leftover) ← WIKITONGUES: Presi Speaking Bisayan
+- `mcqxSaoqQ3A` [0] old `Occitan` → `Aranese Occitan` (score 2) ← Fugi Speaking Aranese Occitan | Romance languages | Wikitongues
+- `Oz0hBgB5ixs` [0] old `Min Nan Chinese` → `Penang Hokkien` (leftover) ← WIKITONGUES: Timothy speaking Penang Hokkien
+- `_IXEev5Z7ao` [0] old `Occitan` → `Aranese Occitan` (score 2) ← Ares speaking Aranese Occitan | Romance languages | Wikitongues
+- `N0GY23080G0` [0] old `Yue Chinese` → `Cantonese` (leftover) ← WIKITONGUES: Rachal speaking Cantonese
+- `B-qxGhkRojc` [0] old `Mandarin Chinese` → `Mandarin` (score 2) ← WIKITONGUES: Wanyu speaking Mandarin
+- `pdYpvY6Efos` [0] old `Occitan` → `Aranese Occitan` (score 2) ← Josèp speaking Aranese Occitan | Romance language | Wikitongues
+- `Yxrq9zhgla8` [0] old `Iranian Persian` → `Farsi` (leftover) ← WIKITONGUES: Majid speaking Farsi
+- `iCd5W4gwJsI` [0] old `Sea Island Creole English` → `Gullah` (leftover) ← WIKITONGUES: Caroline speaking Gullah and English
+- `1R5dPw4sYrE` [0] old `Cajun French` → `Louisiana French (Cajun)` (score 1) ← Louis speaking Louisiana French (Cajun) and English | Romance languages | Wikitongues
+- `G0n970JRNII` [0] old `Cajun French` → `Louisiana French` (score 1) ← Sam speaking Louisiana French | Romance languages | Wikitongues
+- `Vg4cGwY-q2c` [0] old `Cajun French` → `Louisiana French` (score 1) ← Horace speaking Louisiana French | Romance languages | Wikitongues
+- `SWn1t4o0QC0` [0] old `Kikuyu` → `Gikuyu` (leftover) ← WIKITONGUES: Stephen speaking Gikuyu
+- `Ki4W4QVm2Hk` [0] old `Yue Chinese` → `Cantonese` (leftover) ← WIKITONGUES: Joyce speaking Cantonese
+- `xSaGl8fiiYk` [0] old `Central Khmer` → `Khmer` (score 2) ← WIKITONGUES: Michael speaking Khmer
+- `nqOtvem2dxs` [0] old `Levantine Arabic` → `Palestinian Arabic` (score 1) ← WIKITONGUES: Lama speaking English and Palestinian Arabic
+- `M2xmsclh3UA` [0] old `Mandarin Chinese` → `Mandarin` (score 2) ← WIKITONGUES: YiShan speaking Mandarin
+- `fk3Cq0mR6_4` [0] old `Norwegian Bokmål` → `Norwegian` (score 2) ← WIKITONGUES: Emily speaking Norwegian
+- `WQ4W-UqaaMo` [0] old `Central Nahuatl` → `Nahuatl` (score 2) ← WIKITONGUES: Javier speaking Nahuatl & Spanish
+- `DbArjSCZvOQ` [0] old `Mandarin Chinese` → `Mandarin` (score 2) ← WIKITONGUES: Will speaking Mandarin
+- `cC50MO--CGQ` [0] old `Papantla Totonac` → `Totonac` (score 2) ← WIKITONGUES: Manuel speaking Totonac
+- `CouHEysgsPo` [0] old `German` → `Hessian` (leftover) ← WIKITONGUES: Octavia speaking Hessian
+- `7zQSfU5HkUc` [0] old `K'iche'` → `K'iche' Mayan` (score 2) ← WIKITONGUES: Lorenzo speaking K'iche' Mayan
+- `dpYIjR9C7G8` [0] old `Cajun French` → `Louisiana French (Cajun)` (score 1) ← Louis speaking Louisiana French (Cajun) and English
+- `I1VBzO_qOW4` [0] old `Cajun French` → `Louisiana French (Cajun)` (score 1) ← Louis speaking Louisiana French (Cajun) and English
+- `cDmQKPnee3s` [0] old `Cajun French` → `Louisiana French (Cajun)` (score 1) ← Louis speaking Louisiana French (Cajun) and English
+- `BCs_nIJFEEg` [0] old `Eastern Yiddish` → `Yiddish` (score 2) ← Suri speaking Yiddish
+- `cvTeOdMGqAA` [0] old `Eastern Yiddish` → `Yiddish` (score 2) ← Suri speaking Yiddish
+- `Nouueq2Kkjw` [0] old `Halh Mongolian` → `Mongolian` (score 2) ← Khulan speaking Mongolian
+- `224yG7_SRsw` [0] old `Mandarin Chinese` → `Mandarin` (score 2) ← Wanyu speaking Mandarin
+
+## Glottolog dialect decisions (78)
+
+- `7cMIidnH7xY` [0] jude1270 — dialect 'Judeo-Shirazi' kept (named in title)
+- `PeZHJcQYt3c` [0] jerr1238 — dialect 'Jerriais' kept (named in title)
+- `1sEc3I9R_7s` [0] urmi1250 — dialect 'Urmi' not named in title → demoted to assy1241 (Assyrian Neo-Aramaic)
+- `wwwrEdwQ2fQ` [0] clas1258 — dialect 'Classical Sanskrit' kept (named in title)
+- `ZT6gtYz4YD0` [0] east2288 — dialect 'East Frisian Low Saxon' kept (named in title)
+- `3UzO9dhxWak` [0] east2288 — dialect 'East Frisian Low Saxon' kept (named in title)
+- `yaesWLLJIRg` [0] bahr1242 — dialect 'Bahrain' not named in title → demoted to torw1241 (Torwali)
+- `8lR3D9LVYIs` [0] occi1239 — language 'Occitan' → promoted to dialect gasc1240 ('Gascon' named in label 'Gascon')
+- `qpfxFvpLAJ8` [0] port1283 — language 'Portuguese' → promoted to dialect braz1246 ('Brazilian Portuguese' named in label 'Brazilian Portuguese')
+- `9EpGjIsie44` [0] java1254 — language 'Javanese' → promoted to dialect sura1245 ('Surabaya' named in label 'Surabaya Javanese')
+- `_oCwNGxY5Co` [0] sirm1239 — language 'Sirmauri' → promoted to dialect giri1243 ('Giripari' named in label 'Giripari')
+- `ZgaPLvMBeFo` [1] indo1316 — language 'Standard Indonesian' → promoted to dialect stin1234 ('Bahasa Indonesia' named in label 'Bahasa Indonesia')
+- `N4RMhrlk60E` [0] basq1248 — language 'Basque' → promoted to dialect bisc1236 ('Biscayan' named in label 'Biscayan')
+- `zOb8s6GAj5E` [0] wuch1236 — language 'Wu Chinese' → promoted to dialect hang1257 ('Hangzhou' named in label 'Hangzhou Chinese')
+- `TlMUj5JDMWE` [0] fant1241 — dialect 'Fante' kept (named in title)
+- `mORCaQbggIo` [0] cent1972 — language 'Central Kurdish' → promoted to dialect sora1257 ('Sorani' named in label 'Sorani')
+- `e9y_WshNAyE` [0] stan1290 — language 'French' → promoted to dialect gall1275 ('Gallo' named in label 'Gallo')
+- `I-xiEyYtAwo` [0] jerr1238 — dialect 'Jerriais' not named in title but parent stan1290 maps to 'fra' ≠ 'nrf' — kept, review
+- `Ddydi1lcvGU` [0] cent1972 — language 'Central Kurdish' → promoted to dialect sora1257 ('Sorani' named in label 'Sorani')
+- `B56nxfnSV4U` [0] yuec1235 — language 'Yue Chinese' → promoted to dialect cant1236 ('Cantonese' named in label 'Cantonese')
+- `olM7YMyxd5I` [0] pann1240 — dialect 'Pannonian Ruthenian' not named in title but parent rusy1239 maps to 'rue' ≠ 'rsk' — kept, review
+- `NI9lRDW_x2E` [0] stan1288 — language 'Spanish' → promoted to dialect cari1288 ('Caribbean Spanish' named in label 'Caribbean Spanish')
+- `DoQdMWN5C8A` [0] twii1234 — dialect 'Twi' kept (named in title)
+- `3428HkaqA94` [0] yuec1235 — label 'Hong Kong Cantonese' matches several dialect children (cant1236 Cantonese, xian1255 Hong Kong) — kept language node, review
+- `pDDrFE3CaTc` [0] yidi1250 — language 'Yidiñ' → promoted to dialect gung1249 ('Gunggay' named in label 'Gunggay')
+- `tUWWNDUV2Tg` [0] nort3139 — language 'Levantine Arabic' → promoted to dialect alep1241 ('Aleppo' named in label 'Aleppo Arabic')
+- `j7N_qP2mt3o` [0] murr1258 — language 'Murriny Patha' → promoted to dialect murr1259 ('Murrinhpatha' named in label 'Murrinhpatha')
+- `OLf2L_0XvRM` [0] mori1278 — language 'Morisyen' → promoted to dialect maur1242 ('Mauritian Creole' named in label 'Mauritian Creole')
+- `rsmIHIUXAa8` [0] stan1288 — language 'Spanish' → promoted to dialect riop1234 ('Rioplatense Spanish' named in label 'Rioplatense Spanish')
+- `dZdCsqX_nEY` [0] croa1245 — dialect 'Croatian Standard' kept (named in title)
+- `z2GFNc-X6mA` [0] babu1240 — language 'Babuza' → promoted to dialect taok1237 ('Taokas' named in label 'Taokas')
+- `nJU_XnQzzHk` [0] sout3000 — language 'Southwestern Tlaxiaco Mixtec' → promoted to dialect nuyo1238 ('Nuyoo' named in label 'Nuyoo Mixtec')
+- `Ex0SVHRSEe4` [0] sout2679 — language 'South Estonian' → promoted to dialect voro1243 ('Võro' named in label 'Võro')
+- `ReWdgF-fdrE` [0] sout2679 — language 'South Estonian' → promoted to dialect voro1243 ('Võro' named in label 'Võro')
+- `XFAXrpmuITQ` [0] sout2679 — language 'South Estonian' → promoted to dialect voro1243 ('Võro' named in label 'Võro')
+- `XVVrouF3bzE` [0] sout2679 — language 'South Estonian' → promoted to dialect voro1243 ('Võro' named in label 'Võro')
+- `yNLgivKN5z4` [0] sout2679 — language 'South Estonian' → promoted to dialect voro1243 ('Võro' named in label 'Võro')
+- `BT7Pgimrq4g` [0] sout2679 — language 'South Estonian' → promoted to dialect voro1243 ('Võro' named in label 'Võro')
+- `X7Yvsw2dnDE` [0] sout2679 — language 'South Estonian' → promoted to dialect voro1243 ('Võro' named in label 'Võro')
+- `w-PP0r8ohF8` [0] norw1259 — dialect 'Norwegian Bokmål' not named in title but parent norw1258 maps to 'nor' ≠ 'nob' — kept, review
+- `A9l639zi6Ik` [0] nucl1770 — dialect 'Nuclear Dan' kept (named in title)
+- `0KDTO6q3tdM` [0] dutc1256 — language 'Dutch' → promoted to dialect bild1234 ('Bildts' named in label 'Bildts')
+- `8OBVOJxBU7E` [0] yuec1235 — language 'Yue Chinese' → promoted to dialect siyi1236 ('Siyi' named in label 'Siyi Yue')
+- `xF_CJUadatY` [0] yuec1235 — language 'Yue Chinese' → promoted to dialect cant1236 ('Cantonese' named in label 'Cantonese')
+- `kAenLJSfNWM` [0] stan1290 — language 'French' → promoted to dialect queb1247 ('Québécois' named in label 'Québecois French')
+- `IVFfgzvSLXI` [0] dutc1256 — language 'Dutch' → promoted to dialect brab1243 ('Brabants' named in label 'Brabants')
+- `ftqet7jH91g` [0] cent1972 — language 'Central Kurdish' → promoted to dialect sora1257 ('Sorani' named in label 'Sorani Kurdish')
+- `NAhK_HlNNJM` [0] twii1234 — dialect 'Twi' kept (named in title)
+- `pS5Adkwaf-U` [0] kuda1250 — dialect 'Kudar' not named in title → demoted to iron1242 (Iron Ossetian)
+- `hPozChGO_LA` [0] serb1264 — dialect 'Serbian Standard' kept (named in title)
+- `whHnH3a-olo` [0] croa1245 — dialect 'Croatian Standard' kept (named in title)
+- `VV0bmwKLHX0` [0] petu1234 — dialect 'Petun-Wyandot' not named in title but parent wyan1247 maps to 'wya' ≠ 'wyn' — kept, review
+- `xj26oHydbyE` [0] yuec1235 — language 'Yue Chinese' → promoted to dialect cant1236 ('Cantonese' named in label 'Cantonese')
+- `xYUS0HFhkW0` [0] bulg1262 — language 'Bulgarian' → promoted to dialect poma1238 ('Pomak' named in label 'Pomak')
+- `cZItz2uKXUo` [0] vene1258 — language 'Venetian' → promoted to dialect trie1242 ('Triestine' named in label 'Triestine')
+- `SMy4jzw2W08` [0] hung1274 — language 'Hungarian' → promoted to dialect csan1238 ('Csángó' named in label 'Csángó Hungarian')
+- `Ms9kzKnXHA4` [0] gall1275 — dialect 'Gallo' kept (named in title)
+- `zUDEten_j9o` [0] twii1234 — dialect 'Twi' kept (named in title)
+- `Hh0nDkWeI5w` [0] bosn1245 — dialect 'Bosnian Standard' kept (named in title)
+- `rJYH4xad_fE` [0] panj1256 — language 'Eastern Panjabi' → promoted to dialect powa1244 ('Powadhi' named in label 'Powadhi Punjabi')
+- `gaUt3gTwwzU` [0] wuch1236 — language 'Wu Chinese' → promoted to dialect shan1293 ('Shanghainese' named in label 'Shanghainese')
+- `9xl5oi4tEVw` [0] serb1264 — dialect 'Serbian Standard' kept (named in title)
+- `xJat2lF9Aio` [0] croa1245 — dialect 'Croatian Standard' kept (named in title)
+- `8i4EEb5QMgU` [0] stan1325 — dialect 'Standard Latvian' kept (named in title)
+- `yiVuJhiTyrE` [0] fiji1243 — language 'Fijian' → promoted to dialect kada1285 ('Kadavu' named in label 'Kadavu Fijian')
+- `2asptk633iA` [0] serb1264 — dialect 'Serbian Standard' kept (named in title)
+- `sQXzn-H0kjY` [0] bosn1245 — dialect 'Bosnian Standard' kept (named in title)
+- `72L2JsuGcH0` [0] nort3139 — language 'Levantine Arabic' → promoted to dialect stan1323 ('Standard Lebanese Arabic' named in label 'Lebanese Arabic')
+- `H3g87x0nL1M` [0] stan1325 — dialect 'Standard Latvian' kept (named in title)
+- `zXM5DJNZhFI` [1] norw1259 — dialect 'Norwegian Bokmål' not named in title but parent norw1258 maps to 'nor' ≠ 'nob' — kept, review
+- `boFQzRB3OuQ` [0] occi1239 — language 'Occitan' → promoted to dialect aran1260 ('Aranese' named in label 'Aranese Occitan')
+- `mcqxSaoqQ3A` [0] occi1239 — language 'Occitan' → promoted to dialect aran1260 ('Aranese' named in label 'Aranese Occitan')
+- `_IXEev5Z7ao` [0] occi1239 — language 'Occitan' → promoted to dialect aran1260 ('Aranese' named in label 'Aranese Occitan')
+- `N0GY23080G0` [0] yuec1235 — language 'Yue Chinese' → promoted to dialect cant1236 ('Cantonese' named in label 'Cantonese')
+- `pdYpvY6Efos` [0] occi1239 — language 'Occitan' → promoted to dialect aran1260 ('Aranese' named in label 'Aranese Occitan')
+- `BIV7gCJRY0k` [0] serb1264 — dialect 'Serbian Standard' kept (named in title)
+- `Ki4W4QVm2Hk` [0] yuec1235 — language 'Yue Chinese' → promoted to dialect cant1236 ('Cantonese' named in label 'Cantonese')
+- `fk3Cq0mR6_4` [0] norw1259 — dialect 'Norwegian Bokmål' not named in title but parent norw1258 maps to 'nor' ≠ 'nob' — kept, review
+
+## BCP-47 changes (95)
+
+- `lstcnY-UXbs` [0] `aae-IT` → `aae`
+  - region 'it' dropped: label 'Arbëreshë Albanian' is the bare language name
+- `dXYMO6zam90` [0] `oc-vivaraup` → `oc`
+  - variant 'vivaraup' (Vivaro-Alpine) not named in label, dropped
+- `KGFew34cjgM` [0] `wuu-CN` → `wuu-CN`
+  - region 'cn' KEPT (label 'Changshu Wu') — review
+- `M2genaU2tj0` [0] `nap-IT` → `nap-IT`
+  - region 'it' KEPT (label 'Andriese') — review
+- `A2eea72GoMI` [0] `crh-RO` → `crh`
+  - region 'ro' dropped: label 'Tatar' is the bare language name
+- `OnGhQZ_PbWs` [0] `wuu-CN` → `wuu-CN`
+  - region 'cn' KEPT (label 'Wenglingnese') — review
+- `msL692DxAS4` [1] `en-GB-scotland` → `en`
+  - variant 'scotland' (Scottish Standard English) not named in label, dropped
+  - region 'gb' dropped: label 'English' is the bare language name
+- `fiOglXiVbjo` [0] `nds-BR` → `nds-BR`
+  - region 'br' KEPT (label 'Pomeranian') — review
+- `_7ZdE-msDOQ` [0] `nds-NL` → `nds-NL`
+  - region 'nl' KEPT (label 'Rouveen Low Saxon') — review
+- `qpfxFvpLAJ8` [0] `pt-BR` → `pt-BR`
+  - region 'br' KEPT (label 'Brazilian Portuguese') — review
+- `pAUaSmVQ1Sg` [0] `twd-NL` → `twd`
+  - region 'nl' dropped: label 'Twents' is the bare language name
+- `zOb8s6GAj5E` [0] `wuu-CN` → `wuu-CN`
+  - region 'cn' KEPT (label 'Hangzhou Chinese') — review
+- `I-xiEyYtAwo` [0] `nrf-FR` → `nrf-FR`
+  - region 'fr' KEPT (label 'Cauchois') — review
+- `NI9lRDW_x2E` [0] `es-419` → `es-419`
+  - region '419' KEPT (label 'Caribbean Spanish') — review
+- `3428HkaqA94` [0] `yue-HK` → `yue-HK`
+  - region 'hk' KEPT (label 'Hong Kong Cantonese') — review
+- `tUWWNDUV2Tg` [0] `apc-SY` → `apc-SY`
+  - region 'sy' KEPT (label 'Aleppo Arabic') — review
+- `mygnGGT679A` [0] `ca-ES-valencia` → `ca-valencia`
+  - region 'es' dropped in favour of variant 'valencia'
+- `xPixyaLG86Y` [0] `bar-RO` → `bar-RO`
+  - region 'ro' KEPT (label 'Banat Swabian (Bavarian)') — review
+- `rsmIHIUXAa8` [0] `es-419` → `es-419`
+  - region '419' KEPT (label 'Rioplatense Spanish') — review
+- `GPaZb-MzzpQ` [0] `oc-FR-nicard` → `oc-FR`
+  - variant 'nicard' (Niçard) not named in label, dropped
+  - region 'fr' KEPT (label 'Nissart Occitan') — review
+- `itdBLyLCiU0` [0] `bar-RO` → `bar-RO`
+  - region 'ro' KEPT (label 'Zipser German') — review
+- `dyg_z_ywVzA` [0] `wuu-CN` → `wuu`
+  - region 'cn' dropped: label 'Wu' is the bare language name
+- `MChNEkV_wt8` [0] `pt-PT` → `pt`
+  - region 'pt' dropped: label 'Portuguese' is the bare language name
+- `tTBDXjKZB08` [0] `en-BM` → `en-BM`
+  - region 'bm' KEPT (label 'Bermudian English') — review
+- `Gdr_yKrlf4I` [0] `nl-BE` → `nl-BE`
+  - region 'be' KEPT (label 'Oiltjers Dutch') — review
+- `LTsoLZtf4Dw` [0] `nds-NL` → `nds-NL`
+  - region 'nl' KEPT (label 'West-Veluws') — review
+- `w-PP0r8ohF8` [0] `nb-US` → `nb-US`
+  - region 'us' KEPT (label 'American Norwegian') — review
+- `9S8lDVmQSCQ` [0] `gos-NL` → `gos`
+  - region 'nl' dropped: label 'Gronings' is the bare language name
+- `IT7iuHWerbQ` [0] `bar-DE` → `bar`
+  - region 'de' dropped: label 'Bavarian' is the bare language name
+- `0KDTO6q3tdM` [0] `nl-NL-hetbildt` → `nl-NL`
+  - subtag 'hetbildt' not in IANA registry, dropped
+  - region 'nl' KEPT (label 'Bildts') — review
+- `8OBVOJxBU7E` [0] `yue-taishan` → `yue`
+  - subtag 'taishan' not in IANA registry, dropped
+- `5_-yVH92IY0` [0] `fr-CA` → `fr`
+  - region 'ca' dropped: label 'French' is the bare language name
+- `ivcyiIgDY_E` [0] `bar-DE` → `bar`
+  - region 'de' dropped: label 'Bavarian' is the bare language name
+- `QA_5uU6DE20` [0] `ast-ES-leon` → `ast-ES`
+  - subtag 'leon' not in IANA registry, dropped
+  - region 'es' KEPT (label 'Leonese') — review
+- `yMf1aVKqsSQ` [0] `gsw-FR` → `gsw-FR`
+  - region 'fr' KEPT (label 'Alsatian') — review
+- `N7T85Q0ez1o` [0] `su-ID-banten` → `su-ID`
+  - subtag 'banten' not in IANA registry, dropped
+  - region 'id' KEPT (label 'Bantenese') — review
+- `yOrLAkSNe5c` [0] `fr-CA-chiac` → `fr-CA`
+  - subtag 'chiac' not in IANA registry, dropped
+  - region 'ca' KEPT (label 'Chiac') — review
+- `CDeE2dZyb0M` [0] `apc-SY` → `apc-SY`
+  - region 'sy' KEPT (label 'Syrian Arabic') — review
+- `kAenLJSfNWM` [0] `fr-CA-quebec` → `fr-CA`
+  - subtag 'quebec' not in IANA registry, dropped
+  - region 'ca' KEPT (label 'Québecois French') — review
+- `4sgX-jvskfI` [0] `ta-LK` → `ta-LK`
+  - region 'lk' KEPT (label 'Sri Lankan Tamil') — review
+- `IVFfgzvSLXI` [0] `nl-NL-brabants` → `nl-NL`
+  - subtag 'brabants' not in IANA registry, dropped
+  - region 'nl' KEPT (label 'Brabants') — review
+- `WmoSv7Cl1-M` [0] `bar-SI` → `bar-SI`
+  - region 'si' KEPT (label 'Gottscheerish') — review
+- `3FGc0zaIg2k` [0] `en-GB-scotland` → `en`
+  - variant 'scotland' (Scottish Standard English) not named in label, dropped
+  - region 'gb' dropped: label 'English' is the bare language name
+- `FiBkz0nnhtk` [0] `pt-BR` → `pt`
+  - region 'br' dropped: label 'Portuguese' is the bare language name
+- `CbiVj4rV3dY` [0] `cmn-CN` → `cmn-CN`
+  - region 'cn' KEPT (label 'Guiyangese') — review
+- `kc8rKa11EzI` [0] `crh-RO` → `crh`
+  - region 'ro' dropped: label 'Crimean Tatar' is the bare language name
+- `X1me0E0OGqU` [0] `en-GB-scotland` → `en`
+  - variant 'scotland' (Scottish Standard English) not named in label, dropped
+  - region 'gb' dropped: label 'English' is the bare language name
+- `0cj-CL9sRR0` [0] `de-RO` → `de-RO`
+  - region 'ro' KEPT (label 'Transylvanian Saxon') — review
+- `UibNKykq4do` [0] `pt-BR` → `pt`
+  - region 'br' dropped: label 'Portuguese' is the bare language name
+- `2bhYs6APqtU` [0] `pt-BR` → `pt`
+  - region 'br' dropped: label 'Portuguese' is the bare language name
+- `6u8gvwDevxE` [0] `es-AR` → `es`
+  - region 'ar' dropped: label 'Spanish' is the bare language name
+- `SVu7sUmEJgY` [0] `en-GB-scotland` → `en`
+  - variant 'scotland' (Scottish Standard English) not named in label, dropped
+  - region 'gb' dropped: label 'English' is the bare language name
+- `jshv9n3xAO4` [0] `de-US` → `de-US`
+  - region 'us' KEPT (label 'Texas German') — review
+- `xYUS0HFhkW0` [0] `bg-GR` → `bg-GR`
+  - region 'gr' KEPT (label 'Pomak') — review
+- `xMmfbZIIclw` [0] `pt-AO` → `pt-AO`
+  - region 'ao' KEPT (label 'Angolan Portuguese') — review
+- `SMy4jzw2W08` [0] `hu-RO` → `hu-RO`
+  - region 'ro' KEPT (label 'Csángó Hungarian') — review
+- `Mwgy2kuoBBU` [0] `gsw-CH` → `gsw`
+  - region 'ch' dropped: label 'Swiss German' is the bare language name
+- `-UlCJviJ8MQ` [0] `pt-BR` → `pt`
+  - region 'br' dropped: label 'Portuguese' is the bare language name
+- `1_dH403pqRU` [0] `de-US` → `de-US`
+  - region 'us' KEPT (label 'Texas German') — review
+- `rUfeztn-xz0` [0] `pt-BR` → `pt`
+  - region 'br' dropped: label 'Portuguese' is the bare language name
+- `ofWA7ERRwzs` [0] `en-GB` → `en-GB`
+  - region 'gb' KEPT (label 'Cumbrian') — review
+- `zUDEten_j9o` [0] `tw-asante` → `tw`
+  - variant 'asante' (Asante Twi; Ashanti Twi) not named in label, dropped
+- `-kFzjAR-05M` [0] `gcf-MQ` → `gcf-MQ`
+  - region 'mq' KEPT (label 'Martinique Creole') — review
+- `9pBU2VGlvB8` [0] `es-UY` → `es`
+  - region 'uy' dropped: label 'Spanish' is the bare language name
+- `oxs3msgKZ_I` [0] `en-GB-scotland` → `en`
+  - variant 'scotland' (Scottish Standard English) not named in label, dropped
+  - region 'gb' dropped: label 'English' is the bare language name
+- `TmWrYi9qZrs` [0] `wuu-CN` → `wuu-CN`
+  - region 'cn' KEPT (label 'Linhainese') — review
+- `RJVqf4vz-rQ` [0] `pt-BR` → `pt`
+  - region 'br' dropped: label 'Portuguese' is the bare language name
+- `Iw-dUwsWyzs` [0] `es-UY` → `es`
+  - region 'uy' dropped: label 'Spanish' is the bare language name
+- `LmS0eUGBIrE` [0] `en-GB-scotland` → `en`
+  - variant 'scotland' (Scottish Standard English) not named in label, dropped
+  - region 'gb' dropped: label 'English' is the bare language name
+- `m4l6NewVbes` [0] `aae-IT` → `aae`
+  - region 'it' dropped: label 'Albanian' is the bare language name
+- `gaUt3gTwwzU` [0] `wuu-CN` → `wuu-CN`
+  - region 'cn' KEPT (label 'Shanghainese') — review
+- `4iB0W72Bv0Y` [0] `de-CH` → `de`
+  - region 'ch' dropped: label 'German' is the bare language name
+- `iLtnCoAi5R4` [0] `pt-BR` → `pt`
+  - region 'br' dropped: label 'Portuguese' is the bare language name
+- `DIrFYr6WQi4` [0] `en-GB-scotland` → `en`
+  - variant 'scotland' (Scottish Standard English) not named in label, dropped
+  - region 'gb' dropped: label 'English' is the bare language name
+- `zLaE0SmZdMo` [0] `gul-US` → `gul-US`
+  - region 'us' KEPT (label 'Seminole Creole') — review
+- `1_2f6rnIybA` [0] `es-UY` → `es`
+  - region 'uy' dropped: label 'Spanish' is the bare language name
+- `N_WS0_9PZgw` [0] `aae-IT` → `aae`
+  - region 'it' dropped: label 'Albanian' is the bare language name
+- `1fBDgdfX4vk` [0] `pt-BR` → `pt`
+  - region 'br' dropped: label 'Portuguese' is the bare language name
+- `kho_Esw789Y` [0] `en-FJ` → `en`
+  - region 'fj' dropped: label 'English' is the bare language name
+- `9on81ZtUf5A` [0] `apc-SY` → `apc-SY`
+  - region 'sy' KEPT (label 'Syrian Arabic') — review
+- `0GsYpjHWDis` [0] `es-AR` → `es`
+  - region 'ar' dropped: label 'Spanish' is the bare language name
+- `72L2JsuGcH0` [0] `apc-LB` → `apc-LB`
+  - region 'lb' KEPT (label 'Lebanese Arabic') — review
+- `Flo8cPtcg6o` [0] `gsw-CH` → `gsw`
+  - region 'ch' dropped: label 'Swiss German' is the bare language name
+- `P2vfi0HAaCU` [0] `apc-SY` → `apc-SY`
+  - region 'sy' KEPT (label 'Syrian Arabic') — review
+- `Oz0hBgB5ixs` [0] `nan-MY` → `nan-MY`
+  - region 'my' KEPT (label 'Penang Hokkien') — review
+- `wdiVss0X6V0` [0] `ca-FR` → `ca`
+  - region 'fr' dropped: label 'Catalan' is the bare language name
+- `2iu0f8GKFgQ` [0] `en-ZA` → `en`
+  - region 'za' dropped: label 'English' is the bare language name
+- `iCd5W4gwJsI` [0] `gul-US` → `gul-US`
+  - region 'us' KEPT (label 'Gullah') — review
+- `nN4fDhAcGTM` [0] `ca-ES` → `ca`
+  - region 'es' dropped: label 'Catalan' is the bare language name
+- `M6ZdYNFo6gM` [0] `ca-ES` → `ca`
+  - region 'es' dropped: label 'Catalan' is the bare language name
+- `jBDZOm0HXO4` [0] `pt-BR` → `pt`
+  - region 'br' dropped: label 'Portuguese' is the bare language name
+- `nqOtvem2dxs` [0] `apc-PS` → `apc-PS`
+  - region 'ps' KEPT (label 'Palestinian Arabic') — review
+- `M2xmsclh3UA` [0] `cmn-TW` → `cmn`
+  - region 'tw' dropped: label 'Mandarin' is the bare language name
+- `iWRrLD7H98s` [0] `pt-BR` → `pt`
+  - region 'br' dropped: label 'Portuguese' is the bare language name
+- `224yG7_SRsw` [0] `cmn-CN` → `cmn`
+  - region 'cn' dropped: label 'Mandarin' is the bare language name
+
+## Autonym fallbacks (167)
+
+- `TQWD-hkiRg4` [1] autonym missing, used old name `Hawaiian`
+- `GehQiDuETPM` [1] autonym missing, used old name `Classical Mandaic`
+- `M2genaU2tj0` [1] autonym missing, used old name `English`
+- `wwwrEdwQ2fQ` [1] autonym missing, used old name `English`
+- `j4G1BIZO2PY` [1] autonym missing, used old name `Russian`
+- `EXzApwbjjgE` [1] autonym missing, used old name `Shina`
+- `OjT3DSOZGCg` [1] autonym missing, used old name `Russian`
+- `QAK3clpBLNg` [1] autonym missing, used old name `Russian`
+- `msL692DxAS4` [1] autonym missing, used old name `English`
+- `ArS9-GVw8nc` [1] autonym missing, used old name `Russian`
+- `ZgaPLvMBeFo` [1] autonym missing, used old name `Indonesian`
+- `FvuH1eaV8Xw` [1] autonym missing, used old name `Nigerian Pidgin`
+- `fbOOrqY7b_o` [1] autonym missing, used old name `Italian`
+- `GohjqZQHDlM` [1] autonym missing, used old name `Indonesian`
+- `DoQdMWN5C8A` [1] autonym missing, used old name `Southern Dagaare`
+- `RObSwrdDnN8` [1] autonym missing, used old name `Gun`
+- `RObSwrdDnN8` [2] autonym missing, used old name `Eastern Xwla Gbe`
+- `1fuNjOEhNvI` [1] autonym missing, used old name `English`
+- `zhQNFQCcMxI` [1] autonym missing, used old name `English`
+- `tUWWNDUV2Tg` [1] autonym missing, used old name `English`
+- `k19I3vyu0WU` [1] autonym missing, used old name `Spanish`
+- `g92Og21FC6Y` [1] autonym missing, used old name `English`
+- `csUZolJETdI` [1] autonym missing, used old name `Egyptian Arabic`
+- `OLf2L_0XvRM` [1] autonym missing, used old name `French`
+- `rsmIHIUXAa8` [1] autonym missing, used old name `Portuguese`
+- `rsmIHIUXAa8` [2] autonym missing, used old name `English`
+- `Cy3FzYLmUQc` [1] autonym missing, used old name `French`
+- `hgJeqdSw4aI` [1] autonym missing, used old name `Spanish`
+- `NmmrJbZvWmc` [1] autonym missing, used old name `Turkish`
+- `u0cJXVvo5I4` [1] autonym missing, used old name `Hebrew`
+- `uRC9W6v4NuU` [1] autonym missing, used old name `English`
+- `bY_TcgYvcLk` [1] autonym missing, used old name `Western Frisian`
+- `BOtJvy4ybc4` [1] autonym missing, used old name `Tok Pisin`
+- `BOtJvy4ybc4` [2] autonym missing, used old name `English`
+- `LVCtvZ19tv8` [1] autonym missing, used old name `Filipino`
+- `quGhsKtq88A` [1] autonym missing, used old name `Hindi`
+- `0t189tY4hEM` [1] autonym missing, used old name `Piemontese`
+- `dgxGqecUCwU` [1] autonym missing, used old name `Japanese`
+- `mVo1WW5vfXM` [1] autonym missing, used old name `English`
+- `AYwEA-FLS_s` [1] autonym missing, used old name `English`
+- `WKxxsUnObj8` [1] autonym missing, used old name `Kharia`
+- `WKxxsUnObj8` [2] autonym missing, used old name `Sambalpuri`
+- `pjWd-n1tVeQ` [1] autonym missing, used old name `Portuguese`
+- `DHH91F52IYc` [1] autonym missing, used old name `English`
+- `v1WsoWZFZZ4` [1] autonym missing, used old name `English`
+- `kQIy1RLuwNo` [1] autonym missing, used old name `English`
+- `cxiGMkEZvKQ` [1] autonym missing, used old name `Spanish`
+- `5_-yVH92IY0` [1] autonym missing, used old name `English`
+- `QLLyXc24Vcc` [1] autonym missing, used old name `Dyula`
+- `cHTNty8YeT0` [1] autonym missing, used old name `Spanish`
+- `pUfu40JELyM` [1] autonym missing, used old name `English`
+- `WaTpyPIBGOc` [1] autonym missing, used old name `Italian`
+- `fG0X7P1WFZk` [1] autonym missing, used old name `English`
+- `fG0X7P1WFZk` [2] autonym missing, used old name `Spanish`
+- `BT4Kbgs0llE` [1] autonym missing, used old name `English`
+- `mfRie6DsS44` [1] autonym missing, used old name `Hungarian`
+- `VihQkH66RoA` [1] autonym missing, used old name `French`
+- `VihQkH66RoA` [2] autonym missing, used old name `Lithuanian`
+- `VihQkH66RoA` [3] autonym missing, used old name `Italian`
+- `VihQkH66RoA` [4] autonym missing, used old name `English`
+- `VihQkH66RoA` [5] autonym missing, used old name `Spanish`
+- `stVATHE414E` [1] autonym missing, used old name `Northern Pashto`
+- `whHnH3a-olo` [1] autonym missing, used old name `English`
+- `whHnH3a-olo` [2] autonym missing, used old name `French`
+- `whHnH3a-olo` [3] autonym missing, used old name `Spanish`
+- `whHnH3a-olo` [4] autonym missing, used old name `Portuguese`
+- `2bhYs6APqtU` [1] autonym missing, used old name `English`
+- `2bhYs6APqtU` [2] autonym missing, used old name `Spanish`
+- `2bhYs6APqtU` [3] autonym missing, used old name `French`
+- `2bhYs6APqtU` [4] autonym missing, used old name `Italian`
+- `2bhYs6APqtU` [5] autonym missing, used old name `German`
+- `vHWpv_3NmBs` [1] autonym missing, used old name `Modern Greek`
+- `yorpVTOyeSE` [1] autonym missing, used old name `English`
+- `QUoTxiFdOmY` [1] autonym missing, used old name `English`
+- `k3x-2IhJwjo` [1] autonym missing, used old name `Kalmyk`
+- `k3x-2IhJwjo` [2] autonym missing, used old name `Erzya`
+- `k3x-2IhJwjo` [3] autonym missing, used old name `Prussian`
+- `MRjC-OyprJU` [1] autonym missing, used old name `Russian`
+- `tFoIGW7FLUk` [1] autonym missing, used old name `English`
+- `wGVjEJfE2e8` [1] autonym missing, used old name `Spanish`
+- `-UlCJviJ8MQ` [1] autonym missing, used old name `Mandarin Chinese`
+- `-UlCJviJ8MQ` [2] autonym missing, used old name `Japanese`
+- `-UlCJviJ8MQ` [3] autonym missing, used old name `English`
+- `dHCf9k3u2IQ` [1] autonym missing, used old name `Modern Greek`
+- `192WARvBmLg` [1] autonym missing, used old name `English`
+- `rUfeztn-xz0` [1] autonym missing, used old name `English`
+- `qSTFLIgHQ5A` [1] autonym missing, used old name `Spanish`
+- `qSTFLIgHQ5A` [2] autonym missing, used old name `English`
+- `MehharK-ZmA` [1] autonym missing, used old name `Portuguese`
+- `G1ZIzrAxWbA` [1] autonym missing, used old name `Gheg Albanian`
+- `jOlXLLU2fgg` [1] autonym missing, used old name `English`
+- `jOlXLLU2fgg` [2] autonym missing, used old name `German`
+- `jOlXLLU2fgg` [3] autonym missing, used old name `Czech`
+- `jOlXLLU2fgg` [4] autonym missing, used old name `Russian`
+- `38mq_FwgCNs` [1] autonym missing, used old name `Swedish`
+- `7EJud2CMRyo` [1] autonym missing, used old name `Zarma`
+- `7EJud2CMRyo` [2] autonym missing, used old name `French`
+- `7EJud2CMRyo` [3] autonym missing, used old name `Hassaniyya`
+- `22HBqPN8Oco` [1] autonym missing, used old name `Spanish`
+- `22HBqPN8Oco` [2] autonym missing, used old name `Modern Greek`
+- `hCwfqiqDLWw` [1] autonym missing, used old name `English`
+- `hCwfqiqDLWw` [2] autonym missing, used old name `French`
+- `tZOsIs1wIBg` [1] autonym missing, used old name `French`
+- `eyPtlVS09RQ` [1] autonym missing, used old name `French`
+- `eyPtlVS09RQ` [2] autonym missing, used old name `Standard Arabic`
+- `eyPtlVS09RQ` [3] autonym missing, used old name `Eastern Maninkakan`
+- `oMbvC_siQyc` [1] autonym missing, used old name `English`
+- `uizL1thcRXg` [1] autonym missing, used old name `Swiss-German Sign Language`
+- `RTr00PeXZ6I` [1] autonym missing, used old name `English`
+- `RTr00PeXZ6I` [2] autonym missing, used old name `Spanish`
+- `P2PYuwhtwro` [1] autonym missing, used old name `Italian`
+- `P2PYuwhtwro` [2] autonym missing, used old name `Venetian`
+- `KBEQH7Ad7H8` [1] autonym missing, used old name `German`
+- `KBEQH7Ad7H8` [2] autonym missing, used old name `French`
+- `KBEQH7Ad7H8` [3] autonym missing, used old name `Czech`
+- `KBEQH7Ad7H8` [4] autonym missing, used old name `English`
+- `Q6ici_SMBvM` [1] autonym missing, used old name `Spanish`
+- `Q6ici_SMBvM` [2] autonym missing, used old name `Italian`
+- `Q6ici_SMBvM` [3] autonym missing, used old name `English`
+- `mCghaYzVDxw` [1] autonym missing, used old name `Central Kanuri`
+- `8i4EEb5QMgU` [1] autonym missing, used old name `English`
+- `8i4EEb5QMgU` [2] autonym missing, used old name `French`
+- `8i4EEb5QMgU` [3] autonym missing, used old name `Czech`
+- `8i4EEb5QMgU` [4] autonym missing, used old name `Russian`
+- `kb3Xs56iCg8` [1] autonym missing, used old name `English`
+- `kb3Xs56iCg8` [2] autonym missing, used old name `Czech`
+- `dxtFwV5Es7k` [1] autonym missing, used old name `English`
+- `dxtFwV5Es7k` [2] autonym missing, used old name `Swahili`
+- `-TEtqv0RTew` [1] autonym missing, used old name `English`
+- `-TEtqv0RTew` [2] autonym missing, used old name `Portuguese`
+- `Ribtybmtb3k` [1] autonym missing, used old name `English`
+- `Ribtybmtb3k` [2] autonym missing, used old name `Swahili`
+- `rTLBhwuaq_M` [1] autonym missing, used old name `English`
+- `rTLBhwuaq_M` [2] autonym missing, used old name `Spanish`
+- `rTLBhwuaq_M` [3] autonym missing, used old name `Catalan`
+- `osuIdwM0urk` [1] autonym missing, used old name `English`
+- `osuIdwM0urk` [2] autonym missing, used old name `French`
+- `GZcV67w2o1g` [1] autonym missing, used old name `English`
+- `GZcV67w2o1g` [2] autonym missing, used old name `Marathi`
+- `GZcV67w2o1g` [3] autonym missing, used old name `Hindi`
+- `9D2ZymNG4rE` [1] autonym missing, used old name `Portuguese`
+- `le3cBRlWSE8` [1] autonym missing, used old name `English`
+- `9p-xnXddSy8` [1] autonym missing, used old name `South Bolivian Quechua`
+- `0GsYpjHWDis` [1] autonym missing, used old name `English`
+- `0GsYpjHWDis` [2] autonym missing, used old name `Portuguese`
+- `0GsYpjHWDis` [3] autonym missing, used old name `Catalan`
+- `0GsYpjHWDis` [4] autonym missing, used old name `Italian`
+- `PpNr0MgTAbY` [1] autonym missing, used old name `Portuguese`
+- `E-ohZtbkyxI` [1] autonym missing, used old name `Polish`
+- `Kz6bU7RqIjc` [1] autonym missing, used old name `Turkish`
+- `Kz6bU7RqIjc` [2] autonym missing, used old name `Russian`
+- `RHJOlCbQbbU` [1] autonym missing, used old name `Bislama`
+- `zXM5DJNZhFI` [1] autonym missing, used old name `Norwegian Bokmål`
+- `OFHx0-4wU38` [1] autonym missing, used old name `English`
+- `OFHx0-4wU38` [2] autonym missing, used old name `Spanish`
+- `DmvDD9kJipE` [1] autonym missing, used old name `English`
+- `tqftb3zad1o` [1] autonym missing, used old name `Spanish`
+- `tqftb3zad1o` [2] autonym missing, used old name `Portuguese`
+- `PUYoRT2EA5Q` [1] autonym missing, used old name `English`
+- `iCd5W4gwJsI` [1] autonym missing, used old name `English`
+- `At6KGp45FdM` [1] autonym missing, used old name `Russian`
+- `At6KGp45FdM` [2] autonym missing, used old name `English`
+- `1R5dPw4sYrE` [1] autonym missing, used old name `English`
+- `nqOtvem2dxs` [1] autonym missing, used old name `English`
+- `WQ4W-UqaaMo` [1] autonym missing, used old name `Spanish`
+- `vO87PpdQKV4` [1] autonym missing, used old name `English`
+- `P2jdy8NC-JU` [1] autonym missing, used old name `English`
+
+## Lineage extracted (120)
+
+- `HQcLp1qnjHU` `Igboid` ← Lucy speaking Igbo | Igboid | Nigeria | Wikitongues
+- `AC8kxj2geOA` `Quichean Mayan` ← Maryori and Odilia speaking Kaqchikel | Quichean | Mayan languages | Wikitongues
+- `9VEN0siUHqg` `Austronesian Batak` ← Suhyar speaking Mandailing | Austronesian | Batak | Wikitongues
+- `92jWmMoDFv0` `Romance Rhaeto-Romance` ← Marco speaking Friulian | Romance | Rhaeto-Romance | Wikitongues
+- `7cMIidnH7xY` `Judeo-Iranian Languages of the Jewish Diaspora` ← Elie speaking Jidi (Judeo-Shirazi) | Judeo-Iranian | Languages of the Jewish Diaspora | Wikitongues
+- `dXYMO6zam90` `Romance Langues d'Óc` ← Gerard and Patrick speaking Occitan | Romance | Langues d'Óc | Wikitongues
+- `jOEaF9XWII0` `West African Pidgin English English Creole` ← Timilehin speaking Nigerian Pidgin | West African Pidgin English | English Creole | Wikitongues
+- `wQlK-V5eEFY` `Bantu Niger-Congo` ← Phillip speaking Soga (Lusoga) | Bantu | Niger-Congo | Wikitongues
+- `3waS1hmNVig` `Valley Zapotec Otomanguean` ← Adalberto speaking San Juan Del Rio Zapotec | Valley Zapotec | Otomanguean | Wikitongues
+- `1vrhTY8cXIo` `Semitic Afro-Asiatic` ← Romrama Speaking Surayt (Turoyo) | Semitic | Afro-Asiatic | Wikitongues
+- `cMe_MKYNUtg` `Tibeto-Burman Sino-Tibetic` ← Win speaking Burmese | Tibeto-Burman | Sino-Tibetic | Wikitongues
+- `fvbQyuYM-a0` `Kipchak Turkic` ← Buğra speaking Kazakh | Kipchak | Turkic | Wikitongues
+- `PeZHJcQYt3c` `Norman Romance` ← Geraint speaking Jèrriais | Norman | Romance | Wikitongues
+- `yr7gko_DaoI` `Algonquin Algic` ← Casey speaking (Southwestern) Ojibwe | Algonquin | Algic | Wikitongues
+- `He4b1T_sTVM` `Tibetic Sino-Tibetan` ← Kunzang speaking Ladakhi | Tibetic | Sino-Tibetan | Wikitongues
+- `9LaSurw6GZg` `Semitic Afro-Asiatic` ← Ashuriena speaking Assyrian Neo-Aramaic | Semitic | Afro-Asiatic | Wikitongues
+- `i1j6Dymblf8` `North Frisian Germanic` ← Andreas singing in Fering | North Frisian | Germanic | Wikitongues
+- `wu03ULM9id4` `Indo-Aryan` ← Speaking Sinhala: A Conversation Between Friends | Indo-Aryan | Sri Lanka | Wikitongues
+- `FxxC5L372VI` `Palaungic Austroasiatic` ← Liying speaking the Wa language | Palaungic | Austroasiatic | Yunnan, China
+- `6X3Re1sawRs` `Savanna Niger-Congo` ← Abdulrahman shares his language, Baatɔnum | Savanna | Niger-Congo | Nigeria | Benin | Wikitongues
+- `KGFew34cjgM` `Taihu Wu Northern Wu` ← Meijuan speaking Changshu Wu | Taihu Wu | Northern Wu | China | Wikitongues
+- `ba0S4UzVkYM` `Semitic` ← Mahir speaking Chaldean Neo-Aramaic | Semitic Languages | Iraq | Wikitongues
+- `aVkrLzgPz3A` `Fula Niger-Congo` ← The Pular language, casually spoken | Fula | Niger-Congo | Guinea | Wikitongues
+- `8iLevbjGlVI` `Austronesian` ← Abdullah speaking Mandailing Batak | Austronesian | Indonesia | Wikitongues
+- `-Toi0tco2Gk` `Bantu` ← The Tsonga language, casually spoken | Bantu | South Africa | Wikitongues
+- `iGQ-bbRLMJc` `Niger-Congo` ← The Igbo language, casually spoken | Niger-Congo | Nigeria | Wikitongues
+- `N_UOLqmgQrQ` `Germanic` ← The Wymysorys language, casually spoken | Poland | Germanic Languages | Wikitongues
+- `Lf6AAjLz8Cg` `Turoyo` ← The Neo-Aramaic language of Tur Abdin, casually spoken | Turoyo | Wikitongues
+- `M2genaU2tj0` `Neapolitan` ← The Art of Language: A Poem in Andriese | Neapolitan | Wikitongues
+- `QAK3clpBLNg` `Yiddish songs with Russian explanations` ← Yiddish songs with Russian explanations | Olga speaking Russian and Yiddish | Wikitongues
+- `fbOOrqY7b_o` `Romance languages in Italy` ← Pasquale speaking Materano and Italian | Romance languages in Italy | Wikitongues
+- `pjtSNq2yXVE` `Dholuo` ← Listen to the Luo language of Kenya and Tanzania | Dholuo language | Wikitongues
+- `Zk376vSlUyA` `Listen to the language of Cochin Jews` ← Listen to the language of Cochin Jews | Thapan speaking Judeo-Malayalam | Wikitongues
+- `rSTBr8QbCtg` `Beautiful click consonants in Namibia's Khoekhoe` ← Beautiful click consonants in Namibia's Khoekhoe language | Emeloelaj speaking Nama | Wikitongues
+- `-lVudWbCaik` `Vietnamese language conversation` ← Vietnamese language conversation | Loan and Lian speaking Hue Vietnamese | Wikitongues
+- `I-xiEyYtAwo` `Norman, a Romance language of Britain and France` ← Norman, a Romance language of Britain and France | Jean speaking Cauchois | Wikitongues
+- `yBSatcQrbVw` `Sign language in Brazil` ← Sign language in Brazil | Abel speaking Brazilian Sign Language, also known as Libras | Wikitongues
+- `JQR2KOO7-No` `Poetry in Zambia’s Ila` ← Poetry in Zambia’s Ila language | Mojack speaking Ila | Wikitongues
+- `1nCw24V3nV8` `Polyglot learner of Sakha, a Turkic` ← Polyglot learner of Sakha, a Turkic language | Albert speaking Sakha (Yakut) | Wikitongues
+- `B56nxfnSV4U` `Guangxi Cantonese language conversation` ← Guangxi Cantonese language conversation | Ying and Lian speaking Cantonese | Wikitongues
+- `MMfozbb4w74` `Romance` ← The Lombard language in Brescia, Italy | Nicole speaking Bresciano | Romance languages | Wikitongues
+- `hs6qyMcOwjY` `Bahasa Indonesia, an Austronesian` ← Bahasa Indonesia, an Austronesian language | Pualam Abadi speaking Indonesian | Wikitongues
+- `olM7YMyxd5I` `Rusyn, a Slavic` ← Rusyn, a Slavic language | Ivan speaking Pannonian Rusyn | Wikitongues
+- `QMNBUmWBZ-o` `Kurux, an Indigenous language of India` ← Kurux, an Indigenous language of India | Dr. Abhay Xaxa speaking Kurux | Wikitongues
+- `A9BO3Sv1MEE` `Native Esperanto speaker` ← Native Esperanto speaker | Stela speaking the Esperanto language | Wikitongues
+- `8sP3R7aCAno` `Zazaki, an Iranian language from Turkey` ← Zazaki, an Iranian language from Turkey | Cemre speaking Southern Zazaki | Wikitongues
+- `etUt37dgA4o` `East African` ← John speaking Maasai | East African language | Wikitongues
+- `8vZwNYjN1CE` `Languages of India Indo-Aryan` ← Arimardan speaking Bhojpuri | Languages of India | Indo-Aryan languages | Wikitongues
+- `yyFsmiNXqXg` `Bantu Folk songs` ← Britta speaking Chichewa (Nyanja) | Bantu languages | Folk songs | Wikitongues
+- `98uqtsvCWwU` `Minangkabau` ← Ramzy speaking Minangkabau | Minangkabau language | Wikitongues
+- `V1hLSrjKNas` `West African` ← Annie speaking Bassa | West African language | Wikitongues
+- `3ghwdhXaLoo` `Aboriginal Australians and Torres Strait Islanders` ← Ingrid speaking Nyungar | Aboriginal Australians and Torres Strait Islanders | Wikitongues
+- `NI9lRDW_x2E` `Romance` ← Adrian speaking Caribbean Spanish | Romance languages | Wikitongues
+- `DoQdMWN5C8A` `Ghanaian` ← Zita speaking Twi and Dagaare | Ghanaian languages | Wikitongues
+- `3428HkaqA94` `Sino-Tibetan` ← Edward speaking Hong Kong Cantonese | Sino-Tibetan languages | Wikitongues
+- `RObSwrdDnN8` `Niger-Congo` ← Mahuton speaking Fon, Gun, and Eastern Xwla | Niger-Congo languages | Wikitongues
+- `1fuNjOEhNvI` `Celtic` ← Éanna speaking Irish and English | Celtic languages | Wikitongues
+- `4f2IQ219Xg4` `Papuans` ← Muadz speaking the Central Asmat language | Papuans | Wikitongues
+- `pDDrFE3CaTc` `Aboriginal Australians and Torres Strait Islanders` ← Alfred speaking Gunggay | Aboriginal Australians and Torres Strait Islanders | Wikitongues
+- `dgT6xExNcns` `Niger-Congo` ← Blossom Speaking Igbo | Niger-Congo languages | Wikitongues
+- `SMgN7tClSM8` `Austronesian` ← Dhrubhagat speaking Hiligaynon | Austronesian languages | Wikitongues
+- `zhQNFQCcMxI` `Aboriginal Australians and Torres Strait Islanders` ← Sheree speaking Kalkutungu and English | Aboriginal Australians and Torres Strait Islanders
+- `tUWWNDUV2Tg` `Semitic` ← Ahmad speaking Aleppo Arabic and English | Semitic languages | Wikitongues
+- `k19I3vyu0WU` `Quechuan` ← Juan Carlos speaking Santiagueño Quichua and Spanish | Quechuan languages | Wikitongues
+- `xAw_7w-hQwU` `Central African` ← Hangi speaking Kihunde | Central African languages | Wikitongues
+- `g92Og21FC6Y` `Romance` ← Thomas speaking Walloon and English | Romance languages | Wikitongues
+- `m8IQRKl7UT0` `Minangkabau` ← Deola speaking Sijunjung Simaung | Minangkabau language | Wikitongues and Wikimedia Indonesia
+- `csUZolJETdI` `Egyptian` ← Nasser speaking Arabic and Siwi | Egyptian languages | Wikitongues
+- `IM-g4Kh0G8w` `Aboriginal Australians and Torres Strait Islanders` ← Anne speaking Yumplatok | Aboriginal Australians and Torres Strait Islanders | Wikitongues
+- `4NwcTJ8_ZWY` `South Asian` ← Azad speaking Rohingya | South Asian language | Wikitongues
+- `klhzWSo4MTQ` `Romance` ← Gianluca, Bruno, and Franca speaking Abruzzese | Romance languages | Wikitongues
+- `eVUBHDW5ccY` `Minangkabau` ← Tricia speaking Lintau Minangkabau | Minangkabau language | Wikitongues
+- `mygnGGT679A` `Romance` ← Francesc speaking Valencian Catalan | Romance languages | Wikitongues
+- `xPixyaLG86Y` `Germanic` ← Alexander speaking Banat Swabian (Bavarian) | Germanic languages | Wikitongues
+- `j7N_qP2mt3o` `Aboriginal Australians and Torres Strait Islanders` ← Bonaventure speaking Murrinhpatha | Aboriginal Australians and Torres Strait Islanders | Wikitongues
+- `VyuK6ggrZCc` `Semitic` ← Meninet speaking Tigrinya | Semitic language | Wikitongues
+- `2b_aZQDIr1k` `Romance` ← Adrian speaking Galician | Romance languages | Wikitongues
+- `OLf2L_0XvRM` `French Creole` ← Dominic speaking Mauritian Creole and French | French Creole language | Wikitongues
+- `SfmhsM67L_U` `Aboriginal Australians and Torres Strait Islanders` ← Shaun speaking Yugambeh | Aboriginal Australians and Torres Strait Islanders | Wikitongues
+- `pfi1mvVB0iU` `Central Asian` ← Kamran speaking Wakhi | Central Asian languages |  Wikitongues
+- `0CoY1psR5bs` `Minangkabau` ← Menlu speaking Koto Marapak | Minangkabau language | Wikimedia Indonesia and Wikitongues
+- `rsmIHIUXAa8` `Romance` ← João Pedro speaking Rioplatense Spanish, Portuguese, and English | Romance Languages | Wikitongues
+- `jlPhkYBIUZs` `Aboriginal Australians and Torres Strait Islanders` ← Karina speaking Yankunytjatjara | Aboriginal Australians and Torres Strait Islanders | Wikitongues
+- `JeRb7Ud1kSU` `Slavic русский язык` ← Andrey speaking Russian | Slavic languages | русский язык | Wikitongues
+- `Q5r3K3O_9no` `Niger-Congo languages of Africa` ← Nzonou speaking Kabiyè | Niger-Congo languages of Africa | Wikitongues
+- `GPjY_W_Lq0M` `Haitian Flag Day` ← Kristen and Michel speaking Haitian Creole | Haitian Flag Day | Wikitongues Conversation
+- `sJ06GMMcGVM` `Minangkabau` ← Supiak speaking Sijunjung-Simaung | Minangkabau language | Wikimedia Indonesia and Wikitongues
+- `iFUPTM1rX28` `Berber language (Berbers)` ← Jamal speaking Tachelhit | Berber language (Berbers) | Wikitongues
+- `uOYnyIX_8Gw` `Romance` ← Ludovic speaking Tourangeau | Romance Languages | Wikitongues
+- `GPaZb-MzzpQ` `Romance` ← Gabrièu speaking Nissart Occitan | Romance languages | Wikitongues
+- `S7nctC7ckbU` `Dravidian` ← Srinivas speaking Bijapur Kannada | Dravidian languages | WIKITONGUES
+- `Cy3FzYLmUQc` `Fula` ← Leo speaking Pulaar and West African French | Fula language | Wikitongues
+- `d5gC7zVKnkY` `Siberian` ← Aydyn speaking Tuvan | Siberian language | WIKITONGUES
+- `hgJeqdSw4aI` `Mayan peoples` ← Pascual speaking Sakapulteko and Spanish | Mayan peoples | WIKITONGUES
+- `k7Earnq8sHw` `Jamaican "Patois"` ← WIKITONGUES: Tajaun speaking Jamaican Creole English | Jamaican "Patois"
+- `ZjPiQYvtnLA` `’hoan` ← WIKITONGUES: Classen speaking Ju|’hoan
+- `NMBVCEq8TLU` `Louisiana Creole` ← Michael speaking Kouri-Vini | Louisiana Creole language | Wikitongues
+- `6TiSKGRjYLs` `Romance` ← Raluca speaking Romanian | Romance languages | Wikitongues
+- `QLFOGwmPei0` `Romance` ← Isabel speaking Mirandese | Romance languages | Wikitongues
+- `bwx4tkODJm8` `Pacific Islander` ← Oluchel speaking Palauan | Pacific Islander languages | Wikitongues
+- `5Uo-B9GaciQ` `Romance` ← Aurora and Ademar speaking Mirandese | Romance languages | Wikitongues
+- `MehharK-ZmA` `Romance` ← Celena speaking Mirandese and Portuguese | Romance languages | Wikitongues
+- `-gnJtZFyzZA` `Romance` ← Antônio, Domingos, and Porfirio speaking Mirandese | Romance languages | Wikitongues
+- `yiVuJhiTyrE` `Pacific Islander` ← Ratulevu speaking Kadavu Fijian | Pacific Islander languages | Wikitongues
+- `qJVY25bli80` `Romance` ← Artur Mas speaking Catalan | Romance languages | Wikitongues
+- `-NrSATT7Y7M` `Pacific Islander` ← Toukala speaking Bislama | Pacific Islander languages | Wikitongues
+- `pFXjD9J-JE0` `Pacific Islander` ← Mila speaking Fijian | Pacific Islander Languages | Wikitongues
+- `RHJOlCbQbbU` `Pacific Islander` ← Ladonna speaking Bislama and Neverver | Pacific Islander languages | Wikitongues
+- `boFQzRB3OuQ` `Romance` ← Sònia Speaking Aranese Occitan | Romance languages | Wikitongues
+- `mcqxSaoqQ3A` `Romance` ← Fugi Speaking Aranese Occitan | Romance languages | Wikitongues
+- `wdiVss0X6V0` `Romance` ← Joan-Lluís Lluís speaking Catalan | Romance languages | Wikitongues
+- `_IXEev5Z7ao` `Romance` ← Ares speaking Aranese Occitan | Romance languages | Wikitongues
+- `suK34prc56o` `Basque people` ← Jon speaking Basque | Basque people | WIKITONGUES
+- `pdYpvY6Efos` `Romance` ← Josèp speaking Aranese Occitan | Romance language | Wikitongues
+- `gV7XWdt72Vo` `Romance` ← Luis speaking Galician | Romance languages | Wikitongues
+- `1R5dPw4sYrE` `Romance` ← Louis speaking Louisiana French (Cajun) and English | Romance languages | Wikitongues
+- `G0n970JRNII` `Romance` ← Sam speaking Louisiana French | Romance languages | Wikitongues
+- `Vg4cGwY-q2c` `Romance` ← Horace speaking Louisiana French | Romance languages | Wikitongues
+- `nN4fDhAcGTM` `Romance` ← Ona speaking Catalan | Romance languages | Wikitongues
+- `M6ZdYNFo6gM` `Romance` ← Anita speaking Catalan | Romance languages | Wikitongues
+

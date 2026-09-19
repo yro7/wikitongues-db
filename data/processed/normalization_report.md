@@ -1,5 +1,7 @@
 # 📊 Wikitongues Normalization Report
 
+> **Note (v0.2.0)**: this report describes the v0.1 language schema (`name` / `dialect`, nullable `glottocode`) and 863 records. The dataset has since been migrated to the tri-ontological schema of `CLASSIFICATION_RULES.md` (862 records, no nullable standards); see `migration_v020_report.md` for the migration decisions. The non-linguistic sections (provenance, transcription, licensing) remain accurate.
+
 > **Generated on**: 2026-09-07 06:40:22 UTC
 > **Scope**: All 863 videos processed and validated against SIL ISO 639-3 & Glottolog tables.
 
