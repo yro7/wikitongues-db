@@ -1,0 +1,9357 @@
+{
+ "iso639_3": {
+  "aae": {
+   "name": "Arbëreshë Albanian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Albanian, Arbëreshë"
+  },
+  "abs": {
+   "name": "Ambonese Malay",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Malay, Ambonese"
+  },
+  "ace": {
+   "name": "Achinese",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Achinese"
+  },
+  "ach": {
+   "name": "Acoli",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Acoli"
+  },
+  "acm": {
+   "name": "Mesopotamian Arabic",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Arabic, Mesopotamian"
+  },
+  "ady": {
+   "name": "Adyghe",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Adygei"
+  },
+  "aeb": {
+   "name": "Tunisian Arabic",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Arabic, Tunisian"
+  },
+  "aed": {
+   "name": "Argentine Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Argentine Sign Language"
+  },
+  "afr": {
+   "name": "Afrikaans",
+   "scope": "I",
+   "type": "L",
+   "part1": "af",
+   "invertedName": "Afrikaans"
+  },
+  "aii": {
+   "name": "Assyrian Neo-Aramaic",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Neo-Aramaic, Assyrian"
+  },
+  "ain": {
+   "name": "Ainu (Japan)",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Ainu (Japan)"
+  },
+  "aln": {
+   "name": "Gheg Albanian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Albanian, Gheg"
+  },
+  "als": {
+   "name": "Tosk Albanian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Albanian, Tosk"
+  },
+  "amh": {
+   "name": "Amharic",
+   "scope": "I",
+   "type": "L",
+   "part1": "am",
+   "invertedName": "Amharic"
+  },
+  "ami": {
+   "name": "Amis",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Amis"
+  },
+  "apc": {
+   "name": "Levantine Arabic",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Arabic, Levantine"
+  },
+  "arb": {
+   "name": "Standard Arabic",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Arabic, Standard"
+  },
+  "arg": {
+   "name": "Aragonese",
+   "scope": "I",
+   "type": "L",
+   "part1": "an",
+   "invertedName": "Aragonese"
+  },
+  "arn": {
+   "name": "Mapudungun",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Mapuche"
+  },
+  "arq": {
+   "name": "Algerian Arabic",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Arabic, Algerian"
+  },
+  "ary": {
+   "name": "Moroccan Arabic",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Arabic, Moroccan"
+  },
+  "arz": {
+   "name": "Egyptian Arabic",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Arabic, Egyptian"
+  },
+  "asm": {
+   "name": "Assamese",
+   "scope": "I",
+   "type": "L",
+   "part1": "as",
+   "invertedName": "Assamese"
+  },
+  "ast": {
+   "name": "Asturian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Asturian"
+  },
+  "ava": {
+   "name": "Avaric",
+   "scope": "I",
+   "type": "L",
+   "part1": "av",
+   "invertedName": "Avaric"
+  },
+  "ayr": {
+   "name": "Central Aymara",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Aymara, Central"
+  },
+  "azj": {
+   "name": "North Azerbaijani",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Azerbaijani, North"
+  },
+  "ban": {
+   "name": "Balinese",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Balinese"
+  },
+  "bar": {
+   "name": "Bavarian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Bavarian"
+  },
+  "bba": {
+   "name": "Baatonum",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Baatonum"
+  },
+  "bbc": {
+   "name": "Batak Toba",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Batak Toba"
+  },
+  "bcl": {
+   "name": "Central Bikol",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Bikol, Central"
+  },
+  "bdy": {
+   "name": "Bandjalang",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Bandjalang"
+  },
+  "bei": {
+   "name": "Bekati'",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Bekati'"
+  },
+  "bel": {
+   "name": "Belarusian",
+   "scope": "I",
+   "type": "L",
+   "part1": "be",
+   "invertedName": "Belarusian"
+  },
+  "bem": {
+   "name": "Bemba (Zambia)",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Bemba (Zambia)"
+  },
+  "ben": {
+   "name": "Bengali",
+   "scope": "I",
+   "type": "L",
+   "part1": "bn",
+   "invertedName": "Bengali"
+  },
+  "bfr": {
+   "name": "Bazigar",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Bazigar"
+  },
+  "bft": {
+   "name": "Balti",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Balti"
+  },
+  "bfz": {
+   "name": "Mahasu Pahari",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Pahari, Mahasu"
+  },
+  "bgc": {
+   "name": "Haryanvi",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Haryanvi"
+  },
+  "bgp": {
+   "name": "Eastern Balochi",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Balochi, Eastern"
+  },
+  "bgq": {
+   "name": "Bagri",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Bagri"
+  },
+  "bgx": {
+   "name": "Balkan Gagauz Turkish",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Turkish, Balkan Gagauz"
+  },
+  "bho": {
+   "name": "Bhojpuri",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Bhojpuri"
+  },
+  "bhv": {
+   "name": "Bahau",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Bahau"
+  },
+  "bis": {
+   "name": "Bislama",
+   "scope": "I",
+   "type": "L",
+   "part1": "bi",
+   "invertedName": "Bislama"
+  },
+  "bjn": {
+   "name": "Banjar",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Banjar"
+  },
+  "blz": {
+   "name": "Balantak",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Balantak"
+  },
+  "bod": {
+   "name": "Tibetan",
+   "scope": "I",
+   "type": "L",
+   "part1": "bo",
+   "invertedName": "Tibetan"
+  },
+  "bos": {
+   "name": "Bosnian",
+   "scope": "I",
+   "type": "L",
+   "part1": "bs",
+   "invertedName": "Bosnian"
+  },
+  "bpa": {
+   "name": "Daakaka",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Daakaka"
+  },
+  "bqg": {
+   "name": "Bago-Kusuntu",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Bago-Kusuntu"
+  },
+  "bqi": {
+   "name": "Bakhtiari",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Bakhtiari"
+  },
+  "bqy": {
+   "name": "Bengkala Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Bengkala Sign Language"
+  },
+  "bre": {
+   "name": "Breton",
+   "scope": "I",
+   "type": "L",
+   "part1": "br",
+   "invertedName": "Breton"
+  },
+  "bsq": {
+   "name": "Bassa",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Bassa"
+  },
+  "btm": {
+   "name": "Batak Mandailing",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Batak Mandailing"
+  },
+  "bug": {
+   "name": "Buginese",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Buginese"
+  },
+  "bul": {
+   "name": "Bulgarian",
+   "scope": "I",
+   "type": "L",
+   "part1": "bg",
+   "invertedName": "Bulgarian"
+  },
+  "bwg": {
+   "name": "Barwe",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Barwe"
+  },
+  "byd": {
+   "name": "Benyadu'",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Benyadu'"
+  },
+  "bzg": {
+   "name": "Babuza",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Babuza"
+  },
+  "bzs": {
+   "name": "Brazilian Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Brazilian Sign Language"
+  },
+  "cab": {
+   "name": "Garifuna",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Garifuna"
+  },
+  "cak": {
+   "name": "Kaqchikel",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Cakchiquel"
+  },
+  "caq": {
+   "name": "Car Nicobarese",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Nicobarese, Car"
+  },
+  "cat": {
+   "name": "Catalan",
+   "scope": "I",
+   "type": "L",
+   "part1": "ca",
+   "invertedName": "Catalan"
+  },
+  "cbk": {
+   "name": "Chavacano",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Chavacano"
+  },
+  "ceb": {
+   "name": "Cebuano",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Cebuano"
+  },
+  "ceg": {
+   "name": "Chamacoco",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Chamacoco"
+  },
+  "ces": {
+   "name": "Czech",
+   "scope": "I",
+   "type": "L",
+   "part1": "cs",
+   "invertedName": "Czech"
+  },
+  "cfm": {
+   "name": "Falam Chin",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Chin, Falam"
+  },
+  "cgg": {
+   "name": "Chiga",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Chiga"
+  },
+  "che": {
+   "name": "Chechen",
+   "scope": "I",
+   "type": "L",
+   "part1": "ce",
+   "invertedName": "Chechen"
+  },
+  "chr": {
+   "name": "Cherokee",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Cherokee"
+  },
+  "chw": {
+   "name": "Chuwabu",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Chuwabu"
+  },
+  "cia": {
+   "name": "Cia-Cia",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Cia-Cia"
+  },
+  "cim": {
+   "name": "Cimbrian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Cimbrian"
+  },
+  "ciw": {
+   "name": "Chippewa",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Chippewa"
+  },
+  "ckb": {
+   "name": "Central Kurdish",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kurdish, Central"
+  },
+  "ckt": {
+   "name": "Chukot",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Chukot"
+  },
+  "cld": {
+   "name": "Chaldean Neo-Aramaic",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Neo-Aramaic, Chaldean"
+  },
+  "cls": {
+   "name": "Classical Sanskrit",
+   "scope": "I",
+   "type": "H",
+   "invertedName": "Classical Sanskrit"
+  },
+  "cmn": {
+   "name": "Mandarin Chinese",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Chinese, Mandarin"
+  },
+  "cns": {
+   "name": "Central Asmat",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Asmat, Central"
+  },
+  "cod": {
+   "name": "Cocama-Cocamilla",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Cocama-Cocamilla"
+  },
+  "cor": {
+   "name": "Cornish",
+   "scope": "I",
+   "type": "L",
+   "part1": "kw",
+   "invertedName": "Cornish"
+  },
+  "cos": {
+   "name": "Corsican",
+   "scope": "I",
+   "type": "L",
+   "part1": "co",
+   "invertedName": "Corsican"
+  },
+  "crh": {
+   "name": "Crimean Tatar",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Tatar, Crimean"
+  },
+  "cro": {
+   "name": "Crow",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Crow"
+  },
+  "csq": {
+   "name": "Croatia Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Croatia Sign Language"
+  },
+  "cym": {
+   "name": "Welsh",
+   "scope": "I",
+   "type": "L",
+   "part1": "cy",
+   "invertedName": "Welsh"
+  },
+  "dag": {
+   "name": "Dagbani",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Dagbani"
+  },
+  "dan": {
+   "name": "Danish",
+   "scope": "I",
+   "type": "L",
+   "part1": "da",
+   "invertedName": "Danish"
+  },
+  "deu": {
+   "name": "German",
+   "scope": "I",
+   "type": "L",
+   "part1": "de",
+   "invertedName": "German"
+  },
+  "dga": {
+   "name": "Southern Dagaare",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Dagaare, Southern"
+  },
+  "dhv": {
+   "name": "Dehu",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Dehu"
+  },
+  "diq": {
+   "name": "Dimli (individual language)",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Dimli (individual language)"
+  },
+  "dje": {
+   "name": "Zarma",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Zarma"
+  },
+  "dnj": {
+   "name": "Dan",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Dan"
+  },
+  "dse": {
+   "name": "Dutch Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Dutch Sign Language"
+  },
+  "dsl": {
+   "name": "Danish Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Danish Sign Language"
+  },
+  "dty": {
+   "name": "Dotyali",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Dotyali"
+  },
+  "dyu": {
+   "name": "Dyula",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Dyula"
+  },
+  "egl": {
+   "name": "Emilian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Emilian"
+  },
+  "ekk": {
+   "name": "Standard Estonian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Estonian, Standard"
+  },
+  "ekp": {
+   "name": "Ekpeye",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Ekpeye"
+  },
+  "ell": {
+   "name": "Modern Greek (1453-)",
+   "scope": "I",
+   "type": "L",
+   "part1": "el",
+   "invertedName": "Greek, Modern (1453-)"
+  },
+  "emk": {
+   "name": "Eastern Maninkakan",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Maninkakan, Eastern"
+  },
+  "eng": {
+   "name": "English",
+   "scope": "I",
+   "type": "L",
+   "part1": "en",
+   "invertedName": "English"
+  },
+  "eno": {
+   "name": "Enggano",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Enggano"
+  },
+  "epo": {
+   "name": "Esperanto",
+   "scope": "I",
+   "type": "C",
+   "part1": "eo",
+   "invertedName": "Esperanto"
+  },
+  "esg": {
+   "name": "Aheri Gondi",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Gondi, Aheri"
+  },
+  "eus": {
+   "name": "Basque",
+   "scope": "I",
+   "type": "L",
+   "part1": "eu",
+   "invertedName": "Basque"
+  },
+  "eve": {
+   "name": "Even",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Even"
+  },
+  "ewo": {
+   "name": "Ewondo",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Ewondo"
+  },
+  "ext": {
+   "name": "Extremaduran",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Extremaduran"
+  },
+  "far": {
+   "name": "Fataleka",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Fataleka"
+  },
+  "fat": {
+   "name": "Fanti",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Fanti"
+  },
+  "fij": {
+   "name": "Fijian",
+   "scope": "I",
+   "type": "L",
+   "part1": "fj",
+   "invertedName": "Fijian"
+  },
+  "fil": {
+   "name": "Filipino",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Filipino"
+  },
+  "fin": {
+   "name": "Finnish",
+   "scope": "I",
+   "type": "L",
+   "part1": "fi",
+   "invertedName": "Finnish"
+  },
+  "fon": {
+   "name": "Fon",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Fon"
+  },
+  "fra": {
+   "name": "French",
+   "scope": "I",
+   "type": "L",
+   "part1": "fr",
+   "invertedName": "French"
+  },
+  "frc": {
+   "name": "Cajun French",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "French, Cajun"
+  },
+  "frr": {
+   "name": "Northern Frisian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Frisian, Northern"
+  },
+  "frs": {
+   "name": "Eastern Frisian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Frisian, Eastern"
+  },
+  "fry": {
+   "name": "Western Frisian",
+   "scope": "I",
+   "type": "L",
+   "part1": "fy",
+   "invertedName": "Frisian, Western"
+  },
+  "fse": {
+   "name": "Finnish Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Finnish Sign Language"
+  },
+  "fss": {
+   "name": "Finland-Swedish Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "finlandssvenskt teckenspråk"
+  },
+  "fub": {
+   "name": "Adamawa Fulfulde",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Fulfulde, Adamawa"
+  },
+  "fuc": {
+   "name": "Pulaar",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Pulaar"
+  },
+  "fuf": {
+   "name": "Pular",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Pular"
+  },
+  "fur": {
+   "name": "Friulian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Friulian"
+  },
+  "gaa": {
+   "name": "Ga",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Ga"
+  },
+  "gan": {
+   "name": "Gan Chinese",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Chinese, Gan"
+  },
+  "gbm": {
+   "name": "Garhwali",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Garhwali"
+  },
+  "gbx": {
+   "name": "Eastern Xwla Gbe",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Gbe, Eastern Xwla"
+  },
+  "gcf": {
+   "name": "Guadeloupean Creole French",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Creole French, Guadeloupean"
+  },
+  "gjn": {
+   "name": "Gonja",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Gonja"
+  },
+  "gla": {
+   "name": "Scottish Gaelic",
+   "scope": "I",
+   "type": "L",
+   "part1": "gd",
+   "invertedName": "Gaelic"
+  },
+  "gle": {
+   "name": "Irish",
+   "scope": "I",
+   "type": "L",
+   "part1": "ga",
+   "invertedName": "Irish"
+  },
+  "glg": {
+   "name": "Galician",
+   "scope": "I",
+   "type": "L",
+   "part1": "gl",
+   "invertedName": "Galician"
+  },
+  "glv": {
+   "name": "Manx",
+   "scope": "I",
+   "type": "L",
+   "part1": "gv",
+   "invertedName": "Manx"
+  },
+  "gos": {
+   "name": "Gronings",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Gronings"
+  },
+  "grj": {
+   "name": "Southern Grebo",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Grebo, Southern"
+  },
+  "gsw": {
+   "name": "Swiss German",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Alemannic"
+  },
+  "gug": {
+   "name": "Paraguayan Guaraní",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Guaraní, Paraguayan"
+  },
+  "guj": {
+   "name": "Gujarati",
+   "scope": "I",
+   "type": "L",
+   "part1": "gu",
+   "invertedName": "Gujarati"
+  },
+  "gul": {
+   "name": "Sea Island Creole English",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Creole English, Sea Island"
+  },
+  "gum": {
+   "name": "Guambiano",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Guambiano"
+  },
+  "guw": {
+   "name": "Gun",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Gun"
+  },
+  "gwi": {
+   "name": "Gwichʼin",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Gwichʼin"
+  },
+  "gwr": {
+   "name": "Gwere",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Gwere"
+  },
+  "gyn": {
+   "name": "Guyanese Creole English",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Creole English, Guyanese"
+  },
+  "hak": {
+   "name": "Hakka Chinese",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Chinese, Hakka"
+  },
+  "hat": {
+   "name": "Haitian",
+   "scope": "I",
+   "type": "L",
+   "part1": "ht",
+   "invertedName": "Haitian"
+  },
+  "hau": {
+   "name": "Hausa",
+   "scope": "I",
+   "type": "L",
+   "part1": "ha",
+   "invertedName": "Hausa"
+  },
+  "haw": {
+   "name": "Hawaiian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Hawaiian"
+  },
+  "heb": {
+   "name": "Hebrew",
+   "scope": "I",
+   "type": "L",
+   "part1": "he",
+   "invertedName": "Hebrew"
+  },
+  "her": {
+   "name": "Herero",
+   "scope": "I",
+   "type": "L",
+   "part1": "hz",
+   "invertedName": "Herero"
+  },
+  "hil": {
+   "name": "Hiligaynon",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Hiligaynon"
+  },
+  "hin": {
+   "name": "Hindi",
+   "scope": "I",
+   "type": "L",
+   "part1": "hi",
+   "invertedName": "Hindi"
+  },
+  "hke": {
+   "name": "Hunde",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Hunde"
+  },
+  "hks": {
+   "name": "Hong Kong Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Heung Kong Sau Yue"
+  },
+  "hno": {
+   "name": "Northern Hindko",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Hindko, Northern"
+  },
+  "hrv": {
+   "name": "Croatian",
+   "scope": "I",
+   "type": "L",
+   "part1": "hr",
+   "invertedName": "Croatian"
+  },
+  "hsb": {
+   "name": "Upper Sorbian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Sorbian, Upper"
+  },
+  "hui": {
+   "name": "Huli",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Huli"
+  },
+  "hun": {
+   "name": "Hungarian",
+   "scope": "I",
+   "type": "L",
+   "part1": "hu",
+   "invertedName": "Hungarian"
+  },
+  "hus": {
+   "name": "Huastec",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Huastec"
+  },
+  "hye": {
+   "name": "Armenian",
+   "scope": "I",
+   "type": "L",
+   "part1": "hy",
+   "invertedName": "Armenian"
+  },
+  "iba": {
+   "name": "Iban",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Iban"
+  },
+  "ibb": {
+   "name": "Ibibio",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Ibibio"
+  },
+  "ibo": {
+   "name": "Igbo",
+   "scope": "I",
+   "type": "L",
+   "part1": "ig",
+   "invertedName": "Igbo"
+  },
+  "ilb": {
+   "name": "Ila",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Ila"
+  },
+  "ilo": {
+   "name": "Iloko",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Iloko"
+  },
+  "ind": {
+   "name": "Indonesian",
+   "scope": "I",
+   "type": "L",
+   "part1": "id",
+   "invertedName": "Indonesian"
+  },
+  "ins": {
+   "name": "Indian Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Indian Sign Language"
+  },
+  "irk": {
+   "name": "Iraqw",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Iraqw"
+  },
+  "isl": {
+   "name": "Icelandic",
+   "scope": "I",
+   "type": "L",
+   "part1": "is",
+   "invertedName": "Icelandic"
+  },
+  "ita": {
+   "name": "Italian",
+   "scope": "I",
+   "type": "L",
+   "part1": "it",
+   "invertedName": "Italian"
+  },
+  "jam": {
+   "name": "Jamaican Creole English",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Creole English, Jamaican"
+  },
+  "jav": {
+   "name": "Javanese",
+   "scope": "I",
+   "type": "L",
+   "part1": "jv",
+   "invertedName": "Javanese"
+  },
+  "jbn": {
+   "name": "Nafusi",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Nafusi"
+  },
+  "jbo": {
+   "name": "Lojban",
+   "scope": "I",
+   "type": "C",
+   "invertedName": "Lojban"
+  },
+  "jdt": {
+   "name": "Judeo-Tat",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Judeo-Tat"
+  },
+  "jje": {
+   "name": "Jejueo",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Jejueo"
+  },
+  "jpn": {
+   "name": "Japanese",
+   "scope": "I",
+   "type": "L",
+   "part1": "ja",
+   "invertedName": "Japanese"
+  },
+  "jpr": {
+   "name": "Judeo-Persian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Judeo-Persian"
+  },
+  "kab": {
+   "name": "Kabyle",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kabyle"
+  },
+  "kal": {
+   "name": "Kalaallisut",
+   "scope": "I",
+   "type": "L",
+   "part1": "kl",
+   "invertedName": "Greenlandic"
+  },
+  "kam": {
+   "name": "Kamba (Kenya)",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kamba (Kenya)"
+  },
+  "kan": {
+   "name": "Kannada",
+   "scope": "I",
+   "type": "L",
+   "part1": "kn",
+   "invertedName": "Kannada"
+  },
+  "kas": {
+   "name": "Kashmiri",
+   "scope": "I",
+   "type": "L",
+   "part1": "ks",
+   "invertedName": "Kashmiri"
+  },
+  "kat": {
+   "name": "Georgian",
+   "scope": "I",
+   "type": "L",
+   "part1": "ka",
+   "invertedName": "Georgian"
+  },
+  "kaz": {
+   "name": "Kazakh",
+   "scope": "I",
+   "type": "L",
+   "part1": "kk",
+   "invertedName": "Kazakh"
+  },
+  "kbp": {
+   "name": "Kabiyè",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kabiyè"
+  },
+  "kdd": {
+   "name": "Yankunytjatjara",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Yankunytjatjara"
+  },
+  "kdh": {
+   "name": "Tem",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Tem"
+  },
+  "kdk": {
+   "name": "Numèè",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kwényi"
+  },
+  "kea": {
+   "name": "Kabuverdianu",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kabuverdianu"
+  },
+  "kek": {
+   "name": "Kekchí",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kekchí"
+  },
+  "kfy": {
+   "name": "Kumaoni",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kumaoni"
+  },
+  "khk": {
+   "name": "Halh Mongolian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Mongolian, Halh"
+  },
+  "khm": {
+   "name": "Khmer",
+   "scope": "I",
+   "type": "L",
+   "part1": "km",
+   "invertedName": "Khmer, Central"
+  },
+  "khr": {
+   "name": "Kharia",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kharia"
+  },
+  "khz": {
+   "name": "Keapara",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Keapara"
+  },
+  "kik": {
+   "name": "Kikuyu",
+   "scope": "I",
+   "type": "L",
+   "part1": "ki",
+   "invertedName": "Gikuyu"
+  },
+  "kin": {
+   "name": "Kinyarwanda",
+   "scope": "I",
+   "type": "L",
+   "part1": "rw",
+   "invertedName": "Kinyarwanda"
+  },
+  "kir": {
+   "name": "Kirghiz",
+   "scope": "I",
+   "type": "L",
+   "part1": "ky",
+   "invertedName": "Kirghiz"
+  },
+  "kjg": {
+   "name": "Khmu",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Khmu"
+  },
+  "klu": {
+   "name": "Klao",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Klao"
+  },
+  "kmb": {
+   "name": "Kimbundu",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kimbundu"
+  },
+  "kmr": {
+   "name": "Northern Kurdish",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kurdish, Northern"
+  },
+  "knc": {
+   "name": "Central Kanuri",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kanuri, Central"
+  },
+  "knn": {
+   "name": "Konkani (individual language)",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Konkani (individual language)"
+  },
+  "kor": {
+   "name": "Korean",
+   "scope": "I",
+   "type": "L",
+   "part1": "ko",
+   "invertedName": "Korean"
+  },
+  "kqo": {
+   "name": "Eastern Krahn",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Krahn, Eastern"
+  },
+  "krc": {
+   "name": "Karachay-Balkar",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Karachay-Balkar"
+  },
+  "kri": {
+   "name": "Krio",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Krio"
+  },
+  "krn": {
+   "name": "Sapo",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Sapo"
+  },
+  "kru": {
+   "name": "Kurukh",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kurukh"
+  },
+  "kry": {
+   "name": "Kryts",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kryts"
+  },
+  "ksw": {
+   "name": "S'gaw Karen",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Karen, S'gaw"
+  },
+  "ktg": {
+   "name": "Kalkutung",
+   "scope": "I",
+   "type": "E",
+   "invertedName": "Kalkutung"
+  },
+  "ktz": {
+   "name": "Juǀʼhoan",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Juǀʼhoan"
+  },
+  "kua": {
+   "name": "Kuanyama",
+   "scope": "I",
+   "type": "L",
+   "part1": "kj",
+   "invertedName": "Kuanyama"
+  },
+  "lac": {
+   "name": "Lacandon",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Lacandon"
+  },
+  "lad": {
+   "name": "Ladino",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Ladino"
+  },
+  "lao": {
+   "name": "Lao",
+   "scope": "I",
+   "type": "L",
+   "part1": "lo",
+   "invertedName": "Lao"
+  },
+  "lat": {
+   "name": "Latin",
+   "scope": "I",
+   "type": "H",
+   "part1": "la",
+   "invertedName": "Latin"
+  },
+  "lbj": {
+   "name": "Ladakhi",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Ladakhi"
+  },
+  "lea": {
+   "name": "Lega-Shabunda",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Lega-Shabunda"
+  },
+  "lgk": {
+   "name": "Lingarak",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Lingarak"
+  },
+  "lht": {
+   "name": "Lo-Toga",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Lo-Toga"
+  },
+  "lij": {
+   "name": "Ligurian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Ligurian"
+  },
+  "lim": {
+   "name": "Limburgan",
+   "scope": "I",
+   "type": "L",
+   "part1": "li",
+   "invertedName": "Limburgan"
+  },
+  "lip": {
+   "name": "Sekpele",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Sekpele"
+  },
+  "lir": {
+   "name": "Liberian English",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "English, Liberian"
+  },
+  "lit": {
+   "name": "Lithuanian",
+   "scope": "I",
+   "type": "L",
+   "part1": "lt",
+   "invertedName": "Lithuanian"
+  },
+  "lkt": {
+   "name": "Lakota",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Lakota"
+  },
+  "lld": {
+   "name": "Ladin",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Ladin"
+  },
+  "llp": {
+   "name": "North Efate",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Efate, North"
+  },
+  "llu": {
+   "name": "Lau",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Lau"
+  },
+  "lmo": {
+   "name": "Lombard",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Lombard"
+  },
+  "lom": {
+   "name": "Loma (Liberia)",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Loma (Liberia)"
+  },
+  "lou": {
+   "name": "Louisiana Creole",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Creole, Louisiana"
+  },
+  "loz": {
+   "name": "Lozi",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Lozi"
+  },
+  "lrz": {
+   "name": "Lemerig",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Lemerig"
+  },
+  "lsl": {
+   "name": "Latvian Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Latvian Sign Language"
+  },
+  "ltz": {
+   "name": "Luxembourgish",
+   "scope": "I",
+   "type": "L",
+   "part1": "lb",
+   "invertedName": "Letzeburgesch"
+  },
+  "lug": {
+   "name": "Ganda",
+   "scope": "I",
+   "type": "L",
+   "part1": "lg",
+   "invertedName": "Ganda"
+  },
+  "luo": {
+   "name": "Luo (Kenya and Tanzania)",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Dholuo"
+  },
+  "lvs": {
+   "name": "Standard Latvian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Latvian, Standard"
+  },
+  "lzz": {
+   "name": "Laz",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Laz"
+  },
+  "mal": {
+   "name": "Malayalam",
+   "scope": "I",
+   "type": "L",
+   "part1": "ml",
+   "invertedName": "Malayalam"
+  },
+  "mar": {
+   "name": "Marathi",
+   "scope": "I",
+   "type": "L",
+   "part1": "mr",
+   "invertedName": "Marathi"
+  },
+  "mas": {
+   "name": "Masai",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Masai"
+  },
+  "mcm": {
+   "name": "Malaccan Creole Portuguese",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Creole Portuguese, Malaccan"
+  },
+  "mdl": {
+   "name": "Maltese Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Maltese Sign Language"
+  },
+  "meh": {
+   "name": "Southwestern Tlaxiaco Mixtec",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Mixtec, Southwestern Tlaxiaco"
+  },
+  "mek": {
+   "name": "Mekeo",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Mekeo"
+  },
+  "mev": {
+   "name": "Mano",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Mano"
+  },
+  "mey": {
+   "name": "Hassaniyya",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Hassaniyya"
+  },
+  "mfe": {
+   "name": "Morisyen",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Morisyen"
+  },
+  "mgr": {
+   "name": "Mambwe-Lungu",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Mambwe-Lungu"
+  },
+  "mid": {
+   "name": "Mandaic",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Mandaic"
+  },
+  "min": {
+   "name": "Minangkabau",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Minangkabau"
+  },
+  "mjw": {
+   "name": "Karbi",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Karbi"
+  },
+  "mkd": {
+   "name": "Macedonian",
+   "scope": "I",
+   "type": "L",
+   "part1": "mk",
+   "invertedName": "Macedonian"
+  },
+  "mkn": {
+   "name": "Kupang Malay",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Malay, Kupang"
+  },
+  "mlt": {
+   "name": "Maltese",
+   "scope": "I",
+   "type": "L",
+   "part1": "mt",
+   "invertedName": "Maltese"
+  },
+  "mlu": {
+   "name": "To'abaita",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "To'abaita"
+  },
+  "mlv": {
+   "name": "Motlav",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Motlav"
+  },
+  "mnc": {
+   "name": "Manchu",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Manchu"
+  },
+  "mnk": {
+   "name": "Mandinka",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Mandinka"
+  },
+  "mos": {
+   "name": "Mossi",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Mossi"
+  },
+  "mqx": {
+   "name": "Mamuju",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Mamuju"
+  },
+  "mqy": {
+   "name": "Manggarai",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Manggarai"
+  },
+  "mri": {
+   "name": "Maori",
+   "scope": "I",
+   "type": "L",
+   "part1": "mi",
+   "invertedName": "Maori"
+  },
+  "msn": {
+   "name": "Vurës",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Vurës"
+  },
+  "mui": {
+   "name": "Musi",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Musi"
+  },
+  "muu": {
+   "name": "Yaaku",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Yaaku"
+  },
+  "mvi": {
+   "name": "Miyako",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Miyako"
+  },
+  "mwf": {
+   "name": "Murrinh-Patha",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Murrinh-Patha"
+  },
+  "mwl": {
+   "name": "Mirandese",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Mirandese"
+  },
+  "mya": {
+   "name": "Burmese",
+   "scope": "I",
+   "type": "L",
+   "part1": "my",
+   "invertedName": "Burmese"
+  },
+  "myv": {
+   "name": "Erzya",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Erzya"
+  },
+  "myz": {
+   "name": "Classical Mandaic",
+   "scope": "I",
+   "type": "H",
+   "invertedName": "Mandaic, Classical"
+  },
+  "mzn": {
+   "name": "Mazanderani",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Mazanderani"
+  },
+  "nan": {
+   "name": "Min Nan Chinese",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Chinese, Min Nan"
+  },
+  "nap": {
+   "name": "Neapolitan",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Neapolitan"
+  },
+  "naq": {
+   "name": "Khoekhoe",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Khoekhoe"
+  },
+  "nau": {
+   "name": "Nauru",
+   "scope": "I",
+   "type": "L",
+   "part1": "na",
+   "invertedName": "Nauru"
+  },
+  "nav": {
+   "name": "Navajo",
+   "scope": "I",
+   "type": "L",
+   "part1": "nv",
+   "invertedName": "Navaho"
+  },
+  "nbs": {
+   "name": "Namibian Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Namibian Sign Language"
+  },
+  "nds": {
+   "name": "Low German",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "German, Low"
+  },
+  "new": {
+   "name": "Nepal Bhasa",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Bhasa, Nepal"
+  },
+  "nhe": {
+   "name": "Eastern Huasteca Nahuatl",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Nahuatl, Eastern Huasteca"
+  },
+  "nhn": {
+   "name": "Central Nahuatl",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Nahuatl, Central"
+  },
+  "nia": {
+   "name": "Nias",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Nias"
+  },
+  "nkb": {
+   "name": "Khoibu Naga",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Naga, Khoibu"
+  },
+  "nld": {
+   "name": "Dutch",
+   "scope": "I",
+   "type": "L",
+   "part1": "nl",
+   "invertedName": "Dutch"
+  },
+  "nmk": {
+   "name": "Namakura",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Namakura"
+  },
+  "nnd": {
+   "name": "West Ambae",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Ambae, West"
+  },
+  "nob": {
+   "name": "Norwegian Bokmål",
+   "scope": "I",
+   "type": "L",
+   "part1": "nb",
+   "invertedName": "Norwegian Bokmål"
+  },
+  "npi": {
+   "name": "Nepali (individual language)",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Nepali (individual language)"
+  },
+  "nrf": {
+   "name": "Jèrriais",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Guernésiais"
+  },
+  "nse": {
+   "name": "Nsenga",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Nsenga"
+  },
+  "nso": {
+   "name": "Pedi",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Sotho, Northern"
+  },
+  "ntu": {
+   "name": "Natügu",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Natügu"
+  },
+  "num": {
+   "name": "Niuafo'ou",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Niuafo'ou"
+  },
+  "nya": {
+   "name": "Chichewa",
+   "scope": "I",
+   "type": "L",
+   "part1": "ny",
+   "invertedName": "Chewa"
+  },
+  "nyf": {
+   "name": "Giryama",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Giryama"
+  },
+  "nyg": {
+   "name": "Nyindu",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Nyindu"
+  },
+  "nys": {
+   "name": "Nyungar",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Nyungar"
+  },
+  "oci": {
+   "name": "Occitan (post 1500)",
+   "scope": "I",
+   "type": "L",
+   "part1": "oc",
+   "invertedName": "Occitan (post 1500)"
+  },
+  "omb": {
+   "name": "East Ambae",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Ambae, East"
+  },
+  "ory": {
+   "name": "Odia",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Odia"
+  },
+  "osi": {
+   "name": "Osing",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Osing"
+  },
+  "oss": {
+   "name": "Iron Ossetic",
+   "scope": "I",
+   "type": "L",
+   "part1": "os",
+   "invertedName": "Iron"
+  },
+  "ote": {
+   "name": "Mezquital Otomi",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Otomi, Mezquital"
+  },
+  "pam": {
+   "name": "Pampanga",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kapampangan"
+  },
+  "pan": {
+   "name": "Panjabi",
+   "scope": "I",
+   "type": "L",
+   "part1": "pa",
+   "invertedName": "Panjabi"
+  },
+  "pap": {
+   "name": "Papiamento",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Papiamento"
+  },
+  "pau": {
+   "name": "Palauan",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Palauan"
+  },
+  "pbu": {
+   "name": "Northern Pashto",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Pashto, Northern"
+  },
+  "pcm": {
+   "name": "Nigerian Pidgin",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Pidgin, Nigerian"
+  },
+  "pdc": {
+   "name": "Pennsylvania German",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "German, Pennsylvania"
+  },
+  "pes": {
+   "name": "Iranian Persian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Persian, Iranian"
+  },
+  "plt": {
+   "name": "Plateau Malagasy",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Malagasy, Plateau"
+  },
+  "pms": {
+   "name": "Piemontese",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Piemontese"
+  },
+  "pna": {
+   "name": "Punan Bah-Biau",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Punan Bah-Biau"
+  },
+  "pnb": {
+   "name": "Western Panjabi",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Panjabi, Western"
+  },
+  "pol": {
+   "name": "Polish",
+   "scope": "I",
+   "type": "L",
+   "part1": "pl",
+   "invertedName": "Polish"
+  },
+  "por": {
+   "name": "Portuguese",
+   "scope": "I",
+   "type": "L",
+   "part1": "pt",
+   "invertedName": "Portuguese"
+  },
+  "ppi": {
+   "name": "Paipai",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Paipai"
+  },
+  "ppl": {
+   "name": "Pipil",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Nicarao"
+  },
+  "prg": {
+   "name": "Prussian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Prussian"
+  },
+  "prs": {
+   "name": "Dari",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Persian, Afghan"
+  },
+  "prx": {
+   "name": "Purik",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Purik"
+  },
+  "quc": {
+   "name": "K'iche'",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "K'iche'"
+  },
+  "quh": {
+   "name": "South Bolivian Quechua",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Quechua, South Bolivian"
+  },
+  "qus": {
+   "name": "Santiago del Estero Quichua",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Quichua, Santiago del Estero"
+  },
+  "quv": {
+   "name": "Sacapulteco",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Sacapulteco"
+  },
+  "quz": {
+   "name": "Cusco Quechua",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Quechua, Cusco"
+  },
+  "qvi": {
+   "name": "Imbabura Highland Quichua",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Quichua, Imbabura Highland"
+  },
+  "rar": {
+   "name": "Rarotongan",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Maori, Cook Islands"
+  },
+  "rgn": {
+   "name": "Romagnol",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Romagnol"
+  },
+  "rhg": {
+   "name": "Rohingya",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Rohingya"
+  },
+  "rif": {
+   "name": "Tarifit",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Tarifit"
+  },
+  "rmn": {
+   "name": "Balkan Romani",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Romani, Balkan"
+  },
+  "roh": {
+   "name": "Romansh",
+   "scope": "I",
+   "type": "L",
+   "part1": "rm",
+   "invertedName": "Romansh"
+  },
+  "ron": {
+   "name": "Romanian",
+   "scope": "I",
+   "type": "L",
+   "part1": "ro",
+   "invertedName": "Moldavian"
+  },
+  "row": {
+   "name": "Dela-Oenale",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Dela-Oenale"
+  },
+  "rsk": {
+   "name": "Ruthenian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Rusnak"
+  },
+  "rsl": {
+   "name": "Russian Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Russian Sign Language"
+  },
+  "rsn": {
+   "name": "Rwandan Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Rwandan Sign Language"
+  },
+  "rup": {
+   "name": "Macedo-Romanian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Aromanian"
+  },
+  "rus": {
+   "name": "Russian",
+   "scope": "I",
+   "type": "L",
+   "part1": "ru",
+   "invertedName": "Russian"
+  },
+  "rwr": {
+   "name": "Marwari (India)",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Marwari (India)"
+  },
+  "ryu": {
+   "name": "Central Okinawan",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Okinawan, Central"
+  },
+  "sah": {
+   "name": "Yakut",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Yakut"
+  },
+  "sas": {
+   "name": "Sasak",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Sasak"
+  },
+  "sat": {
+   "name": "Santali",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Santali"
+  },
+  "sax": {
+   "name": "Sa",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Sa"
+  },
+  "sbs": {
+   "name": "Subiya",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Subiya"
+  },
+  "sby": {
+   "name": "Soli",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Soli"
+  },
+  "sck": {
+   "name": "Sadri",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Sadri"
+  },
+  "scl": {
+   "name": "Shina",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Shina"
+  },
+  "scn": {
+   "name": "Sicilian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Sicilian"
+  },
+  "sco": {
+   "name": "Scots",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Scots"
+  },
+  "sef": {
+   "name": "Cebaara Senoufo",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Senoufo, Cebaara"
+  },
+  "seh": {
+   "name": "Sena",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Sena"
+  },
+  "sev": {
+   "name": "Nyarafolo Senoufo",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Senoufo, Nyarafolo"
+  },
+  "sgg": {
+   "name": "Swiss-German Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Swiss-German Sign Language"
+  },
+  "shi": {
+   "name": "Tachelhit",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Tachelhit"
+  },
+  "shp": {
+   "name": "Shipibo-Conibo",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Shipibo-Conibo"
+  },
+  "sin": {
+   "name": "Sinhala",
+   "scope": "I",
+   "type": "L",
+   "part1": "si",
+   "invertedName": "Sinhala"
+  },
+  "siz": {
+   "name": "Siwi",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Siwi"
+  },
+  "sjd": {
+   "name": "Kildin Sami",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Sami, Kildin"
+  },
+  "sjs": {
+   "name": "Senhaja De Srair",
+   "scope": "I",
+   "type": "E",
+   "invertedName": "Senhaja De Srair"
+  },
+  "skr": {
+   "name": "Saraiki",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Saraiki"
+  },
+  "slf": {
+   "name": "Swiss-Italian Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Swiss-Italian Sign Language"
+  },
+  "slk": {
+   "name": "Slovak",
+   "scope": "I",
+   "type": "L",
+   "part1": "sk",
+   "invertedName": "Slovak"
+  },
+  "slv": {
+   "name": "Slovenian",
+   "scope": "I",
+   "type": "L",
+   "part1": "sl",
+   "invertedName": "Slovenian"
+  },
+  "sme": {
+   "name": "Northern Sami",
+   "scope": "I",
+   "type": "L",
+   "part1": "se",
+   "invertedName": "Sami, Northern"
+  },
+  "smj": {
+   "name": "Lule Sami",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Lule Sami"
+  },
+  "smo": {
+   "name": "Samoan",
+   "scope": "I",
+   "type": "L",
+   "part1": "sm",
+   "invertedName": "Samoan"
+  },
+  "sna": {
+   "name": "Shona",
+   "scope": "I",
+   "type": "L",
+   "part1": "sn",
+   "invertedName": "Shona"
+  },
+  "snd": {
+   "name": "Sindhi",
+   "scope": "I",
+   "type": "L",
+   "part1": "sd",
+   "invertedName": "Sindhi"
+  },
+  "som": {
+   "name": "Somali",
+   "scope": "I",
+   "type": "L",
+   "part1": "so",
+   "invertedName": "Somali"
+  },
+  "spa": {
+   "name": "Spanish",
+   "scope": "I",
+   "type": "L",
+   "part1": "es",
+   "invertedName": "Castilian"
+  },
+  "spv": {
+   "name": "Sambalpuri",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kosli"
+  },
+  "src": {
+   "name": "Logudorese Sardinian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Sardinian, Logudorese"
+  },
+  "srn": {
+   "name": "Sranan Tongo",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Sranan Tongo"
+  },
+  "sro": {
+   "name": "Campidanese Sardinian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Sardinian, Campidanese"
+  },
+  "srp": {
+   "name": "Serbian",
+   "scope": "I",
+   "type": "L",
+   "part1": "sr",
+   "invertedName": "Serbian"
+  },
+  "srx": {
+   "name": "Sirmauri",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Sirmauri"
+  },
+  "ssp": {
+   "name": "Spanish Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Spanish Sign Language"
+  },
+  "ssr": {
+   "name": "Swiss-French Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Swiss-French Sign Language"
+  },
+  "suk": {
+   "name": "Sukuma",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Sukuma"
+  },
+  "sun": {
+   "name": "Sundanese",
+   "scope": "I",
+   "type": "L",
+   "part1": "su",
+   "invertedName": "Sundanese"
+  },
+  "swe": {
+   "name": "Swedish",
+   "scope": "I",
+   "type": "L",
+   "part1": "sv",
+   "invertedName": "Swedish"
+  },
+  "swg": {
+   "name": "Swabian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Swabian"
+  },
+  "swh": {
+   "name": "Swahili (individual language)",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kiswahili"
+  },
+  "syc": {
+   "name": "Classical Syriac",
+   "scope": "I",
+   "type": "H",
+   "invertedName": "Syriac, Classical"
+  },
+  "szl": {
+   "name": "Silesian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Silesian"
+  },
+  "taj": {
+   "name": "Eastern Tamang",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Tamang, Eastern"
+  },
+  "tam": {
+   "name": "Tamil",
+   "scope": "I",
+   "type": "L",
+   "part1": "ta",
+   "invertedName": "Tamil"
+  },
+  "tat": {
+   "name": "Tatar",
+   "scope": "I",
+   "type": "L",
+   "part1": "tt",
+   "invertedName": "Tatar"
+  },
+  "tcs": {
+   "name": "Torres Strait Creole",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Creole, Torres Strait"
+  },
+  "tcy": {
+   "name": "Tulu",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Tulu"
+  },
+  "tel": {
+   "name": "Telugu",
+   "scope": "I",
+   "type": "L",
+   "part1": "te",
+   "invertedName": "Telugu"
+  },
+  "tgk": {
+   "name": "Tajik",
+   "scope": "I",
+   "type": "L",
+   "part1": "tg",
+   "invertedName": "Tajik"
+  },
+  "tgs": {
+   "name": "Nume",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Nume"
+  },
+  "tha": {
+   "name": "Thai",
+   "scope": "I",
+   "type": "L",
+   "part1": "th",
+   "invertedName": "Thai"
+  },
+  "thq": {
+   "name": "Kochila Tharu",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Tharu, Kochila"
+  },
+  "tir": {
+   "name": "Tigrinya",
+   "scope": "I",
+   "type": "L",
+   "part1": "ti",
+   "invertedName": "Tigrinya"
+  },
+  "tli": {
+   "name": "Tlingit",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Tlingit"
+  },
+  "toj": {
+   "name": "Tojolabal",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Tojolabal"
+  },
+  "ton": {
+   "name": "Tonga (Tonga Islands)",
+   "scope": "I",
+   "type": "L",
+   "part1": "to",
+   "invertedName": "Tonga (Tonga Islands)"
+  },
+  "top": {
+   "name": "Papantla Totonac",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Totonac, Papantla"
+  },
+  "tos": {
+   "name": "Highland Totonac",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Totonac, Highland"
+  },
+  "tox": {
+   "name": "Tobian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Tobian"
+  },
+  "tpi": {
+   "name": "Tok Pisin",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Tok Pisin"
+  },
+  "tql": {
+   "name": "Lehali",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Lehali"
+  },
+  "trs": {
+   "name": "Chicahuaxtla Triqui",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Triqui, Chicahuaxtla"
+  },
+  "tru": {
+   "name": "Turoyo",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Surayt"
+  },
+  "trw": {
+   "name": "Torwali",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Torwali"
+  },
+  "tsd": {
+   "name": "Tsakonian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Tsakonian"
+  },
+  "tso": {
+   "name": "Tsonga",
+   "scope": "I",
+   "type": "L",
+   "part1": "ts",
+   "invertedName": "Tsonga"
+  },
+  "tts": {
+   "name": "Northeastern Thai",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Thai, Northeastern"
+  },
+  "tuk": {
+   "name": "Turkmen",
+   "scope": "I",
+   "type": "L",
+   "part1": "tk",
+   "invertedName": "Turkmen"
+  },
+  "tun": {
+   "name": "Tunica",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Tunica"
+  },
+  "tur": {
+   "name": "Turkish",
+   "scope": "I",
+   "type": "L",
+   "part1": "tr",
+   "invertedName": "Turkish"
+  },
+  "tuv": {
+   "name": "Turkana",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Turkana"
+  },
+  "tvl": {
+   "name": "Tuvalu",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Tuvalu"
+  },
+  "twd": {
+   "name": "Twents",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Twents"
+  },
+  "twi": {
+   "name": "Twi",
+   "scope": "I",
+   "type": "L",
+   "part1": "tw",
+   "invertedName": "Twi"
+  },
+  "tyv": {
+   "name": "Tuvinian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Tuvinian"
+  },
+  "tyz": {
+   "name": "Tày",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Tày"
+  },
+  "uig": {
+   "name": "Uighur",
+   "scope": "I",
+   "type": "L",
+   "part1": "ug",
+   "invertedName": "Uighur"
+  },
+  "ukr": {
+   "name": "Ukrainian",
+   "scope": "I",
+   "type": "L",
+   "part1": "uk",
+   "invertedName": "Ukrainian"
+  },
+  "urd": {
+   "name": "Urdu",
+   "scope": "I",
+   "type": "L",
+   "part1": "ur",
+   "invertedName": "Urdu"
+  },
+  "urf": {
+   "name": "Uradhi",
+   "scope": "I",
+   "type": "E",
+   "invertedName": "Uradhi"
+  },
+  "uzn": {
+   "name": "Northern Uzbek",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Uzbek, Northern"
+  },
+  "vai": {
+   "name": "Vai",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Vai"
+  },
+  "vec": {
+   "name": "Venetian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Venetian"
+  },
+  "vep": {
+   "name": "Veps",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Veps"
+  },
+  "vie": {
+   "name": "Vietnamese",
+   "scope": "I",
+   "type": "L",
+   "part1": "vi",
+   "invertedName": "Vietnamese"
+  },
+  "vls": {
+   "name": "Vlaams",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Vlaams"
+  },
+  "vro": {
+   "name": "Võro",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Võro"
+  },
+  "wbl": {
+   "name": "Wakhi",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Wakhi"
+  },
+  "wbm": {
+   "name": "Wa",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Wa"
+  },
+  "wlc": {
+   "name": "Mwali Comorian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Comorian, Mwali"
+  },
+  "wln": {
+   "name": "Walloon",
+   "scope": "I",
+   "type": "L",
+   "part1": "wa",
+   "invertedName": "Walloon"
+  },
+  "wol": {
+   "name": "Wolof",
+   "scope": "I",
+   "type": "L",
+   "part1": "wo",
+   "invertedName": "Wolof"
+  },
+  "wuu": {
+   "name": "Wu Chinese",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Chinese, Wu"
+  },
+  "wym": {
+   "name": "Wymysorys",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Wymysorys"
+  },
+  "wyn": {
+   "name": "Wyandot",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Wyandot"
+  },
+  "xal": {
+   "name": "Kalmyk",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kalmyk"
+  },
+  "xay": {
+   "name": "Kayan Mahakam",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kayan Mahakam"
+  },
+  "xdq": {
+   "name": "Kaitag",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kaitag"
+  },
+  "xki": {
+   "name": "Kenyan Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kenyan Sign Language"
+  },
+  "xmf": {
+   "name": "Mingrelian",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Mingrelian"
+  },
+  "xog": {
+   "name": "Soga",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Soga"
+  },
+  "xpe": {
+   "name": "Liberia Kpelle",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kpelle, Liberia"
+  },
+  "ydd": {
+   "name": "Eastern Yiddish",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Yiddish, Eastern"
+  },
+  "yhd": {
+   "name": "Judeo-Iraqi Arabic",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Arabic, Judeo-Iraqi"
+  },
+  "yii": {
+   "name": "Yidiny",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Yidiny"
+  },
+  "yoi": {
+   "name": "Yonaguni",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Yonaguni"
+  },
+  "yor": {
+   "name": "Yoruba",
+   "scope": "I",
+   "type": "L",
+   "part1": "yo",
+   "invertedName": "Yoruba"
+  },
+  "ysl": {
+   "name": "Yugoslavian Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Yugoslavian Sign Language"
+  },
+  "yua": {
+   "name": "Yucateco",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Maya, Yucatec"
+  },
+  "yue": {
+   "name": "Yue Chinese",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Chinese, Yue"
+  },
+  "zab": {
+   "name": "Western Tlacolula Valley Zapotec",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Zapotec, San Juan Guelavía"
+  },
+  "zea": {
+   "name": "Zeeuws",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Zeeuws"
+  },
+  "zkk": {
+   "name": "Karankawa",
+   "scope": "I",
+   "type": "E",
+   "invertedName": "Karankawa"
+  },
+  "zlm": {
+   "name": "Malay (individual language)",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Malay (individual language)"
+  },
+  "zom": {
+   "name": "Zou",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Zou"
+  },
+  "zsl": {
+   "name": "Zambian Sign Language",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Zambian Sign Language"
+  },
+  "zul": {
+   "name": "Zulu",
+   "scope": "I",
+   "type": "L",
+   "part1": "zu",
+   "invertedName": "Zulu"
+  }
+ },
+ "glottolog": {
+  "abkh1242": {
+   "name": "Abkhaz-Adyge",
+   "level": "family",
+   "macroarea": "Eurasia",
+   "latitude": 43.692403000000006,
+   "longitude": 40.8701525
+  },
+  "achi1257": {
+   "name": "Acehnese",
+   "level": "language",
+   "macroarea": "Eurasia;Papunesia",
+   "latitude": 3.90757,
+   "longitude": 96.6032,
+   "familyId": "aust1307"
+  },
+  "acol1236": {
+   "name": "Acoli",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 3.57738,
+   "longitude": 32.5147,
+   "familyId": "nilo1247"
+  },
+  "adam1253": {
+   "name": "Adamawa Fulfulde",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 8.140326,
+   "longitude": 13.077338,
+   "familyId": "atla1278"
+  },
+  "adyg1241": {
+   "name": "West Circassian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 44,
+   "longitude": 39.33,
+   "familyId": "abkh1242"
+  },
+  "afri1274": {
+   "name": "Afrikaans",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -31.63272,
+   "longitude": 20.46356,
+   "familyId": "indo1319"
+  },
+  "afro1255": {
+   "name": "Afro-Asiatic",
+   "level": "family",
+   "macroarea": "Africa;Eurasia",
+   "latitude": 18.798147391507207,
+   "longitude": 24.740099624194006
+  },
+  "aher1237": {
+   "name": "Aheri Gondi",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 19.4163,
+   "longitude": 80.0058,
+   "familyId": "drav1251"
+  },
+  "ainu1240": {
+   "name": "Hokkaido Ainu",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 43.633654,
+   "longitude": 142.46167,
+   "familyId": "ainu1252"
+  },
+  "ainu1252": {
+   "name": "Ainu",
+   "level": "family",
+   "macroarea": "Eurasia",
+   "latitude": 46.374701239000046,
+   "longitude": 143.62574303500003
+  },
+  "akan1250": {
+   "name": "Akan",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 6.34756,
+   "longitude": -1.33254,
+   "familyId": "atla1278"
+  },
+  "alep1241": {
+   "name": "Aleppo",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 34.1709,
+   "longitude": 36.0468,
+   "familyId": "afro1255",
+   "parentLanguageId": "nort3139"
+  },
+  "alge1239": {
+   "name": "Algerian Arabic",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 35.4208,
+   "longitude": 3.23033,
+   "familyId": "afro1255"
+  },
+  "algi1248": {
+   "name": "Algic",
+   "level": "family",
+   "macroarea": "North America",
+   "latitude": 42.61785268055577,
+   "longitude": -115.5557576396946
+  },
+  "ambo1250": {
+   "name": "Ambonese Malay",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -3.71342,
+   "longitude": 128.184,
+   "familyId": "aust1307"
+  },
+  "amha1245": {
+   "name": "Amharic",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 11.708182,
+   "longitude": 39.543456,
+   "familyId": "afro1255"
+  },
+  "amis1246": {
+   "name": "Amis",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 23.0917,
+   "longitude": 121.348,
+   "familyId": "aust1307"
+  },
+  "arag1245": {
+   "name": "Aragonese",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 42.4669,
+   "longitude": -0.00919,
+   "familyId": "indo1319"
+  },
+  "aran1260": {
+   "name": "Aranese",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 44.1415,
+   "longitude": 6.82979,
+   "familyId": "indo1319",
+   "parentLanguageId": "occi1239"
+  },
+  "arau1255": {
+   "name": "Araucanian",
+   "level": "family",
+   "macroarea": "South America",
+   "latitude": -39.4043,
+   "longitude": -72.02199999999999
+  },
+  "araw1281": {
+   "name": "Arawakan",
+   "level": "family",
+   "macroarea": "North America;South America",
+   "latitude": -3.1102292773127544,
+   "longitude": -63.45763454743985
+  },
+  "arbe1236": {
+   "name": "Arbëreshë Albanian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 38.911,
+   "longitude": 16.7164,
+   "familyId": "indo1319"
+  },
+  "arge1236": {
+   "name": "Argentine Sign Language",
+   "level": "language",
+   "macroarea": "South America",
+   "latitude": -34.797,
+   "longitude": -59.1798,
+   "familyId": "sign1238"
+  },
+  "arom1237": {
+   "name": "Aromanian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 40.616,
+   "longitude": 21.2,
+   "familyId": "indo1319"
+  },
+  "arti1236": {
+   "name": "Artificial Language",
+   "level": "family",
+   "macroarea": "Africa;Australia;Eurasia;North America;Papunesia"
+  },
+  "assa1263": {
+   "name": "Assamese",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 26.0876,
+   "longitude": 91.2932,
+   "familyId": "indo1319"
+  },
+  "assy1241": {
+   "name": "Assyrian Neo-Aramaic",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 36.75,
+   "longitude": 43,
+   "familyId": "afro1255"
+  },
+  "astu1245": {
+   "name": "Asturian-Leonese-Cantabrian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 42.4181,
+   "longitude": -6.02227,
+   "familyId": "indo1319"
+  },
+  "atha1245": {
+   "name": "Athabaskan-Eyak-Tlingit",
+   "level": "family",
+   "macroarea": "North America",
+   "latitude": 57.75063711100006,
+   "longitude": -134.71397864499994
+  },
+  "atla1278": {
+   "name": "Atlantic-Congo",
+   "level": "family",
+   "macroarea": "Africa;North America",
+   "latitude": 9.740651528353272,
+   "longitude": -8.642391653270476
+  },
+  "aust1305": {
+   "name": "Austroasiatic",
+   "level": "family",
+   "macroarea": "Eurasia",
+   "latitude": 15.339585679000038,
+   "longitude": 97.72641035200007
+  },
+  "aust1307": {
+   "name": "Austronesian",
+   "level": "family",
+   "macroarea": "Africa;Eurasia;Papunesia;South America",
+   "latitude": 18.021904113884965,
+   "longitude": 122.05700483729152
+  },
+  "avar1256": {
+   "name": "Avar",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 41.7047,
+   "longitude": 46.558,
+   "familyId": "nakh1245"
+  },
+  "ayma1253": {
+   "name": "Aymaran",
+   "level": "family",
+   "macroarea": "South America",
+   "latitude": -14.90046725,
+   "longitude": -72.6417635
+  },
+  "baat1238": {
+   "name": "Baatonum",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 9.63186,
+   "longitude": 2.99607,
+   "familyId": "atla1278"
+  },
+  "babu1240": {
+   "name": "Babuza",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 24.0017,
+   "longitude": 120.585,
+   "familyId": "aust1307"
+  },
+  "bago1245": {
+   "name": "Bago-Kusuntu",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 8.52697,
+   "longitude": 1.41214,
+   "familyId": "atla1278"
+  },
+  "bagr1243": {
+   "name": "Bagri",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 31.4,
+   "longitude": 75.06,
+   "familyId": "indo1319"
+  },
+  "baha1257": {
+   "name": "Bahau",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 0.30801,
+   "longitude": 115.332,
+   "familyId": "aust1307"
+  },
+  "bakh1245": {
+   "name": "Bakhtiari",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 32.0163,
+   "longitude": 49.7713,
+   "familyId": "indo1319"
+  },
+  "bala1315": {
+   "name": "Balantak",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -0.86809,
+   "longitude": 123.289,
+   "familyId": "aust1307"
+  },
+  "bali1278": {
+   "name": "Balinese",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -8.35714,
+   "longitude": 115.075,
+   "familyId": "aust1307"
+  },
+  "balk1252": {
+   "name": "Balkan Romani",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 42.67,
+   "longitude": 21.17,
+   "familyId": "indo1319"
+  },
+  "balk1254": {
+   "name": "Rumelian Turkish",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 41.170545,
+   "longitude": 24.44567,
+   "familyId": "turk1311"
+  },
+  "balt1258": {
+   "name": "Balti",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 34.4491,
+   "longitude": 77.2859,
+   "familyId": "sino1245"
+  },
+  "banj1239": {
+   "name": "Banjar",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 0.747105,
+   "longitude": 115.79,
+   "familyId": "aust1307"
+  },
+  "barb1265": {
+   "name": "Barbacoan",
+   "level": "family",
+   "macroarea": "South America",
+   "latitude": 0.2712833333333334,
+   "longitude": -78.11014300000002
+  },
+  "barw1243": {
+   "name": "Barwe",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -17.675,
+   "longitude": 33.4534,
+   "familyId": "atla1278"
+  },
+  "basq1248": {
+   "name": "Basque",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 43.2787,
+   "longitude": -1.31622
+  },
+  "bata1289": {
+   "name": "Batak Toba",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 2.35498,
+   "longitude": 99.1761,
+   "familyId": "aust1307"
+  },
+  "bata1291": {
+   "name": "Batak Mandailing",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 0.85805,
+   "longitude": 99.898,
+   "familyId": "aust1307"
+  },
+  "bava1246": {
+   "name": "Bavarian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 47.9232,
+   "longitude": 13.246,
+   "familyId": "indo1319"
+  },
+  "bazi1237": {
+   "name": "Bazigar",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 25.2977,
+   "longitude": 77.2213,
+   "familyId": "uncl1493"
+  },
+  "beka1241": {
+   "name": "Riuk Bekati'",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 1.3307,
+   "longitude": 109.576,
+   "familyId": "aust1307"
+  },
+  "bela1254": {
+   "name": "Belarusian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 53.2307,
+   "longitude": 25.6038,
+   "familyId": "indo1319"
+  },
+  "bemb1257": {
+   "name": "Bemba (Zambia)",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -10.6122,
+   "longitude": 29.2993,
+   "familyId": "atla1278"
+  },
+  "beng1239": {
+   "name": "Kata Kolok",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -8.383,
+   "longitude": 115.098,
+   "familyId": "sign1238"
+  },
+  "beng1280": {
+   "name": "Bengali",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 24,
+   "longitude": 90,
+   "familyId": "indo1319"
+  },
+  "beny1237": {
+   "name": "Benyadu'",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 0.78534,
+   "longitude": 109.753,
+   "familyId": "aust1307"
+  },
+  "bhoj1244": {
+   "name": "Bhojpuri",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 26.458455,
+   "longitude": 84.817115,
+   "familyId": "indo1319"
+  },
+  "bild1234": {
+   "name": "Bildts",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 52,
+   "longitude": 5,
+   "familyId": "indo1319",
+   "parentLanguageId": "dutc1256"
+  },
+  "bisc1236": {
+   "name": "Biscayan",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 43.2787,
+   "longitude": -1.31622,
+   "familyId": "basq1248",
+   "parentLanguageId": "basq1248"
+  },
+  "bisl1239": {
+   "name": "Bislama",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -15.4,
+   "longitude": 166.89,
+   "familyId": "indo1319"
+  },
+  "book1242": {
+   "name": "Bookkeeping",
+   "level": "family",
+   "macroarea": "Africa;Australia;Eurasia;North America;Papunesia;South America"
+  },
+  "bosn1245": {
+   "name": "Bosnian Standard",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 43.859,
+   "longitude": 17.046,
+   "familyId": "indo1319",
+   "parentLanguageId": "sout1528"
+  },
+  "brab1243": {
+   "name": "Brabants",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 52,
+   "longitude": 5,
+   "familyId": "indo1319",
+   "parentLanguageId": "dutc1256"
+  },
+  "braz1236": {
+   "name": "Brazilian Sign Language",
+   "level": "language",
+   "macroarea": "South America",
+   "latitude": -15.5,
+   "longitude": -48,
+   "familyId": "sign1238"
+  },
+  "braz1246": {
+   "name": "Brazilian Portuguese",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 39.91,
+   "longitude": -8.1,
+   "familyId": "indo1319",
+   "parentLanguageId": "port1283"
+  },
+  "bret1244": {
+   "name": "Breton",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 48.2452,
+   "longitude": -3.78934,
+   "familyId": "indo1319"
+  },
+  "bugi1244": {
+   "name": "Buginese",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -4.47,
+   "longitude": 119.977,
+   "familyId": "aust1307"
+  },
+  "bulg1262": {
+   "name": "Bulgarian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 43.3646,
+   "longitude": 25.047,
+   "familyId": "indo1319"
+  },
+  "caju1236": {
+   "name": "Louisiana French",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 29.6869,
+   "longitude": -91.6133,
+   "familyId": "indo1319"
+  },
+  "camp1261": {
+   "name": "Campidanese Sardinian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 39.0566,
+   "longitude": 9.03935,
+   "familyId": "indo1319"
+  },
+  "cant1236": {
+   "name": "Cantonese",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 23.0118,
+   "longitude": 113.2021,
+   "familyId": "sino1245",
+   "parentLanguageId": "yuec1235"
+  },
+  "cari1288": {
+   "name": "Caribbean Spanish",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 40.4414,
+   "longitude": -1.11788,
+   "familyId": "indo1319",
+   "parentLanguageId": "stan1288"
+  },
+  "carn1240": {
+   "name": "Car Nicobarese",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 9.18853,
+   "longitude": 92.7671,
+   "familyId": "aust1305"
+  },
+  "ceba1235": {
+   "name": "Senari",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 9.50768,
+   "longitude": -6.15264,
+   "familyId": "atla1278"
+  },
+  "cebu1242": {
+   "name": "Cebuano",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 8.38799,
+   "longitude": 124.367,
+   "familyId": "aust1307"
+  },
+  "cent1972": {
+   "name": "Central Kurdish",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 35.6539,
+   "longitude": 45.8077,
+   "familyId": "indo1319"
+  },
+  "cent1989": {
+   "name": "Central Khmer",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 12.0515,
+   "longitude": 105.015,
+   "familyId": "aust1305"
+  },
+  "cent2050": {
+   "name": "Central Kanuri",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 11.8,
+   "longitude": 13.13,
+   "familyId": "saha1256"
+  },
+  "cent2087": {
+   "name": "Coastal-Naga Bikol",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 13.7574,
+   "longitude": 123.403,
+   "familyId": "aust1307"
+  },
+  "cent2117": {
+   "name": "Central Asmat",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -5.80391,
+   "longitude": 138.471,
+   "familyId": "nucl1709"
+  },
+  "cent2126": {
+   "name": "Central Okinawan",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 26.14854,
+   "longitude": 127.7816,
+   "familyId": "japo1237"
+  },
+  "cent2132": {
+   "name": "Tlaxcala-Puebla-Central Nahuatl",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 19.1248,
+   "longitude": -98.3002,
+   "familyId": "utoa1244"
+  },
+  "cent2142": {
+   "name": "Central Aymara",
+   "level": "language",
+   "macroarea": "South America",
+   "latitude": -17,
+   "longitude": -68.5,
+   "familyId": "ayma1253"
+  },
+  "chal1275": {
+   "name": "Chaldean Neo-Aramaic",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 37.0972,
+   "longitude": 43.5027,
+   "familyId": "afro1255"
+  },
+  "cham1315": {
+   "name": "Chamacoco",
+   "level": "language",
+   "macroarea": "South America",
+   "latitude": -20.5899,
+   "longitude": -58.2005,
+   "familyId": "zamu1243"
+  },
+  "chav1241": {
+   "name": "Chavacano",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 7.435034,
+   "longitude": 122.18849,
+   "familyId": "indo1319"
+  },
+  "chec1245": {
+   "name": "Chechen",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 43.5,
+   "longitude": 45.5,
+   "familyId": "nakh1245"
+  },
+  "cher1273": {
+   "name": "Cherokee",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 35.4664,
+   "longitude": -83.163,
+   "familyId": "iroq1247"
+  },
+  "chic1273": {
+   "name": "Chicahuaxtla Triqui",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 17.1628,
+   "longitude": -97.8547,
+   "familyId": "otom1299"
+  },
+  "chig1238": {
+   "name": "Chiga",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -1.04387,
+   "longitude": 29.9122,
+   "familyId": "atla1278"
+  },
+  "chip1241": {
+   "name": "Chippewa",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 47.347,
+   "longitude": -94.2738,
+   "familyId": "algi1248"
+  },
+  "chuk1271": {
+   "name": "Chukotko-Kamchatkan",
+   "level": "family",
+   "macroarea": "Eurasia",
+   "latitude": 59.35659807533706,
+   "longitude": 163.32326885895446
+  },
+  "chuk1273": {
+   "name": "Chukchi",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 68.6436,
+   "longitude": 170.045,
+   "familyId": "chuk1271"
+  },
+  "chuw1238": {
+   "name": "Chuwabu",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -17.3428,
+   "longitude": 37.1231,
+   "familyId": "atla1278"
+  },
+  "ciac1237": {
+   "name": "Cia-Cia",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -5.68289,
+   "longitude": 122.791,
+   "familyId": "aust1307"
+  },
+  "cimb1238": {
+   "name": "Cimbrian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 45.921,
+   "longitude": 11.324,
+   "familyId": "indo1319"
+  },
+  "clas1252": {
+   "name": "Classical Syriac",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 37.1129,
+   "longitude": 42.1432,
+   "familyId": "afro1255"
+  },
+  "clas1253": {
+   "name": "Classical Mandaic",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 36.1203,
+   "longitude": 49.5659,
+   "familyId": "afro1255"
+  },
+  "clas1258": {
+   "name": "Classical Sanskrit",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 20,
+   "longitude": 77,
+   "familyId": "indo1319",
+   "parentLanguageId": "sans1269"
+  },
+  "coca1259": {
+   "name": "Cocama-Cocamilla",
+   "level": "language",
+   "macroarea": "South America",
+   "latitude": -4.5,
+   "longitude": -74,
+   "familyId": "tupi1275"
+  },
+  "coch1271": {
+   "name": "Cochimi-Yuman",
+   "level": "family",
+   "macroarea": "North America",
+   "latitude": 30.494874103000086,
+   "longitude": -114.63059863899991
+  },
+  "corn1251": {
+   "name": "Cornish",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 50.5233,
+   "longitude": -4.18619,
+   "familyId": "indo1319"
+  },
+  "cors1241": {
+   "name": "Corsican",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 41.7,
+   "longitude": 9.25537,
+   "familyId": "indo1319"
+  },
+  "creo1235": {
+   "name": "Guyanese Creole English",
+   "level": "language",
+   "macroarea": "South America",
+   "latitude": 9,
+   "longitude": -62,
+   "familyId": "indo1319"
+  },
+  "crim1257": {
+   "name": "Crimean Tatar",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 45,
+   "longitude": 34.08,
+   "familyId": "turk1311"
+  },
+  "croa1242": {
+   "name": "Croatian Sign Language",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 45.502,
+   "longitude": 16.796,
+   "familyId": "sign1238"
+  },
+  "croa1245": {
+   "name": "Croatian Standard",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 45.555,
+   "longitude": 15.982,
+   "familyId": "indo1319",
+   "parentLanguageId": "sout1528"
+  },
+  "crow1244": {
+   "name": "Crow",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 45.368,
+   "longitude": -107.874,
+   "familyId": "siou1252"
+  },
+  "csan1238": {
+   "name": "Csángó",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 46.9068585714,
+   "longitude": 19.6555271429,
+   "familyId": "ural1272",
+   "parentLanguageId": "hung1274"
+  },
+  "cusc1236": {
+   "name": "Cusco Quechua",
+   "level": "language",
+   "macroarea": "South America",
+   "latitude": -14.0853,
+   "longitude": -71.7663,
+   "familyId": "quec1387"
+  },
+  "czec1258": {
+   "name": "Czech",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 49.873398,
+   "longitude": 15.10437,
+   "familyId": "indo1319"
+  },
+  "dagb1246": {
+   "name": "Dagbani",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 9.64745,
+   "longitude": -0.43227,
+   "familyId": "atla1278"
+  },
+  "daka1243": {
+   "name": "Dakaka",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -16.2696,
+   "longitude": 168.013,
+   "familyId": "aust1307"
+  },
+  "dani1246": {
+   "name": "Danish Sign Language",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 55.8257,
+   "longitude": 12.3187,
+   "familyId": "sign1238"
+  },
+  "dani1285": {
+   "name": "Danish",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 54.8655,
+   "longitude": 9.36284,
+   "familyId": "indo1319"
+  },
+  "dann1241": {
+   "name": "Dan",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 7.22812,
+   "longitude": -8.24535,
+   "familyId": "mand1469"
+  },
+  "dari1249": {
+   "name": "Dari",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 34.39757,
+   "longitude": 66.14961,
+   "familyId": "indo1319"
+  },
+  "dehu1237": {
+   "name": "Dehu",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -20.8892,
+   "longitude": 167.229,
+   "familyId": "aust1307"
+  },
+  "dela1251": {
+   "name": "Dela-Oenale",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -10.8469,
+   "longitude": 122.852,
+   "familyId": "aust1307"
+  },
+  "diml1238": {
+   "name": "Dimli",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 38.6147,
+   "longitude": 39.6388,
+   "familyId": "indo1319"
+  },
+  "doty1234": {
+   "name": "Dotyali",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 29.242,
+   "longitude": 80.7252,
+   "familyId": "indo1319"
+  },
+  "drav1251": {
+   "name": "Dravidian",
+   "level": "family",
+   "macroarea": "Eurasia",
+   "latitude": 22.000694930590036,
+   "longitude": 79.45764897410312
+  },
+  "dutc1253": {
+   "name": "Dutch Sign Language",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 52.1251,
+   "longitude": 4.91133,
+   "familyId": "sign1238"
+  },
+  "dutc1256": {
+   "name": "Dutch",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 52,
+   "longitude": 5,
+   "familyId": "indo1319"
+  },
+  "dyul1238": {
+   "name": "Dyula",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 9.291,
+   "longitude": -4.5823,
+   "familyId": "mand1469"
+  },
+  "east2288": {
+   "name": "East Frisian Low Saxon",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 52.9713,
+   "longitude": 7.73549,
+   "familyId": "indo1319",
+   "parentLanguageId": "nort2628"
+  },
+  "east2295": {
+   "name": "Eastern Yiddish",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 51.75,
+   "longitude": 19.42,
+   "familyId": "indo1319"
+  },
+  "east2304": {
+   "name": "Eastern Balochi",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 29.38213,
+   "longitude": 69.05834,
+   "familyId": "indo1319"
+  },
+  "east2347": {
+   "name": "Eastern Tamang",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 27.3239,
+   "longitude": 87.0832,
+   "familyId": "sino1245"
+  },
+  "east2390": {
+   "name": "Eastern Xwla Gbe",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 6.37803,
+   "longitude": 2.54987,
+   "familyId": "atla1278"
+  },
+  "east2414": {
+   "name": "Konobo-Eastern Krahn",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 5.83555,
+   "longitude": -7.85454,
+   "familyId": "krua1234"
+  },
+  "east2426": {
+   "name": "Eastern Maninkakan",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 10.41,
+   "longitude": -9.3162,
+   "familyId": "mand1469"
+  },
+  "east2443": {
+   "name": "East Ambae",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -15.3523,
+   "longitude": 167.89,
+   "familyId": "aust1307"
+  },
+  "east2538": {
+   "name": "Eastern Huasteca Nahuatl",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 21.0639,
+   "longitude": -97.9077,
+   "familyId": "utoa1244"
+  },
+  "egyp1253": {
+   "name": "Egyptian Arabic",
+   "level": "language",
+   "macroarea": "Africa;Eurasia",
+   "latitude": 31,
+   "longitude": 31,
+   "familyId": "afro1255"
+  },
+  "ekpe1253": {
+   "name": "Ekpeye",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 5.06715,
+   "longitude": 6.53362,
+   "familyId": "atla1278"
+  },
+  "emil1241": {
+   "name": "Emiliano",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 44.3536,
+   "longitude": 11.5794,
+   "familyId": "indo1319"
+  },
+  "engg1245": {
+   "name": "Enggano",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -5.38846,
+   "longitude": 102.245,
+   "familyId": "aust1307"
+  },
+  "erzy1239": {
+   "name": "Erzya",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 52.8548,
+   "longitude": 45.3901,
+   "familyId": "ural1272"
+  },
+  "eski1264": {
+   "name": "Eskimo-Aleut",
+   "level": "family",
+   "macroarea": "Eurasia;North America",
+   "latitude": 58.73083948753617,
+   "longitude": -72.76781483042555
+  },
+  "espe1235": {
+   "name": "Esperanto",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 49.3273,
+   "longitude": 2.81045,
+   "familyId": "arti1236"
+  },
+  "esto1258": {
+   "name": "Estonian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 58.55,
+   "longitude": 25.82,
+   "familyId": "ural1272"
+  },
+  "even1260": {
+   "name": "Even",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 70.6687,
+   "longitude": 130.914,
+   "familyId": "tung1282"
+  },
+  "ewon1239": {
+   "name": "Ewondo",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 4.21141,
+   "longitude": 11.93646,
+   "familyId": "atla1278"
+  },
+  "extr1243": {
+   "name": "Extremaduran",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 39.1926,
+   "longitude": -6.10179,
+   "familyId": "indo1319"
+  },
+  "fala1243": {
+   "name": "Falam Chin",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 23.7892833333,
+   "longitude": 92.3254633333,
+   "familyId": "sino1245"
+  },
+  "fant1241": {
+   "name": "Fante",
+   "level": "dialect",
+   "macroarea": "Africa",
+   "latitude": 6.34756,
+   "longitude": -1.33254,
+   "familyId": "atla1278",
+   "parentLanguageId": "akan1250"
+  },
+  "fata1245": {
+   "name": "Fataleka",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -8.59041,
+   "longitude": 160.861,
+   "familyId": "aust1307"
+  },
+  "fiji1243": {
+   "name": "Fijian",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -18,
+   "longitude": 178.33,
+   "familyId": "aust1307"
+  },
+  "fili1244": {
+   "name": "Filipino",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 12.265,
+   "longitude": 123.464,
+   "familyId": "aust1307"
+  },
+  "finl1235": {
+   "name": "Finland-Swedish Sign Language",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 60.39,
+   "longitude": 25.67,
+   "familyId": "sign1238"
+  },
+  "finn1310": {
+   "name": "Finnish Sign Language",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 60.661,
+   "longitude": 25.0677,
+   "familyId": "sign1238"
+  },
+  "finn1318": {
+   "name": "Finnish",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 64.7628,
+   "longitude": 25.5577,
+   "familyId": "ural1272"
+  },
+  "fonn1241": {
+   "name": "Fon",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 7.15484,
+   "longitude": 1.66495,
+   "familyId": "atla1278"
+  },
+  "friu1240": {
+   "name": "Friulian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 46.1473,
+   "longitude": 13.0493,
+   "familyId": "indo1319"
+  },
+  "gaaa1244": {
+   "name": "Ga",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 5.65488,
+   "longitude": -0.18598,
+   "familyId": "atla1278"
+  },
+  "gali1258": {
+   "name": "Galician",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 42.2446,
+   "longitude": -7.5343,
+   "familyId": "indo1319"
+  },
+  "gall1275": {
+   "name": "Gallo",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 47.931,
+   "longitude": -2.0544,
+   "familyId": "indo1319",
+   "parentLanguageId": "stan1290"
+  },
+  "ganc1239": {
+   "name": "Gan Chinese",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 27.9896,
+   "longitude": 115.166,
+   "familyId": "sino1245"
+  },
+  "gand1255": {
+   "name": "Ganda",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 0.66884,
+   "longitude": 32.15153,
+   "familyId": "atla1278"
+  },
+  "garh1243": {
+   "name": "Garhwali",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 30.5061,
+   "longitude": 78.7201,
+   "familyId": "indo1319"
+  },
+  "gari1256": {
+   "name": "Garifuna",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 15.3529,
+   "longitude": -86.9091,
+   "familyId": "araw1281"
+  },
+  "gasc1240": {
+   "name": "Gascon",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 43.1811,
+   "longitude": -0.1428,
+   "familyId": "indo1319",
+   "parentLanguageId": "occi1239"
+  },
+  "gheg1238": {
+   "name": "Gheg Albanian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 42.317,
+   "longitude": 21.3837,
+   "familyId": "indo1319"
+  },
+  "giri1243": {
+   "name": "Giripari",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 31.1,
+   "longitude": 77.17,
+   "familyId": "indo1319",
+   "parentLanguageId": "sirm1239"
+  },
+  "giry1241": {
+   "name": "Giryama",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -3.30638,
+   "longitude": 39.6648,
+   "familyId": "atla1278"
+  },
+  "gonj1241": {
+   "name": "Gonja",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 8.48801,
+   "longitude": -0.72757,
+   "familyId": "atla1278"
+  },
+  "guad1242": {
+   "name": "Guadeloupe-Martinique Creole French",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 16.304875,
+   "longitude": -61.405914,
+   "familyId": "indo1319"
+  },
+  "guam1248": {
+   "name": "Guambiano",
+   "level": "language",
+   "macroarea": "South America",
+   "latitude": 2.55849,
+   "longitude": -76.582,
+   "familyId": "barb1265"
+  },
+  "guja1252": {
+   "name": "Gujarati",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 22.687,
+   "longitude": 71.0962,
+   "familyId": "indo1319"
+  },
+  "gull1241": {
+   "name": "Sea Island Creole English",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 33.6632,
+   "longitude": -79.6036,
+   "familyId": "indo1319"
+  },
+  "gung1249": {
+   "name": "Gunggay",
+   "level": "dialect",
+   "macroarea": "Australia",
+   "latitude": -17.1332,
+   "longitude": 145.876,
+   "familyId": "pama1250",
+   "parentLanguageId": "yidi1250"
+  },
+  "gunn1250": {
+   "name": "Gun",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 6.48529,
+   "longitude": 2.76767,
+   "familyId": "atla1278"
+  },
+  "gwer1238": {
+   "name": "Gwere",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 1.11392,
+   "longitude": 33.8227,
+   "familyId": "atla1278"
+  },
+  "gwic1235": {
+   "name": "Gwich'in",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 67.4307,
+   "longitude": -142.963,
+   "familyId": "atha1245"
+  },
+  "hait1244": {
+   "name": "Haitian",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 18.795135,
+   "longitude": -72.136115,
+   "familyId": "indo1319"
+  },
+  "hakk1236": {
+   "name": "Hakka Chinese",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 25,
+   "longitude": 116,
+   "familyId": "sino1245"
+  },
+  "halh1238": {
+   "name": "Halh Mongolian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 48.32397,
+   "longitude": 106.28874,
+   "familyId": "mong1349"
+  },
+  "hang1257": {
+   "name": "Hangzhou",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 30.261316,
+   "longitude": 120.0318057,
+   "familyId": "sino1245",
+   "parentLanguageId": "wuch1236"
+  },
+  "hary1238": {
+   "name": "Haryanvi",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 29.0166,
+   "longitude": 76.0432,
+   "familyId": "indo1319"
+  },
+  "hass1238": {
+   "name": "Hassaniyya",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 18.29,
+   "longitude": -14.11,
+   "familyId": "afro1255"
+  },
+  "haus1257": {
+   "name": "Hausa",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 11.1513,
+   "longitude": 8.7804,
+   "familyId": "afro1255"
+  },
+  "hawa1245": {
+   "name": "Hawaiian",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 19.6297,
+   "longitude": -155.43,
+   "familyId": "aust1307"
+  },
+  "hebr1245": {
+   "name": "Modern Hebrew",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 31.1056,
+   "longitude": 35.0179,
+   "familyId": "afro1255"
+  },
+  "here1253": {
+   "name": "Herero",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -21.0231,
+   "longitude": 20.5655,
+   "familyId": "atla1278"
+  },
+  "high1243": {
+   "name": "Highland Totonac",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 20.3798,
+   "longitude": -97.6159,
+   "familyId": "toto1251"
+  },
+  "hili1240": {
+   "name": "Hiligaynon",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 10.4018,
+   "longitude": 122.974,
+   "familyId": "aust1307"
+  },
+  "hind1269": {
+   "name": "Hindi",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 25,
+   "longitude": 77,
+   "familyId": "indo1319"
+  },
+  "hong1241": {
+   "name": "Hong Kong-Macau Sign Language",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 22.160631,
+   "longitude": 113.555225,
+   "familyId": "sign1238"
+  },
+  "huas1242": {
+   "name": "Huastec",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 21.6153,
+   "longitude": -98.5028,
+   "familyId": "maya1287"
+  },
+  "huli1244": {
+   "name": "Huli",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -5.97212,
+   "longitude": 142.963,
+   "familyId": "nucl1709"
+  },
+  "hund1239": {
+   "name": "Hunde",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -1.46762,
+   "longitude": 28.9308,
+   "familyId": "atla1278"
+  },
+  "hung1274": {
+   "name": "Hungarian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 46.9068585714,
+   "longitude": 19.6555271429,
+   "familyId": "ural1272"
+  },
+  "iban1264": {
+   "name": "Iban",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 2.09041,
+   "longitude": 112.934,
+   "familyId": "aust1307"
+  },
+  "ibib1240": {
+   "name": "Ibibio",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 5.15279,
+   "longitude": 7.86688,
+   "familyId": "atla1278"
+  },
+  "icel1247": {
+   "name": "Icelandic",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 63.4837,
+   "longitude": -19.0212,
+   "familyId": "indo1319"
+  },
+  "ilaa1246": {
+   "name": "Ila",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -15.60807,
+   "longitude": 26.45548,
+   "familyId": "atla1278"
+  },
+  "ilok1237": {
+   "name": "Iloko",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 15.9361,
+   "longitude": 120.993,
+   "familyId": "aust1307"
+  },
+  "imba1240": {
+   "name": "Imbabura Highland Quichua",
+   "level": "language",
+   "macroarea": "South America",
+   "latitude": 0.31776,
+   "longitude": -78.3729,
+   "familyId": "quec1387"
+  },
+  "indi1237": {
+   "name": "Indian Sign Language",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 27.5186,
+   "longitude": 79.6787,
+   "familyId": "sign1238"
+  },
+  "indo1316": {
+   "name": "Standard Indonesian",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -7.33458,
+   "longitude": 109.716,
+   "familyId": "aust1307"
+  },
+  "indo1319": {
+   "name": "Indo-European",
+   "level": "family",
+   "macroarea": "Africa;Australia;Eurasia;North America;Papunesia;South America",
+   "latitude": 41.836725358943056,
+   "longitude": 33.20682024440928
+  },
+  "iraq1241": {
+   "name": "Iraqw",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -4.19948,
+   "longitude": 35.2939,
+   "familyId": "afro1255"
+  },
+  "iris1253": {
+   "name": "Irish",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 53.2186,
+   "longitude": -7.61509,
+   "familyId": "indo1319"
+  },
+  "iron1242": {
+   "name": "Iron Ossetian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 42.98,
+   "longitude": 44.61,
+   "familyId": "indo1319"
+  },
+  "iroq1247": {
+   "name": "Iroquoian",
+   "level": "family",
+   "macroarea": "North America",
+   "latitude": 37.819035229166666,
+   "longitude": -79.90906777083333
+  },
+  "ital1282": {
+   "name": "Italian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 43.0464,
+   "longitude": 12.6489,
+   "familyId": "indo1319"
+  },
+  "jama1262": {
+   "name": "Jamaican Creole English",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 18.13,
+   "longitude": -77.2612,
+   "familyId": "indo1319"
+  },
+  "japo1237": {
+   "name": "Japonic",
+   "level": "family",
+   "macroarea": "Eurasia;Papunesia",
+   "latitude": 32.72064850500004,
+   "longitude": 133.02800540500004
+  },
+  "java1254": {
+   "name": "Javanese",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -7.001,
+   "longitude": 109.287,
+   "familyId": "aust1307"
+  },
+  "jeju1234": {
+   "name": "Jejueo",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 33.3805,
+   "longitude": 126.5554,
+   "familyId": "kore1284"
+  },
+  "jerr1238": {
+   "name": "Jerriais",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 49.2123,
+   "longitude": -2.1325,
+   "familyId": "indo1319",
+   "parentLanguageId": "stan1290"
+  },
+  "jude1256": {
+   "name": "Judeo-Tat",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 42.068306,
+   "longitude": 48.264749,
+   "familyId": "indo1319"
+  },
+  "jude1266": {
+   "name": "Judeo-Iraqi Arabic",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 31.5339,
+   "longitude": 41.2595,
+   "familyId": "afro1255"
+  },
+  "jude1270": {
+   "name": "Judeo-Shirazi",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 29.746,
+   "longitude": 52.267,
+   "familyId": "indo1319",
+   "parentLanguageId": "sout2645"
+  },
+  "juho1239": {
+   "name": "South-Eastern Ju",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -19.688,
+   "longitude": 20.7673,
+   "familyId": "kxaa1236"
+  },
+  "kabi1261": {
+   "name": "Kabiyé",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 8.96816,
+   "longitude": 0.495023,
+   "familyId": "atla1278"
+  },
+  "kabu1256": {
+   "name": "Kabuverdianu",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 15.0586,
+   "longitude": -23.6148,
+   "familyId": "indo1319"
+  },
+  "kaby1243": {
+   "name": "Kabyle",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 36.4103,
+   "longitude": 4.76137,
+   "familyId": "afro1255"
+  },
+  "kada1285": {
+   "name": "Kadavu",
+   "level": "dialect",
+   "macroarea": "Papunesia",
+   "latitude": -18,
+   "longitude": 178.33,
+   "familyId": "aust1307",
+   "parentLanguageId": "fiji1243"
+  },
+  "kajt1238": {
+   "name": "Kajtak",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 42.052428,
+   "longitude": 47.776611,
+   "familyId": "nakh1245"
+  },
+  "kala1399": {
+   "name": "Kalaallisut",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 69.3761,
+   "longitude": -52.864,
+   "familyId": "eski1264"
+  },
+  "kalk1246": {
+   "name": "Kalkatungu",
+   "level": "language",
+   "macroarea": "Australia",
+   "latitude": -21,
+   "longitude": 139.5,
+   "familyId": "pama1250"
+  },
+  "kalm1243": {
+   "name": "Oirad-Kalmyk-Darkhat",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 46.566667,
+   "longitude": 45.316667,
+   "familyId": "mong1349"
+  },
+  "kamb1297": {
+   "name": "Kamba (Kenya)",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -1.60827,
+   "longitude": 37.9532,
+   "familyId": "atla1278"
+  },
+  "kaqc1270": {
+   "name": "Kaqchikel",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 14.4662,
+   "longitude": -90.9881,
+   "familyId": "maya1287"
+  },
+  "kara1289": {
+   "name": "Karankawa",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 28.9082,
+   "longitude": -96.4856
+  },
+  "kara1465": {
+   "name": "Karachay-Balkar",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 43.565,
+   "longitude": 42.2606,
+   "familyId": "turk1311"
+  },
+  "karb1241": {
+   "name": "Hills Karbi",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 25.7317,
+   "longitude": 93.0462,
+   "familyId": "sino1245"
+  },
+  "kart1248": {
+   "name": "Kartvelian",
+   "level": "family",
+   "macroarea": "Eurasia",
+   "latitude": 42.390201250000004,
+   "longitude": 42.6243925
+  },
+  "kash1277": {
+   "name": "Kashmiri",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 34.166825,
+   "longitude": 74.330455,
+   "familyId": "indo1319"
+  },
+  "kaya1324": {
+   "name": "Kayan Mahakam",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 0.91787,
+   "longitude": 114.452,
+   "familyId": "aust1307"
+  },
+  "kaza1248": {
+   "name": "Kazakh",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 51.17,
+   "longitude": 71.454,
+   "familyId": "turk1311"
+  },
+  "keap1239": {
+   "name": "Keapara",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -10.1342,
+   "longitude": 147.95,
+   "familyId": "aust1307"
+  },
+  "kekc1242": {
+   "name": "Q'eqchi'",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 15.3788,
+   "longitude": -89.2452,
+   "familyId": "maya1287"
+  },
+  "keny1241": {
+   "name": "Kenya-Somali Sign Language",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -1.00166,
+   "longitude": 37.1995,
+   "familyId": "sign1238"
+  },
+  "khar1287": {
+   "name": "Kharia",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 22.3571,
+   "longitude": 84.3922,
+   "familyId": "aust1305"
+  },
+  "khmu1256": {
+   "name": "Khmu",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 20.2463,
+   "longitude": 101.671,
+   "familyId": "aust1305"
+  },
+  "khoe1240": {
+   "name": "Khoe-Kwadi",
+   "level": "family",
+   "macroarea": "Africa",
+   "latitude": -19.716056708333333,
+   "longitude": 16.6735793125
+  },
+  "khoi1251": {
+   "name": "Khoibu",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 24.2041,
+   "longitude": 94.1345,
+   "familyId": "sino1245"
+  },
+  "kich1262": {
+   "name": "K'iche'",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 14.5278,
+   "longitude": -91.1696,
+   "familyId": "maya1287"
+  },
+  "kiku1240": {
+   "name": "Kikuyu",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -0.29005,
+   "longitude": 36.719,
+   "familyId": "atla1278"
+  },
+  "kild1236": {
+   "name": "Kildin Saami",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 68.2158,
+   "longitude": 35.8348,
+   "familyId": "ural1272"
+  },
+  "kimb1241": {
+   "name": "Kimbundu",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -8.97835,
+   "longitude": 14.8893,
+   "familyId": "atla1278"
+  },
+  "kiny1244": {
+   "name": "Kinyarwanda",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -1.56771,
+   "longitude": 29.6441,
+   "familyId": "atla1278"
+  },
+  "kirg1245": {
+   "name": "Kirghiz",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 42,
+   "longitude": 74,
+   "familyId": "turk1311"
+  },
+  "klao1243": {
+   "name": "Klao",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 5.05,
+   "longitude": -8.85,
+   "familyId": "krua1234"
+  },
+  "koch1247": {
+   "name": "Kochila Tharu",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 26.7251,
+   "longitude": 84.6301,
+   "familyId": "indo1319"
+  },
+  "konk1267": {
+   "name": "Konkan Marathi",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 18.404,
+   "longitude": 73.994,
+   "familyId": "indo1319"
+  },
+  "kore1280": {
+   "name": "Korean",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 37.54,
+   "longitude": 126.98,
+   "familyId": "kore1284"
+  },
+  "kore1284": {
+   "name": "Koreanic",
+   "level": "family",
+   "macroarea": "Eurasia",
+   "latitude": 35.46025,
+   "longitude": 126.7677
+  },
+  "krio1253": {
+   "name": "Krio",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 10.8811,
+   "longitude": -14.3204,
+   "familyId": "indo1319"
+  },
+  "krua1234": {
+   "name": "Kru",
+   "level": "family",
+   "macroarea": "Africa",
+   "latitude": 6.044377335971755,
+   "longitude": -7.411970419537716
+  },
+  "kryt1240": {
+   "name": "Kryz",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 41.1811,
+   "longitude": 48.1846,
+   "familyId": "nakh1245"
+  },
+  "kuan1247": {
+   "name": "Kuanyama",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -17.7176,
+   "longitude": 16.58,
+   "familyId": "atla1278"
+  },
+  "kuma1273": {
+   "name": "Kumaoni",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 29.5622,
+   "longitude": 80.0171,
+   "familyId": "indo1319"
+  },
+  "kupa1239": {
+   "name": "Kupang Malay",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -10.2526,
+   "longitude": 123.63,
+   "familyId": "aust1307"
+  },
+  "kuru1301": {
+   "name": "Kurukh",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 24.46442,
+   "longitude": 86.46568,
+   "familyId": "drav1251"
+  },
+  "kxaa1236": {
+   "name": "Kxa",
+   "level": "family",
+   "macroarea": "Africa",
+   "latitude": -21.94645887834424,
+   "longitude": 21.840852681303208
+  },
+  "laca1243": {
+   "name": "Lacandon",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 17.02093,
+   "longitude": -91.42348,
+   "familyId": "maya1287"
+  },
+  "lada1244": {
+   "name": "Leh Ladakhi",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 34.14649,
+   "longitude": 77.56261,
+   "familyId": "sino1245"
+  },
+  "ladi1250": {
+   "name": "Ladin",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 46.60651,
+   "longitude": 11.89498,
+   "familyId": "indo1319"
+  },
+  "ladi1251": {
+   "name": "Ladino",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 41.205,
+   "longitude": 28.6632,
+   "familyId": "indo1319"
+  },
+  "lako1247": {
+   "name": "Lakota",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 46.3699,
+   "longitude": -103.95,
+   "familyId": "siou1252"
+  },
+  "laoo1244": {
+   "name": "Lao",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 19,
+   "longitude": 102.46,
+   "familyId": "taik1256"
+  },
+  "lati1261": {
+   "name": "Latin",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 41.9026,
+   "longitude": 12.4502,
+   "familyId": "indo1319"
+  },
+  "latv1245": {
+   "name": "Latvian Sign Language",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 56.9335,
+   "longitude": 24.4931,
+   "familyId": "sign1238"
+  },
+  "latv1249": {
+   "name": "Latvian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 56.826108,
+   "longitude": 24.309118,
+   "familyId": "indo1319"
+  },
+  "lauu1247": {
+   "name": "Lau",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -8.51018,
+   "longitude": 160.872,
+   "familyId": "aust1307"
+  },
+  "lazz1240": {
+   "name": "Laz",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 41.5004,
+   "longitude": 41.9096,
+   "familyId": "kart1248"
+  },
+  "lega1249": {
+   "name": "Lega-Shabunda",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -3.83196,
+   "longitude": 27.1424,
+   "familyId": "atla1278"
+  },
+  "leha1243": {
+   "name": "Lehali",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -13.5043,
+   "longitude": 167.332,
+   "familyId": "aust1307"
+  },
+  "leme1238": {
+   "name": "Lemerig",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -13.739697,
+   "longitude": 167.420676,
+   "familyId": "aust1307"
+  },
+  "libe1240": {
+   "name": "Kru Pidgin English",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 6.423,
+   "longitude": -10.5284,
+   "familyId": "pidg1258"
+  },
+  "libe1247": {
+   "name": "Liberia Kpelle",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 6.92048,
+   "longitude": -9.96128,
+   "familyId": "mand1469"
+  },
+  "ligu1248": {
+   "name": "Ligurian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 44.0816,
+   "longitude": 7.90522,
+   "familyId": "indo1319"
+  },
+  "limb1263": {
+   "name": "Limburgan",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 51.015,
+   "longitude": 5.87705,
+   "familyId": "indo1319"
+  },
+  "ling1265": {
+   "name": "Neverver",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -16.1986,
+   "longitude": 167.499,
+   "familyId": "aust1307"
+  },
+  "lith1251": {
+   "name": "Lithuanian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 55.1429,
+   "longitude": 23.9601,
+   "familyId": "indo1319"
+  },
+  "logu1236": {
+   "name": "Logudorese Sardinian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 40.49,
+   "longitude": 9.09957,
+   "familyId": "indo1319"
+  },
+  "lojb1234": {
+   "name": "Lojban",
+   "level": "language",
+   "macroarea": "North America",
+   "familyId": "arti1236"
+  },
+  "loma1260": {
+   "name": "Loma (Liberia)",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 7.91585,
+   "longitude": -9.69906,
+   "familyId": "mand1469"
+  },
+  "lomb1257": {
+   "name": "Lombard",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 45.8817,
+   "longitude": 9.39509,
+   "familyId": "indo1319"
+  },
+  "loto1240": {
+   "name": "Lo-Toga",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -13.334872,
+   "longitude": 166.634338,
+   "familyId": "aust1307"
+  },
+  "loui1240": {
+   "name": "Louisiana Creole French",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 30.0412,
+   "longitude": -90.7475,
+   "familyId": "indo1319"
+  },
+  "lozi1239": {
+   "name": "Lozi",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -17.7052,
+   "longitude": 24.7398,
+   "familyId": "atla1278"
+  },
+  "lule1254": {
+   "name": "Lule Saami",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 67.2759,
+   "longitude": 17.8057,
+   "familyId": "ural1272"
+  },
+  "luok1236": {
+   "name": "Luo (Kenya and Tanzania)",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -0.93296,
+   "longitude": 34.4896,
+   "familyId": "nilo1247"
+  },
+  "luxe1241": {
+   "name": "Moselle Franconian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 49.6839,
+   "longitude": 6.14931,
+   "familyId": "indo1319"
+  },
+  "mace1250": {
+   "name": "Macedonian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 41.5957,
+   "longitude": 21.7932,
+   "familyId": "indo1319"
+  },
+  "maha1287": {
+   "name": "Mahasu Pahari",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 31.0088,
+   "longitude": 77.5317,
+   "familyId": "indo1319"
+  },
+  "mala1464": {
+   "name": "Malayalam",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 9.59208,
+   "longitude": 76.7651,
+   "familyId": "drav1251"
+  },
+  "mala1479": {
+   "name": "Central Malay",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 1.85856,
+   "longitude": 103,
+   "familyId": "aust1307"
+  },
+  "mala1533": {
+   "name": "Malacca-Batavia Portuguese Creole",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 2.188087,
+   "longitude": 102.262059,
+   "familyId": "indo1319"
+  },
+  "malt1238": {
+   "name": "Maltese Sign Language",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 35.907,
+   "longitude": 14.4824,
+   "familyId": "sign1238"
+  },
+  "malt1254": {
+   "name": "Maltese",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 35.8884,
+   "longitude": 14.4508,
+   "familyId": "afro1255"
+  },
+  "mamb1296": {
+   "name": "Mambwe-Lungu",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -8.86817,
+   "longitude": 31.2269,
+   "familyId": "atla1278"
+  },
+  "mamu1255": {
+   "name": "Mamuju",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -2.50762,
+   "longitude": 119.082,
+   "familyId": "aust1307"
+  },
+  "manc1252": {
+   "name": "Manchu",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 47.31225,
+   "longitude": 126.55713,
+   "familyId": "tung1282"
+  },
+  "mand1415": {
+   "name": "Mandarin Chinese",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 40.0209,
+   "longitude": 116.228,
+   "familyId": "sino1245"
+  },
+  "mand1436": {
+   "name": "Mandinka",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 12.8165233333,
+   "longitude": -15.6539466667,
+   "familyId": "mand1469"
+  },
+  "mand1469": {
+   "name": "Mande",
+   "level": "family",
+   "macroarea": "Africa",
+   "latitude": 10.18832735276607,
+   "longitude": -5.295664348867822
+  },
+  "mang1405": {
+   "name": "Manggarai",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -8.55748,
+   "longitude": 120.329,
+   "familyId": "aust1307"
+  },
+  "mann1248": {
+   "name": "Mann",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 7.04616,
+   "longitude": -8.86405,
+   "familyId": "mand1469"
+  },
+  "manx1243": {
+   "name": "Manx",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 54.2604,
+   "longitude": -4.45437,
+   "familyId": "indo1319"
+  },
+  "maor1246": {
+   "name": "Maori",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -38.2881,
+   "longitude": 176.541,
+   "familyId": "aust1307"
+  },
+  "mapu1245": {
+   "name": "Mapudungun",
+   "level": "language",
+   "macroarea": "South America",
+   "latitude": -38.7392,
+   "longitude": -71.277,
+   "familyId": "arau1255"
+  },
+  "mara1378": {
+   "name": "Marathi",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 17.9344,
+   "longitude": 76.6665,
+   "familyId": "indo1319"
+  },
+  "marw1260": {
+   "name": "Marwari (India)",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 27.002,
+   "longitude": 75.0656,
+   "familyId": "indo1319"
+  },
+  "masa1300": {
+   "name": "Masai",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -3.1419,
+   "longitude": 36.4573,
+   "familyId": "nilo1247"
+  },
+  "maur1242": {
+   "name": "Mauritian Creole",
+   "level": "dialect",
+   "macroarea": "Africa",
+   "latitude": -20.2613,
+   "longitude": 57.5517,
+   "familyId": "indo1319",
+   "parentLanguageId": "mori1278"
+  },
+  "maya1287": {
+   "name": "Mayan",
+   "level": "family",
+   "macroarea": "North America",
+   "latitude": 17.359612188269193,
+   "longitude": -92.79742046263694
+  },
+  "maza1291": {
+   "name": "Mazanderani",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 36.241,
+   "longitude": 52.3009,
+   "familyId": "indo1319"
+  },
+  "meke1243": {
+   "name": "Mekeo",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -8.23853,
+   "longitude": 146.586,
+   "familyId": "aust1307"
+  },
+  "meso1252": {
+   "name": "Gilit Mesopotamian Arabic",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 33.8178,
+   "longitude": 43.1095,
+   "familyId": "afro1255"
+  },
+  "mezq1235": {
+   "name": "Mezquital Otomi",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 20.2274,
+   "longitude": -99.5564,
+   "familyId": "otom1299"
+  },
+  "midd1357": {
+   "name": "Middle Clarence Bandjalang",
+   "level": "language",
+   "macroarea": "Australia",
+   "latitude": -29.042737,
+   "longitude": 152.780249,
+   "familyId": "pama1250"
+  },
+  "mina1268": {
+   "name": "Minangkabau",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -0.896,
+   "longitude": 100.44,
+   "familyId": "aust1307"
+  },
+  "ming1252": {
+   "name": "Mingrelian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 42.5129,
+   "longitude": 41.8719,
+   "familyId": "kart1248"
+  },
+  "minn1241": {
+   "name": "Min Nan Chinese",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 24.5,
+   "longitude": 118.17,
+   "familyId": "sino1245"
+  },
+  "mira1251": {
+   "name": "Mirandese",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 41.5375,
+   "longitude": -6.38371,
+   "familyId": "indo1319"
+  },
+  "miya1259": {
+   "name": "Miyako",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 24.7564,
+   "longitude": 125.363,
+   "familyId": "japo1237"
+  },
+  "mode1248": {
+   "name": "Modern Greek",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 38.36,
+   "longitude": 23.13,
+   "familyId": "indo1319"
+  },
+  "mong1349": {
+   "name": "Mongolic-Khitan",
+   "level": "family",
+   "macroarea": "Eurasia",
+   "latitude": 42.9470043223832,
+   "longitude": 106.42138010513067
+  },
+  "mori1278": {
+   "name": "Morisyen",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -20.2613,
+   "longitude": 57.5517,
+   "familyId": "indo1319"
+  },
+  "moro1292": {
+   "name": "Moroccan Arabic",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 32.5,
+   "longitude": -7.5,
+   "familyId": "afro1255"
+  },
+  "moss1236": {
+   "name": "Mossi",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 11.95,
+   "longitude": -1.32,
+   "familyId": "atla1278"
+  },
+  "motl1237": {
+   "name": "Mwotlap",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -13.655015,
+   "longitude": 167.706277,
+   "familyId": "aust1307"
+  },
+  "murr1258": {
+   "name": "Murriny Patha",
+   "level": "language",
+   "macroarea": "Australia",
+   "latitude": -14.74852,
+   "longitude": 129.70152,
+   "familyId": "sout2772"
+  },
+  "murr1259": {
+   "name": "Murrinhpatha",
+   "level": "dialect",
+   "macroarea": "Australia",
+   "latitude": -14.74852,
+   "longitude": 129.70152,
+   "familyId": "sout2772",
+   "parentLanguageId": "murr1258"
+  },
+  "musi1241": {
+   "name": "Musi",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -2.93987,
+   "longitude": 103.945,
+   "familyId": "aust1307"
+  },
+  "mwal1237": {
+   "name": "Mwali Comorian",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -12.3164,
+   "longitude": 43.741,
+   "familyId": "atla1278"
+  },
+  "nafu1238": {
+   "name": "Nafusi",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 31.93488,
+   "longitude": 11.78231,
+   "familyId": "afro1255"
+  },
+  "nakh1245": {
+   "name": "Nakh-Daghestanian",
+   "level": "family",
+   "macroarea": "Eurasia",
+   "latitude": 42.27952944913645,
+   "longitude": 46.28465264311167
+  },
+  "nama1264": {
+   "name": "Nama (Namibia)",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -25.0747,
+   "longitude": 17.9767,
+   "familyId": "khoe1240"
+  },
+  "nama1268": {
+   "name": "Namakura",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -16.8979,
+   "longitude": 168.569,
+   "familyId": "aust1307"
+  },
+  "nami1249": {
+   "name": "Namibian Sign Language",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -22.6,
+   "longitude": 17.048,
+   "familyId": "sign1238"
+  },
+  "natu1246": {
+   "name": "Natügu",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -10.6771,
+   "longitude": 165.835,
+   "familyId": "aust1307"
+  },
+  "naur1243": {
+   "name": "Nauru",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -0.52957,
+   "longitude": 166.922,
+   "familyId": "aust1307"
+  },
+  "nava1243": {
+   "name": "Navajo",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 36.33,
+   "longitude": -109.38,
+   "familyId": "atha1245"
+  },
+  "neap1235": {
+   "name": "Continental Southern Italian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 39.2288,
+   "longitude": 16.4225,
+   "familyId": "indo1319"
+  },
+  "nepa1254": {
+   "name": "Nepali",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 28,
+   "longitude": 85,
+   "familyId": "indo1319"
+  },
+  "newa1246": {
+   "name": "Kathmandu Valley Newari",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 27.67,
+   "longitude": 85.326,
+   "familyId": "sino1245"
+  },
+  "nias1242": {
+   "name": "Nias",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 0.90691,
+   "longitude": 97.4961,
+   "familyId": "aust1307"
+  },
+  "nige1257": {
+   "name": "Nigerian Pidgin",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 9.65873,
+   "longitude": 4.21068,
+   "familyId": "indo1319"
+  },
+  "nilo1247": {
+   "name": "Nilotic",
+   "level": "family",
+   "macroarea": "Africa",
+   "latitude": 3.0381395153538513,
+   "longitude": 33.47151992925147
+  },
+  "niua1240": {
+   "name": "Niuafo'ou",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -15.6014,
+   "longitude": -175.64,
+   "familyId": "aust1307"
+  },
+  "nort2626": {
+   "name": "Northern Frisian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 54.6409,
+   "longitude": 8.58489,
+   "familyId": "indo1319"
+  },
+  "nort2627": {
+   "name": "Eastern Low German",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 53.115373,
+   "longitude": 12.391439,
+   "familyId": "indo1319"
+  },
+  "nort2628": {
+   "name": "German Northern Low Saxon",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 52.97134,
+   "longitude": 8.36,
+   "familyId": "indo1319"
+  },
+  "nort2641": {
+   "name": "Northern Kurdish",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 37,
+   "longitude": 43,
+   "familyId": "indo1319"
+  },
+  "nort2646": {
+   "name": "Northern Pashto",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 34,
+   "longitude": 71.33,
+   "familyId": "indo1319"
+  },
+  "nort2662": {
+   "name": "Northern Hindko",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 34.3202,
+   "longitude": 73.3844,
+   "familyId": "indo1319"
+  },
+  "nort2671": {
+   "name": "North Saami",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 68.725,
+   "longitude": 22.1113,
+   "familyId": "ural1272"
+  },
+  "nort2690": {
+   "name": "Northern Uzbek",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 40.886,
+   "longitude": 69.211,
+   "familyId": "turk1311"
+  },
+  "nort2697": {
+   "name": "North Azerbaijani",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 40.97768,
+   "longitude": 46.4737,
+   "familyId": "turk1311"
+  },
+  "nort2741": {
+   "name": "Northeastern Thai",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 16.03,
+   "longitude": 103.67,
+   "familyId": "taik1256"
+  },
+  "nort2836": {
+   "name": "North Efate",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -17.5774,
+   "longitude": 168.375,
+   "familyId": "aust1307"
+  },
+  "nort3139": {
+   "name": "Levantine Arabic",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 34.1709,
+   "longitude": 36.0468,
+   "familyId": "afro1255"
+  },
+  "norw1258": {
+   "name": "Norwegian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 59.92,
+   "longitude": 10.71,
+   "familyId": "indo1319"
+  },
+  "norw1259": {
+   "name": "Norwegian Bokmål",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 61.112,
+   "longitude": 8.886,
+   "familyId": "indo1319",
+   "parentLanguageId": "norw1258"
+  },
+  "nsen1242": {
+   "name": "Nsenga",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -15.3946,
+   "longitude": 31.3544,
+   "familyId": "atla1278"
+  },
+  "nucl1235": {
+   "name": "Eastern Armenian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 40,
+   "longitude": 45,
+   "familyId": "indo1319"
+  },
+  "nucl1290": {
+   "name": "Zhenkang Wa",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 23.1024,
+   "longitude": 99.108,
+   "familyId": "aust1305"
+  },
+  "nucl1301": {
+   "name": "Turkish",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 39.8667,
+   "longitude": 32.8667,
+   "familyId": "turk1311"
+  },
+  "nucl1302": {
+   "name": "Georgian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 41.850397,
+   "longitude": 43.78613,
+   "familyId": "kart1248"
+  },
+  "nucl1305": {
+   "name": "Kannada",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 13.5878,
+   "longitude": 76.1198,
+   "familyId": "drav1251"
+  },
+  "nucl1310": {
+   "name": "Burmese",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 20.7926,
+   "longitude": 93.9665,
+   "familyId": "sino1245"
+  },
+  "nucl1347": {
+   "name": "Wolof",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 15.2534,
+   "longitude": -15.383,
+   "familyId": "atla1278"
+  },
+  "nucl1396": {
+   "name": "Sena",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -19.7933,
+   "longitude": 34.9829,
+   "familyId": "atla1278"
+  },
+  "nucl1417": {
+   "name": "Igbo",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 4.62705,
+   "longitude": 7.23441,
+   "familyId": "atla1278"
+  },
+  "nucl1418": {
+   "name": "Bassa",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 7.27501,
+   "longitude": -11.543,
+   "familyId": "krua1234"
+  },
+  "nucl1643": {
+   "name": "Japanese",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 35,
+   "longitude": 135,
+   "familyId": "japo1237"
+  },
+  "nucl1706": {
+   "name": "Neo-Mandaic",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 31.3443,
+   "longitude": 48.8128,
+   "familyId": "afro1255"
+  },
+  "nucl1709": {
+   "name": "Nuclear Trans New Guinea",
+   "level": "family",
+   "macroarea": "Papunesia",
+   "latitude": -5.612586657219984,
+   "longitude": 142.78555640996763
+  },
+  "nucl1770": {
+   "name": "Nuclear Dan",
+   "level": "dialect",
+   "macroarea": "Africa",
+   "latitude": 7.27,
+   "longitude": -8.15,
+   "familyId": "mand1469",
+   "parentLanguageId": "dann1241"
+  },
+  "nume1241": {
+   "name": "Nume",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -14.230149,
+   "longitude": 167.593474,
+   "familyId": "aust1307"
+  },
+  "nume1242": {
+   "name": "Numee",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -22.2689,
+   "longitude": 166.705,
+   "familyId": "aust1307"
+  },
+  "nuyo1238": {
+   "name": "Nuyoo",
+   "level": "dialect",
+   "macroarea": "North America",
+   "latitude": 17.0147,
+   "longitude": -97.76674,
+   "familyId": "otom1299",
+   "parentLanguageId": "sout3000"
+  },
+  "nyan1308": {
+   "name": "Nyanja",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -14.8047,
+   "longitude": 32.8108,
+   "familyId": "atla1278"
+  },
+  "nyar1245": {
+   "name": "Nyarafolo Senoufo",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 9.66934,
+   "longitude": -5.11685,
+   "familyId": "atla1278"
+  },
+  "nyin1248": {
+   "name": "Nyindu",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -3.03802,
+   "longitude": 28.6434,
+   "familyId": "atla1278"
+  },
+  "nyun1247": {
+   "name": "Nyunga",
+   "level": "language",
+   "macroarea": "Australia",
+   "latitude": -33.1199,
+   "longitude": 118.151,
+   "familyId": "pama1250"
+  },
+  "occi1239": {
+   "name": "Occitan",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 44.1415,
+   "longitude": 6.82979,
+   "familyId": "indo1319"
+  },
+  "oriy1255": {
+   "name": "Odia",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 21,
+   "longitude": 85,
+   "familyId": "indo1319"
+  },
+  "osin1237": {
+   "name": "Osing",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -8.25262,
+   "longitude": 114.292,
+   "familyId": "aust1307"
+  },
+  "otom1299": {
+   "name": "Otomanguean",
+   "level": "family",
+   "macroarea": "North America",
+   "latitude": 16.74515934758395,
+   "longitude": -94.92819268907601
+  },
+  "paip1241": {
+   "name": "Paipai",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 31.6063,
+   "longitude": -115.871,
+   "familyId": "coch1271"
+  },
+  "pala1344": {
+   "name": "Palauan",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 7.34138,
+   "longitude": 134.476678,
+   "familyId": "aust1307"
+  },
+  "pama1250": {
+   "name": "Pama-Nyungan",
+   "level": "family",
+   "macroarea": "Australia;Papunesia",
+   "latitude": -24.94825463739871,
+   "longitude": 137.80340501238103
+  },
+  "pamp1243": {
+   "name": "Pampanga",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 14.9603,
+   "longitude": 120.502,
+   "familyId": "aust1307"
+  },
+  "panj1256": {
+   "name": "Eastern Panjabi",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 30.0368,
+   "longitude": 75.6702,
+   "familyId": "indo1319"
+  },
+  "pann1240": {
+   "name": "Pannonian Ruthenian",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 48.7171,
+   "longitude": 22.9579,
+   "familyId": "indo1319",
+   "parentLanguageId": "rusy1239"
+  },
+  "pano1259": {
+   "name": "Pano-Tacanan",
+   "level": "family",
+   "macroarea": "South America",
+   "latitude": -9.775506590890894,
+   "longitude": -69.0242276211961
+  },
+  "papa1238": {
+   "name": "Papantla Totonac",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 20.5671,
+   "longitude": -97.2554,
+   "familyId": "toto1251"
+  },
+  "papi1253": {
+   "name": "Papiamento",
+   "level": "language",
+   "macroarea": "South America",
+   "latitude": 12.48485,
+   "longitude": -69.93988,
+   "familyId": "indo1319"
+  },
+  "para1311": {
+   "name": "Paraguayan Guaraní",
+   "level": "language",
+   "macroarea": "South America",
+   "latitude": -25.60551,
+   "longitude": -57.08816,
+   "familyId": "tupi1275"
+  },
+  "pedi1238": {
+   "name": "Pedi",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -24.7993,
+   "longitude": 29.4718,
+   "familyId": "atla1278"
+  },
+  "penn1240": {
+   "name": "Pennsylvania German",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 40.030507,
+   "longitude": -76.3211,
+   "familyId": "indo1319"
+  },
+  "petu1234": {
+   "name": "Petun-Wyandot",
+   "level": "dialect",
+   "macroarea": "North America",
+   "latitude": 44.33,
+   "longitude": -77.5,
+   "familyId": "iroq1247",
+   "parentLanguageId": "wyan1247"
+  },
+  "pidg1258": {
+   "name": "Pidgin",
+   "level": "family",
+   "macroarea": "Africa;Australia;Eurasia;North America;Papunesia;South America"
+  },
+  "piem1238": {
+   "name": "Piemontese",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 45.4633,
+   "longitude": 8.32366,
+   "familyId": "indo1319"
+  },
+  "pipi1250": {
+   "name": "Pipil",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 13.8931,
+   "longitude": -89.443,
+   "familyId": "utoa1244"
+  },
+  "plat1254": {
+   "name": "Plateau Malagasy",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -19.5907,
+   "longitude": 47.1211,
+   "familyId": "aust1307"
+  },
+  "poli1260": {
+   "name": "Polish",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 51.8439,
+   "longitude": 18.6255,
+   "familyId": "indo1319"
+  },
+  "poma1238": {
+   "name": "Pomak",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 43.3646,
+   "longitude": 25.047,
+   "familyId": "indo1319",
+   "parentLanguageId": "bulg1262"
+  },
+  "port1283": {
+   "name": "Portuguese",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 39.91,
+   "longitude": -8.1,
+   "familyId": "indo1319"
+  },
+  "powa1244": {
+   "name": "Powadhi",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 30.0368,
+   "longitude": 75.6702,
+   "familyId": "indo1319",
+   "parentLanguageId": "panj1256"
+  },
+  "prus1238": {
+   "name": "Old Prussian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 52.394,
+   "longitude": 14.757,
+   "familyId": "indo1319"
+  },
+  "pula1262": {
+   "name": "Pular",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 12.1826,
+   "longitude": -12.7338,
+   "familyId": "atla1278"
+  },
+  "pula1263": {
+   "name": "Pulaar",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 13.8694,
+   "longitude": -13.4482,
+   "familyId": "atla1278"
+  },
+  "puna1275": {
+   "name": "Punan Bah-Biau",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 2.27377,
+   "longitude": 113.156,
+   "familyId": "aust1307"
+  },
+  "puri1258": {
+   "name": "Purik-Sham-Nubra",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 34.3386,
+   "longitude": 76.0127,
+   "familyId": "sino1245"
+  },
+  "queb1247": {
+   "name": "Québécois",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 48,
+   "longitude": 2,
+   "familyId": "indo1319",
+   "parentLanguageId": "stan1290"
+  },
+  "quec1387": {
+   "name": "Quechuan",
+   "level": "family",
+   "macroarea": "South America",
+   "latitude": -8.890636658639423,
+   "longitude": -75.82663489653162
+  },
+  "raro1241": {
+   "name": "Southern Cook Island Maori",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -21.23,
+   "longitude": -159.78,
+   "familyId": "aust1307"
+  },
+  "riop1234": {
+   "name": "Rioplatense Spanish",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 40.4414,
+   "longitude": -1.11788,
+   "familyId": "indo1319",
+   "parentLanguageId": "stan1288"
+  },
+  "rohi1238": {
+   "name": "Rohingya",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 20.833082,
+   "longitude": 92.393968,
+   "familyId": "indo1319"
+  },
+  "roma1326": {
+   "name": "Romansh",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 46.5538,
+   "longitude": 9.92812,
+   "familyId": "indo1319"
+  },
+  "roma1327": {
+   "name": "Romanian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 46.3913,
+   "longitude": 24.2256,
+   "familyId": "indo1319"
+  },
+  "roma1328": {
+   "name": "Romagnol",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 44.2349,
+   "longitude": 11.7189,
+   "familyId": "indo1319"
+  },
+  "russ1255": {
+   "name": "Russian-Tajik Sign Language",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 56,
+   "longitude": 44,
+   "familyId": "sign1238"
+  },
+  "russ1263": {
+   "name": "Russian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 59,
+   "longitude": 50,
+   "familyId": "indo1319"
+  },
+  "rusy1239": {
+   "name": "Rusyn",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 48.7171,
+   "longitude": 22.9579,
+   "familyId": "indo1319"
+  },
+  "rwan1246": {
+   "name": "Rwandan Sign Language",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -1.38553,
+   "longitude": 30.23427,
+   "familyId": "sign1238"
+  },
+  "saaa1241": {
+   "name": "Sa",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -15.9534,
+   "longitude": 168.228,
+   "familyId": "aust1307"
+  },
+  "saca1238": {
+   "name": "Sacapulteco",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 15.274,
+   "longitude": -91.109,
+   "familyId": "maya1287"
+  },
+  "sadr1248": {
+   "name": "Sadri",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 23.6585,
+   "longitude": 84.8114,
+   "familyId": "indo1319"
+  },
+  "saha1256": {
+   "name": "Saharan",
+   "level": "family",
+   "macroarea": "Africa",
+   "latitude": 15.656912375000001,
+   "longitude": 19.389857854166664
+  },
+  "samb1325": {
+   "name": "Sambalpuri",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 21.2233,
+   "longitude": 83.9315,
+   "familyId": "indo1319"
+  },
+  "samo1305": {
+   "name": "Samoan",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -13.92,
+   "longitude": -171.83,
+   "familyId": "aust1307"
+  },
+  "sanj1284": {
+   "name": "Western Tlacolula Valley Zapotec",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 17.0332,
+   "longitude": -96.5967,
+   "familyId": "otom1299"
+  },
+  "sans1269": {
+   "name": "Sanskrit",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 20,
+   "longitude": 77,
+   "familyId": "indo1319"
+  },
+  "sant1410": {
+   "name": "Santali",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 25.0317,
+   "longitude": 87.8185,
+   "familyId": "aust1305"
+  },
+  "sant1432": {
+   "name": "Santiago del Estero Quichua",
+   "level": "language",
+   "macroarea": "South America",
+   "latitude": -27.821,
+   "longitude": -63.2466,
+   "familyId": "quec1387"
+  },
+  "sapo1251": {
+   "name": "Sapo",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 5.69555,
+   "longitude": -8.49229,
+   "familyId": "krua1234"
+  },
+  "sasa1249": {
+   "name": "Sasak",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -8.58349,
+   "longitude": 116.284,
+   "familyId": "aust1307"
+  },
+  "scot1243": {
+   "name": "Scots",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 55.886945,
+   "longitude": -3.710133,
+   "familyId": "indo1319"
+  },
+  "scot1245": {
+   "name": "Scottish Gaelic",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 56.7574,
+   "longitude": -5.24366,
+   "familyId": "indo1319"
+  },
+  "sekp1241": {
+   "name": "Sekpele",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 7.16751,
+   "longitude": 0.5886,
+   "familyId": "atla1278"
+  },
+  "senh1238": {
+   "name": "Senhaja De Srair",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 34.9992,
+   "longitude": -4.51293,
+   "familyId": "afro1255"
+  },
+  "sera1259": {
+   "name": "Saraiki",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 29.5534,
+   "longitude": 71.906,
+   "familyId": "indo1319"
+  },
+  "serb1264": {
+   "name": "Serbian Standard",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 44.3238,
+   "longitude": 21.9192,
+   "familyId": "indo1319",
+   "parentLanguageId": "sout1528"
+  },
+  "sgaw1245": {
+   "name": "S'gaw Karen",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 17.9872,
+   "longitude": 97.7126,
+   "familyId": "sino1245"
+  },
+  "shan1293": {
+   "name": "Shanghainese",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 31.222902,
+   "longitude": 121.475372,
+   "familyId": "sino1245",
+   "parentLanguageId": "wuch1236"
+  },
+  "shin1264": {
+   "name": "Shina",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 34.6515,
+   "longitude": 75.287,
+   "familyId": "indo1319"
+  },
+  "ship1254": {
+   "name": "Shipibo-Conibo",
+   "level": "language",
+   "macroarea": "South America",
+   "latitude": -7.17105,
+   "longitude": -74.8219,
+   "familyId": "pano1259"
+  },
+  "shon1251": {
+   "name": "Shona",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -17.20849,
+   "longitude": 29.75725,
+   "familyId": "atla1278"
+  },
+  "sici1248": {
+   "name": "Sicilian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 37.5735,
+   "longitude": 14.0414,
+   "familyId": "indo1319"
+  },
+  "sign1238": {
+   "name": "Sign Language",
+   "level": "family",
+   "macroarea": "Africa;Australia;Eurasia;North America;Papunesia;South America"
+  },
+  "sile1253": {
+   "name": "Silesian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 50.9656,
+   "longitude": 16.9491,
+   "familyId": "indo1319"
+  },
+  "sind1272": {
+   "name": "Sindhi",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 26,
+   "longitude": 69,
+   "familyId": "indo1319"
+  },
+  "sinh1246": {
+   "name": "Sinhala",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 8,
+   "longitude": 81,
+   "familyId": "indo1319"
+  },
+  "sino1245": {
+   "name": "Sino-Tibetan",
+   "level": "family",
+   "macroarea": "Eurasia",
+   "latitude": 28.197479980927472,
+   "longitude": 97.67902458642129
+  },
+  "siou1252": {
+   "name": "Siouan",
+   "level": "family",
+   "macroarea": "North America",
+   "latitude": 40.7748450698213,
+   "longitude": -92.29160066920396
+  },
+  "sirm1239": {
+   "name": "Sirmauri",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 31.1,
+   "longitude": 77.17,
+   "familyId": "indo1319"
+  },
+  "siwi1239": {
+   "name": "Siwi",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 29.200415,
+   "longitude": 25.519627,
+   "familyId": "afro1255"
+  },
+  "siyi1236": {
+   "name": "Siyi",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 23,
+   "longitude": 113,
+   "familyId": "sino1245",
+   "parentLanguageId": "yuec1235"
+  },
+  "slov1268": {
+   "name": "Slovenian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 46.2543,
+   "longitude": 14.7766,
+   "familyId": "indo1319"
+  },
+  "slov1269": {
+   "name": "Slovak",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 48.545705,
+   "longitude": 18.78479,
+   "familyId": "indo1319"
+  },
+  "soga1242": {
+   "name": "Soga",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 0.40456,
+   "longitude": 33.3942,
+   "familyId": "atla1278"
+  },
+  "soli1239": {
+   "name": "Soli",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -15.5213,
+   "longitude": 28.7934,
+   "familyId": "atla1278"
+  },
+  "soma1255": {
+   "name": "Somali",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 4.778704,
+   "longitude": 45.152856,
+   "familyId": "afro1255"
+  },
+  "song1307": {
+   "name": "Songhay",
+   "level": "family",
+   "macroarea": "Africa",
+   "latitude": 16.661174876606953,
+   "longitude": -0.40664483064927603
+  },
+  "sora1257": {
+   "name": "Sorani",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 35.6539,
+   "longitude": 45.8077,
+   "familyId": "indo1319",
+   "parentLanguageId": "cent1972"
+  },
+  "sout1528": {
+   "name": "Serbian-Croatian-Bosnian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 44.15,
+   "longitude": 18.81,
+   "familyId": "indo1319"
+  },
+  "sout2645": {
+   "name": "Fars Dialects",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 29.746,
+   "longitude": 52.267,
+   "familyId": "indo1319"
+  },
+  "sout2679": {
+   "name": "South Estonian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 57.85,
+   "longitude": 27,
+   "familyId": "ural1272"
+  },
+  "sout2772": {
+   "name": "Southern Daly",
+   "level": "family",
+   "macroarea": "Australia",
+   "latitude": -14.50826,
+   "longitude": 130.46926
+  },
+  "sout2789": {
+   "name": "Central Dagaare",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 10.4226,
+   "longitude": -2.52265,
+   "familyId": "atla1278"
+  },
+  "sout2826": {
+   "name": "Southern Grebo",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 4.47607,
+   "longitude": -7.56872,
+   "familyId": "krua1234"
+  },
+  "sout2991": {
+   "name": "South Bolivian Quechua",
+   "level": "language",
+   "macroarea": "South America",
+   "latitude": -20.9201,
+   "longitude": -66.3331,
+   "familyId": "quec1387"
+  },
+  "sout3000": {
+   "name": "Southwestern Tlaxiaco Mixtec",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 16.9887,
+   "longitude": -97.7974,
+   "familyId": "otom1299"
+  },
+  "span1263": {
+   "name": "Spanish Sign Language",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 40.0314,
+   "longitude": -3.70738,
+   "familyId": "sign1238"
+  },
+  "sran1240": {
+   "name": "Sranan Tongo",
+   "level": "language",
+   "macroarea": "South America",
+   "latitude": 5.83,
+   "longitude": -55.33,
+   "familyId": "indo1319"
+  },
+  "stan1288": {
+   "name": "Spanish",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 40.4414,
+   "longitude": -1.11788,
+   "familyId": "indo1319"
+  },
+  "stan1289": {
+   "name": "Catalan",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 41.453,
+   "longitude": 1.569,
+   "familyId": "indo1319"
+  },
+  "stan1290": {
+   "name": "French",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 48,
+   "longitude": 2,
+   "familyId": "indo1319"
+  },
+  "stan1293": {
+   "name": "English",
+   "level": "language",
+   "macroarea": "Africa;Eurasia;South America",
+   "latitude": 53,
+   "longitude": -1,
+   "familyId": "indo1319"
+  },
+  "stan1295": {
+   "name": "German",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 48.649,
+   "longitude": 12.4676,
+   "familyId": "indo1319"
+  },
+  "stan1318": {
+   "name": "Standard Arabic",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 27.9625,
+   "longitude": 43.8525,
+   "familyId": "afro1255"
+  },
+  "stan1323": {
+   "name": "Standard Lebanese Arabic",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 34.1709,
+   "longitude": 36.0468,
+   "familyId": "afro1255",
+   "parentLanguageId": "nort3139"
+  },
+  "stan1325": {
+   "name": "Standard Latvian",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 57,
+   "longitude": 24,
+   "familyId": "indo1319",
+   "parentLanguageId": "latv1249"
+  },
+  "stin1234": {
+   "name": "Bahasa Indonesia",
+   "level": "dialect",
+   "macroarea": "Papunesia",
+   "latitude": -7.33458,
+   "longitude": 109.716,
+   "familyId": "aust1307",
+   "parentLanguageId": "indo1316"
+  },
+  "subi1246": {
+   "name": "Subiya",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -17.5696,
+   "longitude": 24.8867,
+   "familyId": "atla1278"
+  },
+  "suku1261": {
+   "name": "Sukuma",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -3.16082,
+   "longitude": 32.8765,
+   "familyId": "atla1278"
+  },
+  "sund1252": {
+   "name": "Sundanese",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -6.89708,
+   "longitude": 107.106,
+   "familyId": "aust1307"
+  },
+  "sura1245": {
+   "name": "Surabaya",
+   "level": "dialect",
+   "macroarea": "Papunesia",
+   "latitude": -7.001,
+   "longitude": 109.287,
+   "familyId": "aust1307",
+   "parentLanguageId": "java1254"
+  },
+  "swab1242": {
+   "name": "Swabian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 48.386796,
+   "longitude": 9.987111,
+   "familyId": "indo1319"
+  },
+  "swah1253": {
+   "name": "Swahili",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -8.25605,
+   "longitude": 37.624,
+   "familyId": "atla1278"
+  },
+  "swed1254": {
+   "name": "Swedish",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 59.800634,
+   "longitude": 17.389526,
+   "familyId": "indo1319"
+  },
+  "swis1235": {
+   "name": "Swiss-Italian Sign Language",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 46.3076,
+   "longitude": 8.79111,
+   "familyId": "sign1238"
+  },
+  "swis1240": {
+   "name": "Swiss-German Sign Language",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 47.1069,
+   "longitude": 9.07557,
+   "familyId": "sign1238"
+  },
+  "swis1241": {
+   "name": "Swiss-French Sign Language",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 46.72252,
+   "longitude": 6.78425,
+   "familyId": "sign1238"
+  },
+  "swis1247": {
+   "name": "Central Alemannic",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 47.0516,
+   "longitude": 8.46419,
+   "familyId": "indo1319"
+  },
+  "tach1250": {
+   "name": "Tachelhit",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 29.7854,
+   "longitude": -7.77879,
+   "familyId": "afro1255"
+  },
+  "taik1256": {
+   "name": "Tai-Kadai",
+   "level": "family",
+   "macroarea": "Eurasia",
+   "latitude": 21.870315182800983,
+   "longitude": 107.89775505385055
+  },
+  "taji1245": {
+   "name": "Tajik",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 38.8213,
+   "longitude": 68.5549,
+   "familyId": "indo1319"
+  },
+  "tami1289": {
+   "name": "Tamil",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 10.520219,
+   "longitude": 78.825989,
+   "familyId": "drav1251"
+  },
+  "taok1237": {
+   "name": "Taokas",
+   "level": "dialect",
+   "macroarea": "Papunesia",
+   "latitude": 24.0017,
+   "longitude": 120.585,
+   "familyId": "aust1307",
+   "parentLanguageId": "babu1240"
+  },
+  "tari1263": {
+   "name": "Tarifiyt-Beni-Iznasen-Eastern Middle Atlas Berber",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 34.916974,
+   "longitude": -3.430616,
+   "familyId": "afro1255"
+  },
+  "tata1255": {
+   "name": "Tatar",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 55.79592,
+   "longitude": 49.11577,
+   "familyId": "turk1311"
+  },
+  "tayy1238": {
+   "name": "Tày",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 21.6448,
+   "longitude": 106.167,
+   "familyId": "taik1256"
+  },
+  "telu1262": {
+   "name": "Telugu",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 16.4529,
+   "longitude": 78.7024,
+   "familyId": "drav1251"
+  },
+  "temm1241": {
+   "name": "Tem",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 8.967,
+   "longitude": 1.136,
+   "familyId": "atla1278"
+  },
+  "thai1261": {
+   "name": "Thai",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 14.192,
+   "longitude": 100.671,
+   "familyId": "taik1256"
+  },
+  "tibe1272": {
+   "name": "Tibetan",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 28.3681,
+   "longitude": 90.1872,
+   "familyId": "sino1245"
+  },
+  "tigr1271": {
+   "name": "Tigrinya",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 15.3359,
+   "longitude": 38.9266,
+   "familyId": "afro1255"
+  },
+  "tlin1245": {
+   "name": "Tlingit",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 59.4447,
+   "longitude": -135.29,
+   "familyId": "atha1245"
+  },
+  "toab1237": {
+   "name": "To'abaita",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -8.39233,
+   "longitude": 160.619,
+   "familyId": "aust1307"
+  },
+  "tobi1238": {
+   "name": "Tobian",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": 3.004528,
+   "longitude": 131.171295,
+   "familyId": "aust1307"
+  },
+  "tojo1241": {
+   "name": "Tojolabal",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 16.2572,
+   "longitude": -91.7825,
+   "familyId": "maya1287"
+  },
+  "tokp1240": {
+   "name": "Tok Pisin",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -9.41971,
+   "longitude": 147.303,
+   "familyId": "indo1319"
+  },
+  "tong1325": {
+   "name": "Tonga (Tonga Islands)",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -21.17,
+   "longitude": -175.25,
+   "familyId": "aust1307"
+  },
+  "torr1261": {
+   "name": "Torres Strait-Lockhart River Creole",
+   "level": "language",
+   "macroarea": "Australia",
+   "latitude": -11.066,
+   "longitude": 142.692,
+   "familyId": "indo1319"
+  },
+  "torw1241": {
+   "name": "Torwali",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 35.3101,
+   "longitude": 72.5316,
+   "familyId": "indo1319"
+  },
+  "tosk1239": {
+   "name": "Northern Tosk Albanian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 41,
+   "longitude": 20,
+   "familyId": "indo1319"
+  },
+  "toto1251": {
+   "name": "Totonacan",
+   "level": "family",
+   "macroarea": "North America",
+   "latitude": 20.482810875000002,
+   "longitude": -97.68213245833333
+  },
+  "trie1242": {
+   "name": "Triestine",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 45.503581,
+   "longitude": 12.214167,
+   "familyId": "indo1319",
+   "parentLanguageId": "vene1258"
+  },
+  "tsak1248": {
+   "name": "Tsakonian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 37.1405,
+   "longitude": 22.7341,
+   "familyId": "indo1319"
+  },
+  "tson1249": {
+   "name": "Tsonga",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -23.5754,
+   "longitude": 31.8105,
+   "familyId": "atla1278"
+  },
+  "tulu1258": {
+   "name": "Tulu",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 12.8114,
+   "longitude": 75.2651,
+   "familyId": "drav1251"
+  },
+  "tung1282": {
+   "name": "Tungusic",
+   "level": "family",
+   "macroarea": "Eurasia",
+   "latitude": 49.22572248573526,
+   "longitude": 127.52378684964415
+  },
+  "tuni1252": {
+   "name": "Tunica",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 30.9888,
+   "longitude": -92.5403
+  },
+  "tuni1259": {
+   "name": "Tunisian Arabic",
+   "level": "language",
+   "macroarea": "Africa;Eurasia",
+   "latitude": 33.7966,
+   "longitude": 9.56156,
+   "familyId": "afro1255"
+  },
+  "tupi1275": {
+   "name": "Tupian",
+   "level": "family",
+   "macroarea": "South America",
+   "latitude": -10.120533444535539,
+   "longitude": -59.8234726774861
+  },
+  "turk1304": {
+   "name": "Turkmen",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 37.08719,
+   "longitude": 59.17574,
+   "familyId": "turk1311"
+  },
+  "turk1308": {
+   "name": "Turkana",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 4.30688,
+   "longitude": 35.7101,
+   "familyId": "nilo1247"
+  },
+  "turk1311": {
+   "name": "Turkic",
+   "level": "family",
+   "macroarea": "Eurasia",
+   "latitude": 49.344955933083156,
+   "longitude": 64.80072820688179
+  },
+  "turo1239": {
+   "name": "Turoyo",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 37.2275,
+   "longitude": 42.1451,
+   "familyId": "afro1255"
+  },
+  "tuva1244": {
+   "name": "Tuvalu",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -8.520813,
+   "longitude": 179.198088,
+   "familyId": "aust1307"
+  },
+  "tuvi1240": {
+   "name": "Tuvinian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 51.7,
+   "longitude": 94.36667,
+   "familyId": "turk1311"
+  },
+  "twii1234": {
+   "name": "Twi",
+   "level": "dialect",
+   "macroarea": "Africa",
+   "latitude": 6.34756,
+   "longitude": -1.33254,
+   "familyId": "atla1278",
+   "parentLanguageId": "akan1250"
+  },
+  "uigh1240": {
+   "name": "Uighur",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 43.88,
+   "longitude": 87.38,
+   "familyId": "turk1311"
+  },
+  "ukra1253": {
+   "name": "Ukrainian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 49.796,
+   "longitude": 29.945,
+   "familyId": "indo1319"
+  },
+  "uncl1493": {
+   "name": "Unclassifiable",
+   "level": "family",
+   "macroarea": "Africa;Australia;Eurasia;North America;Papunesia;South America"
+  },
+  "uppe1395": {
+   "name": "Upper Sorbian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 51.2403,
+   "longitude": 14.4098,
+   "familyId": "indo1319"
+  },
+  "urad1239": {
+   "name": "Uradhi",
+   "level": "language",
+   "macroarea": "Australia",
+   "latitude": -12.0679,
+   "longitude": 142.135,
+   "familyId": "book1242"
+  },
+  "ural1272": {
+   "name": "Uralic",
+   "level": "family",
+   "macroarea": "Eurasia",
+   "latitude": 59.50461133886791,
+   "longitude": 43.63839663309835
+  },
+  "urdu1245": {
+   "name": "Urdu",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 25,
+   "longitude": 67,
+   "familyId": "indo1319"
+  },
+  "utoa1244": {
+   "name": "Uto-Aztecan",
+   "level": "family",
+   "macroarea": "North America",
+   "latitude": 30.701589379368123,
+   "longitude": -110.94985150016294
+  },
+  "vaii1241": {
+   "name": "Vai",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 7.05085,
+   "longitude": -11.3262,
+   "familyId": "mand1469"
+  },
+  "vene1258": {
+   "name": "Venetian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 45.503581,
+   "longitude": 12.214167,
+   "familyId": "indo1319"
+  },
+  "veps1250": {
+   "name": "Veps",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 60.3353,
+   "longitude": 34.7865,
+   "familyId": "ural1272"
+  },
+  "viet1252": {
+   "name": "Vietnamese",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 20.681188,
+   "longitude": 105.774071,
+   "familyId": "aust1305"
+  },
+  "vlaa1240": {
+   "name": "Western Flemish",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 51.0754,
+   "longitude": 3.11345,
+   "familyId": "indo1319"
+  },
+  "voro1243": {
+   "name": "Võro",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 57.85,
+   "longitude": 27,
+   "familyId": "ural1272",
+   "parentLanguageId": "sout2679"
+  },
+  "vure1239": {
+   "name": "Vurës",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -13.905677,
+   "longitude": 167.451412,
+   "familyId": "aust1307"
+  },
+  "wakh1245": {
+   "name": "Wakhi",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 37.1768,
+   "longitude": 73.9777,
+   "familyId": "indo1319"
+  },
+  "wall1255": {
+   "name": "Walloon",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 50.2235,
+   "longitude": 5.14509,
+   "familyId": "indo1319"
+  },
+  "wels1247": {
+   "name": "Welsh",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 52,
+   "longitude": -4,
+   "familyId": "indo1319"
+  },
+  "west2354": {
+   "name": "Western Frisian",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 53.143,
+   "longitude": 5.86091,
+   "familyId": "indo1319"
+  },
+  "west2369": {
+   "name": "Western Farsi",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 32.9,
+   "longitude": 53.3,
+   "familyId": "indo1319"
+  },
+  "west2386": {
+   "name": "Western Panjabi",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 30.0948,
+   "longitude": 75.3474,
+   "familyId": "indo1319"
+  },
+  "west2513": {
+   "name": "West Ambae",
+   "level": "language",
+   "macroarea": "Papunesia",
+   "latitude": -15.4281,
+   "longitude": 167.807,
+   "familyId": "aust1307"
+  },
+  "wuch1236": {
+   "name": "Wu Chinese",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 29.8621,
+   "longitude": 119.682,
+   "familyId": "sino1245"
+  },
+  "wyan1247": {
+   "name": "Huron-Wyandot",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 44.33,
+   "longitude": -77.5,
+   "familyId": "iroq1247"
+  },
+  "wymy1235": {
+   "name": "Wymysorys",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 49.91617,
+   "longitude": 19.15195,
+   "familyId": "indo1319"
+  },
+  "yaak1241": {
+   "name": "Yaaku",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 0.46863,
+   "longitude": 37.1008,
+   "familyId": "afro1255"
+  },
+  "yaku1245": {
+   "name": "Sakha",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 61.69744,
+   "longitude": 133.98031,
+   "familyId": "turk1311"
+  },
+  "yank1247": {
+   "name": "Yankunytjatjara",
+   "level": "language",
+   "macroarea": "Australia",
+   "latitude": -26.4064,
+   "longitude": 133.577,
+   "familyId": "pama1250"
+  },
+  "yidi1250": {
+   "name": "Yidiñ",
+   "level": "language",
+   "macroarea": "Australia",
+   "latitude": -17.1332,
+   "longitude": 145.876,
+   "familyId": "pama1250"
+  },
+  "yona1241": {
+   "name": "Yonaguni",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 24.44997,
+   "longitude": 122.99075,
+   "familyId": "japo1237"
+  },
+  "yoru1245": {
+   "name": "Yoruba",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 7.15345,
+   "longitude": 3.67225,
+   "familyId": "atla1278"
+  },
+  "yuca1254": {
+   "name": "Yucatec Maya",
+   "level": "language",
+   "macroarea": "North America",
+   "latitude": 18.7757,
+   "longitude": -88.9567,
+   "familyId": "maya1287"
+  },
+  "yuec1235": {
+   "name": "Yue Chinese",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 23,
+   "longitude": 113,
+   "familyId": "sino1245"
+  },
+  "yugo1238": {
+   "name": "Yugoslavian Sign Language",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 45.3912,
+   "longitude": 17.5193,
+   "familyId": "sign1238"
+  },
+  "zamb1239": {
+   "name": "Zambian Sign Language",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -15.5134,
+   "longitude": 28.9898,
+   "familyId": "sign1238"
+  },
+  "zamu1243": {
+   "name": "Zamucoan",
+   "level": "family",
+   "macroarea": "South America",
+   "latitude": -19.82757475,
+   "longitude": -59.014548250000004
+  },
+  "zarm1239": {
+   "name": "Zarma-Kaado",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 12.8554,
+   "longitude": 2.41173,
+   "familyId": "song1307"
+  },
+  "zeeu1238": {
+   "name": "Zeeuws",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 51.4981,
+   "longitude": 3.85428,
+   "familyId": "indo1319"
+  },
+  "zouu1235": {
+   "name": "Zou",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 24.0649,
+   "longitude": 93.9253,
+   "familyId": "sino1245"
+  },
+  "zulu1248": {
+   "name": "Zulu",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": -28.9,
+   "longitude": 30.2,
+   "familyId": "atla1278"
+  }
+ },
+ "iana": {
+  "fileDate": "2026-09-17",
+  "language": {
+   "aae": {
+    "description": "Arbëreshë Albanian",
+    "macrolanguage": "sq"
+   },
+   "abs": {
+    "description": "Ambonese Malay"
+   },
+   "ace": {
+    "description": "Achinese"
+   },
+   "ach": {
+    "description": "Acoli"
+   },
+   "acm": {
+    "description": "Mesopotamian Arabic",
+    "macrolanguage": "ar"
+   },
+   "ady": {
+    "description": "Adyghe; Adygei"
+   },
+   "aeb": {
+    "description": "Tunisian Arabic",
+    "macrolanguage": "ar"
+   },
+   "aed": {
+    "description": "Argentine Sign Language"
+   },
+   "af": {
+    "description": "Afrikaans",
+    "suppressScript": "Latn"
+   },
+   "aii": {
+    "description": "Assyrian Neo-Aramaic",
+    "macrolanguage": "syr"
+   },
+   "ain": {
+    "description": "Ainu (Japan)"
+   },
+   "aln": {
+    "description": "Gheg Albanian",
+    "macrolanguage": "sq"
+   },
+   "als": {
+    "description": "Tosk Albanian",
+    "macrolanguage": "sq"
+   },
+   "am": {
+    "description": "Amharic",
+    "suppressScript": "Ethi"
+   },
+   "ami": {
+    "description": "Amis"
+   },
+   "an": {
+    "description": "Aragonese"
+   },
+   "apc": {
+    "description": "Levantine Arabic",
+    "macrolanguage": "ar"
+   },
+   "arb": {
+    "description": "Standard Arabic",
+    "macrolanguage": "ar"
+   },
+   "arn": {
+    "description": "Mapudungun; Mapuche"
+   },
+   "arq": {
+    "description": "Algerian Arabic",
+    "macrolanguage": "ar"
+   },
+   "ary": {
+    "description": "Moroccan Arabic",
+    "macrolanguage": "ar"
+   },
+   "arz": {
+    "description": "Egyptian Arabic",
+    "macrolanguage": "ar"
+   },
+   "as": {
+    "description": "Assamese",
+    "suppressScript": "Beng"
+   },
+   "ast": {
+    "description": "Asturian; Asturleonese; Bable; Leonese"
+   },
+   "av": {
+    "description": "Avaric"
+   },
+   "ayr": {
+    "description": "Central Aymara",
+    "macrolanguage": "ay"
+   },
+   "azj": {
+    "description": "North Azerbaijani",
+    "macrolanguage": "az"
+   },
+   "ban": {
+    "description": "Balinese"
+   },
+   "bar": {
+    "description": "Bavarian"
+   },
+   "bba": {
+    "description": "Baatonum"
+   },
+   "bbc": {
+    "description": "Batak Toba"
+   },
+   "bcl": {
+    "description": "Central Bikol",
+    "macrolanguage": "bik"
+   },
+   "bdy": {
+    "description": "Bandjalang"
+   },
+   "be": {
+    "description": "Belarusian",
+    "suppressScript": "Cyrl"
+   },
+   "bei": {
+    "description": "Bekati'"
+   },
+   "bem": {
+    "description": "Bemba (Zambia)"
+   },
+   "bfr": {
+    "description": "Bazigar"
+   },
+   "bft": {
+    "description": "Balti"
+   },
+   "bfz": {
+    "description": "Mahasu Pahari"
+   },
+   "bg": {
+    "description": "Bulgarian",
+    "suppressScript": "Cyrl"
+   },
+   "bgc": {
+    "description": "Haryanvi"
+   },
+   "bgp": {
+    "description": "Eastern Balochi",
+    "macrolanguage": "bal"
+   },
+   "bgq": {
+    "description": "Bagri",
+    "macrolanguage": "raj"
+   },
+   "bgx": {
+    "description": "Balkan Gagauz Turkish"
+   },
+   "bho": {
+    "description": "Bhojpuri"
+   },
+   "bhv": {
+    "description": "Bahau"
+   },
+   "bi": {
+    "description": "Bislama"
+   },
+   "bjn": {
+    "description": "Banjar",
+    "macrolanguage": "ms"
+   },
+   "blz": {
+    "description": "Balantak"
+   },
+   "bn": {
+    "description": "Bengali; Bangla",
+    "suppressScript": "Beng"
+   },
+   "bo": {
+    "description": "Tibetan"
+   },
+   "bpa": {
+    "description": "Daakaka"
+   },
+   "bqg": {
+    "description": "Bago-Kusuntu"
+   },
+   "bqi": {
+    "description": "Bakhtiari"
+   },
+   "bqy": {
+    "description": "Bengkala Sign Language"
+   },
+   "br": {
+    "description": "Breton"
+   },
+   "bs": {
+    "description": "Bosnian",
+    "suppressScript": "Latn",
+    "macrolanguage": "sh"
+   },
+   "bsq": {
+    "description": "Bassa"
+   },
+   "btm": {
+    "description": "Batak Mandailing"
+   },
+   "bug": {
+    "description": "Buginese"
+   },
+   "bwg": {
+    "description": "Barwe"
+   },
+   "byd": {
+    "description": "Benyadu'"
+   },
+   "bzg": {
+    "description": "Babuza"
+   },
+   "bzs": {
+    "description": "Brazilian Sign Language"
+   },
+   "ca": {
+    "description": "Catalan; Valencian",
+    "suppressScript": "Latn"
+   },
+   "cab": {
+    "description": "Garifuna"
+   },
+   "cak": {
+    "description": "Kaqchikel; Cakchiquel"
+   },
+   "caq": {
+    "description": "Car Nicobarese"
+   },
+   "cbk": {
+    "description": "Chavacano"
+   },
+   "ce": {
+    "description": "Chechen"
+   },
+   "ceb": {
+    "description": "Cebuano"
+   },
+   "ceg": {
+    "description": "Chamacoco"
+   },
+   "cfm": {
+    "description": "Falam Chin"
+   },
+   "cgg": {
+    "description": "Chiga"
+   },
+   "chr": {
+    "description": "Cherokee"
+   },
+   "chw": {
+    "description": "Chuwabu"
+   },
+   "cia": {
+    "description": "Cia-Cia"
+   },
+   "cim": {
+    "description": "Cimbrian"
+   },
+   "ciw": {
+    "description": "Chippewa",
+    "macrolanguage": "oj"
+   },
+   "ckb": {
+    "description": "Central Kurdish",
+    "macrolanguage": "ku"
+   },
+   "ckt": {
+    "description": "Chukot"
+   },
+   "cld": {
+    "description": "Chaldean Neo-Aramaic",
+    "macrolanguage": "syr"
+   },
+   "cls": {
+    "description": "Classical Sanskrit",
+    "macrolanguage": "sa"
+   },
+   "cmn": {
+    "description": "Mandarin Chinese",
+    "macrolanguage": "zh"
+   },
+   "cns": {
+    "description": "Central Asmat"
+   },
+   "co": {
+    "description": "Corsican"
+   },
+   "cod": {
+    "description": "Cocama-Cocamilla"
+   },
+   "crh": {
+    "description": "Crimean Tatar; Crimean Turkish"
+   },
+   "cro": {
+    "description": "Crow"
+   },
+   "cs": {
+    "description": "Czech",
+    "suppressScript": "Latn"
+   },
+   "csq": {
+    "description": "Croatia Sign Language"
+   },
+   "cy": {
+    "description": "Welsh",
+    "suppressScript": "Latn"
+   },
+   "da": {
+    "description": "Danish",
+    "suppressScript": "Latn"
+   },
+   "dag": {
+    "description": "Dagbani"
+   },
+   "de": {
+    "description": "German",
+    "suppressScript": "Latn"
+   },
+   "dga": {
+    "description": "Southern Dagaare"
+   },
+   "dhv": {
+    "description": "Dehu; Drehu"
+   },
+   "diq": {
+    "description": "Dimli (individual language)",
+    "macrolanguage": "zza"
+   },
+   "dje": {
+    "description": "Zarma"
+   },
+   "dnj": {
+    "description": "Dan"
+   },
+   "dse": {
+    "description": "Dutch Sign Language"
+   },
+   "dsl": {
+    "description": "Danish Sign Language"
+   },
+   "dty": {
+    "description": "Dotyali",
+    "macrolanguage": "ne"
+   },
+   "dyu": {
+    "description": "Dyula"
+   },
+   "egl": {
+    "description": "Emilian"
+   },
+   "ekk": {
+    "description": "Standard Estonian",
+    "macrolanguage": "et"
+   },
+   "ekp": {
+    "description": "Ekpeye"
+   },
+   "el": {
+    "description": "Modern Greek (1453-)",
+    "suppressScript": "Grek"
+   },
+   "emk": {
+    "description": "Eastern Maninkakan",
+    "macrolanguage": "man"
+   },
+   "en": {
+    "description": "English",
+    "suppressScript": "Latn"
+   },
+   "eno": {
+    "description": "Enggano"
+   },
+   "eo": {
+    "description": "Esperanto",
+    "suppressScript": "Latn"
+   },
+   "es": {
+    "description": "Spanish; Castilian",
+    "suppressScript": "Latn"
+   },
+   "esg": {
+    "description": "Aheri Gondi",
+    "macrolanguage": "gon"
+   },
+   "eu": {
+    "description": "Basque",
+    "suppressScript": "Latn"
+   },
+   "eve": {
+    "description": "Even"
+   },
+   "ewo": {
+    "description": "Ewondo"
+   },
+   "ext": {
+    "description": "Extremaduran"
+   },
+   "far": {
+    "description": "Fataleka"
+   },
+   "fat": {
+    "description": "Fanti",
+    "macrolanguage": "ak"
+   },
+   "fi": {
+    "description": "Finnish",
+    "suppressScript": "Latn"
+   },
+   "fil": {
+    "description": "Filipino; Pilipino"
+   },
+   "fj": {
+    "description": "Fijian",
+    "suppressScript": "Latn"
+   },
+   "fon": {
+    "description": "Fon"
+   },
+   "fr": {
+    "description": "French",
+    "suppressScript": "Latn"
+   },
+   "frc": {
+    "description": "Cajun French"
+   },
+   "frr": {
+    "description": "Northern Frisian",
+    "suppressScript": "Latn"
+   },
+   "frs": {
+    "description": "Eastern Frisian",
+    "suppressScript": "Latn"
+   },
+   "fse": {
+    "description": "Finnish Sign Language"
+   },
+   "fss": {
+    "description": "Finland-Swedish Sign Language; finlandssvenskt teckenspråk; suomenruotsalainen viittomakieli"
+   },
+   "fub": {
+    "description": "Adamawa Fulfulde",
+    "macrolanguage": "ff"
+   },
+   "fuc": {
+    "description": "Pulaar",
+    "macrolanguage": "ff"
+   },
+   "fuf": {
+    "description": "Pular",
+    "macrolanguage": "ff"
+   },
+   "fur": {
+    "description": "Friulian"
+   },
+   "fy": {
+    "description": "Western Frisian",
+    "suppressScript": "Latn"
+   },
+   "ga": {
+    "description": "Irish",
+    "suppressScript": "Latn"
+   },
+   "gaa": {
+    "description": "Ga"
+   },
+   "gan": {
+    "description": "Gan Chinese",
+    "macrolanguage": "zh"
+   },
+   "gbm": {
+    "description": "Garhwali"
+   },
+   "gbx": {
+    "description": "Eastern Xwla Gbe"
+   },
+   "gcf": {
+    "description": "Guadeloupean Creole French"
+   },
+   "gd": {
+    "description": "Scottish Gaelic; Gaelic"
+   },
+   "gjn": {
+    "description": "Gonja"
+   },
+   "gl": {
+    "description": "Galician",
+    "suppressScript": "Latn"
+   },
+   "gos": {
+    "description": "Gronings"
+   },
+   "grj": {
+    "description": "Southern Grebo",
+    "macrolanguage": "grb"
+   },
+   "gsw": {
+    "description": "Swiss German; Alemannic; Alsatian",
+    "suppressScript": "Latn"
+   },
+   "gu": {
+    "description": "Gujarati",
+    "suppressScript": "Gujr"
+   },
+   "gug": {
+    "description": "Paraguayan Guaraní",
+    "macrolanguage": "gn"
+   },
+   "gul": {
+    "description": "Sea Island Creole English"
+   },
+   "gum": {
+    "description": "Guambiano"
+   },
+   "guw": {
+    "description": "Gun"
+   },
+   "gv": {
+    "description": "Manx",
+    "suppressScript": "Latn"
+   },
+   "gwi": {
+    "description": "Gwichʼin"
+   },
+   "gwr": {
+    "description": "Gwere"
+   },
+   "gyn": {
+    "description": "Guyanese Creole English"
+   },
+   "ha": {
+    "description": "Hausa"
+   },
+   "hak": {
+    "description": "Hakka Chinese",
+    "macrolanguage": "zh"
+   },
+   "haw": {
+    "description": "Hawaiian"
+   },
+   "he": {
+    "description": "Hebrew",
+    "suppressScript": "Hebr"
+   },
+   "hi": {
+    "description": "Hindi",
+    "suppressScript": "Deva"
+   },
+   "hil": {
+    "description": "Hiligaynon"
+   },
+   "hke": {
+    "description": "Hunde"
+   },
+   "hks": {
+    "description": "Hong Kong Sign Language; Heung Kong Sau Yue"
+   },
+   "hno": {
+    "description": "Northern Hindko",
+    "macrolanguage": "lah"
+   },
+   "hr": {
+    "description": "Croatian",
+    "suppressScript": "Latn",
+    "macrolanguage": "sh"
+   },
+   "hsb": {
+    "description": "Upper Sorbian",
+    "suppressScript": "Latn"
+   },
+   "ht": {
+    "description": "Haitian; Haitian Creole",
+    "suppressScript": "Latn"
+   },
+   "hu": {
+    "description": "Hungarian",
+    "suppressScript": "Latn"
+   },
+   "hui": {
+    "description": "Huli"
+   },
+   "hus": {
+    "description": "Huastec"
+   },
+   "hy": {
+    "description": "Armenian",
+    "suppressScript": "Armn"
+   },
+   "hz": {
+    "description": "Herero"
+   },
+   "iba": {
+    "description": "Iban"
+   },
+   "ibb": {
+    "description": "Ibibio"
+   },
+   "id": {
+    "description": "Indonesian",
+    "suppressScript": "Latn",
+    "macrolanguage": "ms"
+   },
+   "ig": {
+    "description": "Igbo"
+   },
+   "ilb": {
+    "description": "Ila"
+   },
+   "ilo": {
+    "description": "Iloko"
+   },
+   "ins": {
+    "description": "Indian Sign Language"
+   },
+   "irk": {
+    "description": "Iraqw"
+   },
+   "is": {
+    "description": "Icelandic",
+    "suppressScript": "Latn"
+   },
+   "it": {
+    "description": "Italian",
+    "suppressScript": "Latn"
+   },
+   "ja": {
+    "description": "Japanese",
+    "suppressScript": "Jpan"
+   },
+   "jam": {
+    "description": "Jamaican Creole English"
+   },
+   "jbn": {
+    "description": "Nafusi"
+   },
+   "jbo": {
+    "description": "Lojban"
+   },
+   "jdt": {
+    "description": "Judeo-Tat"
+   },
+   "jje": {
+    "description": "Jejueo"
+   },
+   "jpr": {
+    "description": "Judeo-Persian"
+   },
+   "jv": {
+    "description": "Javanese"
+   },
+   "ka": {
+    "description": "Georgian",
+    "suppressScript": "Geor"
+   },
+   "kab": {
+    "description": "Kabyle"
+   },
+   "kam": {
+    "description": "Kamba (Kenya)"
+   },
+   "kbp": {
+    "description": "Kabiyè"
+   },
+   "kdd": {
+    "description": "Yankunytjatjara"
+   },
+   "kdh": {
+    "description": "Tem"
+   },
+   "kdk": {
+    "description": "Numèè; Kwényi"
+   },
+   "kea": {
+    "description": "Kabuverdianu"
+   },
+   "kek": {
+    "description": "Kekchí"
+   },
+   "kfy": {
+    "description": "Kumaoni"
+   },
+   "khk": {
+    "description": "Halh Mongolian",
+    "macrolanguage": "mn"
+   },
+   "khr": {
+    "description": "Kharia"
+   },
+   "khz": {
+    "description": "Keapara"
+   },
+   "ki": {
+    "description": "Kikuyu; Gikuyu"
+   },
+   "kj": {
+    "description": "Kuanyama; Kwanyama"
+   },
+   "kjg": {
+    "description": "Khmu"
+   },
+   "kk": {
+    "description": "Kazakh",
+    "suppressScript": "Cyrl"
+   },
+   "kl": {
+    "description": "Kalaallisut; Greenlandic",
+    "suppressScript": "Latn"
+   },
+   "klu": {
+    "description": "Klao"
+   },
+   "km": {
+    "description": "Khmer; Central Khmer",
+    "suppressScript": "Khmr"
+   },
+   "kmb": {
+    "description": "Kimbundu"
+   },
+   "kmr": {
+    "description": "Northern Kurdish",
+    "macrolanguage": "ku"
+   },
+   "kn": {
+    "description": "Kannada",
+    "suppressScript": "Knda"
+   },
+   "knc": {
+    "description": "Central Kanuri",
+    "macrolanguage": "kr"
+   },
+   "knn": {
+    "description": "Konkani (individual language)",
+    "macrolanguage": "kok"
+   },
+   "ko": {
+    "description": "Korean",
+    "suppressScript": "Kore"
+   },
+   "kqo": {
+    "description": "Eastern Krahn"
+   },
+   "krc": {
+    "description": "Karachay-Balkar"
+   },
+   "kri": {
+    "description": "Krio"
+   },
+   "krn": {
+    "description": "Sapo"
+   },
+   "kru": {
+    "description": "Kurukh"
+   },
+   "kry": {
+    "description": "Kryts"
+   },
+   "ks": {
+    "description": "Kashmiri"
+   },
+   "ksw": {
+    "description": "S'gaw Karen"
+   },
+   "ktg": {
+    "description": "Kalkutung"
+   },
+   "ktz": {
+    "description": "Juǀʼhoan; Juǀʼhoansi"
+   },
+   "kw": {
+    "description": "Cornish"
+   },
+   "ky": {
+    "description": "Kirghiz; Kyrgyz"
+   },
+   "la": {
+    "description": "Latin",
+    "suppressScript": "Latn"
+   },
+   "lac": {
+    "description": "Lacandon"
+   },
+   "lad": {
+    "description": "Ladino"
+   },
+   "lb": {
+    "description": "Luxembourgish; Letzeburgesch",
+    "suppressScript": "Latn"
+   },
+   "lbj": {
+    "description": "Ladakhi"
+   },
+   "lea": {
+    "description": "Lega-Shabunda"
+   },
+   "lg": {
+    "description": "Ganda; Luganda"
+   },
+   "lgk": {
+    "description": "Lingarak; Neverver"
+   },
+   "lht": {
+    "description": "Lo-Toga"
+   },
+   "li": {
+    "description": "Limburgan; Limburger; Limburgish"
+   },
+   "lij": {
+    "description": "Ligurian"
+   },
+   "lip": {
+    "description": "Sekpele"
+   },
+   "lir": {
+    "description": "Liberian English"
+   },
+   "lkt": {
+    "description": "Lakota"
+   },
+   "lld": {
+    "description": "Ladin"
+   },
+   "llp": {
+    "description": "North Efate"
+   },
+   "llu": {
+    "description": "Lau"
+   },
+   "lmo": {
+    "description": "Lombard"
+   },
+   "lo": {
+    "description": "Lao",
+    "suppressScript": "Laoo"
+   },
+   "lom": {
+    "description": "Loma (Liberia)"
+   },
+   "lou": {
+    "description": "Louisiana Creole"
+   },
+   "loz": {
+    "description": "Lozi"
+   },
+   "lrz": {
+    "description": "Lemerig"
+   },
+   "lsl": {
+    "description": "Latvian Sign Language"
+   },
+   "lt": {
+    "description": "Lithuanian",
+    "suppressScript": "Latn"
+   },
+   "luo": {
+    "description": "Luo (Kenya and Tanzania); Dholuo"
+   },
+   "lvs": {
+    "description": "Standard Latvian",
+    "macrolanguage": "lv"
+   },
+   "lzz": {
+    "description": "Laz"
+   },
+   "mas": {
+    "description": "Masai"
+   },
+   "mcm": {
+    "description": "Malaccan Creole Portuguese"
+   },
+   "mdl": {
+    "description": "Maltese Sign Language"
+   },
+   "meh": {
+    "description": "Southwestern Tlaxiaco Mixtec"
+   },
+   "mek": {
+    "description": "Mekeo"
+   },
+   "mev": {
+    "description": "Mano"
+   },
+   "mey": {
+    "description": "Hassaniyya"
+   },
+   "mfe": {
+    "description": "Morisyen"
+   },
+   "mgr": {
+    "description": "Mambwe-Lungu"
+   },
+   "mi": {
+    "description": "Maori"
+   },
+   "mid": {
+    "description": "Mandaic"
+   },
+   "min": {
+    "description": "Minangkabau",
+    "macrolanguage": "ms"
+   },
+   "mjw": {
+    "description": "Karbi"
+   },
+   "mk": {
+    "description": "Macedonian",
+    "suppressScript": "Cyrl"
+   },
+   "mkn": {
+    "description": "Kupang Malay"
+   },
+   "ml": {
+    "description": "Malayalam",
+    "suppressScript": "Mlym"
+   },
+   "mlu": {
+    "description": "To'abaita"
+   },
+   "mlv": {
+    "description": "Motlav; Mwotlap"
+   },
+   "mnc": {
+    "description": "Manchu"
+   },
+   "mnk": {
+    "description": "Mandinka",
+    "macrolanguage": "man"
+   },
+   "mos": {
+    "description": "Mossi"
+   },
+   "mqx": {
+    "description": "Mamuju"
+   },
+   "mqy": {
+    "description": "Manggarai"
+   },
+   "mr": {
+    "description": "Marathi",
+    "suppressScript": "Deva"
+   },
+   "msn": {
+    "description": "Vurës"
+   },
+   "mt": {
+    "description": "Maltese",
+    "suppressScript": "Latn"
+   },
+   "mui": {
+    "description": "Musi",
+    "macrolanguage": "ms"
+   },
+   "muu": {
+    "description": "Yaaku"
+   },
+   "mvi": {
+    "description": "Miyako"
+   },
+   "mwf": {
+    "description": "Murrinh-Patha"
+   },
+   "mwl": {
+    "description": "Mirandese"
+   },
+   "my": {
+    "description": "Burmese",
+    "suppressScript": "Mymr"
+   },
+   "myv": {
+    "description": "Erzya"
+   },
+   "myz": {
+    "description": "Classical Mandaic"
+   },
+   "mzn": {
+    "description": "Mazanderani"
+   },
+   "na": {
+    "description": "Nauru",
+    "suppressScript": "Latn"
+   },
+   "nan": {
+    "description": "Min Nan Chinese",
+    "macrolanguage": "zh"
+   },
+   "nap": {
+    "description": "Neapolitan"
+   },
+   "naq": {
+    "description": "Khoekhoe; Nama (Namibia)"
+   },
+   "nb": {
+    "description": "Norwegian Bokmål",
+    "suppressScript": "Latn",
+    "macrolanguage": "no"
+   },
+   "nbs": {
+    "description": "Namibian Sign Language"
+   },
+   "nds": {
+    "description": "Low German; Low Saxon",
+    "suppressScript": "Latn"
+   },
+   "new": {
+    "description": "Nepal Bhasa; Newar; Newari"
+   },
+   "nhe": {
+    "description": "Eastern Huasteca Nahuatl"
+   },
+   "nhn": {
+    "description": "Central Nahuatl"
+   },
+   "nia": {
+    "description": "Nias"
+   },
+   "nkb": {
+    "description": "Khoibu Naga"
+   },
+   "nl": {
+    "description": "Dutch; Flemish",
+    "suppressScript": "Latn"
+   },
+   "nmk": {
+    "description": "Namakura"
+   },
+   "nnd": {
+    "description": "West Ambae"
+   },
+   "npi": {
+    "description": "Nepali (individual language)",
+    "macrolanguage": "ne"
+   },
+   "nrf": {
+    "description": "Jèrriais; Guernésiais; Sercquiais"
+   },
+   "nse": {
+    "description": "Nsenga"
+   },
+   "nso": {
+    "description": "Pedi; Northern Sotho; Sepedi",
+    "suppressScript": "Latn"
+   },
+   "ntu": {
+    "description": "Natügu"
+   },
+   "num": {
+    "description": "Niuafo'ou"
+   },
+   "nv": {
+    "description": "Navajo; Navaho"
+   },
+   "ny": {
+    "description": "Chichewa; Chewa; Nyanja",
+    "suppressScript": "Latn"
+   },
+   "nyf": {
+    "description": "Giryama; Kigiryama"
+   },
+   "nyg": {
+    "description": "Nyindu"
+   },
+   "nys": {
+    "description": "Nyungar"
+   },
+   "oc": {
+    "description": "Occitan (post 1500)"
+   },
+   "omb": {
+    "description": "East Ambae"
+   },
+   "ory": {
+    "description": "Odia (individual language); Oriya (individual language)",
+    "macrolanguage": "or"
+   },
+   "os": {
+    "description": "Iron Ossetic; Iron; Iron Ossetian; Ossetian; Ossetic"
+   },
+   "osi": {
+    "description": "Osing"
+   },
+   "ote": {
+    "description": "Mezquital Otomi"
+   },
+   "pa": {
+    "description": "Panjabi; Punjabi",
+    "suppressScript": "Guru"
+   },
+   "pam": {
+    "description": "Pampanga; Kapampangan"
+   },
+   "pap": {
+    "description": "Papiamento"
+   },
+   "pau": {
+    "description": "Palauan"
+   },
+   "pbu": {
+    "description": "Northern Pashto",
+    "macrolanguage": "ps"
+   },
+   "pcm": {
+    "description": "Nigerian Pidgin"
+   },
+   "pdc": {
+    "description": "Pennsylvania German"
+   },
+   "pes": {
+    "description": "Iranian Persian",
+    "macrolanguage": "fa"
+   },
+   "pl": {
+    "description": "Polish",
+    "suppressScript": "Latn"
+   },
+   "plt": {
+    "description": "Plateau Malagasy",
+    "macrolanguage": "mg"
+   },
+   "pms": {
+    "description": "Piemontese"
+   },
+   "pna": {
+    "description": "Punan Bah-Biau"
+   },
+   "pnb": {
+    "description": "Western Panjabi",
+    "macrolanguage": "lah"
+   },
+   "ppi": {
+    "description": "Paipai"
+   },
+   "ppl": {
+    "description": "Pipil; Nicarao"
+   },
+   "prg": {
+    "description": "Prussian"
+   },
+   "prs": {
+    "description": "Dari; Afghan Persian",
+    "macrolanguage": "fa"
+   },
+   "prx": {
+    "description": "Purik"
+   },
+   "pt": {
+    "description": "Portuguese",
+    "suppressScript": "Latn"
+   },
+   "quc": {
+    "description": "K'iche'; Quiché"
+   },
+   "quh": {
+    "description": "South Bolivian Quechua",
+    "macrolanguage": "qu"
+   },
+   "qus": {
+    "description": "Santiago del Estero Quichua",
+    "macrolanguage": "qu"
+   },
+   "quv": {
+    "description": "Sacapulteco"
+   },
+   "quz": {
+    "description": "Cusco Quechua",
+    "macrolanguage": "qu"
+   },
+   "qvi": {
+    "description": "Imbabura Highland Quichua",
+    "macrolanguage": "qu"
+   },
+   "rar": {
+    "description": "Rarotongan; Cook Islands Maori"
+   },
+   "rgn": {
+    "description": "Romagnol"
+   },
+   "rhg": {
+    "description": "Rohingya"
+   },
+   "rif": {
+    "description": "Tarifit"
+   },
+   "rm": {
+    "description": "Romansh",
+    "suppressScript": "Latn"
+   },
+   "rmn": {
+    "description": "Balkan Romani",
+    "macrolanguage": "rom"
+   },
+   "ro": {
+    "description": "Romanian; Moldavian; Moldovan",
+    "suppressScript": "Latn"
+   },
+   "row": {
+    "description": "Dela-Oenale"
+   },
+   "rsk": {
+    "description": "Ruthenian; Rusnak"
+   },
+   "rsl": {
+    "description": "Russian Sign Language"
+   },
+   "rsn": {
+    "description": "Rwandan Sign Language"
+   },
+   "ru": {
+    "description": "Russian",
+    "suppressScript": "Cyrl"
+   },
+   "rup": {
+    "description": "Macedo-Romanian; Aromanian; Arumanian"
+   },
+   "rw": {
+    "description": "Kinyarwanda",
+    "suppressScript": "Latn"
+   },
+   "rwr": {
+    "description": "Marwari (India)",
+    "macrolanguage": "mwr"
+   },
+   "ryu": {
+    "description": "Central Okinawan"
+   },
+   "sah": {
+    "description": "Yakut"
+   },
+   "sas": {
+    "description": "Sasak"
+   },
+   "sat": {
+    "description": "Santali"
+   },
+   "sax": {
+    "description": "Sa"
+   },
+   "sbs": {
+    "description": "Subiya"
+   },
+   "sby": {
+    "description": "Soli"
+   },
+   "sck": {
+    "description": "Sadri"
+   },
+   "scl": {
+    "description": "Shina"
+   },
+   "scn": {
+    "description": "Sicilian"
+   },
+   "sco": {
+    "description": "Scots"
+   },
+   "sd": {
+    "description": "Sindhi"
+   },
+   "se": {
+    "description": "Northern Sami"
+   },
+   "sef": {
+    "description": "Cebaara Senoufo"
+   },
+   "seh": {
+    "description": "Sena"
+   },
+   "sev": {
+    "description": "Nyarafolo Senoufo"
+   },
+   "sgg": {
+    "description": "Swiss-German Sign Language"
+   },
+   "shi": {
+    "description": "Tachelhit"
+   },
+   "shp": {
+    "description": "Shipibo-Conibo"
+   },
+   "si": {
+    "description": "Sinhala; Sinhalese",
+    "suppressScript": "Sinh"
+   },
+   "siz": {
+    "description": "Siwi"
+   },
+   "sjd": {
+    "description": "Kildin Sami"
+   },
+   "sjs": {
+    "description": "Senhaja De Srair"
+   },
+   "sk": {
+    "description": "Slovak",
+    "suppressScript": "Latn"
+   },
+   "skr": {
+    "description": "Saraiki; Seraiki",
+    "macrolanguage": "lah"
+   },
+   "sl": {
+    "description": "Slovenian",
+    "suppressScript": "Latn"
+   },
+   "slf": {
+    "description": "Swiss-Italian Sign Language"
+   },
+   "sm": {
+    "description": "Samoan",
+    "suppressScript": "Latn"
+   },
+   "smj": {
+    "description": "Lule Sami"
+   },
+   "sn": {
+    "description": "Shona"
+   },
+   "so": {
+    "description": "Somali",
+    "suppressScript": "Latn"
+   },
+   "spv": {
+    "description": "Sambalpuri; Kosli",
+    "macrolanguage": "or"
+   },
+   "sr": {
+    "description": "Serbian",
+    "macrolanguage": "sh"
+   },
+   "src": {
+    "description": "Logudorese Sardinian",
+    "macrolanguage": "sc"
+   },
+   "srn": {
+    "description": "Sranan Tongo"
+   },
+   "sro": {
+    "description": "Campidanese Sardinian",
+    "macrolanguage": "sc"
+   },
+   "srx": {
+    "description": "Sirmauri"
+   },
+   "ssp": {
+    "description": "Spanish Sign Language"
+   },
+   "ssr": {
+    "description": "Swiss-French Sign Language"
+   },
+   "su": {
+    "description": "Sundanese"
+   },
+   "suk": {
+    "description": "Sukuma"
+   },
+   "sv": {
+    "description": "Swedish",
+    "suppressScript": "Latn"
+   },
+   "swg": {
+    "description": "Swabian"
+   },
+   "swh": {
+    "description": "Swahili (individual language); Kiswahili",
+    "macrolanguage": "sw"
+   },
+   "syc": {
+    "description": "Classical Syriac"
+   },
+   "szl": {
+    "description": "Silesian"
+   },
+   "ta": {
+    "description": "Tamil",
+    "suppressScript": "Taml"
+   },
+   "taj": {
+    "description": "Eastern Tamang"
+   },
+   "tcs": {
+    "description": "Torres Strait Creole; Yumplatok"
+   },
+   "tcy": {
+    "description": "Tulu"
+   },
+   "te": {
+    "description": "Telugu",
+    "suppressScript": "Telu"
+   },
+   "tg": {
+    "description": "Tajik"
+   },
+   "tgs": {
+    "description": "Nume"
+   },
+   "th": {
+    "description": "Thai",
+    "suppressScript": "Thai"
+   },
+   "thq": {
+    "description": "Kochila Tharu"
+   },
+   "ti": {
+    "description": "Tigrinya",
+    "suppressScript": "Ethi"
+   },
+   "tk": {
+    "description": "Turkmen"
+   },
+   "tli": {
+    "description": "Tlingit"
+   },
+   "to": {
+    "description": "Tonga (Tonga Islands)",
+    "suppressScript": "Latn"
+   },
+   "toj": {
+    "description": "Tojolabal"
+   },
+   "top": {
+    "description": "Papantla Totonac"
+   },
+   "tos": {
+    "description": "Highland Totonac"
+   },
+   "tox": {
+    "description": "Tobian"
+   },
+   "tpi": {
+    "description": "Tok Pisin",
+    "suppressScript": "Latn"
+   },
+   "tql": {
+    "description": "Lehali"
+   },
+   "tr": {
+    "description": "Turkish",
+    "suppressScript": "Latn"
+   },
+   "trs": {
+    "description": "Chicahuaxtla Triqui"
+   },
+   "tru": {
+    "description": "Turoyo; Surayt"
+   },
+   "trw": {
+    "description": "Torwali"
+   },
+   "ts": {
+    "description": "Tsonga",
+    "suppressScript": "Latn"
+   },
+   "tsd": {
+    "description": "Tsakonian"
+   },
+   "tt": {
+    "description": "Tatar"
+   },
+   "tts": {
+    "description": "Northeastern Thai"
+   },
+   "tun": {
+    "description": "Tunica"
+   },
+   "tuv": {
+    "description": "Turkana"
+   },
+   "tvl": {
+    "description": "Tuvalu",
+    "suppressScript": "Latn"
+   },
+   "tw": {
+    "description": "Twi",
+    "macrolanguage": "ak"
+   },
+   "twd": {
+    "description": "Twents"
+   },
+   "tyv": {
+    "description": "Tuvinian"
+   },
+   "tyz": {
+    "description": "Tày"
+   },
+   "ug": {
+    "description": "Uighur; Uyghur"
+   },
+   "uk": {
+    "description": "Ukrainian",
+    "suppressScript": "Cyrl"
+   },
+   "ur": {
+    "description": "Urdu",
+    "suppressScript": "Arab"
+   },
+   "urf": {
+    "description": "Uradhi"
+   },
+   "uzn": {
+    "description": "Northern Uzbek",
+    "macrolanguage": "uz"
+   },
+   "vai": {
+    "description": "Vai"
+   },
+   "vec": {
+    "description": "Venetian"
+   },
+   "vep": {
+    "description": "Veps"
+   },
+   "vi": {
+    "description": "Vietnamese",
+    "suppressScript": "Latn"
+   },
+   "vls": {
+    "description": "Vlaams"
+   },
+   "vro": {
+    "description": "Võro",
+    "macrolanguage": "et"
+   },
+   "wa": {
+    "description": "Walloon"
+   },
+   "wbl": {
+    "description": "Wakhi"
+   },
+   "wbm": {
+    "description": "Wa"
+   },
+   "wlc": {
+    "description": "Mwali Comorian"
+   },
+   "wo": {
+    "description": "Wolof"
+   },
+   "wuu": {
+    "description": "Wu Chinese",
+    "macrolanguage": "zh"
+   },
+   "wym": {
+    "description": "Wymysorys"
+   },
+   "wyn": {
+    "description": "Wyandot"
+   },
+   "xal": {
+    "description": "Kalmyk; Oirat"
+   },
+   "xay": {
+    "description": "Kayan Mahakam"
+   },
+   "xdq": {
+    "description": "Kaitag"
+   },
+   "xki": {
+    "description": "Kenyan Sign Language"
+   },
+   "xmf": {
+    "description": "Mingrelian"
+   },
+   "xog": {
+    "description": "Soga"
+   },
+   "xpe": {
+    "description": "Liberia Kpelle",
+    "macrolanguage": "kpe"
+   },
+   "ydd": {
+    "description": "Eastern Yiddish",
+    "macrolanguage": "yi"
+   },
+   "yhd": {
+    "description": "Judeo-Iraqi Arabic",
+    "macrolanguage": "jrb"
+   },
+   "yii": {
+    "description": "Yidiny"
+   },
+   "yo": {
+    "description": "Yoruba"
+   },
+   "yoi": {
+    "description": "Yonaguni"
+   },
+   "ysl": {
+    "description": "Yugoslavian Sign Language"
+   },
+   "yua": {
+    "description": "Yucateco; Yucatec Maya"
+   },
+   "yue": {
+    "description": "Yue Chinese; Cantonese",
+    "macrolanguage": "zh"
+   },
+   "zab": {
+    "description": "Western Tlacolula Valley Zapotec; San Juan Guelavía Zapotec",
+    "macrolanguage": "zap"
+   },
+   "zea": {
+    "description": "Zeeuws"
+   },
+   "zkk": {
+    "description": "Karankawa"
+   },
+   "zlm": {
+    "description": "Malay (individual language)",
+    "macrolanguage": "ms"
+   },
+   "zom": {
+    "description": "Zou"
+   },
+   "zsl": {
+    "description": "Zambian Sign Language"
+   },
+   "zu": {
+    "description": "Zulu",
+    "suppressScript": "Latn"
+   }
+  },
+  "script": {
+   "arab": {
+    "description": "Arabic"
+   }
+  },
+  "region": {
+   "419": {
+    "description": "Latin America and the Caribbean"
+   },
+   "ao": {
+    "description": "Angola"
+   },
+   "be": {
+    "description": "Belgium"
+   },
+   "bm": {
+    "description": "Bermuda"
+   },
+   "br": {
+    "description": "Brazil"
+   },
+   "ca": {
+    "description": "Canada"
+   },
+   "cn": {
+    "description": "China"
+   },
+   "es": {
+    "description": "Spain"
+   },
+   "fr": {
+    "description": "France"
+   },
+   "gb": {
+    "description": "United Kingdom"
+   },
+   "gr": {
+    "description": "Greece"
+   },
+   "hk": {
+    "description": "Hong Kong"
+   },
+   "id": {
+    "description": "Indonesia"
+   },
+   "it": {
+    "description": "Italy"
+   },
+   "lb": {
+    "description": "Lebanon"
+   },
+   "lk": {
+    "description": "Sri Lanka"
+   },
+   "mq": {
+    "description": "Martinique"
+   },
+   "my": {
+    "description": "Malaysia"
+   },
+   "nl": {
+    "description": "Netherlands"
+   },
+   "ps": {
+    "description": "State of Palestine"
+   },
+   "ro": {
+    "description": "Romania"
+   },
+   "si": {
+    "description": "Slovenia"
+   },
+   "sy": {
+    "description": "Syrian Arab Republic"
+   },
+   "us": {
+    "description": "United States"
+   }
+  },
+  "variant": {
+   "aranes": {
+    "description": "Aranese",
+    "prefixes": [
+     "oc"
+    ]
+   },
+   "biscayan": {
+    "description": "Biscayan dialect of Basque",
+    "prefixes": [
+     "eu"
+    ]
+   },
+   "gallo": {
+    "description": "Gallo",
+    "prefixes": [
+     "fr"
+    ]
+   },
+   "gascon": {
+    "description": "Gascon",
+    "prefixes": [
+     "oc"
+    ]
+   },
+   "huett": {
+    "description": "The Huế (province Thừa Thiên) variant of Vietnamese",
+    "prefixes": [
+     "vi"
+    ]
+   },
+   "valencia": {
+    "description": "Valencian",
+    "prefixes": [
+     "ca"
+    ]
+   }
+  }
+ }
+}

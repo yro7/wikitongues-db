@@ -1,7 +1,7 @@
 {
   "name": "wikitongues-db",
   "version": "0.1.1",
-  "description": "Lightweight, zero-dependency database and query library mapping ISO 639-3 and BCP 47 language codes to Wikitongues oral history video recordings.",
+  "description": "Lightweight, zero-dependency database and query library mapping ISO 639-3, Glottolog and BCP 47 language classifications to Wikitongues oral history video recordings.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -27,7 +27,8 @@
     "LICENSE"
   ],
   "scripts": {
-    "build": "tsup",
+    "build": "npm run build:reference && tsup",
+    "build:reference": "tsx src/scripts/build_reference.ts",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "examples": "tsx examples.ts",
