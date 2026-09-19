@@ -9,10 +9,10 @@
     "primary_language": {
       "iso639_3": "quz",
       "bcp47": "quz",
-      "name": "Quechua",
+      "name": "Cusco Quechua",
       "glottocode": "cusc1236",
       "autonym": "Qhichwa",
-      "dialect": "Cusco Quechua"
+      "dialect": null
     },
     "additional_languages": [],
     "speakers": [
@@ -54,7 +54,7 @@
     "content_type": "fellowship_doc",
     "primary_language": {
       "iso639_3": "aae",
-      "bcp47": "sq-IT",
+      "bcp47": "aae-IT",
       "name": "Arbëreshë Albanian",
       "glottocode": "arbe1236",
       "autonym": "Arbërisht",
@@ -1933,10 +1933,10 @@
     "license": "ALL_RIGHTS_RESERVED",
     "content_type": "oral_history",
     "primary_language": {
-      "iso639_3": "san",
-      "bcp47": "sa",
-      "name": "Sanskrit",
-      "glottocode": "sans1269",
+      "iso639_3": "cls",
+      "bcp47": "cls",
+      "name": "Classical Sanskrit",
+      "glottocode": "clas1258",
       "autonym": "संस्कृतम्",
       "dialect": null
     },
@@ -3382,7 +3382,7 @@
     "content_type": "reading_or_song",
     "primary_language": {
       "iso639_3": "ydd",
-      "bcp47": "yi",
+      "bcp47": "ydd",
       "name": "Eastern Yiddish",
       "glottocode": "east2295",
       "autonym": "ייִדיש",
@@ -4131,7 +4131,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "ydd",
-      "bcp47": "yi",
+      "bcp47": "ydd",
       "name": "Eastern Yiddish",
       "glottocode": "east2295",
       "autonym": "ייִדיש",
@@ -12764,7 +12764,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "npi",
-      "bcp47": "ne",
+      "bcp47": "npi",
       "name": "Nepali",
       "glottocode": "nepa1254",
       "autonym": "नेपाली",
@@ -13886,7 +13886,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "npi",
-      "bcp47": "ne",
+      "bcp47": "npi",
       "name": "Nepali",
       "glottocode": "nepa1254",
       "autonym": "नेपाली",
@@ -16908,12 +16908,12 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
-      "iso639_3": "grb",
-      "bcp47": "grb",
-      "name": "Grebo",
-      "glottocode": "greb1256",
+      "iso639_3": "grj",
+      "bcp47": "grj",
+      "name": "Southern Grebo",
+      "glottocode": "sout2826",
       "autonym": "Glebo",
-      "dialect": null
+      "dialect": "Pleebo Grebo"
     },
     "additional_languages": [],
     "speakers": [
@@ -19994,7 +19994,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "zlm",
-      "bcp47": "ms",
+      "bcp47": "zlm",
       "name": "Malay",
       "glottocode": "mala1479",
       "autonym": "Bahasa Melayu",
@@ -21272,7 +21272,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "azj",
-      "bcp47": "az",
+      "bcp47": "azj",
       "name": "North Azerbaijani",
       "glottocode": "nort2697",
       "autonym": "Azərbaycan dili",
@@ -22392,7 +22392,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "pes",
-      "bcp47": "fa",
+      "bcp47": "pes",
       "name": "Iranian Persian",
       "glottocode": "west2369",
       "autonym": "فارسی",
@@ -22611,7 +22611,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "als",
-      "bcp47": "sq",
+      "bcp47": "als",
       "name": "Tosk Albanian",
       "glottocode": "tosk1239",
       "autonym": "Shqip",
@@ -23724,7 +23724,7 @@
       "iso639_3": "oss",
       "bcp47": "os",
       "name": "Ossetian",
-      "glottocode": "osse1243",
+      "glottocode": "iron1242",
       "autonym": "Ирон ӕвзаг",
       "dialect": "Iron Ossetian"
     },
@@ -25700,7 +25700,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "zlm",
-      "bcp47": "ms",
+      "bcp47": "zlm",
       "name": "Malay",
       "glottocode": "mala1479",
       "autonym": "Bahasa Melayu",
@@ -27698,7 +27698,7 @@
     "content_type": "conversation",
     "primary_language": {
       "iso639_3": "cmn",
-      "bcp47": "zh-CN",
+      "bcp47": "cmn-CN",
       "name": "Mandarin Chinese",
       "glottocode": "mand1415",
       "autonym": "贵阳话",
@@ -28321,7 +28321,7 @@
       "iso639_3": "oss",
       "bcp47": "os",
       "name": "Ossetian",
-      "glottocode": "osse1243",
+      "glottocode": "kuda1250",
       "autonym": "Ирон",
       "dialect": "Kudar"
     },
@@ -29122,10 +29122,10 @@
     },
     "additional_languages": [
       {
-        "iso639_3": "pus",
-        "bcp47": "ps",
-        "name": "Pushto",
-        "glottocode": "nucl1276"
+        "iso639_3": "pbu",
+        "bcp47": "pbu",
+        "name": "Northern Pashto",
+        "glottocode": "nort2646"
       }
     ],
     "speakers": [
@@ -30146,7 +30146,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "ory",
-      "bcp47": "or",
+      "bcp47": "ory",
       "name": "Odia",
       "glottocode": "oriy1255",
       "autonym": "ଓଡ଼ିଆ",
@@ -31556,7 +31556,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "npi",
-      "bcp47": "ne",
+      "bcp47": "npi",
       "name": "Nepali",
       "glottocode": "nepa1254",
       "autonym": "नेपाली",
@@ -32334,7 +32334,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "npi",
-      "bcp47": "ne",
+      "bcp47": "npi",
       "name": "Nepali",
       "glottocode": "nepa1254",
       "autonym": "नेपाली",
@@ -32787,7 +32787,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "ydd",
-      "bcp47": "yi",
+      "bcp47": "ydd",
       "name": "Eastern Yiddish",
       "glottocode": "east2295",
       "autonym": "ייִדיש",
@@ -32906,7 +32906,7 @@
     "additional_languages": [
       {
         "iso639_3": "cmn",
-        "bcp47": "zh",
+        "bcp47": "cmn",
         "name": "Mandarin Chinese",
         "glottocode": "mand1415"
       },
@@ -33278,7 +33278,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "uzn",
-      "bcp47": "uz",
+      "bcp47": "uzn",
       "name": "Northern Uzbek",
       "glottocode": "nort2690",
       "autonym": "oʻzbekcha",
@@ -33871,7 +33871,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "khk",
-      "bcp47": "mn",
+      "bcp47": "khk",
       "name": "Halh Mongolian",
       "glottocode": "halh1238",
       "autonym": "Монгол хэл",
@@ -34392,10 +34392,10 @@
     },
     "additional_languages": [
       {
-        "iso639_3": "sqi",
-        "bcp47": "sq",
-        "name": "Albanian",
-        "glottocode": "alba1267"
+        "iso639_3": "aln",
+        "bcp47": "aln",
+        "name": "Gheg Albanian",
+        "glottocode": "gheg1238"
       }
     ],
     "speakers": [
@@ -34704,7 +34704,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "ydd",
-      "bcp47": "yi",
+      "bcp47": "ydd",
       "name": "Eastern Yiddish",
       "glottocode": "east2295",
       "autonym": "ייִדיש",
@@ -35065,7 +35065,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "plt",
-      "bcp47": "mg",
+      "bcp47": "plt",
       "name": "Plateau Malagasy",
       "glottocode": "plat1254",
       "autonym": "Malagasy",
@@ -35829,7 +35829,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "fub",
-      "bcp47": "ff",
+      "bcp47": "fub",
       "name": "Adamawa Fulfulde",
       "glottocode": "adam1253",
       "autonym": "Fulfulde",
@@ -36118,7 +36118,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "aae",
-      "bcp47": "sq-IT",
+      "bcp47": "aae-IT",
       "name": "Arbëreshë Albanian",
       "glottocode": "arbe1236",
       "autonym": "Arbërisht",
@@ -36803,16 +36803,16 @@
         "glottocode": "stan1290"
       },
       {
-        "iso639_3": "ara",
-        "bcp47": "ar",
-        "name": "Arabic",
-        "glottocode": "arab1395"
+        "iso639_3": "arb",
+        "bcp47": "arb",
+        "name": "Standard Arabic",
+        "glottocode": "stan1318"
       },
       {
-        "iso639_3": "man",
-        "bcp47": "man",
-        "name": "Mandingo",
-        "glottocode": "mand1431"
+        "iso639_3": "emk",
+        "bcp47": "emk",
+        "name": "Eastern Maninkakan",
+        "glottocode": "east2426"
       }
     ],
     "speakers": [
@@ -37541,7 +37541,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "aae",
-      "bcp47": "sq-IT",
+      "bcp47": "aae-IT",
       "name": "Arbëreshë Albanian",
       "glottocode": "arbe1236",
       "autonym": "Arbërisht",
@@ -38537,10 +38537,10 @@
     "license": "ALL_RIGHTS_RESERVED",
     "content_type": "oral_history",
     "primary_language": {
-      "iso639_3": "aym",
-      "bcp47": "ay",
-      "name": "Aymara",
-      "glottocode": "nucl1667",
+      "iso639_3": "ayr",
+      "bcp47": "ayr",
+      "name": "Central Aymara",
+      "glottocode": "cent2142",
       "autonym": "aymar aru",
       "dialect": null
     },
@@ -38870,7 +38870,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "plt",
-      "bcp47": "mg",
+      "bcp47": "plt",
       "name": "Plateau Malagasy",
       "glottocode": "plat1254",
       "autonym": "Malagasy",
@@ -38980,7 +38980,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "gug",
-      "bcp47": "gn",
+      "bcp47": "gug",
       "name": "Paraguayan Guaraní",
       "glottocode": "para1311",
       "autonym": "Avañe'ẽ",
@@ -39477,9 +39477,9 @@
     "license": "ALL_RIGHTS_RESERVED",
     "content_type": "oral_history",
     "primary_language": {
-      "iso639_3": "est",
-      "bcp47": "et",
-      "name": "Estonian",
+      "iso639_3": "ekk",
+      "bcp47": "ekk",
+      "name": "Standard Estonian",
       "glottocode": "esto1258",
       "autonym": "eesti keel",
       "dialect": null
@@ -39895,10 +39895,10 @@
     "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
-      "iso639_3": "lav",
-      "bcp47": "lv",
-      "name": "Latvian",
-      "glottocode": "latv1249",
+      "iso639_3": "lvs",
+      "bcp47": "lvs",
+      "name": "Standard Latvian",
+      "glottocode": "stan1325",
       "autonym": "latviešu valoda",
       "dialect": null
     },
@@ -39968,7 +39968,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "azj",
-      "bcp47": "az",
+      "bcp47": "azj",
       "name": "North Azerbaijani",
       "glottocode": "nort2697",
       "autonym": "azərbaycan dili",
@@ -40499,7 +40499,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "swh",
-      "bcp47": "sw",
+      "bcp47": "swh",
       "name": "Swahili",
       "glottocode": "swah1253",
       "autonym": "Kiswahili",
@@ -40835,7 +40835,7 @@
       },
       {
         "iso639_3": "swh",
-        "bcp47": "sw",
+        "bcp47": "swh",
         "name": "Swahili",
         "glottocode": "swah1253"
       }
@@ -41364,7 +41364,7 @@
       },
       {
         "iso639_3": "swh",
-        "bcp47": "sw",
+        "bcp47": "swh",
         "name": "Swahili",
         "glottocode": "swah1253"
       }
@@ -41937,7 +41937,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "cmn",
-      "bcp47": "zh",
+      "bcp47": "cmn",
       "name": "Mandarin Chinese",
       "glottocode": "mand1415",
       "autonym": "普通话",
@@ -42139,10 +42139,10 @@
     "license": "ALL_RIGHTS_RESERVED",
     "content_type": "oral_history",
     "primary_language": {
-      "iso639_3": "ful",
-      "bcp47": "ff",
-      "name": "Fulah",
-      "glottocode": "fula1264",
+      "iso639_3": "fuf",
+      "bcp47": "fuf",
+      "name": "Pular",
+      "glottocode": "pula1262",
       "autonym": "Fulfulde",
       "dialect": null
     },
@@ -42604,7 +42604,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "swh",
-      "bcp47": "sw",
+      "bcp47": "swh",
       "name": "Swahili",
       "glottocode": "swah1253",
       "autonym": "Kiswahili",
@@ -43293,10 +43293,10 @@
     },
     "additional_languages": [
       {
-        "iso639_3": "que",
-        "bcp47": "qu",
-        "name": "Quechua",
-        "glottocode": "quec1387"
+        "iso639_3": "quh",
+        "bcp47": "quh",
+        "name": "South Bolivian Quechua",
+        "glottocode": "sout2991"
       }
     ],
     "speakers": [
@@ -43950,7 +43950,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "azj",
-      "bcp47": "az",
+      "bcp47": "azj",
       "name": "North Azerbaijani",
       "glottocode": "nort2697",
       "autonym": "azərbaycan dili",
@@ -44382,10 +44382,10 @@
     "license": "ALL_RIGHTS_RESERVED",
     "content_type": "oral_history",
     "primary_language": {
-      "iso639_3": "lav",
-      "bcp47": "lv",
-      "name": "Latvian",
-      "glottocode": "latv1249",
+      "iso639_3": "lvs",
+      "bcp47": "lvs",
+      "name": "Standard Latvian",
+      "glottocode": "stan1325",
       "autonym": "latviešu valoda",
       "dialect": null
     },
@@ -44489,7 +44489,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "azj",
-      "bcp47": "az",
+      "bcp47": "azj",
       "name": "North Azerbaijani",
       "glottocode": "nort2697",
       "autonym": "azərbaycan dili",
@@ -46087,7 +46087,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "cmn",
-      "bcp47": "zh",
+      "bcp47": "cmn",
       "name": "Mandarin Chinese",
       "glottocode": "mand1415",
       "autonym": "普通话",
@@ -46313,7 +46313,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "pes",
-      "bcp47": "fa",
+      "bcp47": "pes",
       "name": "Iranian Persian",
       "glottocode": "west2369",
       "autonym": "فارسی",
@@ -47815,7 +47815,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "cmn",
-      "bcp47": "zh-TW",
+      "bcp47": "cmn-TW",
       "name": "Mandarin Chinese",
       "glottocode": "mand1415",
       "autonym": "國語",
@@ -48112,7 +48112,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "cmn",
-      "bcp47": "zh",
+      "bcp47": "cmn",
       "name": "Mandarin Chinese",
       "glottocode": "mand1415",
       "autonym": "普通话",
@@ -48931,7 +48931,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "ydd",
-      "bcp47": "yi",
+      "bcp47": "ydd",
       "name": "Eastern Yiddish",
       "glottocode": "east2295",
       "autonym": "ייִדיש",
@@ -48977,7 +48977,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "ydd",
-      "bcp47": "yi",
+      "bcp47": "ydd",
       "name": "Eastern Yiddish",
       "glottocode": "east2295",
       "autonym": "ייִדיש",
@@ -49023,7 +49023,7 @@
     "content_type": "oral_history",
     "primary_language": {
       "iso639_3": "khk",
-      "bcp47": "mn",
+      "bcp47": "khk",
       "name": "Halh Mongolian",
       "glottocode": "halh1238",
       "autonym": "Монгол хэл",

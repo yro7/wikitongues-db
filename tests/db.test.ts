@@ -31,7 +31,7 @@ describe('WikitonguesDB API', () => {
     expect(vid).not.toBeNull();
     expect(vid!.id).toBe('nXBPa_wb3dM');
     expect(vid!.primaryLanguage.iso639_3).toBe('quz');
-    expect(vid!.primaryLanguage.name).toBe('Quechua');
+    expect(vid!.primaryLanguage.name).toBe('Cusco Quechua');
     expect(vid!.embedUrl).toBe('https://www.youtube.com/embed/nXBPa_wb3dM');
     expect(vid!.provenance.countryName).toContain('Peru');
     expect(vid!.durationFormatted).toBe('19:42');

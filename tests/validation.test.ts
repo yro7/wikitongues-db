@@ -22,8 +22,11 @@ describe('Dataset Integrity & Strict Linguistic Validation', () => {
   let validSilCodes: Set<string>;
   let validGlottoCodes: Set<string>;
   let isoToPart1: Map<string, string>;
+  let isoScope: Map<string, string>;
   let ianaMacrolanguages: Map<string, string>;
+  let ianaMacroSubtags: Set<string>;
   let glottoToIso: Map<string, string>;
+  let glottoLevel: Map<string, string>;
   let isoValidNames: Map<string, Set<string>>;
   let rawRecords: Array<{ video_id: string; title: string }>;
 
@@ -31,11 +34,9 @@ describe('Dataset Integrity & Strict Linguistic Validation', () => {
     '7cMIidnH7xY', // jude1270: Glottolog classifies Judeo-Shirazi under Southwestern Fars (fay), dataset/SIL uses Judeo-Persian (jpr)
     'pAUaSmVQ1Sg', // nort2627: Glottolog classifies Twents under Eastern Low German (nds), dataset/SIL uses Twents (twd)
     '9S8lDVmQSCQ', // nort2627: Glottolog classifies Gronings under Eastern Low German (nds), dataset/SIL uses Gronings (gos)
-    'Vbpr0ryoroA', // esto1258: Glottolog classifies Estonian as Standard Estonian (ekk), dataset/SIL uses Estonian macrolanguage (est)
   ]);
 
   const KNOWN_NAME_ALIASES: Record<string, string[]> = {
-    quz: ['quechua'],
     sjs: ['sanhaja of srair'],
     nrf: ['norman'],
     rsk: ['pannonian rusyn'],
@@ -100,6 +101,7 @@ describe('Dataset Integrity & Strict Linguistic Validation', () => {
     // 1. Parse SIL ISO 639-3 table
     validSilCodes = new Set<string>();
     isoToPart1 = new Map<string, string>();
+    isoScope = new Map<string, string>();
     isoValidNames = new Map<string, Set<string>>();
 
     const silContent = fs.readFileSync(silTabPath, 'utf-8');
@@ -113,6 +115,8 @@ describe('Dataset Integrity & Strict Linguistic Validation', () => {
         validSilCodes.add(iso);
         const part1 = parts[3]?.trim().toLowerCase();
         if (part1) isoToPart1.set(iso, part1);
+        const scope = parts[4]?.trim(); // I (individual), M (macrolanguage), S (special)
+        if (scope) isoScope.set(iso, scope);
         const refName = parts[6]?.trim();
         if (refName) addValidName(iso, refName);
       }
@@ -133,6 +137,7 @@ describe('Dataset Integrity & Strict Linguistic Validation', () => {
 
     // 3. Parse IANA Subtag Registry (Macrolanguages)
     ianaMacrolanguages = new Map<string, string>();
+    ianaMacroSubtags = new Set<string>();
     const ianaContent = fs.readFileSync(ianaRegistryPath, 'utf-8');
     const ianaBlocks = ianaContent.split('%%');
     for (const b of ianaBlocks) {
@@ -140,19 +145,25 @@ describe('Dataset Integrity & Strict Linguistic Validation', () => {
       let subtag = '';
       let macro = '';
       let isLanguage = false;
+      let isMacroScope = false;
       for (const l of lines) {
         if (l.startsWith('Type: language')) isLanguage = true;
         else if (l.startsWith('Subtag: ')) subtag = l.substring(8).trim().toLowerCase();
         else if (l.startsWith('Macrolanguage: ')) macro = l.substring(15).trim().toLowerCase();
+        else if (l.startsWith('Scope: macrolanguage')) isMacroScope = true;
       }
       if (isLanguage && subtag && macro) {
         ianaMacrolanguages.set(subtag, macro);
+      }
+      if (isLanguage && subtag && isMacroScope) {
+        ianaMacroSubtags.add(subtag);
       }
     }
 
     // 4. Parse Glottolog CSV
     validGlottoCodes = new Set<string>();
     glottoToIso = new Map<string, string>();
+    glottoLevel = new Map<string, string>();
     const glottoEntries = new Map<string, { name: string; iso?: string; langId?: string; closestIso?: string }>();
 
     const glottoContent = fs.readFileSync(glottoCsvPath, 'utf-8');
@@ -166,6 +177,8 @@ describe('Dataset Integrity & Strict Linguistic Validation', () => {
       validGlottoCodes.add(gc);
       const name = parts[1]?.replace(/"/g, '').trim();
       const iso = parts[6]?.replace(/"/g, '').trim().toLowerCase();
+      const level = parts[7]?.replace(/"/g, '').trim(); // 'family', 'language', 'dialect'
+      if (level) glottoLevel.set(gc, level);
       const langId = parts[10]?.replace(/"/g, '').trim();
       const closestIso = parts[11]?.replace(/"/g, '').trim().toLowerCase();
       glottoEntries.set(gc, { name, iso, langId, closestIso });
@@ -385,6 +398,82 @@ describe('Dataset Integrity & Strict Linguistic Validation', () => {
 
     // 4. Russian ISO with Arabic BCP
     expect(isValidBcpSubtag('rus', 'ar-EG')).toBe(false);
+  });
+
+  it('should reject ISO 639-3 macrolanguages (Scope M: individuals only)', () => {
+    const isoMacroViolations: Array<{ id: string; role: string; iso: string; name: string }> = [];
+
+    for (const item of dataset) {
+      const check = (lang: { iso639_3: string; name: string }, role: 'primary' | 'additional') => {
+        const iso = lang.iso639_3?.toLowerCase().trim();
+        if (iso && isoScope.get(iso) === 'M') {
+          isoMacroViolations.push({ id: item.id, role, iso, name: lang.name });
+        }
+      };
+
+      check(item.primary_language, 'primary');
+      if (item.additional_languages) {
+        for (const addLang of item.additional_languages) {
+          check(addLang, 'additional');
+        }
+      }
+    }
+
+    expect(isoMacroViolations).toEqual([]);
+  });
+
+  it('should reject Glottolog language families (Level family: languages or dialects only)', () => {
+    const glottoFamilyViolations: Array<{ id: string; role: string; glottocode: string; name: string }> = [];
+
+    for (const item of dataset) {
+      const check = (lang: { glottocode: string | null; name: string }, role: 'primary' | 'additional') => {
+        if (lang.glottocode) {
+          const gc = lang.glottocode.trim();
+          if (glottoLevel.get(gc) === 'family') {
+            glottoFamilyViolations.push({ id: item.id, role, glottocode: gc, name: lang.name });
+          }
+        }
+      };
+
+      check(item.primary_language, 'primary');
+      if (item.additional_languages) {
+        for (const addLang of item.additional_languages) {
+          check(addLang, 'additional');
+        }
+      }
+    }
+
+    expect(glottoFamilyViolations).toEqual([]);
+  });
+
+  it('should reject BCP-47 macrolanguage subtags (individual language subtags only)', () => {
+    const bcpMacroViolations: Array<{ id: string; role: string; bcp: string; primarySubtag: string; iso: string }> = [];
+
+    for (const item of dataset) {
+      const check = (lang: { bcp47: string; iso639_3: string }, role: 'primary' | 'additional') => {
+        if (lang.bcp47) {
+          const subtag = lang.bcp47.split('-')[0].toLowerCase().trim();
+          if (ianaMacroSubtags.has(subtag)) {
+            bcpMacroViolations.push({
+              id: item.id,
+              role,
+              bcp: lang.bcp47,
+              primarySubtag: subtag,
+              iso: lang.iso639_3,
+            });
+          }
+        }
+      };
+
+      check(item.primary_language, 'primary');
+      if (item.additional_languages) {
+        for (const addLang of item.additional_languages) {
+          check(addLang, 'additional');
+        }
+      }
+    }
+
+    expect(bcpMacroViolations).toEqual([]);
   });
 
   it('should have well-formed schemas across all records', () => {
