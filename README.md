@@ -213,6 +213,7 @@ npx tsx demos/04-glottolog-tree.ts occi1239
 | `demos/06-inventory.ts` | Where SIL, Glottolog, BCP 47 and Wikitongues disagree, as tables |
 | `demos/07-fail-fast.ts` | Every kind of invalid record and the `HydrationError` it raises |
 | `demos/08-export.ts` | Seeded sampling, CSV, JSONL, hydrated vs persisted form |
+| `demos/09-find-a-standard.ts` | Finding the *standard* variety (Parisian French, British English…) via Glottolog nodes or by chaining ISO + country + label filters |
 
 ### 7. Reference Tables
 
