@@ -56,10 +56,62 @@ describe('WikitonguesDB API', () => {
     expect(iboVids.ids).toContain('HQcLp1qnjHU');
   });
 
-  it('should lookup by Glottocode', () => {
+  it('should lookup by Glottocode, including dialect nodes through their parent language', () => {
     const queByGlotto = db.getByGlottocode('cusc1236');
     expect(queByGlotto.length).toBeGreaterThan(0);
     expect(queByGlotto.ids).toContain('nXBPa_wb3dM');
+
+    // Brazilian Portuguese is a dialect node (braz1246) under Portuguese (port1283)
+    const brazilian = db.getByGlottocode('braz1246');
+    expect(brazilian.ids).toContain('qpfxFvpLAJ8');
+    const portuguese = db.getByGlottocode('port1283');
+    expect(portuguese.ids).toContain('qpfxFvpLAJ8');
+    expect(portuguese.length).toBeGreaterThan(brazilian.length);
+    expect(db.query().glottocode('port1283').all().ids).toContain('qpfxFvpLAJ8');
+  });
+
+  it('should expose the three resolved standards on every language (CLASSIFICATION_RULES.md §5)', () => {
+    const brazilian = db.get('qpfxFvpLAJ8')!.primaryLanguage;
+    expect(brazilian.standards.iso639_3).toMatchObject({ code: 'por', name: 'Portuguese', scope: 'I', part1: 'pt' });
+    expect(brazilian.standards.glottolog).toMatchObject({
+      code: 'braz1246',
+      name: 'Brazilian Portuguese',
+      level: 'dialect',
+      parentLanguageId: 'port1283',
+      familyId: 'indo1319',
+    });
+    expect(brazilian.standards.bcp47).toMatchObject({ tag: 'pt-BR', primarySubtag: 'pt', regionSubtag: 'BR', variantSubtags: [] });
+    expect(brazilian.wikitonguesClassification).toBe('Brazilian Portuguese');
+    expect(brazilian.speakerClaim).toBeNull();
+    expect(brazilian.name).toBe('Brazilian Portuguese');
+    expect(brazilian.iso639_3).toBe('por');
+    expect(brazilian.bcp47).toBe('pt-BR');
+    expect(brazilian.glottocode).toBe('braz1246');
+
+    const cusco = db.get('nXBPa_wb3dM')!.primaryLanguage;
+    expect(cusco.standards.glottolog).toMatchObject({ code: 'cusc1236', level: 'language' });
+    expect(cusco.standards.bcp47.tag).toBe('quz');
+
+    const arberesh = db.get('lstcnY-UXbs')!.primaryLanguage;
+    expect(arberesh.standards.bcp47.tag).toBe('aae'); // no region: Arbëreshë is only spoken in Italy
+    expect(arberesh.autonym).toBe('Arbërisht');
+
+    const jerriais = db.get('PeZHJcQYt3c')!.primaryLanguage;
+    expect(jerriais.wikitonguesClassification).toBe('Jèrriais');
+    expect(jerriais.wikitonguesLineage).toBe('Norman Romance');
+    expect(jerriais.standards.iso639_3.code).toBe('nrf');
+
+    const valencian = db.get('mygnGGT679A')!.primaryLanguage;
+    expect(valencian.standards.bcp47).toMatchObject({ tag: 'ca-valencia', variantSubtags: ['valencia'] });
+    expect(valencian.standards.bcp47.regionSubtag).toBeUndefined();
+
+    expect(brazilian.toDict()).toEqual({
+      standards: { iso639_3: 'por', glottocode: 'braz1246', bcp47: 'pt-BR' },
+      speaker_claim: null,
+      wikitongues_classification: 'Brazilian Portuguese',
+      wikitongues_lineage: null,
+      autonym: 'Português',
+    });
   });
 
   it('should lookup by Country code and name', () => {
@@ -111,7 +163,7 @@ describe('WikitonguesDB API', () => {
     expect(db.findByLanguage('ingles').length).toBeGreaterThan(0);
   });
 
-  it('should find by native autonym and dialect', () => {
+  it('should find by autonym, Wikitongues classification, Glottolog name and ISO name', () => {
     // Autonym: Asụsụ Igbo
     const igbo = db.findByLanguage('Asụsụ Igbo');
     expect(igbo.length).toBeGreaterThan(0);
@@ -121,19 +173,28 @@ describe('WikitonguesDB API', () => {
     const quechua = db.findByLanguage('Qhichwa');
     expect(quechua.length).toBeGreaterThan(0);
 
-    // Dialect: Arbëresh
-    const arberesh = db.findByLanguage('Arbëresh');
+    // Autonym (accent-insensitive): Arbërisht
+    const arberesh = db.findByLanguage('Arberisht');
     expect(arberesh.length).toBeGreaterThan(0);
     expect(arberesh.ids).toContain('lstcnY-UXbs');
 
-    // Dialect: Scanian
-    const scanian = db.findByLanguage('Scanian');
-    expect(scanian.length).toBeGreaterThan(0);
+    // Wikitongues classification: Sorani (ISO name is "Central Kurdish")
+    const sorani = db.findByLanguage('Sorani');
+    expect(sorani.length).toBeGreaterThan(0);
+    expect(sorani.ids).toContain('mORCaQbggIo');
 
-    // Dialect: Kukamiria
-    const kukamiria = db.findByLanguage('Kukamiria');
-    expect(kukamiria.length).toBeGreaterThan(0);
-    expect(kukamiria.ids).toContain('cxiGMkEZvKQ');
+    // ISO reference name: Central Kurdish
+    const centralKurdish = db.findByLanguage('Central Kurdish');
+    expect(centralKurdish.ids).toContain('mORCaQbggIo');
+
+    // Glottolog node name: Cocama-Cocamilla (Wikitongues says "Kukama")
+    const kukama = db.findByLanguage('Cocama-Cocamilla');
+    expect(kukama.length).toBeGreaterThan(0);
+    expect(kukama.ids).toContain('cxiGMkEZvKQ');
+
+    // Glottolog dialect name: Québécois
+    const quebecois = db.findByLanguage('Québécois');
+    expect(quebecois.ids).toContain('kAenLJSfNWM');
   });
 
   it('should support fluent QueryBuilder chaining', () => {
@@ -270,7 +331,15 @@ describe('WikitonguesDB API', () => {
     expect(languages.length).toBeGreaterThan(300);
     const topLang = languages[0];
     expect(topLang.iso639_3).toBeDefined();
+    expect(topLang.iso_name).toBeTruthy();
     expect(topLang.video_count).toBeGreaterThanOrEqual(languages[1].video_count);
+
+    const portuguese = languages.find((l) => l.iso639_3 === 'por')!;
+    expect(portuguese.iso_name).toBe('Portuguese');
+    expect(portuguese.bcp47_tags).toEqual(expect.arrayContaining(['pt', 'pt-BR']));
+    expect(portuguese.glottocodes).toEqual(expect.arrayContaining(['port1283', 'braz1246']));
+    expect(portuguese.glottolog_names).toContain('Brazilian Portuguese');
+    expect(portuguese.wikitongues_classifications).toContain('Brazilian Portuguese');
 
     const countries = db.countries();
     expect(countries.length).toBeGreaterThan(80);
@@ -291,11 +360,13 @@ describe('WikitonguesDB API', () => {
         license: 'CC-BY-4.0',
         content_type: 'oral_history',
         primary_language: {
-          iso639_3: 'eus',
-          bcp47: 'eu',
-          name: 'Basque',
+          standards: { iso639_3: 'eus', glottocode: 'bisc1236', bcp47: 'eu-biscayan' },
+          speaker_claim: 'Euskera',
+          wikitongues_classification: 'Biscayan',
+          wikitongues_lineage: null,
           autonym: 'Euskara',
         },
+        additional_languages: [],
         speakers: [{ name: 'Miren', role: 'native' }],
         provenance: { country_code: 'ES', country_name: 'Spain' },
       },
@@ -303,10 +374,15 @@ describe('WikitonguesDB API', () => {
 
     const customDb = WikitonguesDB.fromRecords(customRecords);
     expect(customDb.length).toBe(1);
-    expect(customDb.get('vid_test_001')?.primaryLanguage.name).toBe('Basque');
-    expect(customDb.findByLanguage('basque').length).toBe(1);
-    expect(customDb.findByLanguage('euskera').length).toBe(1);
-    expect(customDb.findByLanguage('Euskara').length).toBe(1);
+    const lang = customDb.get('vid_test_001')!.primaryLanguage;
+    expect(lang.name).toBe('Biscayan');
+    expect(lang.standards.glottolog).toMatchObject({ name: 'Biscayan', level: 'dialect', parentLanguageId: 'basq1248' });
+    expect(lang.standards.bcp47.variantSubtags).toEqual(['biscayan']);
+    expect(customDb.findByLanguage('basque').length).toBe(1); // ISO reference name
+    expect(customDb.findByLanguage('euskera').length).toBe(1); // speaker claim & alias
+    expect(customDb.findByLanguage('Euskara').length).toBe(1); // autonym
+    expect(customDb.findByLanguage('Biscayan').length).toBe(1); // Wikitongues classification
+    expect(customDb.getByGlottocode('basq1248').length).toBe(1); // parent language node
 
     const fromJsonDb = WikitonguesDB.fromJSON(JSON.stringify(customRecords));
     expect(fromJsonDb.length).toBe(1);
