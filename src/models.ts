@@ -10,38 +10,87 @@ import {
   TranscriptionData,
   RawMetadataData,
   VideoData,
+  ResolvedStandards,
 } from './types';
 import { normalizeText } from './resolver';
+import { HydrationError, ReferenceHydrator } from './hydrator';
 
+/**
+ * A language as recorded in a video: three independently resolved institutional standards
+ * plus the speaker's own claim, Wikitongues' editorial label and the autonym.
+ * Shared by `Video.primaryLanguage` and every entry of `Video.additionalLanguages`.
+ */
 export class Language {
-  public readonly iso639_3: string;
-  public readonly bcp47: string;
-  public readonly name: string;
-  public readonly glottocode: string | null;
-  public readonly autonym: string | null;
-  public readonly dialect: string | null;
+  public readonly standards: ResolvedStandards;
+  public readonly speakerClaim: string | null;
+  public readonly wikitonguesClassification: string;
+  public readonly wikitonguesLineage: string | null;
+  public readonly autonym: string;
 
-  constructor(data: Partial<LanguageData>) {
-    this.iso639_3 = data.iso639_3 || '';
-    this.bcp47 = data.bcp47 || '';
-    this.name = data.name || '';
-    this.glottocode = data.glottocode ?? null;
-    this.autonym = data.autonym ?? null;
-    this.dialect = data.dialect ?? null;
+  constructor(data: LanguageData, hydrator: ReferenceHydrator, recordId: string = '?') {
+    this.standards = hydrator.hydrate(data.standards, recordId);
+    if (typeof data.wikitongues_classification !== 'string' || !data.wikitongues_classification.trim()) {
+      throw new HydrationError(recordId, 'iso639_3', data.standards.iso639_3, 'wikitongues_classification is mandatory');
+    }
+    if (typeof data.autonym !== 'string' || !data.autonym.trim()) {
+      throw new HydrationError(recordId, 'iso639_3', data.standards.iso639_3, 'autonym is mandatory');
+    }
+    this.speakerClaim = data.speaker_claim ?? null;
+    this.wikitonguesClassification = data.wikitongues_classification;
+    this.wikitonguesLineage = data.wikitongues_lineage ?? null;
+    this.autonym = data.autonym;
   }
 
-  public static fromDict(data: Partial<LanguageData>): Language {
-    return new Language(data);
+  public static hydrate(data: LanguageData, hydrator: ReferenceHydrator, recordId?: string): Language {
+    return new Language(data, hydrator, recordId);
+  }
+
+  /** ISO 639-3 code, e.g. "por". */
+  public get iso639_3(): string {
+    return this.standards.iso639_3.code;
+  }
+
+  /** BCP-47 tag, e.g. "pt-BR". */
+  public get bcp47(): string {
+    return this.standards.bcp47.tag;
+  }
+
+  /** Glottocode, e.g. "braz1246". */
+  public get glottocode(): string {
+    return this.standards.glottolog.code;
+  }
+
+  /** Human-readable label: Wikitongues' own classification. */
+  public get name(): string {
+    return this.wikitonguesClassification;
+  }
+
+  /**
+   * Every label under which this language can be searched, in priority order:
+   * Wikitongues classification, Glottolog node name, ISO reference name, autonym, speaker claim.
+   */
+  public get labels(): string[] {
+    const out = [
+      this.wikitonguesClassification,
+      this.standards.glottolog.name,
+      this.standards.iso639_3.name,
+      this.autonym,
+    ];
+    if (this.speakerClaim) out.push(this.speakerClaim);
+    return out;
   }
 
   public toDict(): LanguageData {
     return {
-      iso639_3: this.iso639_3,
-      bcp47: this.bcp47,
-      name: this.name,
-      ...(this.glottocode ? { glottocode: this.glottocode } : {}),
-      ...(this.autonym ? { autonym: this.autonym } : {}),
-      ...(this.dialect ? { dialect: this.dialect } : {}),
+      standards: {
+        iso639_3: this.standards.iso639_3.code,
+        glottocode: this.standards.glottolog.code,
+        bcp47: this.standards.bcp47.tag,
+      },
+      speaker_claim: this.speakerClaim,
+      wikitongues_classification: this.wikitonguesClassification,
+      wikitongues_lineage: this.wikitonguesLineage,
+      autonym: this.autonym,
     };
   }
 }
@@ -167,16 +216,19 @@ export class Video {
   public readonly transcription: Transcription;
   public readonly rawMetadata: RawMetadata;
 
-  constructor(data: Partial<VideoData>) {
+  constructor(data: VideoData, hydrator: ReferenceHydrator = new ReferenceHydrator()) {
     this.id = String(data.id || '');
     this.url = String(data.url || '');
     this.durationSeconds = Number(data.duration_seconds || 0);
     this.uploadDate = String(data.upload_date || '');
     this.license = String(data.license || 'ALL_RIGHTS_RESERVED');
     this.contentType = String(data.content_type || 'oral_history');
-    this.primaryLanguage = Language.fromDict(data.primary_language || { iso639_3: '', bcp47: '', name: '' });
+    if (!data.primary_language) {
+      throw new HydrationError(this.id, 'iso639_3', '', 'primary_language is missing');
+    }
+    this.primaryLanguage = Language.hydrate(data.primary_language, hydrator, this.id);
     this.additionalLanguages = Array.isArray(data.additional_languages)
-      ? data.additional_languages.map(Language.fromDict)
+      ? data.additional_languages.map((l) => Language.hydrate(l, hydrator, this.id))
       : [];
     this.speakers = Array.isArray(data.speakers)
       ? data.speakers.map(Speaker.fromDict)
@@ -265,7 +317,7 @@ export class Video {
   public get allGlottocodes(): Set<string> {
     const set = new Set<string>();
     for (const lang of this.allLanguages) {
-      if (lang.glottocode) set.add(lang.glottocode);
+      set.add(lang.glottocode);
     }
     return set;
   }
@@ -288,8 +340,9 @@ export class Video {
   }
 
   /**
-   * Check if video contains a language matching query (by ISO, BCP-47, Glottocode, Name, Autonym, or Dialect).
-   * Case-insensitive.
+   * Check if video contains a language matching query (by ISO 639-3, BCP-47, Glottocode —
+   * including the parent language of a dialect node — or any label: Wikitongues classification,
+   * Glottolog name, ISO name, autonym, speaker claim). Case-insensitive.
    */
   public hasLanguage(query: string): boolean {
     const q = query.trim();
@@ -298,47 +351,16 @@ export class Video {
     const qNorm = normalizeText(q);
 
     for (const lang of this.allLanguages) {
-      if (lang.iso639_3 && lang.iso639_3.toLowerCase() === qLower) {
-        return true;
+      if (lang.iso639_3 === qLower) return true;
+      const bcp = lang.bcp47.toLowerCase();
+      if (bcp === qLower || bcp.startsWith(`${qLower}-`)) return true;
+      if (lang.glottocode === qLower) return true;
+      if (lang.standards.glottolog.parentLanguageId === qLower) return true;
+      for (const label of lang.labels) {
+        const labelNorm = normalizeText(label);
+        if (labelNorm === qNorm || ` ${labelNorm} `.includes(` ${qNorm} `)) return true;
       }
-      if (
-        lang.bcp47 &&
-        (lang.bcp47.toLowerCase() === qLower ||
-          lang.bcp47.toLowerCase().startsWith(`${qLower}-`))
-      ) {
-        return true;
-      }
-      if (lang.glottocode && lang.glottocode.toLowerCase() === qLower) {
-        return true;
-      }
-      if (lang.name) {
-        const langNameNorm = normalizeText(lang.name);
-        if (
-          langNameNorm === qNorm ||
-          ` ${langNameNorm} `.includes(` ${qNorm} `)
-        ) {
-          return true;
-        }
-      }
-      if (lang.autonym) {
-        const autoNorm = normalizeText(lang.autonym);
-        if (
-          autoNorm === qNorm ||
-          ` ${autoNorm} `.includes(` ${qNorm} `) ||
-          lang.autonym.toLowerCase().includes(qLower)
-        ) {
-          return true;
-        }
-      }
-      if (lang.dialect) {
-        const dialNorm = normalizeText(lang.dialect);
-        if (
-          dialNorm === qNorm ||
-          ` ${dialNorm} `.includes(` ${qNorm} `)
-        ) {
-          return true;
-        }
-      }
+      if (lang.autonym.toLowerCase().includes(qLower)) return true;
     }
     return false;
   }
@@ -411,7 +433,7 @@ export class Video {
     return JSON.stringify(this.toDict(), null, indent);
   }
 
-  public static fromDict(data: Partial<VideoData>): Video {
-    return new Video(data);
+  public static fromDict(data: VideoData, hydrator?: ReferenceHydrator): Video {
+    return new Video(data, hydrator);
   }
 }
