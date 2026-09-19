@@ -2,13 +2,30 @@
  * Domain types and interfaces for Wikitongues Database.
  */
 
-export interface LanguageData {
+// ---------------------------------------------------------------------------
+// Persisted schema (data/processed/wikitongues_normalized.json)
+// ---------------------------------------------------------------------------
+
+/**
+ * Ontological anchor keys. All three are mandatory: every language is classified
+ * by every authority (see CLASSIFICATION_RULES.md §3.1.1).
+ */
+export interface StandardsData {
   iso639_3: string;
+  glottocode: string;
   bcp47: string;
-  name: string;
-  glottocode?: string | null;
-  autonym?: string | null;
-  dialect?: string | null;
+}
+
+export interface LanguageData {
+  standards: StandardsData;
+  /** How the speaker names their language in the video; null if never stated. */
+  speaker_claim: string | null;
+  /** The language label authored by Wikitongues (verbatim from their metadata). */
+  wikitongues_classification: string;
+  /** Wikitongues' genealogical qualifiers, normalized ("Norman Romance"); null if none. */
+  wikitongues_lineage: string | null;
+  /** Endonym in native script. */
+  autonym: string;
 }
 
 export interface SpeakerData {
@@ -53,6 +70,101 @@ export interface VideoData {
   raw_metadata?: RawMetadataData | null;
 }
 
+// ---------------------------------------------------------------------------
+// Reference tables (src/generated/reference.json, pruned from data/references/)
+// ---------------------------------------------------------------------------
+
+export interface Iso639_3Entry {
+  name: string;
+  scope: 'I' | 'M' | 'S';
+  type: 'L' | 'E' | 'A' | 'H' | 'C' | 'S';
+  /** ISO 639-1 two-letter code when one exists. */
+  part1?: string;
+  invertedName?: string;
+}
+
+export interface GlottologEntry {
+  name: string;
+  level: 'family' | 'language' | 'dialect';
+  /** Language_ID column: the parent language node, only set for dialects. */
+  parentLanguageId?: string;
+  /** Family_ID column: the top-level family, not the immediate parent. */
+  familyId?: string;
+  latitude?: number;
+  longitude?: number;
+  macroarea?: string;
+}
+
+export interface IanaSubtagEntry {
+  description: string;
+  deprecated?: boolean;
+}
+
+export interface IanaLanguageEntry extends IanaSubtagEntry {
+  suppressScript?: string;
+  macrolanguage?: string;
+  scope?: 'macrolanguage';
+}
+
+export interface IanaVariantEntry extends IanaSubtagEntry {
+  prefixes: string[];
+}
+
+export interface ReferenceTables {
+  iso639_3: Record<string, Iso639_3Entry>;
+  glottolog: Record<string, GlottologEntry>;
+  iana: {
+    fileDate: string;
+    language: Record<string, IanaLanguageEntry>;
+    script: Record<string, IanaSubtagEntry>;
+    region: Record<string, IanaSubtagEntry>;
+    variant: Record<string, IanaVariantEntry>;
+  };
+}
+
+// ---------------------------------------------------------------------------
+// Resolved (hydrated) standards
+// ---------------------------------------------------------------------------
+
+export interface ResolvedIso639_3 {
+  code: string;
+  name: string;
+  scope: 'I';
+  type: Iso639_3Entry['type'];
+  part1?: string;
+  invertedName?: string;
+}
+
+export interface ResolvedGlottolog {
+  code: string;
+  name: string;
+  level: 'language' | 'dialect';
+  parentLanguageId?: string;
+  familyId?: string;
+  latitude?: number;
+  longitude?: number;
+  macroarea?: string;
+}
+
+export interface ResolvedBcp47 {
+  tag: string;
+  primarySubtag: string;
+  scriptSubtag?: string;
+  regionSubtag?: string;
+  variantSubtags: string[];
+  description?: string;
+}
+
+export interface ResolvedStandards {
+  iso639_3: ResolvedIso639_3;
+  glottolog: ResolvedGlottolog;
+  bcp47: ResolvedBcp47;
+}
+
+// ---------------------------------------------------------------------------
+// Query & aggregate types
+// ---------------------------------------------------------------------------
+
 export interface FilterOptions {
   language?: string;
   country?: string;
@@ -68,11 +180,12 @@ export interface FilterOptions {
 
 export interface LanguageSummary {
   iso639_3: string;
-  bcp47: string;
-  name: string;
-  glottocode: string | null;
+  iso_name: string;
+  bcp47_tags: string[];
+  glottocodes: string[];
+  glottolog_names: string[];
+  wikitongues_classifications: string[];
   autonyms: string[];
-  dialects: string[];
   video_count: number;
   total_duration_seconds: number;
   countries: string[];
