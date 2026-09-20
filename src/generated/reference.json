@@ -79,6 +79,12 @@
    "type": "L",
    "invertedName": "Albanian, Tosk"
   },
+  "alt": {
+   "name": "Southern Altai",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Altai, Southern"
+  },
   "amh": {
    "name": "Amharic",
    "scope": "I",
@@ -1246,6 +1252,12 @@
    "type": "L",
    "invertedName": "Kabiyè"
   },
+  "kcg": {
+   "name": "Tyap",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Tyap"
+  },
   "kdd": {
    "name": "Yankunytjatjara",
    "scope": "I",
@@ -1333,6 +1345,12 @@
    "scope": "I",
    "type": "L",
    "invertedName": "Khmu"
+  },
+  "kls": {
+   "name": "Kalasha",
+   "scope": "I",
+   "type": "L",
+   "invertedName": "Kalasha"
   },
   "klu": {
    "name": "Klao",
@@ -4814,6 +4832,14 @@
    "longitude": 47.776611,
    "familyId": "nakh1245"
   },
+  "kala1372": {
+   "name": "Chitral Kalasha",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 35.6415,
+   "longitude": 71.6657,
+   "familyId": "indo1319"
+  },
   "kala1399": {
    "name": "Kalaallisut",
    "level": "language",
@@ -6132,6 +6158,15 @@
    "latitude": 16.74515934758395,
    "longitude": -94.92819268907601
   },
+  "ower1238": {
+   "name": "Owerri",
+   "level": "dialect",
+   "macroarea": "Africa",
+   "latitude": 4.62705,
+   "longitude": 7.23441,
+   "familyId": "atla1278",
+   "parentLanguageId": "nucl1417"
+  },
   "paip1241": {
    "name": "Paipai",
    "level": "language",
@@ -6597,6 +6632,15 @@
    "familyId": "sino1245",
    "parentLanguageId": "wuch1236"
   },
+  "shet1241": {
+   "name": "Shaetlan",
+   "level": "dialect",
+   "macroarea": "Eurasia",
+   "latitude": 55.886945,
+   "longitude": -3.710133,
+   "familyId": "indo1319",
+   "parentLanguageId": "scot1243"
+  },
   "shin1264": {
    "name": "Shina",
    "level": "language",
@@ -6776,6 +6820,14 @@
    "latitude": 57.85,
    "longitude": 27,
    "familyId": "ural1272"
+  },
+  "sout2694": {
+   "name": "Southern Altai",
+   "level": "language",
+   "macroarea": "Eurasia",
+   "latitude": 50.1347,
+   "longitude": 86.8705,
+   "familyId": "turk1311"
   },
   "sout2772": {
    "name": "Southern Daly",
@@ -7297,6 +7349,14 @@
    "familyId": "atla1278",
    "parentLanguageId": "akan1250"
   },
+  "tyap1238": {
+   "name": "Tyap",
+   "level": "language",
+   "macroarea": "Africa",
+   "latitude": 9.75568,
+   "longitude": 8.3082,
+   "familyId": "atla1278"
+  },
   "uigh1240": {
    "name": "Uighur",
    "level": "language",
@@ -7661,6 +7721,9 @@
    "als": {
     "description": "Tosk Albanian",
     "macrolanguage": "sq"
+   },
+   "alt": {
+    "description": "Southern Altai"
    },
    "am": {
     "description": "Amharic",
@@ -8280,6 +8343,9 @@
    "kbp": {
     "description": "Kabiyè"
    },
+   "kcg": {
+    "description": "Tyap"
+   },
    "kdd": {
     "description": "Yankunytjatjara"
    },
@@ -8324,6 +8390,9 @@
    "kl": {
     "description": "Kalaallisut; Greenlandic",
     "suppressScript": "Latn"
+   },
+   "kls": {
+    "description": "Kalasha"
    },
    "klu": {
     "description": "Klao"
@@ -9310,6 +9379,9 @@
    },
    "sy": {
     "description": "Syrian Arab Republic"
+   },
+   "tw": {
+    "description": "Taiwan, Province of China"
    },
    "us": {
     "description": "United States"
