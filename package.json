@@ -28,8 +28,10 @@
   ],
   "scripts": {
     "build": "npm run build:reference && tsup",
-    "build:reference": "tsx src/scripts/build_reference.ts",
-    "test": "vitest run",
+    "build:reference": "tsx pipeline/scripts/build_reference.ts",
+    "test": "vitest run tests/",
+    "test:pipeline": "vitest run pipeline/__tests__/",
+    "test:all": "vitest run",
     "typecheck": "tsc --noEmit",
     "examples": "tsx examples.ts",
     "demo": "tsx demos/run-all.ts",
