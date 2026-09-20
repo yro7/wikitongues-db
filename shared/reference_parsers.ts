@@ -15,9 +15,9 @@ import {
   IanaSubtagEntry,
   IanaVariantEntry,
   ReferenceTables,
-} from '../../types';
+} from '../src/types';
 
-export const REFERENCES_DIR = path.resolve(__dirname, '../../../data/references');
+export const REFERENCES_DIR = path.resolve(__dirname, '../data/references');
 
 export const ISO_TAB_PATH = path.join(REFERENCES_DIR, 'iso-639-3.tab');
 export const ISO_NAME_INDEX_PATH = path.join(REFERENCES_DIR, 'iso-639-3_Name_Index.tab');
