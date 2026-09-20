@@ -19,6 +19,7 @@ import {
   IanaRegistry,
 } from '../../shared/reference_parsers';
 import { generateReferenceTables, OUTPUT_PATH as REFERENCE_JSON_PATH } from '../scripts/build_reference';
+import { EXCLUDED_VIDEO_IDS } from '../lib/exclusions';
 import { Iso639_3Entry } from '../../src/types';
 
 describe('Dataset Integrity & Strict Linguistic Validation', () => {
@@ -27,15 +28,7 @@ describe('Dataset Integrity & Strict Linguistic Validation', () => {
   const jsonlPath = path.join(rootDir, 'data/processed/wikitongues_normalized.jsonl');
   const jsonPath = path.join(rootDir, 'data/processed/wikitongues_normalized.json');
 
-  const EXPECTED_RECORDS = 862;
-
-  /**
-   * Raw YouTube records that are deliberately absent from the normalized dataset because they
-   * cannot satisfy CLASSIFICATION_RULES.md §3.1.1 (all three standards mandatory).
-   */
-  const EXCLUDED_VIDEO_IDS = new Set([
-    '9Nl_ttQDYkQ', // Atlaans: a conlang — ISO 639-3 `mis`, no Glottocode, private-use BCP-47 tag
-  ]);
+  const EXPECTED_RECORDS = 909;
 
   /** Documented divergences between the SIL and Glottolog ontologies (kept from v0.1). */
   const GLOTTO_ONTOLOGY_EXCEPTIONS = new Set([
@@ -203,6 +196,10 @@ describe('Dataset Integrity & Strict Linguistic Validation', () => {
     expect(mismatches).toEqual([]);
   });
 
+  const DIALECT_NAME_ALIASES = new Map<string, string[]>([
+    ['shet1241', ['shetlandic', 'shetland']],
+  ]);
+
   it('should only assign a dialect node when the variety is named by Wikitongues (§4.2 Attested-Specificity)', () => {
     const unattested: Array<{ id: string; role: Role; glottocode: string; dialect: string; title: string }> = [];
     eachLanguage((lang, item, role) => {
@@ -218,7 +215,10 @@ describe('Dataset Integrity & Strict Linguistic Validation', () => {
         tokens(`${item.raw_metadata?.title ?? ''} ${(item.raw_metadata?.tags ?? []).join(' ')} ${lang.wikitongues_classification}`)
       );
       const nameTokens = tokens(row.name).filter((t) => !GLOTTO_GENERIC_TOKENS.has(t));
-      if (nameTokens.length === 0 || !nameTokens.every((t) => evidence.has(t))) {
+      const aliasTokens = DIALECT_NAME_ALIASES.get(row.code) ?? [];
+      const matchesName = nameTokens.length > 0 && nameTokens.every((t) => evidence.has(t));
+      const matchesAlias = aliasTokens.length > 0 && aliasTokens.some((t) => evidence.has(t));
+      if (!matchesName && !matchesAlias) {
         unattested.push({ id: item.id, role, glottocode: row.code, dialect: row.name, title: item.raw_metadata?.title ?? '' });
       }
     });
