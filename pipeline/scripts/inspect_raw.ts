@@ -237,50 +237,43 @@ Usage:
       continue;
     }
 
-    console.log(`\n${'═'.repeat(78)}`);
     const headerPrefix = pendingIndex !== undefined ? `[Pending #${pendingIndex} | Raw #${rawIndex}]` : `[Raw #${rawIndex}]`;
-    console.log(`  ${headerPrefix} \x1b[1m${record.title}\x1b[0m`);
-    console.log(`${'═'.repeat(78)}`);
-    console.log(`  • ID          : \x1b[36m${record.video_id}\x1b[0m`);
-    console.log(`  • URL         : ${record.url}`);
-    console.log(`  • Upload Date : ${uploadDate}`);
-    console.log(`  • Duration    : ${record.duration}s`);
-    console.log(`  • Subtitles   : ${record.subtitles_available.length > 0 ? record.subtitles_available.join(', ') : 'none'}`);
+    console.log(`\n=== ${headerPrefix} ${record.title} ===`);
+    console.log(`ID          : ${record.video_id}`);
+    console.log(`URL         : ${record.url}`);
+    console.log(`Upload Date : ${uploadDate}`);
+    console.log(`Duration    : ${record.duration}s`);
+    console.log(`Subtitles   : ${record.subtitles_available.length > 0 ? record.subtitles_available.join(', ') : 'none'}`);
     if (record.tags.length > 0) {
-      console.log(`  • Tags        : ${record.tags.join(', ')}`);
+      console.log(`Tags        : ${record.tags.join(', ')}`);
     }
 
-    console.log(`\n  ┌─ Description ─────────────────────────────────────────────────────────────┐`);
+    console.log(`\nDescription:`);
     const descLines = record.description.split('\n').filter((l) => l.trim().length > 0);
     for (const dl of descLines.slice(0, 4)) {
-      console.log(`  │ ${dl.slice(0, 74)}`);
+      console.log(`  ${dl}`);
     }
     if (descLines.length > 4) {
-      console.log(`  │ ... (${descLines.length - 4} more lines)`);
+      console.log(`  ... (${descLines.length - 4} more lines)`);
     }
-    console.log(`  └───────────────────────────────────────────────────────────────────────────┘`);
 
-    console.log(`\n  ┌─ Authoritative Linguistic Candidates (SIL / Glottolog / IANA) ───────────┐`);
+    console.log(`\nCandidates (SIL / Glottolog / IANA):`);
     if (candidates.length === 0) {
-      console.log(`  │ No direct match automatically found for title. Check description or conlang.`);
+      console.log(`  No direct match found for title.`);
     } else {
       for (const c of candidates) {
-        console.log(`  │ • Match: "\x1b[33m${c.matchedLabel}\x1b[0m"`);
-        console.log(`  │   ISO 639-3  : \x1b[32m${c.iso639_3}\x1b[0m (${c.isoName})`);
-        console.log(`  │   Glottocode : \x1b[32m${c.glottocode}\x1b[0m (${c.glottoName} - ${c.glottoLevel})`);
-        console.log(`  │   BCP-47     : \x1b[32m${c.bcp47}\x1b[0m`);
+        console.log(`  - Match: "${c.matchedLabel}" -> ISO: ${c.iso639_3} (${c.isoName}) | Glotto: ${c.glottocode} (${c.glottoName} - ${c.glottoLevel}) | BCP-47: ${c.bcp47}`);
       }
     }
-    console.log(`  └───────────────────────────────────────────────────────────────────────────┘`);
 
-    console.log(`\n  ┌─ Suggested JSON Skeleton ────────────────────────────────────────────────┐`);
-    const formattedJson = JSON.stringify(skeleton, null, 2)
-      .split('\n')
-      .map((l) => `  │ ${l}`)
-      .join('\n');
-    console.log(formattedJson);
-    console.log(`  └───────────────────────────────────────────────────────────────────────────┘\n`);
+    console.log(`\nSuggested Skeleton:`);
+    console.log(JSON.stringify(skeleton, null, 2));
+    console.log();
   }
 }
+
+process.stdout.on('error', (err: any) => {
+  if (err.code === 'EPIPE') process.exit(0);
+});
 
 main();

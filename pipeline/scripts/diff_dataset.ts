@@ -187,28 +187,22 @@ Options:
   }
 
   // Terminal report
-  console.log(`\n${'═'.repeat(78)}`);
-  console.log(`  Wikitongues Dataset Status & Raw-Normalized Divergence Report`);
-  console.log(`${'═'.repeat(78)}\n`);
+  console.log(`\n=== Wikitongues Dataset Status & Raw-Normalized Divergence Report ===\n`);
 
-  console.log(`┌─ Summary Counts ${'─'.repeat(60)}┐`);
-  console.log(`│  • Raw YouTube records (data/raw/)        : ${rawRecords.length.toString().padStart(6)}                     │`);
-  console.log(`│  • Normalized records  (data/processed/)  : ${normalizedRecords.length.toString().padStart(6)}                     │`);
-  console.log(`│  • Documented exclusions (§3.1.1 conlangs): ${excludedPresent.length.toString().padStart(6)}                     │`);
-  console.log(`│  • Orphaned records in normalized         : ${orphanedNormalized.length.toString().padStart(6)}                     │`);
-  console.log(`│                                                                              │`);
-  const statusColor = pendingRecords.length === 0 ? '\x1b[32m' : '\x1b[33m';
-  console.log(`│  ▶ PENDING UNTREATED VIDEOS               : ${statusColor}${pendingRecords.length.toString().padStart(6)}\x1b[0m                     │`);
-  console.log(`└${'─'.repeat(76)}┘\n`);
+  console.log(`Summary Counts:`);
+  console.log(`  - Raw YouTube records (data/raw/)        : ${rawRecords.length}`);
+  console.log(`  - Normalized records  (data/processed/)  : ${normalizedRecords.length}`);
+  console.log(`  - Documented exclusions (§3.1.1 conlangs): ${excludedPresent.length}`);
+  console.log(`  - Orphaned records in normalized         : ${orphanedNormalized.length}`);
+  console.log(`  - PENDING UNTREATED VIDEOS               : ${pendingRecords.length}\n`);
 
-  console.log(`┌─ Transcription & Subtitles Coverage ${'─'.repeat(40)}┐`);
-  console.log(`│  • Normalized recordings flagged has_subtitles=true : ${normalizedWithSubFlag.length.toString().padStart(6)}               │`);
-  console.log(`│  • With clean English translation text populated    : ${normalizedWithEnText.length.toString().padStart(6)}               │`);
-  console.log(`│  • With clean Native language text populated        : ${normalizedWithNativeText.length.toString().padStart(6)}               │`);
-  console.log(`└${'─'.repeat(76)}┘\n`);
+  console.log(`Transcription & Subtitles Coverage:`);
+  console.log(`  - Normalized recordings with has_subtitles=true : ${normalizedWithSubFlag.length}`);
+  console.log(`  - Clean English translation populated           : ${normalizedWithEnText.length}`);
+  console.log(`  - Clean Native language text populated          : ${normalizedWithNativeText.length}\n`);
 
   if (orphanedNormalized.length > 0) {
-    console.log(`\x1b[31m[WARNING] Found ${orphanedNormalized.length} records in normalized dataset with NO raw counterpart:\x1b[0m`);
+    console.log(`WARNING: Found ${orphanedNormalized.length} records in normalized dataset with NO raw counterpart:`);
     for (const o of orphanedNormalized) {
       console.log(`  - ${o.id}: ${o.raw_metadata?.title || 'No title'}`);
     }
@@ -216,9 +210,7 @@ Options:
   }
 
   if (pendingRecords.length > 0) {
-    console.log(`${'─'.repeat(78)}`);
-    console.log(`  Pending Videos to Normalize & Classify (${pendingRecords.length})`);
-    console.log(`${'─'.repeat(78)}`);
+    console.log(`Pending Videos to Normalize & Classify (${pendingRecords.length}):\n`);
 
     for (let i = 0; i < pendingRecords.length; i++) {
       const p = pendingRecords[i];
@@ -232,9 +224,9 @@ Options:
         console.log(`       Tags: ${p.tags.slice(0, 5).join(', ')}`);
       }
     }
-    console.log(`\n${'─'.repeat(78)}\n`);
+    console.log();
   } else {
-    console.log(`\x1b[32m✓ Perfect sync: All raw records (minus exclusions) are fully classified in normalized dataset.\x1b[0m\n`);
+    console.log(`✓ Perfect sync: All raw records (minus exclusions) are fully classified in normalized dataset.\n`);
   }
 
   if (options.exportPath) {
@@ -243,5 +235,9 @@ Options:
     console.log(`✓ Exported ${pendingRecords.length} pending record(s) to: ${outPath}\n`);
   }
 }
+
+process.stdout.on('error', (err: any) => {
+  if (err.code === 'EPIPE') process.exit(0);
+});
 
 main();
