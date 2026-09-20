@@ -13,19 +13,12 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
+import { EXCLUDED_VIDEO_IDS } from '../lib/exclusions';
 import { VideoData } from '../../src/types';
 
 const ROOT_DIR = path.resolve(__dirname, '../..');
 const RAW_JSONL_PATH = path.join(ROOT_DIR, 'data/raw/wikitongues_youtube_raw.jsonl');
 const NORMALIZED_JSON_PATH = path.join(ROOT_DIR, 'data/processed/wikitongues_normalized.json');
-
-/**
- * Raw YouTube records deliberately absent from the normalized dataset because they
- * cannot satisfy CLASSIFICATION_RULES.md §3.1.1 (all three standards mandatory).
- */
-const EXCLUDED_VIDEO_IDS = new Map<string, string>([
-  ['9Nl_ttQDYkQ', 'Atlaans: conlang — ISO 639-3 `mis`, no Glottocode, private-use BCP-47 tag'],
-]);
 
 interface RawRecord {
   video_id: string;

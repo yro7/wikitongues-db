@@ -15,6 +15,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { findCandidates, extractNamesFromTitle } from '../lib/candidate_finder';
+import { EXCLUDED_VIDEO_IDS } from '../lib/exclusions';
 import { VideoData } from '../../src/types';
 
 const ROOT_DIR = path.resolve(__dirname, '../..');
@@ -137,7 +138,7 @@ Usage:
   const normIds = new Set(normalizedRecords.map((v) => v.id));
 
   // Compute pending records
-  const pendingRecords = rawRecords.filter((r) => !normIds.has(r.video_id) && r.video_id !== '9Nl_ttQDYkQ');
+  const pendingRecords = rawRecords.filter((r) => !normIds.has(r.video_id) && !EXCLUDED_VIDEO_IDS.has(r.video_id));
 
   let targets: { record: RawRecord; pendingIndex?: number; rawIndex: number }[] = [];
 

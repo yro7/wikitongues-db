@@ -108,10 +108,7 @@ All tests (`tests/db.test.ts`, `pipeline/__tests__/validation.test.ts`, `pipelin
 ---
 
 ## Special Case: Conlangs & Unclassifiable Videos
-If a video represents a conlang or an unclassifiable entry that cannot satisfy §3.1.1 (like *Atlaans* `9Nl_ttQDYkQ`):
+If a video represents a conlang or an unclassifiable entry that cannot satisfy §3.1.1 (like *Atlaans* `9Nl_ttQDYkQ` or empty live streams):
 1. Document the exclusion and rationale.
-2. Add the video ID to `EXCLUDED_VIDEO_IDS` in:
-   - `pipeline/__tests__/validation.test.ts`
-   - `pipeline/__tests__/e2e_youtube.test.ts`
-   - `pipeline/scripts/diff_dataset.ts`
-   - `pipeline/scripts/inspect_raw.ts`
+2. Add the video ID and rationale to `EXCLUDED_VIDEO_IDS` in `pipeline/lib/exclusions.ts`.
+

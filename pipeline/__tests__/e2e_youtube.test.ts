@@ -14,18 +14,11 @@ import * as path from 'path';
 import { parseVttToCleanText } from '../lib/vtt_parser';
 import { parseIso8601Duration, getUploadsPlaylistId, fetchPlaylistVideoIds, WIKITONGUES_CHANNEL_ID } from '../lib/youtube_api';
 import { getYouTubeApiKey } from '../lib/env';
+import { EXCLUDED_VIDEO_IDS } from '../lib/exclusions';
 
 const ROOT_DIR = path.resolve(__dirname, '../..');
 const RAW_JSONL_PATH = path.join(ROOT_DIR, 'data/raw/wikitongues_youtube_raw.jsonl');
 const NORMALIZED_JSON_PATH = path.join(ROOT_DIR, 'data/processed/wikitongues_normalized.json');
-
-/**
- * Raw YouTube records deliberately absent from the normalized dataset because they
- * cannot satisfy CLASSIFICATION_RULES.md §3.1.1 (all three standards mandatory).
- */
-const EXCLUDED_VIDEO_IDS = new Set([
-  '9Nl_ttQDYkQ', // Atlaans: a conlang — ISO 639-3 `mis`, no Glottocode, private-use BCP-47 tag
-]);
 
 describe('VTT & Duration Parsing', () => {
   it('should parse ISO 8601 duration strings accurately', () => {
