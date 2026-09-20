@@ -6,7 +6,7 @@
  * parent language and family) and IANA subtags actually used by the dataset.
  *
  * Usage:
- *   npx tsx src/scripts/build_reference.ts          (also run by `npm run build`)
+ *   npx tsx pipeline/scripts/build_reference.ts      (also run by `npm run build`)
  *
  * The output is committed: the published package must build without the 3 MB source tables.
  */
@@ -19,8 +19,8 @@ import {
   parseGlottologCsv,
   parseIanaRegistry,
   buildReferenceTables,
-} from './lib/reference_parsers';
-import { ReferenceTables, VideoData } from '../types';
+} from '../../shared/reference_parsers';
+import { ReferenceTables, VideoData } from '../../src/types';
 
 const ROOT = path.resolve(__dirname, '../..');
 export const DATASET_PATH = path.join(ROOT, 'data/processed/wikitongues_normalized.json');

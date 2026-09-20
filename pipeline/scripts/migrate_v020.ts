@@ -5,7 +5,7 @@
  * wikitongues_lineage, autonym`). See CLASSIFICATION_RULES.md.
  *
  * Usage:
- *   npx tsx src/scripts/migrate_v020.ts
+ *   npx tsx pipeline/scripts/migrate_v020.ts
  *
  * Rewrites data/processed/wikitongues_normalized.{json,jsonl} and writes a review report to
  * data/processed/migration_v020_report.md. Every non-mechanical decision is listed in the report.
@@ -13,7 +13,7 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
-import { normalizeText } from '../resolver';
+import { normalizeText } from '../../src/resolver';
 import {
   parseIsoTable,
   parseGlottologCsv,
@@ -21,8 +21,8 @@ import {
   glottologIsoCode,
   GlottologRow,
   IanaRegistry,
-} from './lib/reference_parsers';
-import { Iso639_3Entry, LanguageData, VideoData } from '../types';
+} from '../../shared/reference_parsers';
+import { Iso639_3Entry, LanguageData, VideoData } from '../../src/types';
 
 // ---------------------------------------------------------------------------
 // v0.1 shapes (kept local: this script is the only consumer)
