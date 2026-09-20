@@ -80,6 +80,22 @@ export class Language {
     return out;
   }
 
+  /**
+   * Check if this language matches the given code by ISO 639-3, ISO 639-1 part1,
+   * BCP-47 (exact or prefix), macrolanguage, or Glottocode.
+   */
+  public matchesCode(code: string): boolean {
+    const c = code.trim().toLowerCase();
+    if (!c) return false;
+    if (this.iso639_3.toLowerCase() === c) return true;
+    if (this.standards.iso639_3.part1?.toLowerCase() === c) return true;
+    if (this.standards.bcp47.macrolanguage?.toLowerCase() === c) return true;
+    const bcp = this.bcp47.toLowerCase();
+    if (bcp === c || bcp.startsWith(`${c}-`)) return true;
+    if (this.glottocode.toLowerCase() === c) return true;
+    return false;
+  }
+
   public toDict(): LanguageData {
     return {
       standards: {

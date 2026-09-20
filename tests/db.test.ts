@@ -100,6 +100,15 @@ describe('WikitonguesDB API', () => {
     const neVids = db.findByLanguage('ne');
     expect(neVids.length).toBeGreaterThan(0);
     expect(neVids.length).toBeLessThan(10); // should not match Indonesian/Japanese autonyms
+
+    // 6. Language.matchesCode
+    const estonianLang = db.getByBcp47('ekk').first()!.primaryLanguage;
+    expect(estonianLang.matchesCode('ekk')).toBe(true);
+    expect(estonianLang.matchesCode('et')).toBe(true);
+
+    const frenchLang = db.getByBcp47('fr').first()!.primaryLanguage;
+    expect(frenchLang.matchesCode('fr')).toBe(true);
+    expect(frenchLang.matchesCode('fra')).toBe(true);
   });
 
   it('should lookup by Glottocode, including dialect nodes through their parent language', () => {
