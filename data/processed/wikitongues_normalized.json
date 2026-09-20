@@ -53932,7 +53932,7 @@
     "url": "https://www.youtube.com/watch?v=nGeLETLlFXA",
     "duration_seconds": 100,
     "upload_date": "2025-12-10",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "standards": {
@@ -53981,7 +53981,7 @@
     "url": "https://www.youtube.com/watch?v=0jzN1GREMv0",
     "duration_seconds": 48,
     "upload_date": "2025-02-21",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "language_lesson",
     "primary_language": {
       "standards": {
@@ -53999,15 +53999,15 @@
       {
         "name": "Ahmad",
         "role": "second_language",
-        "origin": "Ireland"
+        "origin": "Syria"
       }
     ],
     "provenance": {
-      "country_code": "IE",
-      "country_name": "Ireland",
+      "country_code": null,
+      "country_name": null,
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Wikitongues",
       "recording_date": null
     },
     "transcription": {
@@ -54030,7 +54030,7 @@
     "url": "https://www.youtube.com/watch?v=7Se_-1IX2j4",
     "duration_seconds": 71,
     "upload_date": "2025-02-21",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "language_lesson",
     "primary_language": {
       "standards": {
@@ -54079,7 +54079,7 @@
     "url": "https://www.youtube.com/watch?v=rHVxTCtfqrw",
     "duration_seconds": 96,
     "upload_date": "2025-02-21",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "language_lesson",
     "primary_language": {
       "standards": {
@@ -54128,7 +54128,7 @@
     "url": "https://www.youtube.com/watch?v=6i0neXrFZfg",
     "duration_seconds": 57,
     "upload_date": "2025-02-21",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "language_lesson",
     "primary_language": {
       "standards": {
@@ -54177,7 +54177,7 @@
     "url": "https://www.youtube.com/watch?v=B1Yu1EuUyUQ",
     "duration_seconds": 42,
     "upload_date": "2025-02-21",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "language_lesson",
     "primary_language": {
       "standards": {
@@ -54226,7 +54226,7 @@
     "url": "https://www.youtube.com/watch?v=5WKzRb2_Tt0",
     "duration_seconds": 60,
     "upload_date": "2025-02-21",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "language_lesson",
     "primary_language": {
       "standards": {
@@ -54275,7 +54275,7 @@
     "url": "https://www.youtube.com/watch?v=W4CM82mvMv8",
     "duration_seconds": 52,
     "upload_date": "2025-02-21",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "language_lesson",
     "primary_language": {
       "standards": {
@@ -54293,15 +54293,15 @@
       {
         "name": "Kristen",
         "role": "second_language",
-        "origin": "Finland"
+        "origin": null
       }
     ],
     "provenance": {
-      "country_code": "FI",
-      "country_name": "Finland",
+      "country_code": null,
+      "country_name": null,
       "region": null,
       "city": null,
-      "recorded_by": null,
+      "recorded_by": "Wikitongues",
       "recording_date": null
     },
     "transcription": {
@@ -54324,7 +54324,7 @@
     "url": "https://www.youtube.com/watch?v=l3F1h1XyXEY",
     "duration_seconds": 60,
     "upload_date": "2025-02-21",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "language_lesson",
     "primary_language": {
       "standards": {
@@ -54389,11 +54389,11 @@
     "additional_languages": [],
     "speakers": [],
     "provenance": {
-      "country_code": "CN",
-      "country_name": "China",
-      "region": "Hunan",
-      "city": "Jiangyong",
-      "recorded_by": null,
+      "country_code": null,
+      "country_name": null,
+      "region": null,
+      "city": null,
+      "recorded_by": "Wikitongues",
       "recording_date": null
     },
     "transcription": {
@@ -54866,7 +54866,7 @@
     "url": "https://www.youtube.com/watch?v=pd0YZ9o22QI",
     "duration_seconds": 33,
     "upload_date": "2020-02-27",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-NC-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "standards": {
@@ -54921,7 +54921,7 @@
     "url": "https://www.youtube.com/watch?v=gUWkNeLUZsg",
     "duration_seconds": 30,
     "upload_date": "2020-02-16",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "standards": {
@@ -54977,7 +54977,7 @@
     "url": "https://www.youtube.com/watch?v=gE11A0fmkR0",
     "duration_seconds": 21,
     "upload_date": "2019-08-30",
-    "license": "ALL_RIGHTS_RESERVED",
+    "license": "CC-BY-SA-4.0",
     "content_type": "oral_history",
     "primary_language": {
       "standards": {
@@ -55043,7 +55043,7 @@
     "speakers": [
       {
         "name": "Hilliard (Hiljardo)",
-        "role": "native",
+        "role": "second_language",
         "origin": "United States"
       }
     ],
