@@ -52796,7 +52796,7 @@
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Lolly",
+        "name": "Halala Shezi (Lolly)",
         "role": "native",
         "origin": "South Africa"
       }
@@ -52843,7 +52843,7 @@
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Lolly",
+        "name": "Halala Shezi (Lolly)",
         "role": "native",
         "origin": "South Africa"
       }
@@ -53501,7 +53501,7 @@
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Sam",
+        "name": "Sam Craft",
         "role": "heritage",
         "origin": "Louisiana"
       }
@@ -53546,7 +53546,7 @@
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Sam",
+        "name": "Sam Craft",
         "role": "heritage",
         "origin": "Louisiana"
       }
@@ -53593,7 +53593,7 @@
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Sam",
+        "name": "Sam Craft",
         "role": "heritage",
         "origin": "Louisiana"
       }
@@ -54511,7 +54511,7 @@
         "origin": "Jamaica"
       },
       {
-        "name": "Mizinga Melu",
+        "name": "Daniel Sikazwe",
         "role": "fellow_activist",
         "origin": "Zambia"
       }
@@ -54583,9 +54583,9 @@
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Call Me Córdoba",
+        "name": "Ryan Andrew Milov-Cordoba (Call Me Córdoba)",
         "role": "fellow_activist",
-        "origin": null
+        "origin": "United States"
       }
     ],
     "provenance": {
@@ -54891,8 +54891,8 @@
       "country_code": "PK",
       "country_name": "Pakistan",
       "region": "Khyber Pakhtunkhwa",
-      "city": null,
-      "recorded_by": null,
+      "city": "Chitral",
+      "recorded_by": "Rizwan Hussain",
       "recording_date": null
     },
     "transcription": {
@@ -54946,8 +54946,8 @@
       "country_code": "MT",
       "country_name": "Malta",
       "region": null,
-      "city": null,
-      "recorded_by": null,
+      "city": "Valletta",
+      "recorded_by": "Irena Dahl",
       "recording_date": null
     },
     "transcription": {
@@ -55042,15 +55042,15 @@
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Hiljiardo",
+        "name": "Hilliard (Hiljardo)",
         "role": "native",
-        "origin": null
+        "origin": "United States"
       }
     ],
     "provenance": {
-      "country_code": null,
-      "country_name": null,
-      "region": null,
+      "country_code": "US",
+      "country_name": "United States",
+      "region": "Connecticut",
       "city": null,
       "recorded_by": null,
       "recording_date": null
@@ -55058,8 +55058,8 @@
     "transcription": {
       "has_subtitles": false,
       "available_subtitles": [],
-      "native_text": null,
-      "english_translation": null
+      "native_text": "Saluton. Mia nomo estas Hiljardo, en Esperanto, kaj mi parolis Esperanton dum du monatoj. Mi havas dek kvar de jaroj. Mi lernis Esperanton por lerni pri aliaj kulturoj kaj aliaj popoloj. Esperanto helpas min multe. Mi ofte konversacias kun homoj de la mondo. Mi loĝas en Konektikuto en Usono. Mi amas lerni pri lingvoj kaj historio. Mi ankaŭ parolas anglan lingvon, francan lingvon, rusan lingvon, nederlandan lingvon, kaj afrikanson. Mi amas lerni novajn lingvojn , ĉar ĝi estas sana, kaj ĝi estas bona ekzerco por la cerbo. Dankon por rigardi.",
+      "english_translation": "Hi. Mi name is \"Hiljardo\" [Hilliard], in Esperanto, and I have spoken Esperanto for two months. I am fourteen years old. I learned Esperanto to learn about foreign cultures and foreign peoples. Esperanto helps me a lot. I often converse with people from the world. I live in Connecticut in the United States of America. I like to learn about languages and history. I also speak English, French, Russian, Dutch, and Afrikaans. I like to learn new languages, because it is healthy, and it is a good exercise for the brain. Thanks for watching."
     },
     "raw_metadata": {
       "title": "WIKITONGUES: Hiljiardo speaking Esperanto",
@@ -55090,7 +55090,7 @@
     "additional_languages": [],
     "speakers": [
       {
-        "name": "Sunny",
+        "name": "Liang Cheng Chia (Sunny)",
         "role": "native",
         "origin": "Taiwan"
       }
@@ -55099,7 +55099,7 @@
       "country_code": "TW",
       "country_name": "Taiwan",
       "region": null,
-      "city": null,
+      "city": "Kaohsiung",
       "recorded_by": null,
       "recording_date": null
     },
