@@ -16,15 +16,7 @@ in `data/processed/wikitongues_normalized.json`.
 
 ## Mandatory Classification Standard
 
-Before curating any entry, you **MUST read and strictly adhere to [`CLASSIFICATION_RULES.md`](../../CLASSIFICATION_RULES.md)**.
-It is the sole authoritative specification for all linguistic ontologies in this repository:
-- **§3.1.1**: The three mandatory anchor standards (ISO 639-3, Glottolog, BCP-47).
-- **§4.1**: ISO 639-3 individual scope requirement (macrolanguages like `zho`, `ara`, `que` are forbidden).
-- **§4.2**: Glottolog language and dialect nodes (family nodes like `indo1319` are forbidden; Attested Specificity principle).
-- **§4.3**: Canonical RFC 5646 BCP-47 tag composition (mandatory ISO 639-1 primary subtag when available).
-- **§4.4**: Wikitongues labels, genealogical lineage normalization, and native autonyms.
-
----
+Before curating any entry, you **MUST** read and strictly adhere to [`CLASSIFICATION_RULES.md`](../../CLASSIFICATION_RULES.md).
 
 ## Step-by-Step Curation Workflow
 
