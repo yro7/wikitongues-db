@@ -296,6 +296,8 @@ export class Video {
     const set = new Set<string>();
     for (const lang of this.allLanguages) {
       if (lang.iso639_3) set.add(lang.iso639_3);
+      if (lang.standards.iso639_3.part1) set.add(lang.standards.iso639_3.part1);
+      if (lang.standards.bcp47.macrolanguage) set.add(lang.standards.bcp47.macrolanguage);
     }
     return set;
   }
@@ -307,6 +309,9 @@ export class Video {
     const set = new Set<string>();
     for (const lang of this.allLanguages) {
       if (lang.bcp47) set.add(lang.bcp47);
+      if (lang.iso639_3) set.add(lang.iso639_3);
+      if (lang.standards.iso639_3.part1) set.add(lang.standards.iso639_3.part1);
+      if (lang.standards.bcp47.macrolanguage) set.add(lang.standards.bcp47.macrolanguage);
     }
     return set;
   }
@@ -352,6 +357,8 @@ export class Video {
 
     for (const lang of this.allLanguages) {
       if (lang.iso639_3 === qLower) return true;
+      if (lang.standards.iso639_3.part1?.toLowerCase() === qLower) return true;
+      if (lang.standards.bcp47.macrolanguage?.toLowerCase() === qLower) return true;
       const bcp = lang.bcp47.toLowerCase();
       if (bcp === qLower || bcp.startsWith(`${qLower}-`)) return true;
       if (lang.glottocode === qLower) return true;
@@ -360,7 +367,8 @@ export class Video {
         const labelNorm = normalizeText(label);
         if (labelNorm === qNorm || ` ${labelNorm} `.includes(` ${qNorm} `)) return true;
       }
-      if (lang.autonym.toLowerCase().includes(qLower)) return true;
+      const autoLower = lang.autonym.toLowerCase();
+      if (autoLower === qLower || (qLower.length >= 4 && autoLower.includes(qLower))) return true;
     }
     return false;
   }

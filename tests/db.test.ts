@@ -56,6 +56,52 @@ describe('WikitonguesDB API', () => {
     expect(iboVids.ids).toContain('HQcLp1qnjHU');
   });
 
+  it('should seamlessly bridge 2-letter and 3-letter codes for ISO 639 and BCP 47', () => {
+    // 1. ISO 639-1 / 639-3 bridging (e.g. fr <-> fra, cs <-> ces)
+    const frByBcp2 = db.getByBcp47('fr');
+    const frByBcp3 = db.getByBcp47('fra');
+    expect(frByBcp2.length).toBeGreaterThan(0);
+    expect(frByBcp2.ids).toEqual(frByBcp3.ids);
+
+    const csByBcp2 = db.getByBcp47('cs');
+    const csByBcp3 = db.getByBcp47('ces');
+    expect(csByBcp2.length).toBeGreaterThan(0);
+    expect(csByBcp2.ids).toEqual(csByBcp3.ids);
+
+    const frByIso2 = db.getByIso('fr');
+    const frByIso3 = db.getByIso('fra');
+    expect(frByIso2.length).toBeGreaterThan(0);
+    expect(frByIso2.ids).toEqual(frByIso3.ids);
+
+    // 2. Macrolanguage 2-letter code bridging to individual languages (e.g. et -> ekk, fa -> pes)
+    const etByBcp = db.getByBcp47('et');
+    const ekkByBcp = db.getByBcp47('ekk');
+    expect(etByBcp.length).toBeGreaterThan(0);
+    expect(ekkByBcp.length).toBeGreaterThan(0);
+    expect(etByBcp.ids).toEqual(expect.arrayContaining(ekkByBcp.ids));
+
+    const faByBcp = db.getByBcp47('fa');
+    const pesByBcp = db.getByBcp47('pes');
+    expect(faByBcp.length).toBeGreaterThan(0);
+    expect(pesByBcp.length).toBeGreaterThan(0);
+    expect(faByBcp.ids).toEqual(expect.arrayContaining(pesByBcp.ids));
+
+    // 3. QueryBuilder bridging
+    expect(db.query().iso('fr').all().ids).toEqual(db.query().iso('fra').all().ids);
+    expect(db.query().bcp47('fr').all().ids).toEqual(db.query().bcp47('fra').all().ids);
+
+    // 4. hasLanguage checks
+    expect(db.hasLanguage('fr')).toBe(true);
+    expect(db.hasLanguage('fra')).toBe(true);
+    expect(db.hasLanguage('et')).toBe(true);
+    expect(db.hasLanguage('ekk')).toBe(true);
+
+    // 5. findByLanguage precision (no substring false positives on autonyms for 2-letter queries)
+    const neVids = db.findByLanguage('ne');
+    expect(neVids.length).toBeGreaterThan(0);
+    expect(neVids.length).toBeLessThan(10); // should not match Indonesian/Japanese autonyms
+  });
+
   it('should lookup by Glottocode, including dialect nodes through their parent language', () => {
     const queByGlotto = db.getByGlottocode('cusc1236');
     expect(queByGlotto.length).toBeGreaterThan(0);

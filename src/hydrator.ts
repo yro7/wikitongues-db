@@ -91,6 +91,7 @@ export class ReferenceHydrator {
 
     const resolved: ResolvedBcp47 = { tag: raw, primarySubtag: primary, variantSubtags: [] };
     if (lang.description) resolved.description = lang.description;
+    if (lang.macrolanguage) resolved.macrolanguage = lang.macrolanguage;
 
     // States: 0 = after language, 1 = after script, 2 = after region, 3 = in variants
     let state = 0;

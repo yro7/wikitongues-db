@@ -54,6 +54,13 @@ export class VideoCollection implements Iterable<Video> {
     return this._videos.some((v) => v.id === item.id);
   }
 
+  /**
+   * Check if any video in the collection matches the given language query.
+   */
+  public hasLanguage(query: string): boolean {
+    return this._videos.some((v) => v.hasLanguage(query));
+  }
+
   // -------------------------------------------------------------------------
   // Aggregation & Summary Properties
   // -------------------------------------------------------------------------

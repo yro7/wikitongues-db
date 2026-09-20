@@ -153,6 +153,7 @@ export interface ResolvedBcp47 {
   regionSubtag?: string;
   variantSubtags: string[];
   description?: string;
+  macrolanguage?: string;
 }
 
 export interface ResolvedStandards {

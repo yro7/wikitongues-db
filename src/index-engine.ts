@@ -30,7 +30,7 @@ export class DatasetIndex {
     const list = map.get(key);
     if (!list) {
       map.set(key, [video]);
-    } else {
+    } else if (!list.some((v) => v.id === video.id)) {
       list.push(video);
     }
   }
@@ -42,21 +42,39 @@ export class DatasetIndex {
         this.byId.set(video.id, video);
       }
 
-      // 2. ISO 639-3 Primary & All
+      // 2. ISO 639-3 Primary & All (bidirectional: 3-letter ISO and 2-letter part1/macrolanguage)
       const plIso = video.primaryLanguage.iso639_3;
       if (plIso) {
         this.appendToMap(this.byIsoPrimary, plIso, video);
         this.appendToMap(this.byIso, plIso, video);
+        const part1 = video.primaryLanguage.standards.iso639_3.part1?.toLowerCase();
+        if (part1 && part1 !== plIso) {
+          this.appendToMap(this.byIsoPrimary, part1, video);
+          this.appendToMap(this.byIso, part1, video);
+        }
+        const macro = video.primaryLanguage.standards.bcp47.macrolanguage?.toLowerCase();
+        if (macro && macro !== plIso && macro !== part1) {
+          this.appendToMap(this.byIsoPrimary, macro, video);
+          this.appendToMap(this.byIso, macro, video);
+        }
       }
 
       for (const addLang of video.additionalLanguages) {
         const aIso = addLang.iso639_3;
-        if (aIso && aIso !== plIso) {
+        if (aIso) {
           this.appendToMap(this.byIso, aIso, video);
+        }
+        const part1 = addLang.standards.iso639_3.part1?.toLowerCase();
+        if (part1 && part1 !== aIso) {
+          this.appendToMap(this.byIso, part1, video);
+        }
+        const macro = addLang.standards.bcp47.macrolanguage?.toLowerCase();
+        if (macro && macro !== aIso && macro !== part1) {
+          this.appendToMap(this.byIso, macro, video);
         }
       }
 
-      // 3. BCP 47 Index
+      // 3. BCP 47 Index (bidirectional: tag, prefix, 3-letter ISO, 2-letter part1, macrolanguage)
       for (const lang of video.allLanguages) {
         const bcp = lang.bcp47.toLowerCase().trim();
         if (bcp) {
@@ -65,6 +83,18 @@ export class DatasetIndex {
             const prefix = bcp.split('-')[0];
             this.appendToMap(this.byBcp47, prefix, video);
           }
+        }
+        const iso = lang.iso639_3?.toLowerCase().trim();
+        if (iso && iso !== bcp) {
+          this.appendToMap(this.byBcp47, iso, video);
+        }
+        const part1 = lang.standards.iso639_3.part1?.toLowerCase().trim();
+        if (part1 && part1 !== bcp && part1 !== iso) {
+          this.appendToMap(this.byBcp47, part1, video);
+        }
+        const macro = lang.standards.bcp47.macrolanguage?.toLowerCase().trim();
+        if (macro && macro !== bcp && macro !== iso && macro !== part1) {
+          this.appendToMap(this.byBcp47, macro, video);
         }
       }
 

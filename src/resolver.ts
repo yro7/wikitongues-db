@@ -230,6 +230,12 @@ export const MULTILINGUAL_ALIASES: Record<string, string> = {
   so: 'som',
   zu: 'zul',
   xh: 'xho',
+  et: 'est',
+  az: 'aze',
+  lv: 'lav',
+  ne: 'nep',
+  ff: 'ful',
+  mg: 'mlg',
 };
 
 /**
@@ -260,6 +266,9 @@ export const MACROLANGUAGE_EXPANSIONS: Record<string, string[]> = {
   aka: ['aka', 'twi', 'fat'],
   nep: ['nep', 'npi'],
   ful: ['ful', 'fuf', 'fuh', 'fub', 'fuq'],
+  lav: ['lav', 'lvs', 'ltg'],
+  mon: ['mon', 'khk', 'mvf'],
+  mlg: ['mlg', 'plt', 'skg', 'tkg'],
 };
 
 export class LanguageResolver {
@@ -306,6 +315,15 @@ export class LanguageResolver {
       if (!this.aliases.has(prefix)) {
         this.aliases.set(prefix, iso);
       }
+    }
+
+    const part1 = lang.standards.iso639_3.part1?.toLowerCase();
+    if (part1 && !this.aliases.has(part1)) {
+      this.aliases.set(part1, iso);
+    }
+    const macro = lang.standards.bcp47.macrolanguage?.toLowerCase();
+    if (macro && !this.aliases.has(macro)) {
+      this.aliases.set(macro, iso);
     }
 
     const gc = lang.glottocode;
@@ -393,7 +411,7 @@ export class LanguageResolver {
     }
 
     // 8. Substring in autonyms & secondary labels
-    if (matchedIsos.size === 0) {
+    if (matchedIsos.size === 0 && norm.length >= 4) {
       for (const [autoKey, isoSet] of this.autonymToIso.entries()) {
         if (autoKey.includes(norm)) {
           for (const iso of isoSet) {

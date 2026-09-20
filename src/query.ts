@@ -55,6 +55,16 @@ export class QueryBuilder {
         return true;
       }
 
+      const part1 = lang.standards.iso639_3.part1?.toLowerCase();
+      if (part1 && (matchedIsos.has(part1) || part1 === rawLower)) {
+        return true;
+      }
+
+      const macro = lang.standards.bcp47.macrolanguage?.toLowerCase();
+      if (macro && (matchedIsos.has(macro) || macro === rawLower)) {
+        return true;
+      }
+
       const lBcp = lang.bcp47.toLowerCase();
       if (lBcp === rawLower || lBcp.startsWith(`${rawLower}-`)) {
         return true;
@@ -69,7 +79,9 @@ export class QueryBuilder {
           const lNorm = normalizeText(label);
           if (lNorm === norm || (pattern && pattern.test(lNorm))) return true;
         }
-        if (lang.autonym.toLowerCase().includes(rawLower)) return true;
+        const autoLower = lang.autonym.toLowerCase();
+        if (autoLower === rawLower) return true;
+        if (rawLower.length >= 4 && autoLower.includes(rawLower)) return true;
       }
 
       return false;
@@ -96,13 +108,17 @@ export class QueryBuilder {
   public iso(code: string, includeAdditional: boolean = true): this {
     const codeClean = code.trim().toLowerCase();
     const predicate = (v: Video): boolean => {
-      if (v.primaryLanguage.iso639_3.toLowerCase() === codeClean) {
+      const matchIso = (l: Language): boolean => {
+        if (l.iso639_3.toLowerCase() === codeClean) return true;
+        if (l.standards.iso639_3.part1?.toLowerCase() === codeClean) return true;
+        if (l.standards.bcp47.macrolanguage?.toLowerCase() === codeClean) return true;
+        return false;
+      };
+      if (matchIso(v.primaryLanguage)) {
         return true;
       }
       if (includeAdditional) {
-        return v.additionalLanguages.some(
-          (al) => al.iso639_3.toLowerCase() === codeClean
-        );
+        return v.additionalLanguages.some(matchIso);
       }
       return false;
     };
@@ -115,10 +131,20 @@ export class QueryBuilder {
     const predicate = (v: Video): boolean => {
       for (const lang of v.allLanguages) {
         const lTag = lang.bcp47.toLowerCase();
+        const lIso = lang.iso639_3.toLowerCase();
+        const part1 = lang.standards.iso639_3.part1?.toLowerCase();
+        const macro = lang.standards.bcp47.macrolanguage?.toLowerCase();
+
         if (exact) {
-          if (lTag === tagClean) return true;
+          if (lTag === tagClean || lIso === tagClean || part1 === tagClean || macro === tagClean) return true;
         } else {
-          if (lTag === tagClean || lTag.startsWith(`${tagClean}-`)) return true;
+          if (
+            lTag === tagClean ||
+            lTag.startsWith(`${tagClean}-`) ||
+            lIso === tagClean ||
+            part1 === tagClean ||
+            macro === tagClean
+          ) return true;
         }
       }
       return false;

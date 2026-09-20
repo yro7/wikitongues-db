@@ -189,6 +189,17 @@ export class WikitonguesDB {
   }
 
   /**
+   * Check if the database contains any video matching the language query
+   * (by ISO 639-3, ISO 639-1, BCP 47, macrolanguage, or name).
+   */
+  public hasLanguage(query: string): boolean {
+    const qClean = query.trim().toLowerCase();
+    if (this.index.byIso.has(qClean)) return true;
+    if (this.index.byBcp47.has(qClean)) return true;
+    return this.findByLanguage(query).length > 0;
+  }
+
+  /**
    * Shortcut method to filter videos by common criteria.
    */
   public find(filters: FilterOptions = {}): VideoCollection {
