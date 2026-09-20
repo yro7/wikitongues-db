@@ -4,11 +4,8 @@
 .agents
 __pycache__
 *.pyc
-src/extractor
-src/normalizer
-src/db
-src/__init__.py
-scripts/
+pipeline/
+shared/
 tests/
 tsconfig.json
 tsup.config.ts
