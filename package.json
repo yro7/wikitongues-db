@@ -37,6 +37,8 @@
     "download:subtitles": "tsx pipeline/scripts/download_subtitles.ts",
     "dataset:diff": "tsx pipeline/scripts/diff_dataset.ts",
     "dataset:status": "tsx pipeline/scripts/diff_dataset.ts",
+    "inspect:raw": "tsx pipeline/scripts/inspect_raw.ts",
+    "dataset:append": "tsx pipeline/scripts/append_normalized.ts",
     "typecheck": "tsc --noEmit",
     "examples": "tsx examples.ts",
     "demo": "tsx demos/run-all.ts",
