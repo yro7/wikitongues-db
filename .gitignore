@@ -6,8 +6,13 @@ __pycache__/
 *.so
 .pytest_cache/
 
-# Data
+# Data & Cache
 # data/raw/
+data/raw/subtitles/
+
+# Secrets
+.env
+.env.*
 
 # IDE / OS
 .DS_Store
