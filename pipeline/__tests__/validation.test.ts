@@ -7,9 +7,9 @@
 import { describe, it, expect, beforeAll } from 'vitest';
 import * as fs from 'fs';
 import * as path from 'path';
-import { dataset, WikitonguesDB, HydrationError, ReferenceHydrator } from '../src';
-import { normalizeText, MULTILINGUAL_ALIASES } from '../src/resolver';
-import { LanguageData, ReferenceTables, VideoData } from '../src/types';
+import { dataset, WikitonguesDB, HydrationError, ReferenceHydrator } from '../../src';
+import { normalizeText, MULTILINGUAL_ALIASES } from '../../src/resolver';
+import { LanguageData, ReferenceTables, VideoData } from '../../src/types';
 import {
   parseIsoTable,
   parseGlottologCsv,
@@ -17,12 +17,12 @@ import {
   glottologIsoCode,
   GlottologRow,
   IanaRegistry,
-} from '../src/scripts/lib/reference_parsers';
-import { generateReferenceTables, OUTPUT_PATH as REFERENCE_JSON_PATH } from '../src/scripts/build_reference';
-import { Iso639_3Entry } from '../src/types';
+} from '../../shared/reference_parsers';
+import { generateReferenceTables, OUTPUT_PATH as REFERENCE_JSON_PATH } from '../scripts/build_reference';
+import { Iso639_3Entry } from '../../src/types';
 
 describe('Dataset Integrity & Strict Linguistic Validation', () => {
-  const rootDir = path.resolve(__dirname, '..');
+  const rootDir = path.resolve(__dirname, '../..');
   const rawJsonlPath = path.join(rootDir, 'data/raw/wikitongues_youtube_raw.jsonl');
   const jsonlPath = path.join(rootDir, 'data/processed/wikitongues_normalized.jsonl');
   const jsonPath = path.join(rootDir, 'data/processed/wikitongues_normalized.json');
