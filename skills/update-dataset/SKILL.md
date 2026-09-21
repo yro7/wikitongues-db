@@ -1,7 +1,7 @@
 ---
-name: curate-dataset
+name: update-dataset
 description: >-
-  Step-by-step agentic workflow to curate, normalize, and update the Wikitongues
+  Step-by-step agentic workflow to update and normalize the Wikitongues
   database with new YouTube recordings, ensuring strict linguistic compliance with
   SIL ISO 639-3, Glottolog, and IANA standards.
 ---
