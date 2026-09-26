@@ -55124,5 +55124,146 @@
         "Chinese"
       ]
     }
+  },
+  {
+    "id": "yoEbTFxNrhE",
+    "url": "https://www.youtube.com/watch?v=yoEbTFxNrhE",
+    "duration_seconds": 22,
+    "upload_date": "2026-09-25",
+    "license": "ALL_RIGHTS_RESERVED",
+    "content_type": "oral_history",
+    "primary_language": {
+      "standards": {
+        "iso639_3": "cor",
+        "glottocode": "corn1251",
+        "bcp47": "kw"
+      },
+      "speaker_claim": null,
+      "wikitongues_classification": "Cornish",
+      "wikitongues_lineage": null,
+      "autonym": "Kernewek"
+    },
+    "additional_languages": [],
+    "speakers": [
+      {
+        "name": "Elizabeth",
+        "role": "native",
+        "origin": "United Kingdom"
+      }
+    ],
+    "provenance": {
+      "country_code": "GB",
+      "country_name": "United Kingdom",
+      "region": "Cornwall",
+      "city": null,
+      "recorded_by": null,
+      "recording_date": null
+    },
+    "transcription": {
+      "has_subtitles": false,
+      "available_subtitles": [],
+      "native_text": null,
+      "english_translation": null
+    },
+    "raw_metadata": {
+      "title": "Elizabeth speaking Cornish",
+      "tags": [
+        "Wikitongues"
+      ]
+    }
+  },
+  {
+    "id": "bEVt0Tp6ZEA",
+    "url": "https://www.youtube.com/watch?v=bEVt0Tp6ZEA",
+    "duration_seconds": 31,
+    "upload_date": "2026-09-23",
+    "license": "ALL_RIGHTS_RESERVED",
+    "content_type": "oral_history",
+    "primary_language": {
+      "standards": {
+        "iso639_3": "cor",
+        "glottocode": "corn1251",
+        "bcp47": "kw"
+      },
+      "speaker_claim": null,
+      "wikitongues_classification": "Cornish",
+      "wikitongues_lineage": null,
+      "autonym": "Kernewek"
+    },
+    "additional_languages": [],
+    "speakers": [
+      {
+        "name": "Elizabeth",
+        "role": "native",
+        "origin": "United Kingdom"
+      }
+    ],
+    "provenance": {
+      "country_code": "GB",
+      "country_name": "United Kingdom",
+      "region": "Cornwall",
+      "city": null,
+      "recorded_by": null,
+      "recording_date": null
+    },
+    "transcription": {
+      "has_subtitles": false,
+      "available_subtitles": [],
+      "native_text": null,
+      "english_translation": null
+    },
+    "raw_metadata": {
+      "title": "Elizabeth speaking Cornish",
+      "tags": [
+        "Wikitongues"
+      ]
+    }
+  },
+  {
+    "id": "TO0jkeuirFA",
+    "url": "https://www.youtube.com/watch?v=TO0jkeuirFA",
+    "duration_seconds": 26,
+    "upload_date": "2026-09-21",
+    "license": "ALL_RIGHTS_RESERVED",
+    "content_type": "oral_history",
+    "primary_language": {
+      "standards": {
+        "iso639_3": "zul",
+        "glottocode": "zulu1248",
+        "bcp47": "zu"
+      },
+      "speaker_claim": null,
+      "wikitongues_classification": "Zulu",
+      "wikitongues_lineage": null,
+      "autonym": "isiZulu"
+    },
+    "additional_languages": [],
+    "speakers": [
+      {
+        "name": "Lolly",
+        "role": "native",
+        "origin": "South Africa"
+      }
+    ],
+    "provenance": {
+      "country_code": "ZA",
+      "country_name": "South Africa",
+      "region": null,
+      "city": null,
+      "recorded_by": null,
+      "recording_date": null
+    },
+    "transcription": {
+      "has_subtitles": false,
+      "available_subtitles": [],
+      "native_text": null,
+      "english_translation": null
+    },
+    "raw_metadata": {
+      "title": "Lolly speaking Zulu",
+      "tags": [
+        "Wikitongues"
+      ]
+    }
   }
 ]

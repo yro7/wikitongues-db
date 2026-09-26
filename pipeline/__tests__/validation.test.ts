@@ -28,7 +28,7 @@ describe('Dataset Integrity & Strict Linguistic Validation', () => {
   const jsonlPath = path.join(rootDir, 'data/processed/wikitongues_normalized.jsonl');
   const jsonPath = path.join(rootDir, 'data/processed/wikitongues_normalized.json');
 
-  const EXPECTED_RECORDS = 909;
+  const EXPECTED_RECORDS = 912;
 
   /** Documented divergences between the SIL and Glottolog ontologies (kept from v0.1). */
   const GLOTTO_ONTOLOGY_EXCEPTIONS = new Set([
