@@ -3,9 +3,13 @@
 > A zero-dependency, in-memory database and search engine mapping three independent language classifications — **ISO 639-3**, **Glottolog** and **BCP 47** — 
 plus autonyms and Wikitongues' own labels to curated Wikitongues video recordings. Published for **TypeScript / JavaScript (npm)**.
 
-*Built by the [Panglotive](https://www.panglotive.com) Team. Check out our work!*
-
 ---
+
+## Explore the database
+
+
+Explore the DB in [Panglotive](https://panglotive.com/en/blog/wikitongues/)'s blog :
+![Wikitongues-db on Panglotive's blogpage](image.png)
 
 ## Motivation & Context
 
